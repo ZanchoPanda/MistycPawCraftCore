@@ -39,6 +39,12 @@ If you'd like to support the project, you can:
    ```bash
    git clone https://github.com/ZanchoPanda/MistycPawCraftCore.git
 
+## 🧧 Donations
+
+If you like my project, you can make a donation of any ammount. I appreciate it so much to continue this project
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/ZPandaApps)
+
 ## License
 
 [![License: MIT (Modified)](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
