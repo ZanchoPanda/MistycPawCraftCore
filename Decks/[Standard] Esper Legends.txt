@@ -1,0 +1,27 @@
+﻿Main
+2 Destrizar
+2 Golpe a la garganta
+3 Plaza de los héroes
+4 Playas de Fangoscuro
+4 Costa de Cromo Marítimo
+1 Eiganjo, trono del imperio
+2 Otawara, ciudad flotante
+1 Takenuma, pantanos abandonados
+1 Último esfuerzo de Ajani
+2 Río subterráneo
+2 Santuario destruido
+2 Cuevas de Koilos
+2 Cenagal de naufragios
+2 Mandato de Gix
+3 Camino peligroso
+1 Hada usurpasueños
+3 Teysa, oligarca opulenta
+3 Raffine, vidente taimada
+3 Lazav, portador de rostros
+1 Bruja poción pantanosa
+3 Gix, magistrado de Yawgmoth
+2 Sheoldred, el Apocalipsis
+3 Murciélago de las cavernas profundas
+4 Sirena con catalejo
+4 Goleta Subterránea
+Sideboard

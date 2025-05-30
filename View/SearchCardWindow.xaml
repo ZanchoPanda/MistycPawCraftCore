@@ -1,0 +1,127 @@
+﻿<Window
+    x:Class="MistycPawCraftCore.View.SearchCardWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MistycPawCraftCore.View"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="{DynamicResource SearchCard}"
+    Width="500"
+    Height="100"
+    Background="{DynamicResource MaterialDesignPaper}"
+    FontFamily="{DynamicResource MaterialDesignFont}"
+    MouseDown="Window_MouseDown"
+    TextElement.FontSize="13"
+    TextElement.FontWeight="Regular"
+    TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+    TextOptions.TextFormattingMode="Ideal"
+    TextOptions.TextRenderingMode="Auto"
+    WindowStartupLocation="CenterScreen"
+    WindowStyle="None"
+    mc:Ignorable="d">
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="75" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel
+            Grid.Row="0"
+            Grid.Column="0"
+            Orientation="Horizontal">
+
+            <TextBox
+                Name="SearchBox"
+                MinWidth="250"
+                materialDesign:HintAssist.Hint="{DynamicResource SearchCardTo}"
+                Style="{StaticResource MaterialDesignTextBox}"
+                Text="{Binding CardToSearch, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                <TextBox.InputBindings>
+                    <KeyBinding Key="Enter" Command="{Binding SearchCardCommand}" />
+                </TextBox.InputBindings>
+            </TextBox>
+
+            <Button
+                Margin="5,0"
+                Command="{Binding SearchCardCommand}"
+                Content="{DynamicResource Search}"
+                Style="{StaticResource MaterialDesignOutlinedButton}" />
+
+        </StackPanel>
+
+        <Button
+            Grid.Row="0"
+            Grid.Column="1"
+            Command="{Binding CancelAddCardCommand}"
+            Content="{DynamicResource Cancel}"
+            Style="{StaticResource MaterialDesignFlatButton}" />
+
+        <Expander
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Header="{DynamicResource SelectCard}"
+            IsExpanded="{Binding MoreThanOne, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+
+
+            <DataGrid
+                AutoGenerateColumns="False"
+                CanUserAddRows="False"
+                CanUserDeleteRows="False"
+                IsEnabled="True"
+                IsReadOnly="True"
+                ItemsSource="{Binding ListaCartas, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                MouseDoubleClick="DataGrid_MouseDoubleClick"
+                SelectedItem="{Binding CartaSeleccionada, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                Style="{StaticResource MaterialDesignDataGrid}">
+                <DataGrid.Columns>
+                    <DataGridTemplateColumn Width="*" Header="{DynamicResource ManaCost}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <ItemsControl ItemsSource="{Binding ManaCostView}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Image
+                                                Width="20"
+                                                Height="20"
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Source="{Binding SymbolPath}"
+                                                ToolTip="{Binding Symbol}" />
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                    <ItemsControl.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <StackPanel Orientation="Horizontal" />
+                                        </ItemsPanelTemplate>
+                                    </ItemsControl.ItemsPanel>
+                                </ItemsControl>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <!--<DataGridTextColumn
+                        Width="*"
+                        Binding="{Binding ManaCost, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                        Header="Mana Cost" />-->
+                    <DataGridTextColumn
+                        Width="3*"
+                        Binding="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                        Header="{DynamicResource Name}" />
+                    <DataGridTextColumn
+                        Width="*"
+                        Binding="{Binding TypeAndClass.SuperType.FullSuperType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                        Header="{DynamicResource ManaCost}" />
+                </DataGrid.Columns>
+
+            </DataGrid>
+
+        </Expander>
+
+    </Grid>
+</Window>

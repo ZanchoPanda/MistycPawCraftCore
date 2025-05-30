@@ -1,0 +1,27 @@
+Mazo
+4 Forja del campo de batalla
+4 Caverna de ánimas
+4 Ratón con mucho morro 
+4 Guerrera de la flamánima 
+4 Espadachina floridiestra 
+4 Héroe de la llama del corazón 
+4 Atalaya inspiradora 
+4 Mabel, heredera de Petrillama 
+4 Ratón multiarmado 
+5 Montaña 
+3 Llanura 
+4 Ratón de combate rabioso 
+2 Avanzadilla de Bigovalle
+2 Frenesí de los acechabrujas 
+4 Poder de los mansos 
+2 Mordisco incisivo
+2 Castigo de Elspeth 
+
+Sideboard
+1 Frenesí de los acechabrujas 
+1 Castigo de Elspeth
+3 Invasión de Gobakhan 
+1 Destruir el mal 
+1 Guardia de las ortigas 
+2 Vivac sin sosiego
+4 Arcángel Elspeth 

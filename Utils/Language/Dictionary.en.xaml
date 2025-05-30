@@ -1,0 +1,136 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="ScryfallWeb">Scryfall Web</system:String>
+    <system:String x:Key="Home">Principal</system:String>
+    <system:String x:Key="Principal">Principal</system:String>
+    <system:String x:Key="Browser">Browser</system:String>
+    <system:String x:Key="Deck">Deck</system:String>
+    <system:String x:Key="Estadistic">Estadistic</system:String>
+    <system:String x:Key="Name">Name</system:String>
+    <system:String x:Key="ConfigOther">Configuration</system:String>
+    <system:String x:Key="TituloPantallaReprint">Reprints</system:String>
+    <system:String x:Key="HintBrowseCard">Hint browse card...</system:String>
+    <system:String x:Key="AdvancedOption">Advanced option...</system:String>
+    <system:String x:Key="LoadingResources">Loading Resources...</system:String>
+    <system:String x:Key="LoadingReprints">Loading Reprints...</system:String>
+    <system:String x:Key="Color">Color</system:String>
+    <system:String x:Key="OrderBy">Order By</system:String>
+    <system:String x:Key="ManaCost">Mana Cost</system:String>
+    <system:String x:Key="Power">Power</system:String>
+    <system:String x:Key="Thoughness">Thoughness</system:String>
+    <system:String x:Key="Type">Type</system:String>
+    <system:String x:Key="SubType">SubType</system:String>
+    <system:String x:Key="Search">Search</system:String>
+    <system:String x:Key="SearchCard">Search Card</system:String>
+    <system:String x:Key="SearchCardTo">Card to search</system:String>
+    <system:String x:Key="SType">S.Type</system:String>
+    <system:String x:Key="CType">C.Type</system:String>
+    <system:String x:Key="ShowMorePrints">Show more prints</system:String>
+    <system:String x:Key="ShowOtherFace">Show other face</system:String>
+    <system:String x:Key="NewDeck">New deck</system:String>
+    <system:String x:Key="RemoveDeck">Remove deck</system:String>
+    <system:String x:Key="RecoverDeck">Recover deck</system:String>
+    <system:String x:Key="Import">Import</system:String>
+    <system:String x:Key="Export">Export</system:String>
+    <system:String x:Key="Card">Card</system:String>
+    <system:String x:Key="Quantity">Quantity</system:String>
+    <system:String x:Key="Price">Price</system:String>
+    <system:String x:Key="Total">Total</system:String>
+    <system:String x:Key="AddCard">Add card</system:String>
+    <system:String x:Key="DeleteCard">Delete card</system:String>
+    <system:String x:Key="Legal">Legal</system:String>
+    <system:String x:Key="NotLegal">Not Legal</system:String>
+    <system:String x:Key="Standard">Standard:</system:String>
+    <system:String x:Key="Modern">Modern:</system:String>
+    <system:String x:Key="Commander">Commander:</system:String>
+    <system:String x:Key="Pioneer">Pioneer:</system:String>
+    <system:String x:Key="Legacy">Legacy:</system:String>
+    <system:String x:Key="Pauper">Pauper:</system:String>
+    <system:String x:Key="MainDeckCount">Main deck count:</system:String>
+    <system:String x:Key="SideboardCount">Sideboard ount:</system:String>
+    <system:String x:Key="MainDeckPrice">Main deck price:</system:String>
+    <system:String x:Key="SideboardPrice">Sideboard price:</system:String>
+    <system:String x:Key="TotalPrice">Total price:</system:String>
+    <system:String x:Key="SideboardMax15">Sideboard (máx. 15)</system:String>
+    <system:String x:Key="AddCardSideboard">Add card sideboard</system:String>
+    <system:String x:Key="DeleteCardSideboard">Delete card sideboard</system:String>
+    <system:String x:Key="ImportWindow">Import Window</system:String>
+    <system:String x:Key="File">File</system:String>
+    <system:String x:Key="SelectFile">Select file</system:String>
+    <system:String x:Key="ClearFile">Clear File</system:String>
+    <system:String x:Key="Accept">Accept</system:String>
+    <system:String x:Key="Cancel">Cancel</system:String>
+    <system:String x:Key="Theme">Theme</system:String>
+    <system:String x:Key="Language">Language</system:String>
+    <system:String x:Key="SaveTheme">Save theme</system:String>
+    <system:String x:Key="ReloadIcons">ReloadIcons</system:String>
+    <system:String x:Key="Donate">☕ Donate ☕</system:String>
+    <system:String x:Key="DeckName">Deck name</system:String>
+    <system:String x:Key="Create">Create</system:String>
+    <system:String x:Key="RecoverDecks">Recover decks</system:String>
+    <system:String x:Key="Recover">Recover</system:String>
+    <system:String x:Key="SelectCard">Select card</system:String>
+    <system:String x:Key="ReloadDecks">Reload decks</system:String>
+    <system:String x:Key="UseDoubleClickImage">Use double click to see card</system:String>
+    <system:String x:Key="Creatures">🛡️Creatures</system:String>
+    <system:String x:Key="Artifacts">🛡️Artifacts</system:String>
+    <system:String x:Key="Planeswalkers">🛡️Planeswalkers</system:String>
+    <system:String x:Key="Spells">🛡️Spells</system:String>
+    <system:String x:Key="Enchantment">🛡️Enchantment</system:String>
+    <system:String x:Key="Lands">🛡️Lands</system:String>
+
+    <system:String x:Key="Message">Message</system:String>
+    <system:String x:Key="Error">Error</system:String>
+    <system:String x:Key="Warning">Warning</system:String>
+    <system:String x:Key="ProcessEnded">Process ended</system:String>
+    <system:String x:Key="Info">Information</system:String>
+
+    <!--#region Mensajes y varios-->
+    <system:String x:Key="ProcessOK">Process finished correctly</system:String>
+    <system:String x:Key="DeckImportedOK">Deck imported Correctly</system:String>
+    <system:String x:Key="CardsNotNoundedWrongTiped">Cards not founded or wrong tiped:</system:String>
+    <system:String x:Key="NothingAcceptedToImport">Nothing accepted to import</system:String>
+    <system:String x:Key="ErrorLoadCard">
+        Cannot load some cards.
+        Please, check that all cards are well tiped.
+    </system:String>
+    <system:String x:Key="FileWithErrors">
+        File with errors.
+        Check structure of file.
+    </system:String>
+    <system:String x:Key="DeleteDeckConfirmationLine1">Do you wanna delete selected deck?</system:String>
+    <system:String x:Key="DeleteDeckConfirmationLine2">
+        Do you wanna remove all data from selected Deck?
+        This action can't be reverted.
+    </system:String>
+    <!--#endregion-->
+
+    <!--#region Enums-->
+    <system:String x:Key="MtgCardType_Artifact">Artifact</system:String>
+    <system:String x:Key="MtgCardType_Creature">Creature</system:String>
+    <system:String x:Key="MtgCardType_Enchantment">Enchantment</system:String>
+    <system:String x:Key="MtgCardType_Land">Land</system:String>
+    <system:String x:Key="MtgCardType_Instant">Instant</system:String>
+    <system:String x:Key="MtgCardType_Sorcery">Sorcery</system:String>
+    <system:String x:Key="MtgCardType_Planeswalker">Planeswalker</system:String>
+    <system:String x:Key="MtgCardType_Other">Other</system:String>
+
+    <system:String x:Key="OrderTypesEnum_Name">Name</system:String>
+    <system:String x:Key="OrderTypesEnum_Release_date">Release date</system:String>
+    <system:String x:Key="OrderTypesEnum_Set_Number">Set number</system:String>
+    <system:String x:Key="OrderTypesEnum_Rarity">Rarity</system:String>
+    <system:String x:Key="OrderTypesEnum_Color">Color</system:String>
+    <system:String x:Key="OrderTypesEnum_Price_EUR">Price (€)</system:String>
+    <system:String x:Key="OrderTypesEnum_Price_USD">Price ($)</system:String>
+    <system:String x:Key="OrderTypesEnum_Mana_Cost">Mana cost</system:String>
+    <system:String x:Key="OrderTypesEnum_Power">Power</system:String>
+    <system:String x:Key="OrderTypesEnum_Thoughness">Thoughness</system:String>
+    <system:String x:Key="OrderTypesEnum_Artist">Artist</system:String>
+    <system:String x:Key="OrderTypesEnum_Set_Review">Set review</system:String>
+
+    <!--#endregion-->
+
+</ResourceDictionary>

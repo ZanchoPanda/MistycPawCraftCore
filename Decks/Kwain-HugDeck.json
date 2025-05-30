@@ -1,0 +1,5139 @@
+{
+  "IDDeck": 0,
+  "DeckName": "Kwain-HugDeck",
+  "Legal": {
+    "Standard": false,
+    "Historic": false,
+    "Pioneer": false,
+    "Modern": false,
+    "Legacy": true,
+    "Pauper": false,
+    "Commander": true
+  },
+  "Deck": [
+    {
+      "id": "834354a3-f984-4882-bc71-080112107e64",
+      "Name": "Acorn Catapult",
+      "ManaCost": "{4}",
+      "CMC": 4,
+      "OracleText": "\r\n    {1}, {T}: Acorn Catapult deals 1 damage to any target. That permanent's controller or that player creates a 1/1 green Squirrel creature token.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cmd",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Jesper Ejsing",
+      "Units": 1,
+      "TotalPriceCardMarket": 2.10,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Acorn+Catapult&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F46941%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 2.10,
+        "eurFoil": 0.0,
+        "usd": 3.01,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "artifact",
+          "SuperType1": "Artifact",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/8/3/834354a3-f984-4882-bc71-080112107e64.jpg?1592714378",
+        "Normal": "https://cards.scryfall.io/normal/front/8/3/834354a3-f984-4882-bc71-080112107e64.jpg?1592714378",
+        "Large": "https://cards.scryfall.io/large/front/8/3/834354a3-f984-4882-bc71-080112107e64.jpg?1592714378",
+        "PNG": "https://cards.scryfall.io/png/front/8/3/834354a3-f984-4882-bc71-080112107e64.png?1592714378"
+      }
+    },
+    {
+      "id": "eeb1f8ff-c32f-4d75-8c04-f97d05ba47d6",
+      "Name": "Alliance of Arms",
+      "ManaCost": "{W}",
+      "CMC": 1,
+      "OracleText": "\r\n    Join forces — Starting with you, each player may pay any amount of mana. Each player creates X 1/1 white Soldier creature tokens, where X is the total amount of mana paid this way.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cmd",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Johann Bodin",
+      "Units": 1,
+      "TotalPriceCardMarket": 1.91,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Alliance+of+Arms&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F46934%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 1.91,
+        "eurFoil": 0.0,
+        "usd": 5.83,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/e/e/eeb1f8ff-c32f-4d75-8c04-f97d05ba47d6.jpg?1592712696",
+        "Normal": "https://cards.scryfall.io/normal/front/e/e/eeb1f8ff-c32f-4d75-8c04-f97d05ba47d6.jpg?1592712696",
+        "Large": "https://cards.scryfall.io/large/front/e/e/eeb1f8ff-c32f-4d75-8c04-f97d05ba47d6.jpg?1592712696",
+        "PNG": "https://cards.scryfall.io/png/front/e/e/eeb1f8ff-c32f-4d75-8c04-f97d05ba47d6.png?1592712696"
+      }
+    },
+    {
+      "id": "fdf59a6e-7708-45a1-884d-d12e9f7b9ed9",
+      "Name": "Approach of the Second Sun",
+      "ManaCost": "{6}{W}",
+      "CMC": 7,
+      "OracleText": "\r\n    If this spell was cast from your hand and you've cast another spell named Approach of the Second Sun this game, you win the game. Otherwise, put Approach of the Second Sun into its owner's library seventh from the top and you gain 7 life.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "akh",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Noah Bradley",
+      "Units": 1,
+      "TotalPriceCardMarket": 1.00,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Approach+of+the+Second+Sun&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F129978%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 1.00,
+        "eurFoil": 3.36,
+        "usd": 3.80,
+        "usdFoil": 4.06
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/f/d/fdf59a6e-7708-45a1-884d-d12e9f7b9ed9.jpg?1543674579",
+        "Normal": "https://cards.scryfall.io/normal/front/f/d/fdf59a6e-7708-45a1-884d-d12e9f7b9ed9.jpg?1543674579",
+        "Large": "https://cards.scryfall.io/large/front/f/d/fdf59a6e-7708-45a1-884d-d12e9f7b9ed9.jpg?1543674579",
+        "PNG": "https://cards.scryfall.io/png/front/f/d/fdf59a6e-7708-45a1-884d-d12e9f7b9ed9.png?1543674579"
+      }
+    },
+    {
+      "id": "fc6c69a0-ac24-4486-8893-a6303d08fc6e",
+      "Name": "Arcane Signet",
+      "ManaCost": "{2}",
+      "CMC": 2,
+      "OracleText": "\r\n    {T}: Add one mana of any color in your commander's color identity.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "lcc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "common",
+      "Artist": "Dan Scott",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.48,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A0bc7f093-bef0-4f1a-852c-4b75ebf54838&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Arcane+Signet&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F524261%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.48,
+        "eurFoil": 0.0,
+        "usd": 0.63,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "artifact",
+          "SuperType1": "Artifact",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/f/c/fc6c69a0-ac24-4486-8893-a6303d08fc6e.jpg?1698988499",
+        "Normal": "https://cards.scryfall.io/normal/front/f/c/fc6c69a0-ac24-4486-8893-a6303d08fc6e.jpg?1698988499",
+        "Large": "https://cards.scryfall.io/large/front/f/c/fc6c69a0-ac24-4486-8893-a6303d08fc6e.jpg?1698988499",
+        "PNG": "https://cards.scryfall.io/png/front/f/c/fc6c69a0-ac24-4486-8893-a6303d08fc6e.png?1698988499"
+      }
+    },
+    {
+      "id": "f012f5c8-a974-40a4-9375-071e4d95182a",
+      "Name": "Azorius Signet",
+      "ManaCost": "{2}",
+      "CMC": 2,
+      "OracleText": "\r\n    {1}, {T}: Add {W}{U}.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cmm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Greg Hildebrandt",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.50,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ae018773f-95b3-49a3-9674-6f04ddef2092&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Azorius+Signet&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F505793%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.50,
+        "eurFoil": 0.0,
+        "usd": 0.51,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "artifact",
+          "SuperType1": "Artifact",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/f/0/f012f5c8-a974-40a4-9375-071e4d95182a.jpg?1690005377",
+        "Normal": "https://cards.scryfall.io/normal/front/f/0/f012f5c8-a974-40a4-9375-071e4d95182a.jpg?1690005377",
+        "Large": "https://cards.scryfall.io/large/front/f/0/f012f5c8-a974-40a4-9375-071e4d95182a.jpg?1690005377",
+        "PNG": "https://cards.scryfall.io/png/front/f/0/f012f5c8-a974-40a4-9375-071e4d95182a.png?1690005377"
+      }
+    },
+    {
+      "id": "d080c35d-f2c6-4f4e-8f7c-305b319d4cde",
+      "Name": "Benevolent Offering",
+      "ManaCost": "{3}{W}",
+      "CMC": 4,
+      "OracleText": "\r\n    Choose an opponent. You and that player each create three 1/1 white Spirit creature tokens with flying.\nChoose an opponent. You gain 2 life for each creature you control and that player gains 2 life for each creature they control.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "voc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Ryan Yee",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.33,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A3db8466c-864f-48ba-b617-f2c863dfdcbd&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Benevolent+Offering&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F254156%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.33,
+        "eurFoil": 0.0,
+        "usd": 0.40,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/d/0/d080c35d-f2c6-4f4e-8f7c-305b319d4cde.jpg?1641601037",
+        "Normal": "https://cards.scryfall.io/normal/front/d/0/d080c35d-f2c6-4f4e-8f7c-305b319d4cde.jpg?1641601037",
+        "Large": "https://cards.scryfall.io/large/front/d/0/d080c35d-f2c6-4f4e-8f7c-305b319d4cde.jpg?1641601037",
+        "PNG": "https://cards.scryfall.io/png/front/d/0/d080c35d-f2c6-4f4e-8f7c-305b319d4cde.png?1641601037"
+      }
+    },
+    {
+      "id": "f5ebe939-fef3-4085-808c-41ff97e83a7e",
+      "Name": "Clone Legion",
+      "ManaCost": "{7}{U}{U}",
+      "CMC": 9,
+      "OracleText": "\r\n    For each creature target player controls, create a token that's a copy of that creature.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "ncc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "mythic",
+      "Artist": "Svetlin Velinov",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.89,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A690bd111-5b32-4156-b650-9afad3d6ef3d&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Clone+Legion&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F269275%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.89,
+        "eurFoil": 0.0,
+        "usd": 1.10,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/f/5/f5ebe939-fef3-4085-808c-41ff97e83a7e.jpg?1673483841",
+        "Normal": "https://cards.scryfall.io/normal/front/f/5/f5ebe939-fef3-4085-808c-41ff97e83a7e.jpg?1673483841",
+        "Large": "https://cards.scryfall.io/large/front/f/5/f5ebe939-fef3-4085-808c-41ff97e83a7e.jpg?1673483841",
+        "PNG": "https://cards.scryfall.io/png/front/f/5/f5ebe939-fef3-4085-808c-41ff97e83a7e.png?1673483841"
+      }
+    },
+    {
+      "id": "55482714-7fc2-488f-b9d6-e3ed70dffaab",
+      "Name": "Curse of the Swine",
+      "ManaCost": "{X}{U}{U}",
+      "CMC": 2,
+      "OracleText": "\r\n    Exile X target creatures. For each creature exiled this way, its controller creates a 2/2 green Boar creature token.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "lcc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "James Ryman",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.29,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A5669ea7c-c4fc-494c-896b-4bce9b494817&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Curse+of+the+Swine&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F526077%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.29,
+        "eurFoil": 0.0,
+        "usd": 0.33,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/5/5/55482714-7fc2-488f-b9d6-e3ed70dffaab.jpg?1698988138",
+        "Normal": "https://cards.scryfall.io/normal/front/5/5/55482714-7fc2-488f-b9d6-e3ed70dffaab.jpg?1698988138",
+        "Large": "https://cards.scryfall.io/large/front/5/5/55482714-7fc2-488f-b9d6-e3ed70dffaab.jpg?1698988138",
+        "PNG": "https://cards.scryfall.io/png/front/5/5/55482714-7fc2-488f-b9d6-e3ed70dffaab.png?1698988138"
+      }
+    },
+    {
+      "id": "afee5464-83b7-4d7a-b407-9ee7de21535b",
+      "Name": "Detention Sphere",
+      "ManaCost": "{1}{W}{U}",
+      "CMC": 3,
+      "OracleText": "\r\n    When Detention Sphere enters the battlefield, you may exile target nonland permanent not named Detention Sphere and all other permanents with the same name as that permanent.\nWhen Detention Sphere leaves the battlefield, return the exiled cards to the battlefield under their owner's control.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "rtr",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Kev Walker",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.45,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Detention+Sphere&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F66495%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.45,
+        "eurFoil": 3.87,
+        "usd": 0.36,
+        "usdFoil": 5.10
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "enchantment",
+          "SuperType1": "Enchantment",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/a/f/afee5464-83b7-4d7a-b407-9ee7de21535b.jpg?1562791607",
+        "Normal": "https://cards.scryfall.io/normal/front/a/f/afee5464-83b7-4d7a-b407-9ee7de21535b.jpg?1562791607",
+        "Large": "https://cards.scryfall.io/large/front/a/f/afee5464-83b7-4d7a-b407-9ee7de21535b.jpg?1562791607",
+        "PNG": "https://cards.scryfall.io/png/front/a/f/afee5464-83b7-4d7a-b407-9ee7de21535b.png?1562791607"
+      }
+    },
+    {
+      "id": "aa9f176b-6d33-4510-9ba2-98bdd12ba34e",
+      "Name": "Dictate of Kruphix",
+      "ManaCost": "{1}{U}{U}",
+      "CMC": 3,
+      "OracleText": "\r\n    Flash\nAt the beginning of each player's draw step, that player draws an additional card.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "c18",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Daarken",
+      "Units": 1,
+      "TotalPriceCardMarket": 1.17,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Abe74a4c1-d569-4203-b28a-3e2ac6a82990&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Dictate+of+Kruphix&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F171038%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 1.17,
+        "eurFoil": 0.0,
+        "usd": 3.02,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "enchantment",
+          "SuperType1": "Enchantment",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/a/a/aa9f176b-6d33-4510-9ba2-98bdd12ba34e.jpg?1592710552",
+        "Normal": "https://cards.scryfall.io/normal/front/a/a/aa9f176b-6d33-4510-9ba2-98bdd12ba34e.jpg?1592710552",
+        "Large": "https://cards.scryfall.io/large/front/a/a/aa9f176b-6d33-4510-9ba2-98bdd12ba34e.jpg?1592710552",
+        "PNG": "https://cards.scryfall.io/png/front/a/a/aa9f176b-6d33-4510-9ba2-98bdd12ba34e.png?1592710552"
+      }
+    },
+    {
+      "id": "b6e3d6e6-ac17-4d73-acac-089442de4af6",
+      "Name": "Dovescape",
+      "ManaCost": "{3}{W/U}{W/U}{W/U}",
+      "CMC": 6,
+      "OracleText": "\r\n    ({W/U} can be paid with either {W} or {U}.)\nWhenever a player casts a noncreature spell, counter that spell. That player creates X 1/1 white and blue Bird creature tokens with flying, where X is the spell's mana value.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "dis",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Shishizaru",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.98,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Dovescape&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F13853%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.98,
+        "eurFoil": 9.14,
+        "usd": 2.19,
+        "usdFoil": 15.38
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "enchantment",
+          "SuperType1": "Enchantment",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/b/6/b6e3d6e6-ac17-4d73-acac-089442de4af6.jpg?1593273866",
+        "Normal": "https://cards.scryfall.io/normal/front/b/6/b6e3d6e6-ac17-4d73-acac-089442de4af6.jpg?1593273866",
+        "Large": "https://cards.scryfall.io/large/front/b/6/b6e3d6e6-ac17-4d73-acac-089442de4af6.jpg?1593273866",
+        "PNG": "https://cards.scryfall.io/png/front/b/6/b6e3d6e6-ac17-4d73-acac-089442de4af6.png?1593273866"
+      }
+    },
+    {
+      "id": "6afc67d1-1018-4a15-ab5f-377fd11dcd3d",
+      "Name": "Folio of Fancies",
+      "ManaCost": "{1}{U}",
+      "CMC": 2,
+      "OracleText": "\r\n    Players have no maximum hand size.\n{X}{X}, {T}: Each player draws X cards.\n{2}{U}, {T}: Each opponent mills cards equal to the number of cards in their hand.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "eld",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Colin Boyer",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.34,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Folio+of+Fancies&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F199019%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.34,
+        "eurFoil": 0.70,
+        "usd": 1.27,
+        "usdFoil": 1.04
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "artifact",
+          "SuperType1": "Artifact",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/6/a/6afc67d1-1018-4a15-ab5f-377fd11dcd3d.jpg?1572489881",
+        "Normal": "https://cards.scryfall.io/normal/front/6/a/6afc67d1-1018-4a15-ab5f-377fd11dcd3d.jpg?1572489881",
+        "Large": "https://cards.scryfall.io/large/front/6/a/6afc67d1-1018-4a15-ab5f-377fd11dcd3d.jpg?1572489881",
+        "PNG": "https://cards.scryfall.io/png/front/6/a/6afc67d1-1018-4a15-ab5f-377fd11dcd3d.png?1572489881"
+      }
+    },
+    {
+      "id": "b2f73f5d-1aad-48c2-9e74-5f7bdd87900f",
+      "Name": "Fractured Identity",
+      "ManaCost": "{3}{W}{U}",
+      "CMC": 5,
+      "OracleText": "\r\n    Exile target nonland permanent. Each player other than its controller creates a token that's a copy of it.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "c17",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Yongjae Choi",
+      "Units": 1,
+      "TotalPriceCardMarket": 3.92,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Fractured+Identity&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F139813%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 3.92,
+        "eurFoil": 0.0,
+        "usd": 2.43,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/b/2/b2f73f5d-1aad-48c2-9e74-5f7bdd87900f.jpg?1562620703",
+        "Normal": "https://cards.scryfall.io/normal/front/b/2/b2f73f5d-1aad-48c2-9e74-5f7bdd87900f.jpg?1562620703",
+        "Large": "https://cards.scryfall.io/large/front/b/2/b2f73f5d-1aad-48c2-9e74-5f7bdd87900f.jpg?1562620703",
+        "PNG": "https://cards.scryfall.io/png/front/b/2/b2f73f5d-1aad-48c2-9e74-5f7bdd87900f.png?1562620703"
+      }
+    },
+    {
+      "id": "f00f27a7-9e92-4fbf-baa8-f47a5eee48a6",
+      "Name": "Fumigate",
+      "ManaCost": "{3}{W}{W}",
+      "CMC": 5,
+      "OracleText": "\r\n    Destroy all creatures. You gain 1 life for each creature destroyed this way.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "kld",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Svetlin Velinov",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.46,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Fumigate&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F123068%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.46,
+        "eurFoil": 1.69,
+        "usd": 0.44,
+        "usdFoil": 1.79
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/f/0/f00f27a7-9e92-4fbf-baa8-f47a5eee48a6.jpg?1576380863",
+        "Normal": "https://cards.scryfall.io/normal/front/f/0/f00f27a7-9e92-4fbf-baa8-f47a5eee48a6.jpg?1576380863",
+        "Large": "https://cards.scryfall.io/large/front/f/0/f00f27a7-9e92-4fbf-baa8-f47a5eee48a6.jpg?1576380863",
+        "PNG": "https://cards.scryfall.io/png/front/f/0/f00f27a7-9e92-4fbf-baa8-f47a5eee48a6.png?1576380863"
+      }
+    },
+    {
+      "id": "bc068891-c251-4eee-b5ca-342d9df33bdc",
+      "Name": "Game Plan",
+      "ManaCost": "{5}{U}",
+      "CMC": 6,
+      "OracleText": "\r\n    Assist (Another player can pay up to {5} of this spell's cost.)\nEach player shuffles their hand and graveyard into their library, then draws seven cards. Exile Game Plan.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "bbd",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Seb McKinnon",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.60,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Game+Plan&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F167766%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.60,
+        "eurFoil": 5.19,
+        "usd": 0.83,
+        "usdFoil": 4.92
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/b/c/bc068891-c251-4eee-b5ca-342d9df33bdc.jpg?1562932796",
+        "Normal": "https://cards.scryfall.io/normal/front/b/c/bc068891-c251-4eee-b5ca-342d9df33bdc.jpg?1562932796",
+        "Large": "https://cards.scryfall.io/large/front/b/c/bc068891-c251-4eee-b5ca-342d9df33bdc.jpg?1562932796",
+        "PNG": "https://cards.scryfall.io/png/front/b/c/bc068891-c251-4eee-b5ca-342d9df33bdc.png?1562932796"
+      }
+    },
+    {
+      "id": "c28fd840-e633-46d3-991a-b9fea95a2f28",
+      "Name": "Gate to the Aether",
+      "ManaCost": "{6}",
+      "CMC": 6,
+      "OracleText": "\r\n    At the beginning of each player's upkeep, that player reveals the top card of their library. If it's an artifact, creature, enchantment, or land card, the player may put it onto the battlefield.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "mrd",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Pete Venters",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.61,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Gate+to+the+Aether&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F11488%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.61,
+        "eurFoil": 3.30,
+        "usd": 1.67,
+        "usdFoil": 9.87
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "artifact",
+          "SuperType1": "Artifact",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/c/2/c28fd840-e633-46d3-991a-b9fea95a2f28.jpg?1562157187",
+        "Normal": "https://cards.scryfall.io/normal/front/c/2/c28fd840-e633-46d3-991a-b9fea95a2f28.jpg?1562157187",
+        "Large": "https://cards.scryfall.io/large/front/c/2/c28fd840-e633-46d3-991a-b9fea95a2f28.jpg?1562157187",
+        "PNG": "https://cards.scryfall.io/png/front/c/2/c28fd840-e633-46d3-991a-b9fea95a2f28.png?1562157187"
+      }
+    },
+    {
+      "id": "93bd7e73-63dc-45b2-aaa8-984be8b900ab",
+      "Name": "Genesis Chamber",
+      "ManaCost": "{2}",
+      "CMC": 2,
+      "OracleText": "\r\n    Whenever a nontoken creature enters the battlefield, if Genesis Chamber is untapped, that creature's controller creates a 1/1 colorless Myr artifact creature token.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "bbd",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Mark Tedin",
+      "Units": 1,
+      "TotalPriceCardMarket": 1.09,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A150ab025-5cc3-4468-a724-bbba8838445d&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Genesis+Chamber&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F167958%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 1.09,
+        "eurFoil": 7.57,
+        "usd": 1.82,
+        "usdFoil": 9.26
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "artifact",
+          "SuperType1": "Artifact",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/3/93bd7e73-63dc-45b2-aaa8-984be8b900ab.jpg?1562924816",
+        "Normal": "https://cards.scryfall.io/normal/front/9/3/93bd7e73-63dc-45b2-aaa8-984be8b900ab.jpg?1562924816",
+        "Large": "https://cards.scryfall.io/large/front/9/3/93bd7e73-63dc-45b2-aaa8-984be8b900ab.jpg?1562924816",
+        "PNG": "https://cards.scryfall.io/png/front/9/3/93bd7e73-63dc-45b2-aaa8-984be8b900ab.png?1562924816"
+      }
+    },
+    {
+      "id": "8169d44d-b15a-47e0-b417-24f2f4945d0f",
+      "Name": "Ghostly Prison",
+      "ManaCost": "{2}{W}",
+      "CMC": 3,
+      "OracleText": "\r\n    Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "voc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Daarken",
+      "Units": 1,
+      "TotalPriceCardMarket": 2.78,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ae828b189-0e8f-43b8-b909-4c23e742e028&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Ghostly+Prison&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F254218%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 2.78,
+        "eurFoil": 0.0,
+        "usd": 6.37,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "enchantment",
+          "SuperType1": "Enchantment",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/8/1/8169d44d-b15a-47e0-b417-24f2f4945d0f.jpg?1641601289",
+        "Normal": "https://cards.scryfall.io/normal/front/8/1/8169d44d-b15a-47e0-b417-24f2f4945d0f.jpg?1641601289",
+        "Large": "https://cards.scryfall.io/large/front/8/1/8169d44d-b15a-47e0-b417-24f2f4945d0f.jpg?1641601289",
+        "PNG": "https://cards.scryfall.io/png/front/8/1/8169d44d-b15a-47e0-b417-24f2f4945d0f.png?1641601289"
+      }
+    },
+    {
+      "id": "41bba882-39b8-42db-9a01-54c6712b8019",
+      "Name": "Helm of Awakening",
+      "ManaCost": "{2}",
+      "CMC": 2,
+      "OracleText": "\r\n    Spells cost {1} less to cast.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "vis",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Adam Rex",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.73,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Helm+of+Awakening&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F5856%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.73,
+        "eurFoil": 0.0,
+        "usd": 1.49,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "artifact",
+          "SuperType1": "Artifact",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/4/1/41bba882-39b8-42db-9a01-54c6712b8019.jpg?1562277455",
+        "Normal": "https://cards.scryfall.io/normal/front/4/1/41bba882-39b8-42db-9a01-54c6712b8019.jpg?1562277455",
+        "Large": "https://cards.scryfall.io/large/front/4/1/41bba882-39b8-42db-9a01-54c6712b8019.jpg?1562277455",
+        "PNG": "https://cards.scryfall.io/png/front/4/1/41bba882-39b8-42db-9a01-54c6712b8019.png?1562277455"
+      }
+    },
+    {
+      "id": "f3895c0c-0db8-4962-b386-57887fb60701",
+      "Name": "Holy Day",
+      "ManaCost": "{W}",
+      "CMC": 1,
+      "OracleText": "\r\n    Prevent all combat damage that would be dealt this turn.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "10e",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "common",
+      "Artist": "Volkan Baǵa",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.29,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A98423a34-f044-4811-b288-56981d604b6e&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Holy+Day&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F15163%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.29,
+        "eurFoil": 1.48,
+        "usd": 0.44,
+        "usdFoil": 5.94
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/f/3/f3895c0c-0db8-4962-b386-57887fb60701.jpg?1562557717",
+        "Normal": "https://cards.scryfall.io/normal/front/f/3/f3895c0c-0db8-4962-b386-57887fb60701.jpg?1562557717",
+        "Large": "https://cards.scryfall.io/large/front/f/3/f3895c0c-0db8-4962-b386-57887fb60701.jpg?1562557717",
+        "PNG": "https://cards.scryfall.io/png/front/f/3/f3895c0c-0db8-4962-b386-57887fb60701.png?1562557717"
+      }
+    },
+    {
+      "id": "fbafc838-7458-4542-86f3-594326ec0691",
+      "Name": "Infinite Hourglass",
+      "ManaCost": "{4}",
+      "CMC": 4,
+      "OracleText": "\r\n    At the beginning of your upkeep, put a time counter on Infinite Hourglass.\nAll creatures get +1/+0 for each time counter on Infinite Hourglass.\n{3}: Remove a time counter from Infinite Hourglass. Any player may activate this ability but only during any upkeep step.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "5ed",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Adam Rex",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.40,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A7c59ad65-ad1f-4dc4-bcf2-ea6b2b48fad8&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Infinite+Hourglass&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F2213%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.40,
+        "eurFoil": 0.0,
+        "usd": 0.32,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "artifact",
+          "SuperType1": "Artifact",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/f/b/fbafc838-7458-4542-86f3-594326ec0691.jpg?1562595427",
+        "Normal": "https://cards.scryfall.io/normal/front/f/b/fbafc838-7458-4542-86f3-594326ec0691.jpg?1562595427",
+        "Large": "https://cards.scryfall.io/large/front/f/b/fbafc838-7458-4542-86f3-594326ec0691.jpg?1562595427",
+        "PNG": "https://cards.scryfall.io/png/front/f/b/fbafc838-7458-4542-86f3-594326ec0691.png?1562595427"
+      }
+    },
+    {
+      "id": "393454c2-b256-4a6e-9bc2-56a47cab5073",
+      "Name": "Knowledge Pool",
+      "ManaCost": "{6}",
+      "CMC": 6,
+      "OracleText": "\r\n    Imprint — When Knowledge Pool enters the battlefield, each player exiles the top three cards of their library.\nWhenever a player casts a spell from their hand, that player exiles it. If the player does, they may cast a spell from among other cards exiled with Knowledge Pool without paying its mana cost.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "mbs",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Mike Bierek",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.69,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Knowledge+Pool&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F39093%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.69,
+        "eurFoil": 4.01,
+        "usd": 0.65,
+        "usdFoil": 5.54
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "artifact",
+          "SuperType1": "Artifact",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/3/9/393454c2-b256-4a6e-9bc2-56a47cab5073.jpg?1562610637",
+        "Normal": "https://cards.scryfall.io/normal/front/3/9/393454c2-b256-4a6e-9bc2-56a47cab5073.jpg?1562610637",
+        "Large": "https://cards.scryfall.io/large/front/3/9/393454c2-b256-4a6e-9bc2-56a47cab5073.jpg?1562610637",
+        "PNG": "https://cards.scryfall.io/png/front/3/9/393454c2-b256-4a6e-9bc2-56a47cab5073.png?1562610637"
+      }
+    },
+    {
+      "id": "ccacc197-7c22-444d-8e6e-950dca63eb2c",
+      "Name": "Minds Aglow",
+      "ManaCost": "{U}",
+      "CMC": 1,
+      "OracleText": "\r\n    Join forces — Starting with you, each player may pay any amount of mana. Each player draws X cards, where X is the total amount of mana paid this way.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cmm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Yeong-Hao Han",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.31,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ab259f4e4-04a9-40e0-85e9-34b4b74ee388&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Minds+Aglow&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F503820%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.31,
+        "eurFoil": 0.76,
+        "usd": 0.59,
+        "usdFoil": 0.52
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/c/c/ccacc197-7c22-444d-8e6e-950dca63eb2c.jpg?1689996473",
+        "Normal": "https://cards.scryfall.io/normal/front/c/c/ccacc197-7c22-444d-8e6e-950dca63eb2c.jpg?1689996473",
+        "Large": "https://cards.scryfall.io/large/front/c/c/ccacc197-7c22-444d-8e6e-950dca63eb2c.jpg?1689996473",
+        "PNG": "https://cards.scryfall.io/png/front/c/c/ccacc197-7c22-444d-8e6e-950dca63eb2c.png?1689996473"
+      }
+    },
+    {
+      "id": "36fb6ee3-bd54-4e5b-b055-c2c42515c162",
+      "Name": "Nevinyrral's Disk",
+      "ManaCost": "{4}",
+      "CMC": 4,
+      "OracleText": "\r\n    Nevinyrral's Disk enters the battlefield tapped.\n{1}, {T}: Destroy all artifacts, creatures, and enchantments.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cmm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Steve Argyle",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.28,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A96230edf-568a-47dd-b877-9d92aa58fac8&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Nevinyrral%27s+Disk&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F505792%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.28,
+        "eurFoil": 0.0,
+        "usd": 0.48,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "artifact",
+          "SuperType1": "Artifact",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/3/6/36fb6ee3-bd54-4e5b-b055-c2c42515c162.jpg?1690005647",
+        "Normal": "https://cards.scryfall.io/normal/front/3/6/36fb6ee3-bd54-4e5b-b055-c2c42515c162.jpg?1690005647",
+        "Large": "https://cards.scryfall.io/large/front/3/6/36fb6ee3-bd54-4e5b-b055-c2c42515c162.jpg?1690005647",
+        "PNG": "https://cards.scryfall.io/png/front/3/6/36fb6ee3-bd54-4e5b-b055-c2c42515c162.png?1690005647"
+      }
+    },
+    {
+      "id": "bff31eba-8ab3-403e-8d82-37a18b279bec",
+      "Name": "Oblivion Ring",
+      "ManaCost": "{2}{W}",
+      "CMC": 3,
+      "OracleText": "\r\n    When Oblivion Ring enters the battlefield, exile another target nonland permanent.\nWhen Oblivion Ring leaves the battlefield, return the exiled card to the battlefield under its owner's control.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "mm2",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Franz Vohwinkel",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.15,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Abd9b9772-f5f9-4c6b-913e-7193bea5d0a7&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Oblivion+Ring&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F98747%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.15,
+        "eurFoil": 0.67,
+        "usd": 0.31,
+        "usdFoil": 0.68
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "enchantment",
+          "SuperType1": "Enchantment",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/b/f/bff31eba-8ab3-403e-8d82-37a18b279bec.jpg?1562266919",
+        "Normal": "https://cards.scryfall.io/normal/front/b/f/bff31eba-8ab3-403e-8d82-37a18b279bec.jpg?1562266919",
+        "Large": "https://cards.scryfall.io/large/front/b/f/bff31eba-8ab3-403e-8d82-37a18b279bec.jpg?1562266919",
+        "PNG": "https://cards.scryfall.io/png/front/b/f/bff31eba-8ab3-403e-8d82-37a18b279bec.png?1562266919"
+      }
+    },
+    {
+      "id": "85b09595-0d81-4cc0-872f-9a6fb539298b",
+      "Name": "Play of the Game",
+      "ManaCost": "{6}{W}{W}",
+      "CMC": 8,
+      "OracleText": "\r\n    Assist (Another player can pay up to {6} of this spell's cost.)\nExile all nonland permanents.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "bbd",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Jung Park",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.42,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Play+of+the+Game&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F167634%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.42,
+        "eurFoil": 1.53,
+        "usd": 0.42,
+        "usdFoil": 4.04
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/8/5/85b09595-0d81-4cc0-872f-9a6fb539298b.jpg?1562922030",
+        "Normal": "https://cards.scryfall.io/normal/front/8/5/85b09595-0d81-4cc0-872f-9a6fb539298b.jpg?1562922030",
+        "Large": "https://cards.scryfall.io/large/front/8/5/85b09595-0d81-4cc0-872f-9a6fb539298b.jpg?1562922030",
+        "PNG": "https://cards.scryfall.io/png/front/8/5/85b09595-0d81-4cc0-872f-9a6fb539298b.png?1562922030"
+      }
+    },
+    {
+      "id": "a1501dea-4e0e-49b0-86b5-e8a01f77077d",
+      "Name": "Pongify",
+      "ManaCost": "{U}",
+      "CMC": 1,
+      "OracleText": "\r\n    Destroy target creature. It can't be regenerated. Its controller creates a 3/3 green Ape creature token.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "tsr",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Heather Hudson",
+      "Units": 1,
+      "TotalPriceCardMarket": 3.56,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A05849bd6-8f38-4031-be2b-e2aa03beb8cc&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Pongify&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F233899%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 3.56,
+        "eurFoil": 6.58,
+        "usd": 6.24,
+        "usdFoil": 7.49
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/a/1/a1501dea-4e0e-49b0-86b5-e8a01f77077d.jpg?1619394479",
+        "Normal": "https://cards.scryfall.io/normal/front/a/1/a1501dea-4e0e-49b0-86b5-e8a01f77077d.jpg?1619394479",
+        "Large": "https://cards.scryfall.io/large/front/a/1/a1501dea-4e0e-49b0-86b5-e8a01f77077d.jpg?1619394479",
+        "PNG": "https://cards.scryfall.io/png/front/a/1/a1501dea-4e0e-49b0-86b5-e8a01f77077d.png?1619394479"
+      }
+    },
+    {
+      "id": "dbc6a246-f32a-4dc0-9785-4038804f372f",
+      "Name": "Pyxis of Pandemonium",
+      "ManaCost": "{1}",
+      "CMC": 1,
+      "OracleText": "\r\n    {T}: Each player exiles the top card of their library face down.\n{7}, {T}, Sacrifice Pyxis of Pandemonium: Each player turns face up all cards they own exiled with Pyxis of Pandemonium, then puts all permanent cards among them onto the battlefield.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "ths",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "David Palumbo",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.25,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Pyxis+of+Pandemonium&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F71047%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.25,
+        "eurFoil": 1.55,
+        "usd": 0.25,
+        "usdFoil": 2.61
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "artifact",
+          "SuperType1": "Artifact",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/d/b/dbc6a246-f32a-4dc0-9785-4038804f372f.jpg?1562833569",
+        "Normal": "https://cards.scryfall.io/normal/front/d/b/dbc6a246-f32a-4dc0-9785-4038804f372f.jpg?1562833569",
+        "Large": "https://cards.scryfall.io/large/front/d/b/dbc6a246-f32a-4dc0-9785-4038804f372f.jpg?1562833569",
+        "PNG": "https://cards.scryfall.io/png/front/d/b/dbc6a246-f32a-4dc0-9785-4038804f372f.png?1562833569"
+      }
+    },
+    {
+      "id": "3ea0c6c5-f782-40bf-a0c9-ee7e97963146",
+      "Name": "Regna's Sanction",
+      "ManaCost": "{3}{W}",
+      "CMC": 4,
+      "OracleText": "\r\n    For each player, choose friend or foe. Each friend puts a +1/+1 counter on each creature they control. Each foe chooses one untapped creature they control, then taps the rest.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "bbd",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Bayard Wu",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.35,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Regna%27s+Sanction&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F167764%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.35,
+        "eurFoil": 1.16,
+        "usd": 0.46,
+        "usdFoil": 0.97
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/3/e/3ea0c6c5-f782-40bf-a0c9-ee7e97963146.jpg?1562907563",
+        "Normal": "https://cards.scryfall.io/normal/front/3/e/3ea0c6c5-f782-40bf-a0c9-ee7e97963146.jpg?1562907563",
+        "Large": "https://cards.scryfall.io/large/front/3/e/3ea0c6c5-f782-40bf-a0c9-ee7e97963146.jpg?1562907563",
+        "PNG": "https://cards.scryfall.io/png/front/3/e/3ea0c6c5-f782-40bf-a0c9-ee7e97963146.png?1562907563"
+      }
+    },
+    {
+      "id": "9b5730aa-c74a-4c74-bb1b-a133a3c353ec",
+      "Name": "Reins of Power",
+      "ManaCost": "{2}{U}{U}",
+      "CMC": 4,
+      "OracleText": "\r\n    Untap all creatures you control and all creatures target opponent controls. You and that opponent each gain control of all creatures the other controls until end of turn. Those creatures gain haste until end of turn.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "clb",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "John Severin Brassell",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.36,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A96381388-1e82-411c-8290-1f3e909d3b5f&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Reins+of+Power&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F273571%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.36,
+        "eurFoil": 0.0,
+        "usd": 0.40,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/b/9b5730aa-c74a-4c74-bb1b-a133a3c353ec.jpg?1674141454",
+        "Normal": "https://cards.scryfall.io/normal/front/9/b/9b5730aa-c74a-4c74-bb1b-a133a3c353ec.jpg?1674141454",
+        "Large": "https://cards.scryfall.io/large/front/9/b/9b5730aa-c74a-4c74-bb1b-a133a3c353ec.jpg?1674141454",
+        "PNG": "https://cards.scryfall.io/png/front/9/b/9b5730aa-c74a-4c74-bb1b-a133a3c353ec.png?1674141454"
+      }
+    },
+    {
+      "id": "664e3826-799b-4edb-8811-2d2b6355edaf",
+      "Name": "Return to Dust",
+      "ManaCost": "{2}{W}{W}",
+      "CMC": 4,
+      "OracleText": "\r\n    Exile target artifact or enchantment. If you cast this spell during your main phase, you may exile up to one other target artifact or enchantment.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "lcc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Anato Finnstark",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.12,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A3029df1d-d02a-4fed-8ab4-000a2096f823&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Return+to+Dust&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F525743%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.12,
+        "eurFoil": 0.0,
+        "usd": 0.10,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/6/6/664e3826-799b-4edb-8811-2d2b6355edaf.jpg?1698988105",
+        "Normal": "https://cards.scryfall.io/normal/front/6/6/664e3826-799b-4edb-8811-2d2b6355edaf.jpg?1698988105",
+        "Large": "https://cards.scryfall.io/large/front/6/6/664e3826-799b-4edb-8811-2d2b6355edaf.jpg?1698988105",
+        "PNG": "https://cards.scryfall.io/png/front/6/6/664e3826-799b-4edb-8811-2d2b6355edaf.png?1698988105"
+      }
+    },
+    {
+      "id": "542eed4a-8a15-4829-8bc3-5637574e1398",
+      "Name": "Spectral Searchlight",
+      "ManaCost": "{3}",
+      "CMC": 3,
+      "OracleText": "\r\n    {T}: Choose a player. That player adds one mana of any color they choose.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cmm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Martina Pilcerova",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.08,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A511b1174-8ef7-4d17-93de-01b9b81bda6a&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Spectral+Searchlight&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F507478%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.08,
+        "eurFoil": 0.09,
+        "usd": 0.04,
+        "usdFoil": 0.11
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "artifact",
+          "SuperType1": "Artifact",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/5/4/542eed4a-8a15-4829-8bc3-5637574e1398.jpg?1689999827",
+        "Normal": "https://cards.scryfall.io/normal/front/5/4/542eed4a-8a15-4829-8bc3-5637574e1398.jpg?1689999827",
+        "Large": "https://cards.scryfall.io/large/front/5/4/542eed4a-8a15-4829-8bc3-5637574e1398.jpg?1689999827",
+        "PNG": "https://cards.scryfall.io/png/front/5/4/542eed4a-8a15-4829-8bc3-5637574e1398.png?1689999827"
+      }
+    },
+    {
+      "id": "a18d7582-185a-429a-9c6a-fc51b981e0a1",
+      "Name": "Sphere of Safety",
+      "ManaCost": "{4}{W}",
+      "CMC": 5,
+      "OracleText": "\r\n    Creatures can't attack you or planeswalkers you control unless their controller pays {X} for each of those creatures, where X is the number of enchantments you control.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "c16",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Slawomir Maniak",
+      "Units": 1,
+      "TotalPriceCardMarket": 6.18,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A92f6c063-a740-4c3c-a60a-569fd298854d&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Sphere+of+Safety&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F124637%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 6.18,
+        "eurFoil": 0.0,
+        "usd": 5.46,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "enchantment",
+          "SuperType1": "Enchantment",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/a/1/a18d7582-185a-429a-9c6a-fc51b981e0a1.jpg?1562413264",
+        "Normal": "https://cards.scryfall.io/normal/front/a/1/a18d7582-185a-429a-9c6a-fc51b981e0a1.jpg?1562413264",
+        "Large": "https://cards.scryfall.io/large/front/a/1/a18d7582-185a-429a-9c6a-fc51b981e0a1.jpg?1562413264",
+        "PNG": "https://cards.scryfall.io/png/front/a/1/a18d7582-185a-429a-9c6a-fc51b981e0a1.png?1562413264"
+      }
+    },
+    {
+      "id": "9f7983bf-2a3b-4428-8c01-35285f589da8",
+      "Name": "Sudden Substitution",
+      "ManaCost": "{2}{U}{U}",
+      "CMC": 4,
+      "OracleText": "\r\n    Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)\nExchange control of target noncreature spell and target creature. Then the spell's controller may choose new targets for it.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "c19",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Noah Bradley",
+      "Units": 1,
+      "TotalPriceCardMarket": 1.53,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Sudden+Substitution&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F196533%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 1.53,
+        "eurFoil": 0.0,
+        "usd": 2.15,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/f/9f7983bf-2a3b-4428-8c01-35285f589da8.jpg?1568003437",
+        "Normal": "https://cards.scryfall.io/normal/front/9/f/9f7983bf-2a3b-4428-8c01-35285f589da8.jpg?1568003437",
+        "Large": "https://cards.scryfall.io/large/front/9/f/9f7983bf-2a3b-4428-8c01-35285f589da8.jpg?1568003437",
+        "PNG": "https://cards.scryfall.io/png/front/9/f/9f7983bf-2a3b-4428-8c01-35285f589da8.png?1568003437"
+      }
+    },
+    {
+      "id": "9d968dde-c406-48ef-a1ab-373aebc24693",
+      "Name": "Swan Song",
+      "ManaCost": "{U}",
+      "CMC": 1,
+      "OracleText": "\r\n    Counter target enchantment, instant, or sorcery spell. Its controller creates a 2/2 blue Bird creature token with flying.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "c16",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Peter Mohrbacher",
+      "Units": 1,
+      "TotalPriceCardMarket": 10.37,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A8ddfc283-c9b4-41a5-af88-cf0068e986cc&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Swan+Song&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F124645%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 10.37,
+        "eurFoil": 0.0,
+        "usd": 11.24,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/d/9d968dde-c406-48ef-a1ab-373aebc24693.jpg?1562412350",
+        "Normal": "https://cards.scryfall.io/normal/front/9/d/9d968dde-c406-48ef-a1ab-373aebc24693.jpg?1562412350",
+        "Large": "https://cards.scryfall.io/large/front/9/d/9d968dde-c406-48ef-a1ab-373aebc24693.jpg?1562412350",
+        "PNG": "https://cards.scryfall.io/png/front/9/d/9d968dde-c406-48ef-a1ab-373aebc24693.png?1562412350"
+      }
+    },
+    {
+      "id": "ebb0070f-8686-4127-91c3-4f1488e2d995",
+      "Name": "Tempt with Reflections",
+      "ManaCost": "{3}{U}",
+      "CMC": 4,
+      "OracleText": "\r\n    Tempting offer — Choose target creature you control. Create a token that's a copy of that creature. Each opponent may create a token that's a copy of that creature. For each opponent who does, create a token that's a copy of that creature.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "c13",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Mike Bierek",
+      "Units": 1,
+      "TotalPriceCardMarket": 1.59,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Tempt+with+Reflections&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F71872%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 1.59,
+        "eurFoil": 0.0,
+        "usd": 1.33,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/e/b/ebb0070f-8686-4127-91c3-4f1488e2d995.jpg?1562944704",
+        "Normal": "https://cards.scryfall.io/normal/front/e/b/ebb0070f-8686-4127-91c3-4f1488e2d995.jpg?1562944704",
+        "Large": "https://cards.scryfall.io/large/front/e/b/ebb0070f-8686-4127-91c3-4f1488e2d995.jpg?1562944704",
+        "PNG": "https://cards.scryfall.io/png/front/e/b/ebb0070f-8686-4127-91c3-4f1488e2d995.png?1562944704"
+      }
+    },
+    {
+      "id": "de4f53fc-69d7-49fb-885b-4cc02bf5facc",
+      "Name": "Truce",
+      "ManaCost": "{2}{W}",
+      "CMC": 3,
+      "OracleText": "\r\n    Each player may draw up to two cards. For each card less than two a player draws this way, that player gains 2 life.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "5ed",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Donato Giancola",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.72,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Afe4aa72b-f176-461a-aca0-1519721609b2&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Truce&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F2413%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.72,
+        "eurFoil": 0.0,
+        "usd": 1.05,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/d/e/de4f53fc-69d7-49fb-885b-4cc02bf5facc.jpg?1562594477",
+        "Normal": "https://cards.scryfall.io/normal/front/d/e/de4f53fc-69d7-49fb-885b-4cc02bf5facc.jpg?1562594477",
+        "Large": "https://cards.scryfall.io/large/front/d/e/de4f53fc-69d7-49fb-885b-4cc02bf5facc.jpg?1562594477",
+        "PNG": "https://cards.scryfall.io/png/front/d/e/de4f53fc-69d7-49fb-885b-4cc02bf5facc.png?1562594477"
+      }
+    },
+    {
+      "id": "9cb27fb1-41b1-49b8-bb3b-2c8a011ae7a9",
+      "Name": "Victory Chimes",
+      "ManaCost": "{3}",
+      "CMC": 3,
+      "OracleText": "\r\n    Untap Victory Chimes during each other player's untap step.\n{T}: A player of your choice adds {C}.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "c21",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Uriah Voth",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.49,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Abe8b36ce-52c1-4ca0-9141-4c9a80dca3ea&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Victory+Chimes&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F236428%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.49,
+        "eurFoil": 0.0,
+        "usd": 0.36,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "artifact",
+          "SuperType1": "Artifact",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/c/9cb27fb1-41b1-49b8-bb3b-2c8a011ae7a9.jpg?1625979630",
+        "Normal": "https://cards.scryfall.io/normal/front/9/c/9cb27fb1-41b1-49b8-bb3b-2c8a011ae7a9.jpg?1625979630",
+        "Large": "https://cards.scryfall.io/large/front/9/c/9cb27fb1-41b1-49b8-bb3b-2c8a011ae7a9.jpg?1625979630",
+        "PNG": "https://cards.scryfall.io/png/front/9/c/9cb27fb1-41b1-49b8-bb3b-2c8a011ae7a9.png?1625979630"
+      }
+    },
+    {
+      "id": "e7796b82-5a7c-406e-be71-1f37abdbc44f",
+      "Name": "Well of Ideas",
+      "ManaCost": "{5}{U}",
+      "CMC": 6,
+      "OracleText": "\r\n    When Well of Ideas enters the battlefield, draw two cards.\nAt the beginning of each other player's draw step, that player draws an additional card.\nAt the beginning of your draw step, draw two additional cards.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "2xm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Steve Prescott",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.31,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A1ed24fc6-b1d5-47f8-a1d1-3243372e0c9f&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Well+of+Ideas&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F218707%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.31,
+        "eurFoil": 0.62,
+        "usd": 1.51,
+        "usdFoil": 1.52
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "enchantment",
+          "SuperType1": "Enchantment",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/e/7/e7796b82-5a7c-406e-be71-1f37abdbc44f.jpg?1598304433",
+        "Normal": "https://cards.scryfall.io/normal/front/e/7/e7796b82-5a7c-406e-be71-1f37abdbc44f.jpg?1598304433",
+        "Large": "https://cards.scryfall.io/large/front/e/7/e7796b82-5a7c-406e-be71-1f37abdbc44f.jpg?1598304433",
+        "PNG": "https://cards.scryfall.io/png/front/e/7/e7796b82-5a7c-406e-be71-1f37abdbc44f.png?1598304433"
+      }
+    },
+    {
+      "id": "3bb17913-fe4d-4acd-9b75-71f5a90f898b",
+      "Name": "Winds of Abandon",
+      "ManaCost": "{1}{W}",
+      "CMC": 2,
+      "OracleText": "\r\n    Exile target creature you don't control. For each creature exiled this way, its controller searches their library for a basic land card. Those players put those cards onto the battlefield tapped, then shuffle.\nOverload {4}{W}{W} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "mh1",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Noah Bradley",
+      "Units": 1,
+      "TotalPriceCardMarket": 1.93,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Winds+of+Abandon&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F190986%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 1.93,
+        "eurFoil": 7.25,
+        "usd": 4.63,
+        "usdFoil": 14.17
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/3/b/3bb17913-fe4d-4acd-9b75-71f5a90f898b.jpg?1562201278",
+        "Normal": "https://cards.scryfall.io/normal/front/3/b/3bb17913-fe4d-4acd-9b75-71f5a90f898b.jpg?1562201278",
+        "Large": "https://cards.scryfall.io/large/front/3/b/3bb17913-fe4d-4acd-9b75-71f5a90f898b.jpg?1562201278",
+        "PNG": "https://cards.scryfall.io/png/front/3/b/3bb17913-fe4d-4acd-9b75-71f5a90f898b.png?1562201278"
+      }
+    },
+    {
+      "id": "537d2b05-3f52-45d6-8fe3-26282085d0c6",
+      "Name": "Wrath of God",
+      "ManaCost": "{2}{W}{W}",
+      "CMC": 4,
+      "OracleText": "\r\n    Destroy all creatures. They can't be regenerated.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cmm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Willian Murai",
+      "Units": 1,
+      "TotalPriceCardMarket": 1.71,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A34515b16-c9a4-4f98-8c77-416a7a523407&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Wrath+of+God&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F504962%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 1.71,
+        "eurFoil": 1.94,
+        "usd": 2.55,
+        "usdFoil": 2.14
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/5/3/537d2b05-3f52-45d6-8fe3-26282085d0c6.jpg?1697121198",
+        "Normal": "https://cards.scryfall.io/normal/front/5/3/537d2b05-3f52-45d6-8fe3-26282085d0c6.jpg?1697121198",
+        "Large": "https://cards.scryfall.io/large/front/5/3/537d2b05-3f52-45d6-8fe3-26282085d0c6.jpg?1697121198",
+        "PNG": "https://cards.scryfall.io/png/front/5/3/537d2b05-3f52-45d6-8fe3-26282085d0c6.png?1697121198"
+      }
+    },
+    {
+      "id": "3b69687d-191a-4bca-b1f7-eea27847c1af",
+      "Name": "Wrong Turn",
+      "ManaCost": "{2}{U}",
+      "CMC": 3,
+      "OracleText": "\r\n    Target opponent gains control of target creature. (If an attacking or blocking creature changes controllers, it's removed from combat.)\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cmr",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Filip Burburan",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.25,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Wrong+Turn&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F226869%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.25,
+        "eurFoil": 0.52,
+        "usd": 0.24,
+        "usdFoil": 0.43
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/3/b/3b69687d-191a-4bca-b1f7-eea27847c1af.jpg?1608909561",
+        "Normal": "https://cards.scryfall.io/normal/front/3/b/3b69687d-191a-4bca-b1f7-eea27847c1af.jpg?1608909561",
+        "Large": "https://cards.scryfall.io/large/front/3/b/3b69687d-191a-4bca-b1f7-eea27847c1af.jpg?1608909561",
+        "PNG": "https://cards.scryfall.io/png/front/3/b/3b69687d-191a-4bca-b1f7-eea27847c1af.png?1608909561"
+      }
+    },
+    {
+      "id": "aa97df52-1ae7-4cfe-842a-1b13deef00ae",
+      "Name": "Zndrsplt's Judgment",
+      "ManaCost": "{4}{U}",
+      "CMC": 5,
+      "OracleText": "\r\n    For each player, choose friend or foe. Each friend creates a token that's a copy of a creature they control. Each foe returns a creature they control to its owner's hand.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "ncc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Bayard Wu",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.22,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A7aacfc42-be6c-46a8-b474-f43a1b6b2ef8&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Zndrsplt%27s+Judgment&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F269280%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.22,
+        "eurFoil": 0.0,
+        "usd": 0.17,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/a/a/aa97df52-1ae7-4cfe-842a-1b13deef00ae.jpg?1673484083",
+        "Normal": "https://cards.scryfall.io/normal/front/a/a/aa97df52-1ae7-4cfe-842a-1b13deef00ae.jpg?1673484083",
+        "Large": "https://cards.scryfall.io/large/front/a/a/aa97df52-1ae7-4cfe-842a-1b13deef00ae.jpg?1673484083",
+        "PNG": "https://cards.scryfall.io/png/front/a/a/aa97df52-1ae7-4cfe-842a-1b13deef00ae.png?1673484083"
+      }
+    },
+    {
+      "id": "78d2d11b-12e4-4810-a32d-8f1cdda3ec49",
+      "Name": "Haunted Angel",
+      "ManaCost": "{2}{W}",
+      "CMC": 3,
+      "OracleText": "\r\n    Flying\nWhen Haunted Angel dies, exile Haunted Angel and each other player creates a 3/3 black Angel creature token with flying.\r\n",
+      "Power": "3",
+      "Toughness": "3",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "apc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Arnie Swekel",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.18,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Haunted+Angel&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F7966%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.18,
+        "eurFoil": 2.45,
+        "usd": 0.25,
+        "usdFoil": 3.44
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "creature ",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " angel",
+          "CardType1": "Angel",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/7/8/78d2d11b-12e4-4810-a32d-8f1cdda3ec49.jpg?1562923513",
+        "Normal": "https://cards.scryfall.io/normal/front/7/8/78d2d11b-12e4-4810-a32d-8f1cdda3ec49.jpg?1562923513",
+        "Large": "https://cards.scryfall.io/large/front/7/8/78d2d11b-12e4-4810-a32d-8f1cdda3ec49.jpg?1562923513",
+        "PNG": "https://cards.scryfall.io/png/front/7/8/78d2d11b-12e4-4810-a32d-8f1cdda3ec49.png?1562923513"
+      }
+    },
+    {
+      "id": "09e4a88d-670b-4332-bf36-41c2e2492424",
+      "Name": "Confiscate",
+      "ManaCost": "{4}{U}{U}",
+      "CMC": 6,
+      "OracleText": "\r\n    Enchant permanent\nYou control enchanted permanent.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cmr",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Adam Rex",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.07,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ad599a38c-7719-443e-bb59-55bd43a8fee6&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Confiscate&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F226107%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.07,
+        "eurFoil": 0.14,
+        "usd": 0.03,
+        "usdFoil": 0.11
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "enchantment ",
+          "SuperType1": "Enchantment",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " aura",
+          "CardType1": "Aura",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/0/9/09e4a88d-670b-4332-bf36-41c2e2492424.jpg?1608909148",
+        "Normal": "https://cards.scryfall.io/normal/front/0/9/09e4a88d-670b-4332-bf36-41c2e2492424.jpg?1608909148",
+        "Large": "https://cards.scryfall.io/large/front/0/9/09e4a88d-670b-4332-bf36-41c2e2492424.jpg?1608909148",
+        "PNG": "https://cards.scryfall.io/png/front/0/9/09e4a88d-670b-4332-bf36-41c2e2492424.png?1608909148"
+      }
+    },
+    {
+      "id": "c11eb854-4c03-4abd-aaf1-9718608a34b3",
+      "Name": "Ghostly Possession",
+      "ManaCost": "{2}{W}",
+      "CMC": 3,
+      "OracleText": "\r\n    Enchant creature\nEnchanted creature has flying.\nPrevent all combat damage that would be dealt to and dealt by enchanted creature.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cn2",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "common",
+      "Artist": "Howard Lyon",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.06,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A8104a51d-f07b-45d6-aaa7-c6386d6de8bf&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Ghostly+Possession&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F121829%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.06,
+        "eurFoil": 0.17,
+        "usd": 0.03,
+        "usdFoil": 0.17
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "enchantment ",
+          "SuperType1": "Enchantment",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " aura",
+          "CardType1": "Aura",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/c/1/c11eb854-4c03-4abd-aaf1-9718608a34b3.jpg?1576382225",
+        "Normal": "https://cards.scryfall.io/normal/front/c/1/c11eb854-4c03-4abd-aaf1-9718608a34b3.jpg?1576382225",
+        "Large": "https://cards.scryfall.io/large/front/c/1/c11eb854-4c03-4abd-aaf1-9718608a34b3.jpg?1576382225",
+        "PNG": "https://cards.scryfall.io/png/front/c/1/c11eb854-4c03-4abd-aaf1-9718608a34b3.png?1576382225"
+      }
+    },
+    {
+      "id": "938ef232-1bf5-4290-abd9-3da653cf2e85",
+      "Name": "Kasmina's Transmutation",
+      "ManaCost": "{1}{U}",
+      "CMC": 2,
+      "OracleText": "\r\n    Enchant creature\nEnchanted creature loses all abilities and has base power and toughness 1/1.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "2x2",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "common",
+      "Artist": "Uriah Voth",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.12,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aa9be16d1-5e53-4b85-8921-c6fe9473f923&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Kasmina%27s+Transmutation&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F277150%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.12,
+        "eurFoil": 0.15,
+        "usd": 0.06,
+        "usdFoil": 0.11
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "enchantment ",
+          "SuperType1": "Enchantment",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " aura",
+          "CardType1": "Aura",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/3/938ef232-1bf5-4290-abd9-3da653cf2e85.jpg?1673147330",
+        "Normal": "https://cards.scryfall.io/normal/front/9/3/938ef232-1bf5-4290-abd9-3da653cf2e85.jpg?1673147330",
+        "Large": "https://cards.scryfall.io/large/front/9/3/938ef232-1bf5-4290-abd9-3da653cf2e85.jpg?1673147330",
+        "PNG": "https://cards.scryfall.io/png/front/9/3/938ef232-1bf5-4290-abd9-3da653cf2e85.png?1673147330"
+      }
+    },
+    {
+      "id": "0da7c6dc-9325-4866-8c09-78c7021f8f17",
+      "Name": "Pacifism",
+      "ManaCost": "{1}{W}",
+      "CMC": 2,
+      "OracleText": "\r\n    Enchant creature\nEnchanted creature can't attack or block.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "jmp",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "common",
+      "Artist": "Jesper Ejsing",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.10,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A5f5e0b10-c8cf-450c-bfd3-bcb0528ec330&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Pacifism&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F216154%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.10,
+        "eurFoil": 0.0,
+        "usd": 0.03,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "enchantment ",
+          "SuperType1": "Enchantment",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " aura",
+          "CardType1": "Aura",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/0/d/0da7c6dc-9325-4866-8c09-78c7021f8f17.jpg?1600713540",
+        "Normal": "https://cards.scryfall.io/normal/front/0/d/0da7c6dc-9325-4866-8c09-78c7021f8f17.jpg?1600713540",
+        "Large": "https://cards.scryfall.io/large/front/0/d/0da7c6dc-9325-4866-8c09-78c7021f8f17.jpg?1600713540",
+        "PNG": "https://cards.scryfall.io/png/front/0/d/0da7c6dc-9325-4866-8c09-78c7021f8f17.png?1600713540"
+      }
+    },
+    {
+      "id": "a8903e1d-e255-4eda-bb8e-c6229a88c8a7",
+      "Name": "Swans of Bryn Argoll",
+      "ManaCost": "{2}{W/U}{W/U}",
+      "CMC": 4,
+      "OracleText": "\r\n    Flying\nIf a source would deal damage to Swans of Bryn Argoll, prevent that damage. The source's controller draws cards equal to the damage prevented this way.\r\n",
+      "Power": "4",
+      "Toughness": "3",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "mm2",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Eric Fortune",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.58,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ab187aeeb-5cf5-4b73-a3ef-f39188d2ba33&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Swans+of+Bryn+Argoll&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F98599%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.58,
+        "eurFoil": 1.55,
+        "usd": 0.58,
+        "usdFoil": 3.60
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "creature ",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " bird spirit",
+          "CardType1": "Bird",
+          "CardType2": "Spirit",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/a/8/a8903e1d-e255-4eda-bb8e-c6229a88c8a7.jpg?1562265760",
+        "Normal": "https://cards.scryfall.io/normal/front/a/8/a8903e1d-e255-4eda-bb8e-c6229a88c8a7.jpg?1562265760",
+        "Large": "https://cards.scryfall.io/large/front/a/8/a8903e1d-e255-4eda-bb8e-c6229a88c8a7.jpg?1562265760",
+        "PNG": "https://cards.scryfall.io/png/front/a/8/a8903e1d-e255-4eda-bb8e-c6229a88c8a7.png?1562265760"
+      }
+    },
+    {
+      "id": "f9cff40b-9cae-47d0-8df4-c287a17a33e4",
+      "Name": "Perplexing Chimera",
+      "ManaCost": "{4}{U}",
+      "CMC": 5,
+      "OracleText": "\r\n    Whenever an opponent casts a spell, you may exchange control of Perplexing Chimera and that spell. If you do, you may choose new targets for the spell. (If the spell becomes a permanent, you control that permanent.)\r\n",
+      "Power": "3",
+      "Toughness": "3",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "bng",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Tyler Jacobson",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.67,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Perplexing+Chimera&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F79115%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.67,
+        "eurFoil": 7.25,
+        "usd": 0.94,
+        "usdFoil": 24.04
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "enchantment creature ",
+          "SuperType1": "Enchantment",
+          "SuperType2": "Creature",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " chimera",
+          "CardType1": "Chimera",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/f/9/f9cff40b-9cae-47d0-8df4-c287a17a33e4.jpg?1593091744",
+        "Normal": "https://cards.scryfall.io/normal/front/f/9/f9cff40b-9cae-47d0-8df4-c287a17a33e4.jpg?1593091744",
+        "Large": "https://cards.scryfall.io/large/front/f/9/f9cff40b-9cae-47d0-8df4-c287a17a33e4.jpg?1593091744",
+        "PNG": "https://cards.scryfall.io/png/front/f/9/f9cff40b-9cae-47d0-8df4-c287a17a33e4.png?1593091744"
+      }
+    },
+    {
+      "id": "aacdf4c2-9bc8-400a-8ffc-d6597d8d7da9",
+      "Name": "Tidal Barracuda",
+      "ManaCost": "{3}{U}",
+      "CMC": 4,
+      "OracleText": "\r\n    Any player may cast spells as though they had flash.\nYour opponents can't cast spells during your turn.\r\n",
+      "Power": "3",
+      "Toughness": "4",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "c20",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Uriah Voth",
+      "Units": 1,
+      "TotalPriceCardMarket": 1.31,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Tidal+Barracuda&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F212220%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 1.31,
+        "eurFoil": 0.0,
+        "usd": 3.16,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "creature ",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " fish",
+          "CardType1": "Fish",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/a/a/aacdf4c2-9bc8-400a-8ffc-d6597d8d7da9.jpg?1591319489",
+        "Normal": "https://cards.scryfall.io/normal/front/a/a/aacdf4c2-9bc8-400a-8ffc-d6597d8d7da9.jpg?1591319489",
+        "Large": "https://cards.scryfall.io/large/front/a/a/aacdf4c2-9bc8-400a-8ffc-d6597d8d7da9.jpg?1591319489",
+        "PNG": "https://cards.scryfall.io/png/front/a/a/aacdf4c2-9bc8-400a-8ffc-d6597d8d7da9.png?1591319489"
+      }
+    },
+    {
+      "id": "1fc2e7c4-5dbe-49f4-8c3f-192e7544df74",
+      "Name": "Arbiter of Knollridge",
+      "ManaCost": "{6}{W}",
+      "CMC": 7,
+      "OracleText": "\r\n    Vigilance\nWhen Arbiter of Knollridge enters the battlefield, each player's life total becomes the highest life total among all players.\r\n",
+      "Power": "5",
+      "Toughness": "5",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cm2",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Brandon Dorman",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.13,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A62705a41-7c4d-4e6c-85b0-36a9d27ab5ae&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Arbiter+of+Knollridge&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F166722%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.13,
+        "eurFoil": 0.0,
+        "usd": 0.27,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "creature ",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " giant wizard",
+          "CardType1": "Giant",
+          "CardType2": "Wizard",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/1/f/1fc2e7c4-5dbe-49f4-8c3f-192e7544df74.jpg?1562272885",
+        "Normal": "https://cards.scryfall.io/normal/front/1/f/1fc2e7c4-5dbe-49f4-8c3f-192e7544df74.jpg?1562272885",
+        "Large": "https://cards.scryfall.io/large/front/1/f/1fc2e7c4-5dbe-49f4-8c3f-192e7544df74.jpg?1562272885",
+        "PNG": "https://cards.scryfall.io/png/front/1/f/1fc2e7c4-5dbe-49f4-8c3f-192e7544df74.png?1562272885"
+      }
+    },
+    {
+      "id": "31a8954f-467d-4eb9-8a48-d25bae9529b8",
+      "Name": "Akroan Horse",
+      "ManaCost": "{4}",
+      "CMC": 4,
+      "OracleText": "\r\n    Defender\nWhen Akroan Horse enters the battlefield, an opponent gains control of it.\nAt the beginning of your upkeep, each opponent creates a 1/1 white Soldier creature token.\r\n",
+      "Power": "0",
+      "Toughness": "4",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "c16",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Seb McKinnon",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.64,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A8d0213d7-9e25-49d2-93fa-1d346cb2e869&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Akroan+Horse&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F124385%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.64,
+        "eurFoil": 0.0,
+        "usd": 0.28,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "artifact creature ",
+          "SuperType1": "Artifact",
+          "SuperType2": "Creature",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " horse",
+          "CardType1": "Horse",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/3/1/31a8954f-467d-4eb9-8a48-d25bae9529b8.jpg?1562394382",
+        "Normal": "https://cards.scryfall.io/normal/front/3/1/31a8954f-467d-4eb9-8a48-d25bae9529b8.jpg?1562394382",
+        "Large": "https://cards.scryfall.io/large/front/3/1/31a8954f-467d-4eb9-8a48-d25bae9529b8.jpg?1562394382",
+        "PNG": "https://cards.scryfall.io/png/front/3/1/31a8954f-467d-4eb9-8a48-d25bae9529b8.png?1562394382"
+      }
+    },
+    {
+      "id": "99cd8a1a-6f32-47fe-94a6-85cfcd97150f",
+      "Name": "Orzhov Advokist",
+      "ManaCost": "{2}{W}",
+      "CMC": 3,
+      "OracleText": "\r\n    At the beginning of your upkeep, each player may put two +1/+1 counters on a creature they control. If a player does, creatures that player controls can't attack you or planeswalkers you control until your next turn.\r\n",
+      "Power": "1",
+      "Toughness": "4",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "ncc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Jason A. Engle",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.13,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ad5e9942e-096f-433f-8668-4b594f3c1b02&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Orzhov+Advokist&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F269622%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.13,
+        "eurFoil": 0.0,
+        "usd": 0.08,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "creature ",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " human advisor",
+          "CardType1": "Human",
+          "CardType2": "Advisor",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/9/99cd8a1a-6f32-47fe-94a6-85cfcd97150f.jpg?1673483759",
+        "Normal": "https://cards.scryfall.io/normal/front/9/9/99cd8a1a-6f32-47fe-94a6-85cfcd97150f.jpg?1673483759",
+        "Large": "https://cards.scryfall.io/large/front/9/9/99cd8a1a-6f32-47fe-94a6-85cfcd97150f.jpg?1673483759",
+        "PNG": "https://cards.scryfall.io/png/front/9/9/99cd8a1a-6f32-47fe-94a6-85cfcd97150f.png?1673483759"
+      }
+    },
+    {
+      "id": "0dce0e8f-9ad6-42b6-af61-c883613efc97",
+      "Name": "Pulsemage Advocate",
+      "ManaCost": "{2}{W}",
+      "CMC": 3,
+      "OracleText": "\r\n    {T}: Return three target cards from an opponent's graveyard to their hand. Return target creature card from your graveyard to the battlefield.\r\n",
+      "Power": "1",
+      "Toughness": "3",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "jud",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Jeff Easley",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.69,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Pulsemage+Advocate&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F10172%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.69,
+        "eurFoil": 7.92,
+        "usd": 1.98,
+        "usdFoil": 11.47
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "creature ",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " human cleric",
+          "CardType1": "Human",
+          "CardType2": "Cleric",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/0/d/0dce0e8f-9ad6-42b6-af61-c883613efc97.jpg?1562628638",
+        "Normal": "https://cards.scryfall.io/normal/front/0/d/0dce0e8f-9ad6-42b6-af61-c883613efc97.jpg?1562628638",
+        "Large": "https://cards.scryfall.io/large/front/0/d/0dce0e8f-9ad6-42b6-af61-c883613efc97.jpg?1562628638",
+        "PNG": "https://cards.scryfall.io/png/front/0/d/0dce0e8f-9ad6-42b6-af61-c883613efc97.png?1562628638"
+      }
+    },
+    {
+      "id": "142479d8-8956-44a2-8c54-9dd6dc1774c0",
+      "Name": "Sailmonger",
+      "ManaCost": "{3}{U}",
+      "CMC": 4,
+      "OracleText": "\r\n    {2}: Target creature gains flying until end of turn. Any player may activate this ability.\r\n",
+      "Power": "3",
+      "Toughness": "3",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "mmq",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Michael Sutfin",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.05,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Sailmonger&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F6678%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.05,
+        "eurFoil": 4.90,
+        "usd": 0.24,
+        "usdFoil": 8.49
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "creature ",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " human monger",
+          "CardType1": "Human",
+          "CardType2": "Monger",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/1/4/142479d8-8956-44a2-8c54-9dd6dc1774c0.jpg?1562379419",
+        "Normal": "https://cards.scryfall.io/normal/front/1/4/142479d8-8956-44a2-8c54-9dd6dc1774c0.jpg?1562379419",
+        "Large": "https://cards.scryfall.io/large/front/1/4/142479d8-8956-44a2-8c54-9dd6dc1774c0.jpg?1562379419",
+        "PNG": "https://cards.scryfall.io/png/front/1/4/142479d8-8956-44a2-8c54-9dd6dc1774c0.png?1562379419"
+      }
+    },
+    {
+      "id": "9c014b89-895c-432f-94f5-cda2dfac57e4",
+      "Name": "Spurnmage Advocate",
+      "ManaCost": "{W}",
+      "CMC": 1,
+      "OracleText": "\r\n    {T}: Return two target cards from an opponent's graveyard to their hand. Destroy target attacking creature.\r\n",
+      "Power": "1",
+      "Toughness": "1",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cmd",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Ron Spears",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.18,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A0477b923-9f32-4e7f-ac08-c715cca819a4&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Spurnmage+Advocate&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F47448%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.18,
+        "eurFoil": 0.0,
+        "usd": 0.35,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "creature ",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " human nomad",
+          "CardType1": "Human",
+          "CardType2": "Nomad",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/c/9c014b89-895c-432f-94f5-cda2dfac57e4.jpg?1592712916",
+        "Normal": "https://cards.scryfall.io/normal/front/9/c/9c014b89-895c-432f-94f5-cda2dfac57e4.jpg?1592712916",
+        "Large": "https://cards.scryfall.io/large/front/9/c/9c014b89-895c-432f-94f5-cda2dfac57e4.jpg?1592712916",
+        "PNG": "https://cards.scryfall.io/png/front/9/c/9c014b89-895c-432f-94f5-cda2dfac57e4.png?1592712916"
+      }
+    },
+    {
+      "id": "91bbe20b-0d39-46fc-a09a-fc8c676f1fe7",
+      "Name": "Baird, Steward of Argive",
+      "ManaCost": "{2}{W}{W}",
+      "CMC": 4,
+      "OracleText": "\r\n    Vigilance\nCreatures can't attack you or planeswalkers you control unless their controller pays {1} for each of those creatures.\r\n",
+      "Power": "2",
+      "Toughness": "4",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cmm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Christine Choi",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.16,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A69aa6809-5468-413a-94c9-562e6de93957&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Baird%2C+Steward+of+Argive&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F507529%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.16,
+        "eurFoil": 0.49,
+        "usd": 0.21,
+        "usdFoil": 0.26
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "legendary creature ",
+          "SuperType1": "Legendary",
+          "SuperType2": "Creature",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " human soldier",
+          "CardType1": "Human",
+          "CardType2": "Soldier",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/1/91bbe20b-0d39-46fc-a09a-fc8c676f1fe7.jpg?1689995567",
+        "Normal": "https://cards.scryfall.io/normal/front/9/1/91bbe20b-0d39-46fc-a09a-fc8c676f1fe7.jpg?1689995567",
+        "Large": "https://cards.scryfall.io/large/front/9/1/91bbe20b-0d39-46fc-a09a-fc8c676f1fe7.jpg?1689995567",
+        "PNG": "https://cards.scryfall.io/png/front/9/1/91bbe20b-0d39-46fc-a09a-fc8c676f1fe7.png?1689995567"
+      }
+    },
+    {
+      "id": "9ea0a701-1349-4d32-9fe7-8a2563c9613d",
+      "Name": "Braids, Conjurer Adept",
+      "ManaCost": "{2}{U}{U}",
+      "CMC": 4,
+      "OracleText": "\r\n    At the beginning of each player's upkeep, that player may put an artifact, creature, or land card from their hand onto the battlefield.\r\n",
+      "Power": "2",
+      "Toughness": "2",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cmm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Zoltan Boros & Gabor Szikszai",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.23,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A359b8f2c-831e-47d0-9267-dae79cecb63a&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Braids%2C+Conjurer+Adept&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F503816%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.23,
+        "eurFoil": 0.36,
+        "usd": 0.32,
+        "usdFoil": 0.36
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "legendary creature ",
+          "SuperType1": "Legendary",
+          "SuperType2": "Creature",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " human wizard",
+          "CardType1": "Human",
+          "CardType2": "Wizard",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/e/9ea0a701-1349-4d32-9fe7-8a2563c9613d.jpg?1689996202",
+        "Normal": "https://cards.scryfall.io/normal/front/9/e/9ea0a701-1349-4d32-9fe7-8a2563c9613d.jpg?1689996202",
+        "Large": "https://cards.scryfall.io/large/front/9/e/9ea0a701-1349-4d32-9fe7-8a2563c9613d.jpg?1689996202",
+        "PNG": "https://cards.scryfall.io/png/front/9/e/9ea0a701-1349-4d32-9fe7-8a2563c9613d.png?1689996202"
+      }
+    },
+    {
+      "id": "608567fd-9f94-4058-831a-77cb6019ef02",
+      "Name": "Laboratory Maniac",
+      "ManaCost": "{2}{U}",
+      "CMC": 3,
+      "OracleText": "\r\n    If you would draw a card while your library has no cards in it, you win the game instead.\r\n",
+      "Power": "2",
+      "Toughness": "2",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "uma",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Jason Felix",
+      "Units": 1,
+      "TotalPriceCardMarket": 2.20,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aaa286dd5-aa19-446d-9003-684d81eb57ca&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Laboratory+Maniac&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F180811%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 2.20,
+        "eurFoil": 3.07,
+        "usd": 4.94,
+        "usdFoil": 4.90
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "creature ",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " human wizard",
+          "CardType1": "Human",
+          "CardType2": "Wizard",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.jpg?1547516361",
+        "Normal": "https://cards.scryfall.io/normal/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.jpg?1547516361",
+        "Large": "https://cards.scryfall.io/large/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.jpg?1547516361",
+        "PNG": "https://cards.scryfall.io/png/front/6/0/608567fd-9f94-4058-831a-77cb6019ef02.png?1547516361"
+      }
+    },
+    {
+      "id": "6908b583-4a52-4819-82a3-9db9c860aeb6",
+      "Name": "Island",
+      "ManaCost": "",
+      "CMC": 0,
+      "OracleText": "\r\n    ({T}: Add {U}.)\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "mkm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "common",
+      "Artist": "Jorge Jacinto",
+      "Units": 20,
+      "TotalPriceCardMarket": 0.0,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ab2c6aa39-2d2a-459c-a555-fb48ba993373&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Island&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F533124%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.0,
+        "eurFoil": 0.0,
+        "usd": 0.0,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "basic land ",
+          "SuperType1": "Basic",
+          "SuperType2": "Land",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " island",
+          "CardType1": "Island",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/6/9/6908b583-4a52-4819-82a3-9db9c860aeb6.jpg?1705436067",
+        "Normal": "https://cards.scryfall.io/normal/front/6/9/6908b583-4a52-4819-82a3-9db9c860aeb6.jpg?1705436067",
+        "Large": "https://cards.scryfall.io/large/front/6/9/6908b583-4a52-4819-82a3-9db9c860aeb6.jpg?1705436067",
+        "PNG": "https://cards.scryfall.io/png/front/6/9/6908b583-4a52-4819-82a3-9db9c860aeb6.png?1705436067"
+      }
+    },
+    {
+      "id": "6adb7d73-4482-4930-8497-cffd169b57e2",
+      "Name": "Jace, Wielder of Mysteries",
+      "ManaCost": "{1}{U}{U}{U}",
+      "CMC": 4,
+      "OracleText": "\r\n    If you would draw a card while your library has no cards in it, you win the game instead.\n+1: Target player mills two cards. Draw a card.\n−8: Draw seven cards. Then if your library has no cards in it, you win the game.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "war",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Anna Steinbauer",
+      "Units": 1,
+      "TotalPriceCardMarket": 3.12,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Jace%2C+Wielder+of+Mysteries&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F187141%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 3.12,
+        "eurFoil": 6.41,
+        "usd": 5.85,
+        "usdFoil": 7.58
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "legendary planeswalker ",
+          "SuperType1": "Legendary",
+          "SuperType2": "Planeswalker",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " jace",
+          "CardType1": "Jace",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/6/a/6adb7d73-4482-4930-8497-cffd169b57e2.jpg?1557576232",
+        "Normal": "https://cards.scryfall.io/normal/front/6/a/6adb7d73-4482-4930-8497-cffd169b57e2.jpg?1557576232",
+        "Large": "https://cards.scryfall.io/large/front/6/a/6adb7d73-4482-4930-8497-cffd169b57e2.jpg?1557576232",
+        "PNG": "https://cards.scryfall.io/png/front/6/a/6adb7d73-4482-4930-8497-cffd169b57e2.png?1557576232"
+      }
+    },
+    {
+      "id": "8e5f71ca-e7d9-4f9a-adf1-40353693deea",
+      "Name": "Dakra Mystic",
+      "ManaCost": "{U}",
+      "CMC": 1,
+      "OracleText": "\r\n    {U}, {T}: Each player reveals the top card of their library. You may put the revealed cards into their owners' graveyards. If you don't, each player draws a card.\r\n",
+      "Power": "1",
+      "Toughness": "1",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "jou",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Wesley Burt",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.23,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Dakra+Mystic&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F82173%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.23,
+        "eurFoil": 1.23,
+        "usd": 0.29,
+        "usdFoil": 2.40
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "creature ",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " merfolk wizard",
+          "CardType1": "Merfolk",
+          "CardType2": "Wizard",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/8/e/8e5f71ca-e7d9-4f9a-adf1-40353693deea.jpg?1593095417",
+        "Normal": "https://cards.scryfall.io/normal/front/8/e/8e5f71ca-e7d9-4f9a-adf1-40353693deea.jpg?1593095417",
+        "Large": "https://cards.scryfall.io/large/front/8/e/8e5f71ca-e7d9-4f9a-adf1-40353693deea.jpg?1593095417",
+        "PNG": "https://cards.scryfall.io/png/front/8/e/8e5f71ca-e7d9-4f9a-adf1-40353693deea.png?1593095417"
+      }
+    },
+    {
+      "id": "81a1a8a6-916b-4eef-8079-6775afcb63cf",
+      "Name": "Plains",
+      "ManaCost": "",
+      "CMC": 0,
+      "OracleText": "\r\n    ({T}: Add {W}.)\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "mkm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "common",
+      "Artist": "Muhammad Firdaus",
+      "Units": 15,
+      "TotalPriceCardMarket": 0.0,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Abc71ebf6-2056-41f7-be35-b2e5c34afa99&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Plains&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F533134%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.0,
+        "eurFoil": 0.0,
+        "usd": 0.0,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "basic land ",
+          "SuperType1": "Basic",
+          "SuperType2": "Land",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " plains",
+          "CardType1": "Plains",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/8/1/81a1a8a6-916b-4eef-8079-6775afcb63cf.jpg?1705436002",
+        "Normal": "https://cards.scryfall.io/normal/front/8/1/81a1a8a6-916b-4eef-8079-6775afcb63cf.jpg?1705436002",
+        "Large": "https://cards.scryfall.io/large/front/8/1/81a1a8a6-916b-4eef-8079-6775afcb63cf.jpg?1705436002",
+        "PNG": "https://cards.scryfall.io/png/front/8/1/81a1a8a6-916b-4eef-8079-6775afcb63cf.png?1705436002"
+      }
+    },
+    {
+      "id": "f571fef1-1fd2-4355-b803-5edccb6f4b94",
+      "Name": "Kwain, Itinerant Meddler",
+      "ManaCost": "{W}{U}",
+      "CMC": 2,
+      "OracleText": "\r\n    {T}: Each player may draw a card, then each player who drew a card this way gains 1 life.\r\n",
+      "Power": "1",
+      "Toughness": "3",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cmr",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Lucas Graciano",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.29,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Kwain%2C+Itinerant+Meddler&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F227107%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.29,
+        "eurFoil": 0.48,
+        "usd": 0.24,
+        "usdFoil": 0.36
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "legendary creature ",
+          "SuperType1": "Legendary",
+          "SuperType2": "Creature",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " rabbit wizard",
+          "CardType1": "Rabbit",
+          "CardType2": "Wizard",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/f/5/f571fef1-1fd2-4355-b803-5edccb6f4b94.jpg?1608911183",
+        "Normal": "https://cards.scryfall.io/normal/front/f/5/f571fef1-1fd2-4355-b803-5edccb6f4b94.jpg?1608911183",
+        "Large": "https://cards.scryfall.io/large/front/f/5/f571fef1-1fd2-4355-b803-5edccb6f4b94.jpg?1608911183",
+        "PNG": "https://cards.scryfall.io/png/front/f/5/f571fef1-1fd2-4355-b803-5edccb6f4b94.png?1608911183"
+      }
+    },
+    {
+      "id": "c0516453-3e6a-4b7f-8df6-72a6e207169a",
+      "Name": "Clever Impersonator",
+      "ManaCost": "{2}{U}{U}",
+      "CMC": 4,
+      "OracleText": "\r\n    You may have Clever Impersonator enter the battlefield as a copy of any nonland permanent on the battlefield.\r\n",
+      "Power": "0",
+      "Toughness": "0",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "c19",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "mythic",
+      "Artist": "Slawomir Maniak",
+      "Units": 1,
+      "TotalPriceCardMarket": 2.72,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ad4ec0df9-a4a3-48cf-a0aa-b1aea5c49142&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Clever+Impersonator&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F196612%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 2.72,
+        "eurFoil": 0.0,
+        "usd": 4.11,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "creature ",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " shapeshifter",
+          "CardType1": "Shapeshifter",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/c/0/c0516453-3e6a-4b7f-8df6-72a6e207169a.jpg?1568003965",
+        "Normal": "https://cards.scryfall.io/normal/front/c/0/c0516453-3e6a-4b7f-8df6-72a6e207169a.jpg?1568003965",
+        "Large": "https://cards.scryfall.io/large/front/c/0/c0516453-3e6a-4b7f-8df6-72a6e207169a.jpg?1568003965",
+        "PNG": "https://cards.scryfall.io/png/front/c/0/c0516453-3e6a-4b7f-8df6-72a6e207169a.png?1568003965"
+      }
+    },
+    {
+      "id": "5e648262-3b9b-4c58-8e29-48356e3cb064",
+      "Name": "Clone",
+      "ManaCost": "{3}{U}",
+      "CMC": 4,
+      "OracleText": "\r\n    You may have Clone enter the battlefield as a copy of any creature on the battlefield.\r\n",
+      "Power": "0",
+      "Toughness": "0",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "m14",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Kev Walker",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.26,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A42226b87-0746-4ebf-9fd0-108d508462af&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Clone&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F69958%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.26,
+        "eurFoil": 0.90,
+        "usd": 0.46,
+        "usdFoil": 0.66
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "creature ",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " shapeshifter",
+          "CardType1": "Shapeshifter",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/5/e/5e648262-3b9b-4c58-8e29-48356e3cb064.jpg?1562829895",
+        "Normal": "https://cards.scryfall.io/normal/front/5/e/5e648262-3b9b-4c58-8e29-48356e3cb064.jpg?1562829895",
+        "Large": "https://cards.scryfall.io/large/front/5/e/5e648262-3b9b-4c58-8e29-48356e3cb064.jpg?1562829895",
+        "PNG": "https://cards.scryfall.io/png/front/5/e/5e648262-3b9b-4c58-8e29-48356e3cb064.png?1562829895"
+      }
+    },
+    {
+      "id": "61921b05-ee83-4768-a405-4d3355c0ad6e",
+      "Name": "Oneirophage",
+      "ManaCost": "{3}{U}",
+      "CMC": 4,
+      "OracleText": "\r\n    Flying\nWhenever you draw a card, put a +1/+1 counter on Oneirophage.\r\n",
+      "Power": "1",
+      "Toughness": "2",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "jmp",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Martina Pilcerova",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.10,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A48c97aeb-6591-4175-a24b-d3488bf3ab0b&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Oneirophage&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F216242%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.10,
+        "eurFoil": 0.0,
+        "usd": 0.09,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "creature ",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " squid illusion",
+          "CardType1": "Squid",
+          "CardType2": "Illusion",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/6/1/61921b05-ee83-4768-a405-4d3355c0ad6e.jpg?1600698223",
+        "Normal": "https://cards.scryfall.io/normal/front/6/1/61921b05-ee83-4768-a405-4d3355c0ad6e.jpg?1600698223",
+        "Large": "https://cards.scryfall.io/large/front/6/1/61921b05-ee83-4768-a405-4d3355c0ad6e.jpg?1600698223",
+        "PNG": "https://cards.scryfall.io/png/front/6/1/61921b05-ee83-4768-a405-4d3355c0ad6e.png?1600698223"
+      }
+    },
+    {
+      "id": "5a0d8834-109e-4235-a145-75edc43da0ec",
+      "Name": "Wishmonger",
+      "ManaCost": "{3}{W}",
+      "CMC": 4,
+      "OracleText": "\r\n    {2}: Target creature gains protection from the color of its controller's choice until end of turn. Any player may activate this ability.\r\n",
+      "Power": "3",
+      "Toughness": "3",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "mmq",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Heather Hudson",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.22,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Wishmonger&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F6768%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.22,
+        "eurFoil": 12.38,
+        "usd": 0.30,
+        "usdFoil": 6.63
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "creature ",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " unicorn monger",
+          "CardType1": "Unicorn",
+          "CardType2": "Monger",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": false,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/5/a/5a0d8834-109e-4235-a145-75edc43da0ec.jpg?1562380877",
+        "Normal": "https://cards.scryfall.io/normal/front/5/a/5a0d8834-109e-4235-a145-75edc43da0ec.jpg?1562380877",
+        "Large": "https://cards.scryfall.io/large/front/5/a/5a0d8834-109e-4235-a145-75edc43da0ec.jpg?1562380877",
+        "PNG": "https://cards.scryfall.io/png/front/5/a/5a0d8834-109e-4235-a145-75edc43da0ec.png?1562380877"
+      }
+    },
+    {
+      "id": "c14fb062-ff43-43eb-aaaf-304a876d5962",
+      "Name": "Fog Bank",
+      "ManaCost": "{1}{U}",
+      "CMC": 2,
+      "OracleText": "\r\n    Defender, flying\nPrevent all combat damage that would be dealt to and dealt by Fog Bank.\r\n",
+      "Power": "0",
+      "Toughness": "2",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cmm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Howard Lyon",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.23,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A3a2bb47d-228d-499e-a34b-9e10d99e9b2c&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Fog+Bank&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F505760%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.23,
+        "eurFoil": 0.0,
+        "usd": 0.23,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "creature ",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " wall",
+          "CardType1": "Wall",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/c/1/c14fb062-ff43-43eb-aaaf-304a876d5962.jpg?1690004348",
+        "Normal": "https://cards.scryfall.io/normal/front/c/1/c14fb062-ff43-43eb-aaaf-304a876d5962.jpg?1690004348",
+        "Large": "https://cards.scryfall.io/large/front/c/1/c14fb062-ff43-43eb-aaaf-304a876d5962.jpg?1690004348",
+        "PNG": "https://cards.scryfall.io/png/front/c/1/c14fb062-ff43-43eb-aaaf-304a876d5962.png?1690004348"
+      }
+    }
+  ],
+  "SideBoard": [],
+  "SideboardCount": 0,
+  "TotalMainCards": 103,
+  "CreatureCount": 20,
+  "SorceryAndInstantsCount": 23,
+  "EnchantmentCount": 12,
+  "PlaneswalkerCount": 1,
+  "LandCount": 35,
+  "TotalNonCreatureAndInstantSpells": 35,
+  "TotalMainDeckPrice": 67.86,
+  "TotalSideboardPrice": 0.0,
+  "TotalDeckPrice": 67.86,
+  "CreateDate": null,
+  "DeleteDate": null
+}

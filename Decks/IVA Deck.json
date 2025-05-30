@@ -1,0 +1,1708 @@
+{
+  "IDDeck": 0,
+  "DeckName": "IVA Deck",
+  "Legal": {
+    "Standard": false,
+    "Historic": false,
+    "Pioneer": false,
+    "Modern": true,
+    "Legacy": true,
+    "Pauper": false,
+    "Commander": true
+  },
+  "Deck": [
+    {
+      "id": "541b9d55-f237-4ff2-9e47-c58a381f0633",
+      "Name": "Geist of Saint Traft",
+      "PrintedName": "Geist of Saint Traft",
+      "ManaCost": "{1}{W}{U}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        },
+        {
+          "Symbol": "U",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\U.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Hexproof (This creature can't be the target of spells or abilities your opponents control.)\nWhenever Geist of Saint Traft attacks, create a 4/4 white Angel creature token with flying that's tapped and attacking. Exile that token at end of combat.\r\n",
+      "Power": "2",
+      "Toughness": "2",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "voc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "mythic",
+      "Artist": "Igor Kieryluk",
+      "Flavor_Text": null,
+      "Units": 3,
+      "TotalPriceCardMarket": 1.92,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A4304035c-c3e4-4a19-aa1f-92a83d8aed1f&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/95084?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Commander-Innistrad-Crimson-Vow/Geist-of-Saint-Traft?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F254066%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.64,
+        "eurFoil": 0.0,
+        "usd": 0.53,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Legendary Creature",
+          "SuperType1": "Legendary",
+          "SuperType2": "Creature",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Spirit Cleric",
+          "CardType1": "Spirit",
+          "CardType2": "Cleric",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/5/4/541b9d55-f237-4ff2-9e47-c58a381f0633.jpg?1641603441",
+        "Normal": "https://cards.scryfall.io/normal/front/5/4/541b9d55-f237-4ff2-9e47-c58a381f0633.jpg?1641603441",
+        "Large": "https://cards.scryfall.io/large/front/5/4/541b9d55-f237-4ff2-9e47-c58a381f0633.jpg?1641603441",
+        "PNG": "https://cards.scryfall.io/png/front/5/4/541b9d55-f237-4ff2-9e47-c58a381f0633.png?1641603441"
+      }
+    },
+    {
+      "id": "c9f8b8fb-1cd8-450e-a1fe-892e7a323479",
+      "Name": "Thalia, Guardian of Thraben",
+      "PrintedName": "Thalia, Guardian of Thraben",
+      "ManaCost": "{1}{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 2.0,
+      "OracleText": "\r\n    First strike\nNoncreature spells cost {1} more to cast.\r\n",
+      "Power": "2",
+      "Toughness": "1",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "vow",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Magali Villeneuve",
+      "Flavor_Text": "\"Thraben belongs to the living. I will not rest until it is cleansed.\"",
+      "Units": 3,
+      "TotalPriceCardMarket": 1.26,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A9b7f1d05-707c-4ed3-9f0e-8ced1232c2ee&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/94372?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Innistrad-Crimson-Vow/Thalia-Guardian-of-Thraben?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F252859%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.42,
+        "eurFoil": 0.81,
+        "usd": 0.42,
+        "usdFoil": 0.61
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Legendary Creature",
+          "SuperType1": "Legendary",
+          "SuperType2": "Creature",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Human Soldier",
+          "CardType1": "Human",
+          "CardType2": "Soldier",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/c/9/c9f8b8fb-1cd8-450e-a1fe-892e7a323479.jpg?1643587106",
+        "Normal": "https://cards.scryfall.io/normal/front/c/9/c9f8b8fb-1cd8-450e-a1fe-892e7a323479.jpg?1643587106",
+        "Large": "https://cards.scryfall.io/large/front/c/9/c9f8b8fb-1cd8-450e-a1fe-892e7a323479.jpg?1643587106",
+        "PNG": "https://cards.scryfall.io/png/front/c/9/c9f8b8fb-1cd8-450e-a1fe-892e7a323479.png?1643587106"
+      }
+    },
+    {
+      "id": "9d3a7998-ccac-45ad-a4e9-3a2cb057f63b",
+      "Name": "Elite Spellbinder",
+      "PrintedName": "Elite Spellbinder",
+      "ManaCost": "{2}{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "2",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\2.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Flying\nWhen Elite Spellbinder enters, look at target opponent's hand. You may exile a nonland card from it. For as long as that card remains exiled, its owner may play it. A spell cast this way costs {2} more to cast.\r\n",
+      "Power": "3",
+      "Toughness": "1",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "stx",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Ryan Pancoast",
+      "Flavor_Text": "Paulo Vitor Damo da Rosa, World Champion XXVI",
+      "Units": 3,
+      "TotalPriceCardMarket": 0.93,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A8c4d7cbc-9cfc-4f0a-8844-e458ab806056&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/88511?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Strixhaven-School-of-Mages/Elite-Spellbinder?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F235554%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.31,
+        "eurFoil": 0.45,
+        "usd": 0.19,
+        "usdFoil": 0.22
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Creature",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Human Cleric",
+          "CardType1": "Human",
+          "CardType2": "Cleric",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/d/9d3a7998-ccac-45ad-a4e9-3a2cb057f63b.jpg?1624589440",
+        "Normal": "https://cards.scryfall.io/normal/front/9/d/9d3a7998-ccac-45ad-a4e9-3a2cb057f63b.jpg?1624589440",
+        "Large": "https://cards.scryfall.io/large/front/9/d/9d3a7998-ccac-45ad-a4e9-3a2cb057f63b.jpg?1624589440",
+        "PNG": "https://cards.scryfall.io/png/front/9/d/9d3a7998-ccac-45ad-a4e9-3a2cb057f63b.png?1624589440"
+      }
+    },
+    {
+      "id": "228c1650-da3c-4099-91b6-18e3873c9cdb",
+      "Name": "Archon of Emeria",
+      "PrintedName": "Archon of Emeria",
+      "ManaCost": "{2}{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "2",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\2.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Flying\nEach player can't cast more than one spell each turn.\nNonbasic lands your opponents control enter tapped.\r\n",
+      "Power": "2",
+      "Toughness": "3",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "znr",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Ryan Pancoast",
+      "Flavor_Text": "\"Archons dispense justice according to an ancient, and flawed, premise.\"\n—Nissa Revane",
+      "Units": 2,
+      "TotalPriceCardMarket": 4.54,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aceef2d5a-77ea-4e56-9806-fd1a2d5be400&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/82943?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Zendikar-Rising/Archon-of-Emeria?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F221969%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 2.27,
+        "eurFoil": 2.85,
+        "usd": 1.50,
+        "usdFoil": 1.91
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Creature",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Archon",
+          "CardType1": "Archon",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/2/2/228c1650-da3c-4099-91b6-18e3873c9cdb.jpg?1604195419",
+        "Normal": "https://cards.scryfall.io/normal/front/2/2/228c1650-da3c-4099-91b6-18e3873c9cdb.jpg?1604195419",
+        "Large": "https://cards.scryfall.io/large/front/2/2/228c1650-da3c-4099-91b6-18e3873c9cdb.jpg?1604195419",
+        "PNG": "https://cards.scryfall.io/png/front/2/2/228c1650-da3c-4099-91b6-18e3873c9cdb.png?1604195419"
+      }
+    },
+    {
+      "id": "c062937f-d519-4206-99b0-cbea01b85a0d",
+      "Name": "Thalia, Heretic Cathar",
+      "PrintedName": "Thalia, Heretic Cathar",
+      "ManaCost": "{2}{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "2",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\2.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    First strike\nCreatures and nonbasic lands your opponents control enter tapped.\r\n",
+      "Power": "3",
+      "Toughness": "2",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "inr",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Magali Villeneuve",
+      "Flavor_Text": "\"Salvation will not be granted by the Lunarch Council. It must be earned—at the edge of a sword, if necessary.\"",
+      "Units": 2,
+      "TotalPriceCardMarket": 2.98,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A13be47e4-9da2-4f9e-baf0-db96f7777ccb&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/135450?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Innistrad-Remastered/Thalia-Heretic-Cathar?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F609605%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 1.49,
+        "eurFoil": 0.86,
+        "usd": 0.59,
+        "usdFoil": 0.74
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Legendary Creature",
+          "SuperType1": "Legendary",
+          "SuperType2": "Creature",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Human Soldier",
+          "CardType1": "Human",
+          "CardType2": "Soldier",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/c/0/c062937f-d519-4206-99b0-cbea01b85a0d.jpg?1736467601",
+        "Normal": "https://cards.scryfall.io/normal/front/c/0/c062937f-d519-4206-99b0-cbea01b85a0d.jpg?1736467601",
+        "Large": "https://cards.scryfall.io/large/front/c/0/c062937f-d519-4206-99b0-cbea01b85a0d.jpg?1736467601",
+        "PNG": "https://cards.scryfall.io/png/front/c/0/c062937f-d519-4206-99b0-cbea01b85a0d.png?1736467601"
+      }
+    },
+    {
+      "id": "c3bc8b9e-4d22-41ba-b593-d383fd301ef9",
+      "Name": "Eidolon of Rhetoric",
+      "PrintedName": "Eidolon of Rhetoric",
+      "ManaCost": "{2}{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "2",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\2.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Each player can't cast more than one spell each turn.\r\n",
+      "Power": "1",
+      "Toughness": "4",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "jou",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Ryan Yee",
+      "Flavor_Text": "It is the soul of a philosopher who died of starvation contemplating the universe.",
+      "Units": 2,
+      "TotalPriceCardMarket": 1.46,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A33017203-233e-498e-806e-94b1dccf5c35&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/52232?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Journey-into-Nyx/Eidolon-of-Rhetoric?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F82243%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.73,
+        "eurFoil": 4.56,
+        "usd": 0.48,
+        "usdFoil": 5.35
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Enchantment Creature",
+          "SuperType1": "Enchantment",
+          "SuperType2": "Creature",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Spirit",
+          "CardType1": "Spirit",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/c/3/c3bc8b9e-4d22-41ba-b593-d383fd301ef9.jpg?1593095228",
+        "Normal": "https://cards.scryfall.io/normal/front/c/3/c3bc8b9e-4d22-41ba-b593-d383fd301ef9.jpg?1593095228",
+        "Large": "https://cards.scryfall.io/large/front/c/3/c3bc8b9e-4d22-41ba-b593-d383fd301ef9.jpg?1593095228",
+        "PNG": "https://cards.scryfall.io/png/front/c/3/c3bc8b9e-4d22-41ba-b593-d383fd301ef9.png?1593095228"
+      }
+    },
+    {
+      "id": "b5b71cd2-de35-451f-b16e-2e3936169407",
+      "Name": "Bonecrusher Giant // Stomp",
+      "PrintedName": "Bonecrusher Giant // Stomp",
+      "ManaCost": "{2}{R} // {1}{R}",
+      "ManaCostView": [
+        {
+          "Symbol": "2",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\2.png"
+        },
+        {
+          "Symbol": "R",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\R.png"
+        },
+        {
+          "Symbol": "R",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\R.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    \r\n",
+      "Power": "4",
+      "Toughness": "3",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "clb",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Victor Adame Minguez",
+      "Flavor_Text": "Not every tale ends in glory.",
+      "Units": 3,
+      "TotalPriceCardMarket": 1.11,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ad6d72f5f-8f5d-4180-b514-f22ff5482902&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/101104?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Commander-Legends-Battle-for-Baldurs-Gate-Extras/Bonecrusher-Giant-Stomp?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F273681%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.37,
+        "eurFoil": 0.0,
+        "usd": 0.29,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Creature",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Giant Instant",
+          "CardType1": "Giant",
+          "CardType2": "Instant",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/b/5/b5b71cd2-de35-451f-b16e-2e3936169407.jpg?1674141884",
+        "Normal": "https://cards.scryfall.io/normal/front/b/5/b5b71cd2-de35-451f-b16e-2e3936169407.jpg?1674141884",
+        "Large": "https://cards.scryfall.io/large/front/b/5/b5b71cd2-de35-451f-b16e-2e3936169407.jpg?1674141884",
+        "PNG": "https://cards.scryfall.io/png/front/b/5/b5b71cd2-de35-451f-b16e-2e3936169407.png?1674141884"
+      }
+    },
+    {
+      "id": "42ce2d7f-5924-47c0-b5ed-dacf9f9617a0",
+      "Name": "Authority of the Consuls",
+      "PrintedName": "Authority of the Consuls",
+      "ManaCost": "{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 1.0,
+      "OracleText": "\r\n    Creatures your opponents control enter tapped.\nWhenever a creature an opponent controls enters, you gain 1 life.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "fdn",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Lake Hurwitz",
+      "Flavor_Text": "Citizens are free to do as they wish, within the confines of the Consulate's laws.",
+      "Units": 4,
+      "TotalPriceCardMarket": 18.36,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A55f3c721-e13a-406e-bc8e-d6cdc91ac477&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/133300?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Magic-The-Gathering-Foundations/Authority-of-the-Consuls?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F591298%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 4.59,
+        "eurFoil": 5.44,
+        "usd": 6.01,
+        "usdFoil": 7.35
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Enchantment",
+          "SuperType1": "Enchantment",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/4/2/42ce2d7f-5924-47c0-b5ed-dacf9f9617a0.jpg?1730489114",
+        "Normal": "https://cards.scryfall.io/normal/front/4/2/42ce2d7f-5924-47c0-b5ed-dacf9f9617a0.jpg?1730489114",
+        "Large": "https://cards.scryfall.io/large/front/4/2/42ce2d7f-5924-47c0-b5ed-dacf9f9617a0.jpg?1730489114",
+        "PNG": "https://cards.scryfall.io/png/front/4/2/42ce2d7f-5924-47c0-b5ed-dacf9f9617a0.png?1730489114"
+      }
+    },
+    {
+      "id": "9995e0e6-7c9c-4fef-8fd2-8fb1622e6ec8",
+      "Name": "High Noon",
+      "PrintedName": "High Noon",
+      "ManaCost": "{1}{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 2.0,
+      "OracleText": "\r\n    Each player can't cast more than one spell each turn.\n{4}{R}, Sacrifice High Noon: It deals 5 damage to any target.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "otj",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Eduardo Francisco",
+      "Flavor_Text": "They both knew only one of them would walk away.",
+      "Units": 3,
+      "TotalPriceCardMarket": 2.79,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A3c8cbf0f-0288-4b5e-bd4f-0f208670b6b5&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/123941?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Outlaws-of-Thunder-Junction/High-Noon?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F544336%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.93,
+        "eurFoil": 1.01,
+        "usd": 0.56,
+        "usdFoil": 0.79
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Enchantment",
+          "SuperType1": "Enchantment",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/9/9995e0e6-7c9c-4fef-8fd2-8fb1622e6ec8.jpg?1712355285",
+        "Normal": "https://cards.scryfall.io/normal/front/9/9/9995e0e6-7c9c-4fef-8fd2-8fb1622e6ec8.jpg?1712355285",
+        "Large": "https://cards.scryfall.io/large/front/9/9/9995e0e6-7c9c-4fef-8fd2-8fb1622e6ec8.jpg?1712355285",
+        "PNG": "https://cards.scryfall.io/png/front/9/9/9995e0e6-7c9c-4fef-8fd2-8fb1622e6ec8.png?1712355285"
+      }
+    },
+    {
+      "id": "6072d9b0-d3c7-46f4-bd24-095bb13c4dea",
+      "Name": "Deafening Silence",
+      "PrintedName": "Deafening Silence",
+      "ManaCost": "{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 1.0,
+      "OracleText": "\r\n    Each player can't cast more than one noncreature spell each turn.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "eld",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Igor Kieryluk",
+      "Flavor_Text": "\"They have forsaken their vows. The edict of the Circle demands their voices be silenced.\"\n—Syr Tasdale, knight of Ardenvale",
+      "Units": 3,
+      "TotalPriceCardMarket": 3.39,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A6284ef01-d17d-4584-aecb-1b841ae638e5&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/78108?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Throne-of-Eldraine/Deafening-Silence?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F199001%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 1.13,
+        "eurFoil": 3.22,
+        "usd": 1.55,
+        "usdFoil": 3.47
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Enchantment",
+          "SuperType1": "Enchantment",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/6/0/6072d9b0-d3c7-46f4-bd24-095bb13c4dea.jpg?1572489660",
+        "Normal": "https://cards.scryfall.io/normal/front/6/0/6072d9b0-d3c7-46f4-bd24-095bb13c4dea.jpg?1572489660",
+        "Large": "https://cards.scryfall.io/large/front/6/0/6072d9b0-d3c7-46f4-bd24-095bb13c4dea.jpg?1572489660",
+        "PNG": "https://cards.scryfall.io/png/front/6/0/6072d9b0-d3c7-46f4-bd24-095bb13c4dea.png?1572489660"
+      }
+    },
+    {
+      "id": "989f8049-c4d2-4729-b35f-7bd7d8cbcb06",
+      "Name": "Warleader's Helix",
+      "PrintedName": "Warleader's Helix",
+      "ManaCost": "{2}{R}{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "2",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\2.png"
+        },
+        {
+          "Symbol": "R",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\R.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 4.0,
+      "OracleText": "\r\n    Warleader's Helix deals 4 damage to any target and you gain 4 life.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "uma",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Wesley Burt",
+      "Flavor_Text": "\"There is no time to remedy our enemies' ignorance. Blast it out of them.\"\n—Aurelia",
+      "Units": 2,
+      "TotalPriceCardMarket": 0.22,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ab1ea88f5-162b-4f08-bec3-be1f06dec392&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/70493?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Ultimate-Masters/Warleader-s-Helix?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F180918%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.11,
+        "eurFoil": 0.50,
+        "usd": 0.11,
+        "usdFoil": 0.27
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.jpg?1547518136",
+        "Normal": "https://cards.scryfall.io/normal/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.jpg?1547518136",
+        "Large": "https://cards.scryfall.io/large/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.jpg?1547518136",
+        "PNG": "https://cards.scryfall.io/png/front/9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb06.png?1547518136"
+      }
+    },
+    {
+      "id": "4101e3fe-b0e7-4f0f-b9ac-9b61a4d628b3",
+      "Name": "Lightning Helix",
+      "PrintedName": "Lightning Helix",
+      "ManaCost": "{R}{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "R",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\R.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 2.0,
+      "OracleText": "\r\n    Lightning Helix deals 3 damage to any target and you gain 3 life.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "mkm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Eli Minaya",
+      "Flavor_Text": "After heavy casualties in the Phyrexian invasion, the Boros mage-priests trained as many rank-and-file soldiers as possible to wield the Legion's legendary battle magic.",
+      "Units": 4,
+      "TotalPriceCardMarket": 0.68,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A800c258a-cfc4-4a54-a667-065ea8dea69e&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/121910?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Murders-at-Karlov-Manor/Lightning-Helix?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F530010%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.17,
+        "eurFoil": 0.24,
+        "usd": 0.14,
+        "usdFoil": 0.28
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/4/1/4101e3fe-b0e7-4f0f-b9ac-9b61a4d628b3.jpg?1706242208",
+        "Normal": "https://cards.scryfall.io/normal/front/4/1/4101e3fe-b0e7-4f0f-b9ac-9b61a4d628b3.jpg?1706242208",
+        "Large": "https://cards.scryfall.io/large/front/4/1/4101e3fe-b0e7-4f0f-b9ac-9b61a4d628b3.jpg?1706242208",
+        "PNG": "https://cards.scryfall.io/png/front/4/1/4101e3fe-b0e7-4f0f-b9ac-9b61a4d628b3.png?1706242208"
+      }
+    },
+    {
+      "id": "882969d8-7e3e-4f32-858a-00da20c67b83",
+      "Name": "Wind-Scarred Crag",
+      "PrintedName": "Wind-Scarred Crag",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {R} or {W}.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "dft",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "common",
+      "Artist": "Svetlin Velinov",
+      "Flavor_Text": "Team Cloudspire burns with the pride and passion typical of competitors on Kylem. As the reigning champions of the Ghirapur Grand Prix, they have no intention of losing their title.",
+      "Units": 4,
+      "TotalPriceCardMarket": 0.0,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ab0af0c54-2a59-4075-8543-d41ff20c4c87&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Wind-Scarred+Crag&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Aetherdrift/Wind-Scarred-Crag?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614436%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.0,
+        "eurFoil": 0.0,
+        "usd": 0.0,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Land",
+          "SuperType1": "Land",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/8/8/882969d8-7e3e-4f32-858a-00da20c67b83.jpg?1737503802",
+        "Normal": "https://cards.scryfall.io/normal/front/8/8/882969d8-7e3e-4f32-858a-00da20c67b83.jpg?1737503802",
+        "Large": "https://cards.scryfall.io/large/front/8/8/882969d8-7e3e-4f32-858a-00da20c67b83.jpg?1737503802",
+        "PNG": "https://cards.scryfall.io/png/front/8/8/882969d8-7e3e-4f32-858a-00da20c67b83.png?1737503802"
+      }
+    },
+    {
+      "id": "949bf6bb-1e97-48a3-8547-0a780664c275",
+      "Name": "Swiftwater Cliffs",
+      "PrintedName": "Swiftwater Cliffs",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {U} or {R}.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "dft",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "common",
+      "Artist": "Mark Poole",
+      "Flavor_Text": "The Keelhaulers channel their prey drive into thrilling, cutthroat pursuits. Glory is all the sweeter when it's won at the expense of others.",
+      "Units": 4,
+      "TotalPriceCardMarket": 0.0,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A2f4ad084-2062-44c0-9975-15f100204531&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Swiftwater+Cliffs&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Aetherdrift/Swiftwater-Cliffs?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614426%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.0,
+        "eurFoil": 0.0,
+        "usd": 0.0,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Land",
+          "SuperType1": "Land",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/4/949bf6bb-1e97-48a3-8547-0a780664c275.jpg?1737503710",
+        "Normal": "https://cards.scryfall.io/normal/front/9/4/949bf6bb-1e97-48a3-8547-0a780664c275.jpg?1737503710",
+        "Large": "https://cards.scryfall.io/large/front/9/4/949bf6bb-1e97-48a3-8547-0a780664c275.jpg?1737503710",
+        "PNG": "https://cards.scryfall.io/png/front/9/4/949bf6bb-1e97-48a3-8547-0a780664c275.png?1737503710"
+      }
+    },
+    {
+      "id": "70688800-7675-4e75-bb3c-9e05b95a685c",
+      "Name": "Tranquil Cove",
+      "PrintedName": "Tranquil Cove",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {W} or {U}.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "dft",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "common",
+      "Artist": "Wayne Wu",
+      "Flavor_Text": "The Guidelight Voyagers seek only a means to return home, hoping to one day discover a way back among the many worlds they race across.",
+      "Units": 4,
+      "TotalPriceCardMarket": 0.0,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A5d641bf6-0f93-4189-8dc1-ec7ea446dade&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Tranquil+Cove&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Aetherdrift/Tranquil-Cove?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614428%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.0,
+        "eurFoil": 0.0,
+        "usd": 0.25,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Land",
+          "SuperType1": "Land",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/7/0/70688800-7675-4e75-bb3c-9e05b95a685c.jpg?1737503772",
+        "Normal": "https://cards.scryfall.io/normal/front/7/0/70688800-7675-4e75-bb3c-9e05b95a685c.jpg?1737503772",
+        "Large": "https://cards.scryfall.io/large/front/7/0/70688800-7675-4e75-bb3c-9e05b95a685c.jpg?1737503772",
+        "PNG": "https://cards.scryfall.io/png/front/7/0/70688800-7675-4e75-bb3c-9e05b95a685c.png?1737503772"
+      }
+    },
+    {
+      "id": "cef133d9-26d2-4a1e-8d6a-829f1067c169",
+      "Name": "Glacial Fortress",
+      "PrintedName": "Glacial Fortress",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    Glacial Fortress enters tapped unless you control a Plains or an Island.\n{T}: Add {W} or {U}.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "xln",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "James Paick",
+      "Flavor_Text": "Ships blown north in their voyage across the Stormwreck Sea become trapped in the unmelting ice.",
+      "Units": 4,
+      "TotalPriceCardMarket": 3.96,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A027dd013-baa7-4111-b3c9-f4d1414e9c45&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/65540?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Ixalan/Glacial-Fortress?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F142037%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.99,
+        "eurFoil": 3.48,
+        "usd": 0.87,
+        "usdFoil": 3.79
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Land",
+          "SuperType1": "Land",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/c/e/cef133d9-26d2-4a1e-8d6a-829f1067c169.jpg?1562564197",
+        "Normal": "https://cards.scryfall.io/normal/front/c/e/cef133d9-26d2-4a1e-8d6a-829f1067c169.jpg?1562564197",
+        "Large": "https://cards.scryfall.io/large/front/c/e/cef133d9-26d2-4a1e-8d6a-829f1067c169.jpg?1562564197",
+        "PNG": "https://cards.scryfall.io/png/front/c/e/cef133d9-26d2-4a1e-8d6a-829f1067c169.png?1562564197"
+      }
+    },
+    {
+      "id": "b5f528aa-f375-40c3-b701-8643bef0f957",
+      "Name": "Sulfur Falls",
+      "PrintedName": "Sulfur Falls",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    Sulfur Falls enters tapped unless you control an Island or a Mountain.\n{T}: Add {U} or {R}.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "otc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Cliff Childs",
+      "Flavor_Text": "\"We have inherited the mysteries of the Thran, but few of the answers.\"\n—Jhoira",
+      "Units": 4,
+      "TotalPriceCardMarket": 3.40,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A6a6c5e17-6465-4a1f-9d63-8a3ce2edc522&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/125107?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Commander-Outlaws-of-Thunder-Junction/Sulfur-Falls?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F545317%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.85,
+        "eurFoil": 0.0,
+        "usd": 0.88,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Land",
+          "SuperType1": "Land",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/b/5/b5f528aa-f375-40c3-b701-8643bef0f957.jpg?1712355137",
+        "Normal": "https://cards.scryfall.io/normal/front/b/5/b5f528aa-f375-40c3-b701-8643bef0f957.jpg?1712355137",
+        "Large": "https://cards.scryfall.io/large/front/b/5/b5f528aa-f375-40c3-b701-8643bef0f957.jpg?1712355137",
+        "PNG": "https://cards.scryfall.io/png/front/b/5/b5f528aa-f375-40c3-b701-8643bef0f957.png?1712355137"
+      }
+    },
+    {
+      "id": "dead85f7-865c-4f7d-ad6c-014d4e90f8be",
+      "Name": "Castle Vantress",
+      "PrintedName": "Castle Vantress",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    Castle Vantress enters tapped unless you control an Island.\n{T}: Add {U}.\n{2}{U}{U}, {T}: Scry 2.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "dsc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "John Avon",
+      "Flavor_Text": "Without Vantress's knowledge, the realm would lose itself in darkness.",
+      "Units": 2,
+      "TotalPriceCardMarket": 0.58,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Acdf41cf4-4e77-453d-be5b-0abbbd358934&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/131159?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Commander-Duskmourn-House-of-Horror/Castle-Vantress?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F577884%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.29,
+        "eurFoil": 0.0,
+        "usd": 0.20,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Land",
+          "SuperType1": "Land",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/d/e/dead85f7-865c-4f7d-ad6c-014d4e90f8be.jpg?1726285380",
+        "Normal": "https://cards.scryfall.io/normal/front/d/e/dead85f7-865c-4f7d-ad6c-014d4e90f8be.jpg?1726285380",
+        "Large": "https://cards.scryfall.io/large/front/d/e/dead85f7-865c-4f7d-ad6c-014d4e90f8be.jpg?1726285380",
+        "PNG": "https://cards.scryfall.io/png/front/d/e/dead85f7-865c-4f7d-ad6c-014d4e90f8be.png?1726285380"
+      }
+    },
+    {
+      "id": "a7aed564-2d2d-42c4-bf11-812bc1a0284c",
+      "Name": "Path to Exile",
+      "PrintedName": "Path to Exile",
+      "ManaCost": "{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 1.0,
+      "OracleText": "\r\n    Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "otc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Todd Lockwood",
+      "Flavor_Text": null,
+      "Units": 2,
+      "TotalPriceCardMarket": 2.14,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ad683d985-9888-4d21-8b5f-69e69ce4a03b&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/124629?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Commander-Outlaws-of-Thunder-Junction/Path-to-Exile?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F545110%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 1.07,
+        "eurFoil": 0.0,
+        "usd": 0.84,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/a/7/a7aed564-2d2d-42c4-bf11-812bc1a0284c.jpg?1712354092",
+        "Normal": "https://cards.scryfall.io/normal/front/a/7/a7aed564-2d2d-42c4-bf11-812bc1a0284c.jpg?1712354092",
+        "Large": "https://cards.scryfall.io/large/front/a/7/a7aed564-2d2d-42c4-bf11-812bc1a0284c.jpg?1712354092",
+        "PNG": "https://cards.scryfall.io/png/front/a/7/a7aed564-2d2d-42c4-bf11-812bc1a0284c.png?1712354092"
+      }
+    },
+    {
+      "id": "aa8e16fa-30f8-40ac-965d-3d0776dc8f74",
+      "Name": "Sun Titan",
+      "PrintedName": "Sun Titan",
+      "ManaCost": "{4}{W}{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "4",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\4.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 6.0,
+      "OracleText": "\r\n    Vigilance\nWhenever Sun Titan enters or attacks, you may return target permanent card with mana value 3 or less from your graveyard to the battlefield.\r\n",
+      "Power": "6",
+      "Toughness": "6",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "otc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "mythic",
+      "Artist": "Todd Lockwood",
+      "Flavor_Text": "A blazing sun that never sets.",
+      "Units": 2,
+      "TotalPriceCardMarket": 0.72,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ab2e950fb-cb7e-40a0-a311-5bbdd0477b29&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/124633?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Commander-Outlaws-of-Thunder-Junction/Sun-Titan?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F545068%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.36,
+        "eurFoil": 0.0,
+        "usd": 0.32,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Creature",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Giant",
+          "CardType1": "Giant",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/a/a/aa8e16fa-30f8-40ac-965d-3d0776dc8f74.jpg?1712354100",
+        "Normal": "https://cards.scryfall.io/normal/front/a/a/aa8e16fa-30f8-40ac-965d-3d0776dc8f74.jpg?1712354100",
+        "Large": "https://cards.scryfall.io/large/front/a/a/aa8e16fa-30f8-40ac-965d-3d0776dc8f74.jpg?1712354100",
+        "PNG": "https://cards.scryfall.io/png/front/a/a/aa8e16fa-30f8-40ac-965d-3d0776dc8f74.png?1712354100"
+      }
+    }
+  ],
+  "SideBoard": [],
+  "SideboardCount": 0,
+  "TotalMainCards": 60,
+  "CreatureCount": 20,
+  "SorceryAndInstantsCount": 8,
+  "EnchantmentCount": 12,
+  "PlaneswalkerCount": 0,
+  "LandCount": 22,
+  "TotalNonCreatureAndInstantSpells": 20,
+  "TotalMainDeckPrice": 50.44,
+  "TotalSideboardPrice": 0.0,
+  "TotalDeckPrice": 50.44,
+  "CreateDate": "2025-01-30T09:17:46.5311012+01:00",
+  "DeleteDate": null
+}

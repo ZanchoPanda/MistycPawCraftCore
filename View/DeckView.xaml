@@ -1,0 +1,739 @@
+﻿<UserControl
+    x:Class="MistycPawCraftCore.View.DeckView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Enums="clr-namespace:MistycPawCraftCore.Utils.Enums"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MistycPawCraftCore.View"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    xmlns:viewmodel="clr-namespace:MistycPawCraftCore.ViewModel"
+    xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    Background="{DynamicResource MaterialDesignPaper}"
+    FontFamily="{DynamicResource MaterialDesignFont}"
+    TextElement.FontSize="13"
+    TextElement.FontWeight="Regular"
+    TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+    TextOptions.TextFormattingMode="Ideal"
+    TextOptions.TextRenderingMode="Auto"
+    mc:Ignorable="d">
+    <UserControl.DataContext>
+        <viewmodel:DeckViewModel />
+    </UserControl.DataContext>
+    <UserControl.Resources>
+        <Enums:EnumDescriptionConverter x:Key="EnumDescriptionConverter" />
+        <Style x:Key="RightCell" TargetType="{x:Type TextBlock}">
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="TextAlignment" Value="Right" />
+        </Style>
+        <Style x:Key="CenterCell" TargetType="{x:Type TextBlock}">
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="TextAlignment" Value="Center" />
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="15" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel
+            Grid.ColumnSpan="5"
+            HorizontalAlignment="Stretch"
+            Orientation="Horizontal">
+
+            <Label
+                Grid.Row="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Right"
+                VerticalContentAlignment="Bottom"
+                Content="{DynamicResource Deck}"
+                Style="{StaticResource MaterialDesignLabel}" />
+
+            <ComboBox
+                Grid.Row="0"
+                MinWidth="100"
+                Margin="5,0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Bottom"
+                DisplayMemberPath="DeckName"
+                ItemsSource="{Binding ListaDecks}"
+                SelectedItem="{Binding DeckSeleccionado, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                SelectedValuePath="{Binding DeckName}" />
+
+            <Button
+                Grid.Row="0"
+                Margin="5,0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Command="{Binding NewDeckCommand}"
+                Foreground="Green"
+                Style="{StaticResource MaterialDesignOutlinedButton}">
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="ArchiveAddOutline" />
+                    <TextBlock
+                        Margin="5,0"
+                        VerticalAlignment="Center"
+                        Text="{DynamicResource NewDeck}" />
+                </StackPanel>
+            </Button>
+            <Button
+                Grid.Row="0"
+                Margin="5,0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Command="{Binding DeleteDeckCommand}"
+                Foreground="DarkRed"
+                Style="{StaticResource MaterialDesignOutlinedButton}"
+                Visibility="{Binding IsSelectedDeck, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="ArchiveRemoveOutline" />
+                    <TextBlock
+                        Margin="5,0"
+                        VerticalAlignment="Center"
+                        Text="{DynamicResource RemoveDeck}" />
+                </StackPanel>
+            </Button>
+
+            <Button
+                Grid.Row="0"
+                Margin="5,0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Command="{Binding RecoverDeletedDecksCommand}"
+                Foreground="CornflowerBlue"
+                Style="{StaticResource MaterialDesignOutlinedButton}">
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="ArchiveRefreshOutline" />
+                    <TextBlock
+                        Margin="5,0"
+                        VerticalAlignment="Center"
+                        Text="{DynamicResource RecoverDeck}" />
+                </StackPanel>
+            </Button>
+
+
+        </StackPanel>
+
+        <StackPanel
+            Grid.Column="1"
+            HorizontalAlignment="Right"
+            Orientation="Horizontal">
+            <Button
+                Margin="5,0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Command="{Binding ImportDeckCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="Import" />
+                    <TextBlock
+                        Margin="5,0"
+                        VerticalAlignment="Center"
+                        Text="{DynamicResource Import}" />
+                </StackPanel>
+            </Button>
+            <Button
+                Margin="5,0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Command="{Binding ExportDeckCommand}"
+                Style="{StaticResource MaterialDesignOutlinedButton}"
+                Visibility="{Binding IsSelectedDeck, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock
+                        Margin="5,0"
+                        VerticalAlignment="Center"
+                        Text="{DynamicResource Export}" />
+                    <materialDesign:PackIcon Kind="Export" />
+                </StackPanel>
+            </Button>
+        </StackPanel>
+
+        <Separator
+            Grid.Row="1"
+            Grid.ColumnSpan="2"
+            VerticalAlignment="Bottom" />
+
+        <Grid
+            Grid.Row="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Visibility="{Binding IsSelectedDeck, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="55" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+
+            <!--#region Line 1-->
+            <DataGrid
+                Grid.Row="0"
+                Grid.Column="0"
+                AutoGenerateColumns="False"
+                CanUserAddRows="False"
+                CanUserDeleteRows="False"
+                ItemsSource="{Binding DeckSeleccionado.Deck}"
+                MouseDoubleClick="ShowCardImage"
+                SelectedItem="{Binding SelectedCard, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                SelectionMode="Extended"
+                SelectionUnit="FullRow">
+                <DataGrid.Columns>
+                    <!--<DataGridTextColumn
+                        Width="1.5*"
+                        Binding="{Binding ManaCost}"
+                        Header="Mana Cost"
+                        IsReadOnly="True" />-->
+                    <DataGridTemplateColumn
+                        Width="1.5*"
+                        Header="{DynamicResource ManaCost}"
+                        IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <ItemsControl ItemsSource="{Binding ManaCostView}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Image
+                                                Width="20"
+                                                Height="20"
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Source="{Binding SymbolPath}"
+                                                ToolTip="{Binding Symbol}" />
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                    <ItemsControl.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <StackPanel Orientation="Horizontal" />
+                                        </ItemsPanelTemplate>
+                                    </ItemsControl.ItemsPanel>
+                                </ItemsControl>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTextColumn
+                        Width="3*"
+                        Binding="{Binding Name}"
+                        Header="{DynamicResource Card}"
+                        IsReadOnly="True" />
+                    <!--<DataGridTextColumn
+                        Width="2*"
+                        Binding="{Binding TypeAndClass.CardType.FullCardType}"
+                        Header="Type"
+                        IsReadOnly="True" />-->
+                    <DataGridTextColumn
+                        Width="2*"
+                        Binding="{Binding TypeAndClass.SuperType.FullSuperType}"
+                        Header="{DynamicResource Type}"
+                        IsReadOnly="True" />
+                    <DataGridTextColumn
+                        Width="1.5*"
+                        Binding="{Binding Units}"
+                        ElementStyle="{StaticResource CenterCell}"
+                        Header="{DynamicResource Quantity}" />
+                    <DataGridTextColumn
+                        Width="2*"
+                        Binding="{Binding CardMarketPrice.eur}"
+                        ElementStyle="{StaticResource RightCell}"
+                        Header="{DynamicResource Price}"
+                        IsReadOnly="True" />
+                    <DataGridTextColumn
+                        Width="2*"
+                        Binding="{Binding TotalPriceCardMarket}"
+                        ElementStyle="{StaticResource RightCell}"
+                        Header="{DynamicResource Total}"
+                        IsReadOnly="True" />
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!--#region Buttons-->
+
+            <StackPanel
+                Grid.Row="0"
+                Grid.Column="1"
+                Orientation="Vertical">
+                <Button
+                    Width="45"
+                    Margin="0,5"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Command="{Binding AddCardMainDeckCommmand}"
+                    Style="{StaticResource MaterialDesignOutlinedButton}"
+                    ToolTip="{DynamicResource AddCard}">
+                    <materialDesign:PackIcon Kind="Add" />
+                </Button>
+
+                <Button
+                    Width="45"
+                    Margin="0,5"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Command="{Binding DeleteMainCardCommand}"
+                    Style="{StaticResource MaterialDesignOutlinedButton}"
+                    ToolTip="{DynamicResource DeleteCard}">
+                    <materialDesign:PackIcon Kind="Remove" />
+                </Button>
+
+            </StackPanel>
+
+            <!--#endregion-->
+
+            <Grid Grid.Row="0" Grid.Column="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="75" />
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="75" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45" />
+                    <RowDefinition Height="45" />
+                    <RowDefinition Height="45" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center"
+                    HorizontalContentAlignment="Right"
+                    VerticalContentAlignment="Center"
+                    Content="{DynamicResource Standard}"
+                    FontWeight="Bold"
+                    Style="{StaticResource MaterialDesignLabel}" />
+                <TextBlock
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center">
+                    <TextBlock.Style>
+                        <Style TargetType="TextBlock">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding DeckSeleccionado.Legal.Standard, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Value="True">
+                                    <Setter Property="Text" Value="{DynamicResource Legal}" />
+                                    <Setter Property="Foreground" Value="Green" />
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding DeckSeleccionado.Legal.Standard, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Value="False">
+                                    <Setter Property="Text" Value="{DynamicResource NotLegal}" />
+                                    <Setter Property="Foreground" Value="Red" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+
+                <Label
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center"
+                    HorizontalContentAlignment="Right"
+                    VerticalContentAlignment="Bottom"
+                    Content="{DynamicResource Modern}"
+                    FontWeight="Bold"
+                    Style="{StaticResource MaterialDesignLabel}" />
+                <TextBlock
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center">
+                    <TextBlock.Style>
+                        <Style TargetType="TextBlock">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding DeckSeleccionado.Legal.Modern, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Value="True">
+                                    <Setter Property="Text" Value="{DynamicResource Legal}" />
+                                    <Setter Property="Foreground" Value="Green" />
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding DeckSeleccionado.Legal.Modern, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Value="False">
+                                    <Setter Property="Text" Value="{DynamicResource NotLegal}" />
+                                    <Setter Property="Foreground" Value="Red" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+
+                <Label
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center"
+                    HorizontalContentAlignment="Right"
+                    VerticalContentAlignment="Bottom"
+                    Content="{DynamicResource Commander}"
+                    FontWeight="Bold"
+                    Style="{StaticResource MaterialDesignLabel}" />
+                <TextBlock
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center">
+                    <TextBlock.Style>
+                        <Style TargetType="TextBlock">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding DeckSeleccionado.Legal.Commander, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Value="True">
+                                    <Setter Property="Text" Value="{DynamicResource Legal}" />
+                                    <Setter Property="Foreground" Value="Green" />
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding DeckSeleccionado.Legal.Commander, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Value="False">
+                                    <Setter Property="Text" Value="{DynamicResource NotLegal}" />
+                                    <Setter Property="Foreground" Value="Red" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center"
+                    HorizontalContentAlignment="Right"
+                    VerticalContentAlignment="Bottom"
+                    Content="{DynamicResource Pioneer}"
+                    FontWeight="Bold"
+                    Style="{StaticResource MaterialDesignLabel}" />
+                <TextBlock
+                    Grid.Row="0"
+                    Grid.Column="3"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center">
+                    <TextBlock.Style>
+                        <Style TargetType="TextBlock">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding DeckSeleccionado.Legal.Pioneer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Value="True">
+                                    <Setter Property="Text" Value="{DynamicResource Legal}" />
+                                    <Setter Property="Foreground" Value="Green" />
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding DeckSeleccionado.Legal.Pioneer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Value="False">
+                                    <Setter Property="Text" Value="{DynamicResource NotLegal}" />
+                                    <Setter Property="Foreground" Value="Red" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+
+                <Label
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center"
+                    HorizontalContentAlignment="Right"
+                    VerticalContentAlignment="Bottom"
+                    Content="{DynamicResource Legacy}"
+                    FontWeight="Bold"
+                    Style="{StaticResource MaterialDesignLabel}" />
+                <TextBlock
+                    Grid.Row="1"
+                    Grid.Column="3"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center">
+                    <TextBlock.Style>
+                        <Style TargetType="TextBlock">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding DeckSeleccionado.Legal.Legacy, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Value="True">
+                                    <Setter Property="Text" Value="{DynamicResource Legal}" />
+                                    <Setter Property="Foreground" Value="Green" />
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding DeckSeleccionado.Legal.Legacy, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Value="False">
+                                    <Setter Property="Text" Value="{DynamicResource NotLegal}" />
+                                    <Setter Property="Foreground" Value="Red" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+
+                <Label
+                    Grid.Row="2"
+                    Grid.Column="2"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center"
+                    HorizontalContentAlignment="Right"
+                    VerticalContentAlignment="Bottom"
+                    Content="{DynamicResource Pauper}"
+                    FontWeight="Bold"
+                    Style="{StaticResource MaterialDesignLabel}" />
+                <TextBlock
+                    Grid.Row="2"
+                    Grid.Column="3"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center">
+                    <TextBlock.Style>
+                        <Style TargetType="TextBlock">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding DeckSeleccionado.Legal.Pauper, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Value="True">
+                                    <Setter Property="Text" Value="{DynamicResource Legal}" />
+                                    <Setter Property="Foreground" Value="Green" />
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding DeckSeleccionado.Legal.Pauper, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Value="False">
+                                    <Setter Property="Text" Value="{DynamicResource NotLegal}" />
+                                    <Setter Property="Foreground" Value="Red" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+
+                <StackPanel
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Bottom"
+                    Orientation="Vertical">
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Center"
+                            HorizontalContentAlignment="Right"
+                            VerticalContentAlignment="Bottom"
+                            Content="{DynamicResource MainDeckCount}"
+                            FontWeight="Bold"
+                            Style="{StaticResource MaterialDesignLabel}" />
+                        <TextBlock
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Text="{Binding DeckSeleccionado.TotalMainCards, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Center"
+                            HorizontalContentAlignment="Right"
+                            VerticalContentAlignment="Bottom"
+                            Content="{DynamicResource SideboardCount}"
+                            FontWeight="Bold"
+                            Style="{StaticResource MaterialDesignLabel}" />
+                        <TextBlock
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Text="{Binding DeckSeleccionado.SideboardCount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                </StackPanel>
+
+                <StackPanel
+                    Grid.Row="3"
+                    Grid.Column="2"
+                    Grid.ColumnSpan="2"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Bottom"
+                    Orientation="Vertical">
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Center"
+                            HorizontalContentAlignment="Right"
+                            VerticalContentAlignment="Bottom"
+                            Content="{DynamicResource MainDeckPrice}"
+                            FontWeight="Bold"
+                            Style="{StaticResource MaterialDesignLabel}" />
+                        <TextBlock
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Text="{Binding DeckSeleccionado.TotalMainDeckPrice, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Center"
+                            HorizontalContentAlignment="Right"
+                            VerticalContentAlignment="Bottom"
+                            Content="{DynamicResource SideboardPrice}"
+                            FontWeight="Bold"
+                            Style="{StaticResource MaterialDesignLabel}" />
+                        <TextBlock
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Text="{Binding DeckSeleccionado.TotalSideboardPrice, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Center"
+                            HorizontalContentAlignment="Right"
+                            VerticalContentAlignment="Bottom"
+                            Content="{DynamicResource TotalPrice}"
+                            FontWeight="Bold"
+                            Style="{StaticResource MaterialDesignLabel}" />
+                        <TextBlock
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Text="{Binding DeckSeleccionado.TotalDeckPrice, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    </StackPanel>
+
+                </StackPanel>
+
+            </Grid>
+
+            <!--#endregion-->
+
+            <!--#region Line 2-->
+
+            <Expander
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                VerticalAlignment="Top"
+                HorizontalContentAlignment="Stretch"
+                Header="{DynamicResource SideboardMax15}"
+                IsExpanded="{Binding ExpansionActivated}">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="45" />
+                    </Grid.ColumnDefinitions>
+
+                    <DataGrid
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Margin="10,0"
+                        AutoGenerateColumns="False"
+                        CanUserAddRows="False"
+                        CanUserDeleteRows="False"
+                        ItemsSource="{Binding DeckSeleccionado.SideBoard}"
+                        MouseDoubleClick="ShowCardImage"
+                        SelectedItem="{Binding SelectedSideboardCard, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                        SelectionMode="Extended"
+                        SelectionUnit="FullRow">
+                        <DataGrid.Columns>
+                            <!--<DataGridTextColumn
+                                Width="*"
+                                Binding="{Binding ManaCost}"
+                                Header="Mana Cost"
+                                IsReadOnly="True" />-->
+                            <DataGridTemplateColumn
+                                Width="*"
+                                Header="{DynamicResource ManaCost}"
+                                IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <ItemsControl ItemsSource="{Binding ManaCostView}">
+                                            <ItemsControl.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Image
+                                                        Width="20"
+                                                        Height="20"
+                                                        HorizontalAlignment="Center"
+                                                        VerticalAlignment="Center"
+                                                        Source="{Binding SymbolPath}"
+                                                        ToolTip="{Binding Symbol}" />
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                            <ItemsControl.ItemsPanel>
+                                                <ItemsPanelTemplate>
+                                                    <StackPanel Orientation="Horizontal" />
+                                                </ItemsPanelTemplate>
+                                            </ItemsControl.ItemsPanel>
+                                        </ItemsControl>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+
+                            <DataGridTextColumn
+                                Width="4*"
+                                Binding="{Binding Name}"
+                                Header="{DynamicResource Card}"
+                                IsReadOnly="True" />
+                            <!--<DataGridTextColumn
+                                Width="2*"
+                                Binding="{Binding TypeAndClass.CardType.FullCardType}"
+                                Header="Type"
+                                IsReadOnly="True" />-->
+                            <DataGridTextColumn
+                                Width="2*"
+                                Binding="{Binding TypeAndClass.SuperType.FullSuperType}"
+                                Header="{DynamicResource Type}"
+                                IsReadOnly="True" />
+                            <DataGridTextColumn
+                                Width="*"
+                                Binding="{Binding Units}"
+                                Header="{DynamicResource Quantity}" />
+                            <DataGridTextColumn
+                                Width="*"
+                                Binding="{Binding CardMarketPrice.eur}"
+                                ElementStyle="{StaticResource RightCell}"
+                                Header="{DynamicResource Price}"
+                                IsReadOnly="True" />
+                            <DataGridTextColumn
+                                Width="*"
+                                Binding="{Binding TotalPriceCardMarket}"
+                                ElementStyle="{StaticResource RightCell}"
+                                Header="{DynamicResource Total}"
+                                IsReadOnly="True" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <StackPanel Grid.Column="1" Orientation="Vertical">
+                        <Button
+                            Margin="0,5"
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Stretch"
+                            HorizontalContentAlignment="Center"
+                            VerticalContentAlignment="Center"
+                            Command="{Binding AddCardSideboardDeckCommand}"
+                            Content="+"
+                            Style="{StaticResource MaterialDesignOutlinedButton}"
+                            ToolTip="{DynamicResource AddCardSideboard}" />
+
+                        <Button
+                            Margin="0,5"
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Stretch"
+                            HorizontalContentAlignment="Center"
+                            VerticalContentAlignment="Center"
+                            Command="{Binding DeleteCardSideboardDeckCommand}"
+                            Content="-"
+                            Style="{StaticResource MaterialDesignOutlinedButton}"
+                            ToolTip="{DynamicResource DeleteCardSideboard}" />
+
+                    </StackPanel>
+
+                </Grid>
+            </Expander>
+
+            <!--#endregion-->
+
+        </Grid>
+
+    </Grid>
+</UserControl>

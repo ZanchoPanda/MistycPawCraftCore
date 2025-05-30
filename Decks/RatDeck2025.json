@@ -1,0 +1,1563 @@
+{
+  "IDDeck": 0,
+  "DeckName": "RatDeck2025",
+  "Legal": {
+    "Standard": false,
+    "Historic": true,
+    "Pioneer": true,
+    "Modern": true,
+    "Legacy": true,
+    "Pauper": false,
+    "Commander": true
+  },
+  "Deck": [
+    {
+      "id": "49496ac4-347e-4edc-8faa-c5417e7543fb",
+      "Name": "Sulfurous Springs",
+      "PrintedName": "Sulfurous Springs",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    {T}: Add {C}.\n{T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "dsc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Bruce Brenneise",
+      "Flavor_Text": "Everything is flammable in the Burning Isles, even the mana itself.",
+      "Units": 4,
+      "TotalPriceCardMarket": 10.60,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Af5c38c01-4a40-469f-91a0-7479daf4e8e7&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/131227?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Commander-Duskmourn-House-of-Horror/Sulfurous-Springs?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F579336%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 2.65,
+        "eurFoil": 0.0,
+        "usd": 2.68,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Land",
+          "SuperType1": "Land",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/4/9/49496ac4-347e-4edc-8faa-c5417e7543fb.jpg?1726285500",
+        "Normal": "https://cards.scryfall.io/normal/front/4/9/49496ac4-347e-4edc-8faa-c5417e7543fb.jpg?1726285500",
+        "Large": "https://cards.scryfall.io/large/front/4/9/49496ac4-347e-4edc-8faa-c5417e7543fb.jpg?1726285500",
+        "PNG": "https://cards.scryfall.io/png/front/4/9/49496ac4-347e-4edc-8faa-c5417e7543fb.png?1726285500"
+      },
+      "CardFaces": []
+    },
+    {
+      "id": "5446e1ba-c745-45b2-ad05-b22abf04daec",
+      "Name": "Go for the Throat",
+      "PrintedName": "Go for the Throat",
+      "ManaCost": "{1}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 2.0,
+      "OracleText": "\r\n    Destroy target nonartifact creature.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "moc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Kristina Carroll",
+      "Flavor_Text": "When Titania offered peace, Urza merely turned her down. Mishra made her people pay for the insult.",
+      "Units": 3,
+      "TotalPriceCardMarket": 3.30,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A2f092562-9e17-43cd-aeb8-d0567f99363e&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/110950?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Commander-March-of-the-Machine/Go-for-the-Throat?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F491422%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 1.10,
+        "eurFoil": 0.0,
+        "usd": 0.94,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/5/4/5446e1ba-c745-45b2-ad05-b22abf04daec.jpg?1682209037",
+        "Normal": "https://cards.scryfall.io/normal/front/5/4/5446e1ba-c745-45b2-ad05-b22abf04daec.jpg?1682209037",
+        "Large": "https://cards.scryfall.io/large/front/5/4/5446e1ba-c745-45b2-ad05-b22abf04daec.jpg?1682209037",
+        "PNG": "https://cards.scryfall.io/png/front/5/4/5446e1ba-c745-45b2-ad05-b22abf04daec.png?1682209037"
+      },
+      "CardFaces": []
+    },
+    {
+      "id": "f75715ce-744f-409c-aeb1-e66eb9186a74",
+      "Name": "Blackcleave Cliffs",
+      "PrintedName": "Blackcleave Cliffs",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    Blackcleave Cliffs enters tapped unless you control two or fewer other lands.\n{T}: Add {B} or {R}.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "dsc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Yeong-Hao Han",
+      "Flavor_Text": "Where ambition meets industry, passion is poisoned by greed.",
+      "Units": 4,
+      "TotalPriceCardMarket": 8.00,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A5ad94412-6f79-4c5d-bbd4-4ef5779a7b6d&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/131151?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Commander-Duskmourn-House-of-Horror/Blackcleave-Cliffs?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F579141%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 2.00,
+        "eurFoil": 0.0,
+        "usd": 2.08,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Land",
+          "SuperType1": "Land",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/f/7/f75715ce-744f-409c-aeb1-e66eb9186a74.jpg?1726285365",
+        "Normal": "https://cards.scryfall.io/normal/front/f/7/f75715ce-744f-409c-aeb1-e66eb9186a74.jpg?1726285365",
+        "Large": "https://cards.scryfall.io/large/front/f/7/f75715ce-744f-409c-aeb1-e66eb9186a74.jpg?1726285365",
+        "PNG": "https://cards.scryfall.io/png/front/f/7/f75715ce-744f-409c-aeb1-e66eb9186a74.png?1726285365"
+      },
+      "CardFaces": []
+    },
+    {
+      "id": "20ded7af-8086-465e-a980-3099217d324c",
+      "Name": "Burn Down the House",
+      "PrintedName": "Burn Down the House",
+      "ManaCost": "{3}{R}{R}",
+      "ManaCostView": [
+        {
+          "Symbol": "3",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\3.png"
+        },
+        {
+          "Symbol": "R",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\R.png"
+        },
+        {
+          "Symbol": "R",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\R.png"
+        }
+      ],
+      "CMC": 5.0,
+      "OracleText": "\r\n    Choose one —\n• Burn Down the House deals 5 damage to each creature and each planeswalker.\n• Create three 1/1 red Devil creature tokens with \"When this creature dies, it deals 1 damage to any target.\" They gain haste until end of turn.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "mid",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Campbell White",
+      "Flavor_Text": null,
+      "Units": 3,
+      "TotalPriceCardMarket": 2.01,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A0ec54683-a65c-461d-862e-585b6499d6a5&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/93228?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Innistrad-Midnight-Hunt/Burn-Down-the-House?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F248215%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.67,
+        "eurFoil": 0.81,
+        "usd": 0.46,
+        "usdFoil": 0.85
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/2/0/20ded7af-8086-465e-a980-3099217d324c.jpg?1634350460",
+        "Normal": "https://cards.scryfall.io/normal/front/2/0/20ded7af-8086-465e-a980-3099217d324c.jpg?1634350460",
+        "Large": "https://cards.scryfall.io/large/front/2/0/20ded7af-8086-465e-a980-3099217d324c.jpg?1634350460",
+        "PNG": "https://cards.scryfall.io/png/front/2/0/20ded7af-8086-465e-a980-3099217d324c.png?1634350460"
+      },
+      "CardFaces": []
+    },
+    {
+      "id": "32f1e668-89b8-4f82-afc1-6c3efb1fef3b",
+      "Name": "Haunted Ridge",
+      "PrintedName": "Haunted Ridge",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    Haunted Ridge enters tapped unless you control two or more other lands.\n{T}: Add {B} or {R}.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "inr",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Jonas De Ro",
+      "Flavor_Text": "Swirling eddies of ash hide crumbling cliffs, treacherous drops, and the slavering maws of unknown evils.",
+      "Units": 4,
+      "TotalPriceCardMarket": 13.04,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ae2a37967-4212-4553-9f77-bcb613405807&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/136000?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Innistrad-Remastered/Haunted-Ridge?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F609858%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 3.26,
+        "eurFoil": 2.86,
+        "usd": 2.37,
+        "usdFoil": 2.69
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Land",
+          "SuperType1": "Land",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/3/2/32f1e668-89b8-4f82-afc1-6c3efb1fef3b.jpg?1736468677",
+        "Normal": "https://cards.scryfall.io/normal/front/3/2/32f1e668-89b8-4f82-afc1-6c3efb1fef3b.jpg?1736468677",
+        "Large": "https://cards.scryfall.io/large/front/3/2/32f1e668-89b8-4f82-afc1-6c3efb1fef3b.jpg?1736468677",
+        "PNG": "https://cards.scryfall.io/png/front/3/2/32f1e668-89b8-4f82-afc1-6c3efb1fef3b.png?1736468677"
+      },
+      "CardFaces": []
+    },
+    {
+      "id": "499037cc-a577-41cb-8ca2-5e117945634f",
+      "Name": "Takenuma, Abandoned Mire",
+      "PrintedName": "Takenuma, Abandoned Mire",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    {T}: Add {B}.\nChannel — {3}{B}, Discard Takenuma, Abandoned Mire: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "neo",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Sam Burley",
+      "Flavor_Text": null,
+      "Units": 1,
+      "TotalPriceCardMarket": 8.47,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aac2dd694-d2f1-4025-8400-12332bdc882a&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/97506?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kamigawa-Neon-Dynasty/Takenuma-Abandoned-Mire?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F262420%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 8.47,
+        "eurFoil": 10.61,
+        "usd": 6.09,
+        "usdFoil": 7.26
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Legendary Land",
+          "SuperType1": "Legendary",
+          "SuperType2": "Land",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/4/9/499037cc-a577-41cb-8ca2-5e117945634f.jpg?1654569039",
+        "Normal": "https://cards.scryfall.io/normal/front/4/9/499037cc-a577-41cb-8ca2-5e117945634f.jpg?1654569039",
+        "Large": "https://cards.scryfall.io/large/front/4/9/499037cc-a577-41cb-8ca2-5e117945634f.jpg?1654569039",
+        "PNG": "https://cards.scryfall.io/png/front/4/9/499037cc-a577-41cb-8ca2-5e117945634f.png?1654569039"
+      },
+      "CardFaces": []
+    },
+    {
+      "id": "254fc64a-9734-44a6-8869-ab03512f1a99",
+      "Name": "Gnawing Crescendo",
+      "PrintedName": "Gnawing Crescendo",
+      "ManaCost": "{2}{R}",
+      "ManaCostView": [
+        {
+          "Symbol": "2",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\2.png"
+        },
+        {
+          "Symbol": "R",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\R.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Creatures you control get +2/+0 until end of turn. Whenever a nontoken creature you control dies this turn, create a 1/1 black Rat creature token with \"This creature can't block.\"\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "woe",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "common",
+      "Artist": "Alexey Kruglov",
+      "Flavor_Text": "Totentanz's song had no lyrics, but the rats understood it nonetheless. \"You own this land,\" it said. \"You deserve to feast.\"",
+      "Units": 4,
+      "TotalPriceCardMarket": 0.44,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A0332f7b5-dad3-4fd0-b86c-78bd8301f59d&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/116582?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Wilds-of-Eldraine/Gnawing-Crescendo?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F513997%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.11,
+        "eurFoil": 0.16,
+        "usd": 0.04,
+        "usdFoil": 0.12
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/2/5/254fc64a-9734-44a6-8869-ab03512f1a99.jpg?1692938235",
+        "Normal": "https://cards.scryfall.io/normal/front/2/5/254fc64a-9734-44a6-8869-ab03512f1a99.jpg?1692938235",
+        "Large": "https://cards.scryfall.io/large/front/2/5/254fc64a-9734-44a6-8869-ab03512f1a99.jpg?1692938235",
+        "PNG": "https://cards.scryfall.io/png/front/2/5/254fc64a-9734-44a6-8869-ab03512f1a99.png?1692938235"
+      },
+      "CardFaces": []
+    },
+    {
+      "id": "940e8bb7-0251-4fac-945c-d83618c10447",
+      "Name": "Song of Totentanz",
+      "PrintedName": "Song of Totentanz",
+      "ManaCost": "{X}{R}",
+      "ManaCostView": [
+        {
+          "Symbol": "X",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\X.png"
+        },
+        {
+          "Symbol": "R",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\R.png"
+        }
+      ],
+      "CMC": 1.0,
+      "OracleText": "\r\n    Create X 1/1 black Rat creature tokens with \"This creature can't block.\" Creatures you control gain haste until end of turn.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "woe",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Randy Gallegos",
+      "Flavor_Text": "Townsfolk tapped their feet and hummed along, unwittingly amplifying the tune that would summon their doom.",
+      "Units": 2,
+      "TotalPriceCardMarket": 6.38,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A5f4d0c87-7d59-41d5-9910-86765a0c144b&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/116628?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Wilds-of-Eldraine/Song-of-Totentanz?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F513574%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 3.19,
+        "eurFoil": 2.93,
+        "usd": 2.11,
+        "usdFoil": 2.40
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/4/940e8bb7-0251-4fac-945c-d83618c10447.jpg?1692938518",
+        "Normal": "https://cards.scryfall.io/normal/front/9/4/940e8bb7-0251-4fac-945c-d83618c10447.jpg?1692938518",
+        "Large": "https://cards.scryfall.io/large/front/9/4/940e8bb7-0251-4fac-945c-d83618c10447.jpg?1692938518",
+        "PNG": "https://cards.scryfall.io/png/front/9/4/940e8bb7-0251-4fac-945c-d83618c10447.png?1692938518"
+      },
+      "CardFaces": []
+    },
+    {
+      "id": "dc913ed6-3032-4b45-a6c1-6a4208a7e00a",
+      "Name": "Transmogrant's Crown",
+      "PrintedName": "Transmogrant's Crown",
+      "ManaCost": "{2}",
+      "ManaCostView": [
+        {
+          "Symbol": "2",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\2.png"
+        }
+      ],
+      "CMC": 2.0,
+      "OracleText": "\r\n    Equipped creature gets +2/+0.\nWhenever equipped creature dies, draw a card.\nEquip {2} or {B}\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "bro",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Nino Vecia",
+      "Flavor_Text": "Fallaji soldiers hated seeing loved ones' faces among the transmogrants. Ashnod devised a solution.",
+      "Units": 4,
+      "TotalPriceCardMarket": 0.88,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A767c82a7-ed42-4ef3-9d79-dd95e48f4326&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/104868?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/The-Brothers-War/Transmogrants-Crown?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F451922%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.22,
+        "eurFoil": 0.38,
+        "usd": 0.20,
+        "usdFoil": 0.30
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Artifact",
+          "SuperType1": "Artifact",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Equipment",
+          "CardType1": "Equipment",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/d/c/dc913ed6-3032-4b45-a6c1-6a4208a7e00a.jpg?1674421067",
+        "Normal": "https://cards.scryfall.io/normal/front/d/c/dc913ed6-3032-4b45-a6c1-6a4208a7e00a.jpg?1674421067",
+        "Large": "https://cards.scryfall.io/large/front/d/c/dc913ed6-3032-4b45-a6c1-6a4208a7e00a.jpg?1674421067",
+        "PNG": "https://cards.scryfall.io/png/front/d/c/dc913ed6-3032-4b45-a6c1-6a4208a7e00a.png?1674421067"
+      },
+      "CardFaces": []
+    },
+    {
+      "id": "fb76cb6c-2f4d-4ca2-876f-d49ea529e59b",
+      "Name": "Mountain",
+      "PrintedName": "Mountain",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    ({T}: Add {R}.)\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "dft",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "common",
+      "Artist": "Samuele Bandini",
+      "Flavor_Text": null,
+      "Units": 6,
+      "TotalPriceCardMarket": 0.0,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aa3fb7228-e76b-4e96-a40e-20b5fed75685&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Mountain&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Mountain&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F610777%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.0,
+        "eurFoil": 0.0,
+        "usd": 0.0,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Basic Land",
+          "SuperType1": "Basic",
+          "SuperType2": "Land",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Mountain",
+          "CardType1": "Mountain",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/f/b/fb76cb6c-2f4d-4ca2-876f-d49ea529e59b.jpg?1733917936",
+        "Normal": "https://cards.scryfall.io/normal/front/f/b/fb76cb6c-2f4d-4ca2-876f-d49ea529e59b.jpg?1733917936",
+        "Large": "https://cards.scryfall.io/large/front/f/b/fb76cb6c-2f4d-4ca2-876f-d49ea529e59b.jpg?1733917936",
+        "PNG": "https://cards.scryfall.io/png/front/f/b/fb76cb6c-2f4d-4ca2-876f-d49ea529e59b.png?1733917936"
+      },
+      "CardFaces": []
+    },
+    {
+      "id": "80226520-6b0a-48ea-a868-a29eb3fbd403",
+      "Name": "Ob Nixilis, the Adversary",
+      "PrintedName": "Ob Nixilis, the Adversary",
+      "ManaCost": "{1}{B}{R}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        },
+        {
+          "Symbol": "R",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\R.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Casualty X. The copy isn't legendary and has starting loyalty X. (As you cast this spell, you may sacrifice a creature with power X. When you do, copy this spell. The copy becomes a token.)\n+1: Each opponent loses 2 life unless they discard a card. If you control a Demon or Devil, you gain 2 life.\n−2: Create a 1/1 red Devil creature token with \"When this creature dies, it deals 1 damage to any target.\"\n−7: Target player draws seven cards and loses 7 life.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "snc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "mythic",
+      "Artist": "Yongjae Choi",
+      "Flavor_Text": null,
+      "Units": 3,
+      "TotalPriceCardMarket": 21.51,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aa6abb6af-7ea2-43f3-8718-2a077ad0c947&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/98631?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Streets-of-New-Capenna/Ob-Nixilis-the-Adversary?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F268359%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 7.17,
+        "eurFoil": 8.78,
+        "usd": 4.42,
+        "usdFoil": 9.38
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Legendary Planeswalker",
+          "SuperType1": "Legendary",
+          "SuperType2": "Planeswalker",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Nixilis",
+          "CardType1": "Nixilis",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/8/0/80226520-6b0a-48ea-a868-a29eb3fbd403.jpg?1664413416",
+        "Normal": "https://cards.scryfall.io/normal/front/8/0/80226520-6b0a-48ea-a868-a29eb3fbd403.jpg?1664413416",
+        "Large": "https://cards.scryfall.io/large/front/8/0/80226520-6b0a-48ea-a868-a29eb3fbd403.jpg?1664413416",
+        "PNG": "https://cards.scryfall.io/png/front/8/0/80226520-6b0a-48ea-a868-a29eb3fbd403.png?1664413416"
+      },
+      "CardFaces": []
+    },
+    {
+      "id": "f16e282d-8941-46c7-a974-c05b6f73c964",
+      "Name": "Karumonix, the Rat King",
+      "PrintedName": "Karumonix, the Rat King",
+      "ManaCost": "{1}{B}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nOther Rats you control have toxic 1.\nWhen Karumonix enters, look at the top five cards of your library. You may reveal any number of Rat cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in a random order.\r\n",
+      "Power": "3",
+      "Toughness": "3",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "one",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Helge C. Balzer",
+      "Flavor_Text": null,
+      "Units": 4,
+      "TotalPriceCardMarket": 1.52,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ac017f54c-e4c0-411e-b8c1-eb20b1b86c56&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/106411?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Phyrexia-All-Will-Be-One/Karumonix-the-Rat-King?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F478439%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.38,
+        "eurFoil": 0.59,
+        "usd": 0.87,
+        "usdFoil": 1.16
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Legendary Creature",
+          "SuperType1": "Legendary",
+          "SuperType2": "Creature",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Phyrexian Rat",
+          "CardType1": "Phyrexian",
+          "CardType2": "Rat",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/f/1/f16e282d-8941-46c7-a974-c05b6f73c964.jpg?1675957034",
+        "Normal": "https://cards.scryfall.io/normal/front/f/1/f16e282d-8941-46c7-a974-c05b6f73c964.jpg?1675957034",
+        "Large": "https://cards.scryfall.io/large/front/f/1/f16e282d-8941-46c7-a974-c05b6f73c964.jpg?1675957034",
+        "PNG": "https://cards.scryfall.io/png/front/f/1/f16e282d-8941-46c7-a974-c05b6f73c964.png?1675957034"
+      },
+      "CardFaces": []
+    },
+    {
+      "id": "77111ce8-6469-4bf7-882a-4ded1e5d7cad",
+      "Name": "Tangled Colony",
+      "PrintedName": "Tangled Colony",
+      "ManaCost": "{1}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 2.0,
+      "OracleText": "\r\n    Tangled Colony can't block.\nWhen Tangled Colony dies, create X 1/1 black Rat creature tokens with \"This creature can't block,\" where X is the amount of damage dealt to it this turn.\r\n",
+      "Power": "3",
+      "Toughness": "2",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "woe",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Filip Burburan",
+      "Flavor_Text": "Clawing for scraps and driven mad by hunger, the individual rats became a writhing mass.",
+      "Units": 3,
+      "TotalPriceCardMarket": 0.99,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A3f01c327-ba50-4fc3-a930-fa1fb02e34b9&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/116542?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Wilds-of-Eldraine/Tangled-Colony?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F512871%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.33,
+        "eurFoil": 0.51,
+        "usd": 0.24,
+        "usdFoil": 0.42
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Creature",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Rat",
+          "CardType1": "Rat",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/7/7/77111ce8-6469-4bf7-882a-4ded1e5d7cad.jpg?1692937960",
+        "Normal": "https://cards.scryfall.io/normal/front/7/7/77111ce8-6469-4bf7-882a-4ded1e5d7cad.jpg?1692937960",
+        "Large": "https://cards.scryfall.io/large/front/7/7/77111ce8-6469-4bf7-882a-4ded1e5d7cad.jpg?1692937960",
+        "PNG": "https://cards.scryfall.io/png/front/7/7/77111ce8-6469-4bf7-882a-4ded1e5d7cad.png?1692937960"
+      },
+      "CardFaces": []
+    },
+    {
+      "id": "729877be-4894-4ef5-9e60-de8a8fb2bdc0",
+      "Name": "Lord Skitter, Sewer King",
+      "PrintedName": "Lord Skitter, Sewer King",
+      "ManaCost": "{2}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "2",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\2.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Whenever another Rat you control enters, exile up to one target card from an opponent's graveyard.\nAt the beginning of combat on your turn, create a 1/1 black Rat creature token with \"This creature can't block.\"\r\n",
+      "Power": "3",
+      "Toughness": "3",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "woe",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Jesper Ejsing",
+      "Flavor_Text": null,
+      "Units": 4,
+      "TotalPriceCardMarket": 11.80,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Af5bed085-bb7a-4250-9599-b2a8a95e6b6f&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/116510?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Wilds-of-Eldraine/Lord-Skitter-Sewer-King?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F512640%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 2.95,
+        "eurFoil": 4.36,
+        "usd": 1.51,
+        "usdFoil": 2.27
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Legendary Creature",
+          "SuperType1": "Legendary",
+          "SuperType2": "Creature",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Rat Noble",
+          "CardType1": "Rat",
+          "CardType2": "Noble",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/7/2/729877be-4894-4ef5-9e60-de8a8fb2bdc0.jpg?1722161627",
+        "Normal": "https://cards.scryfall.io/normal/front/7/2/729877be-4894-4ef5-9e60-de8a8fb2bdc0.jpg?1722161627",
+        "Large": "https://cards.scryfall.io/large/front/7/2/729877be-4894-4ef5-9e60-de8a8fb2bdc0.jpg?1722161627",
+        "PNG": "https://cards.scryfall.io/png/front/7/2/729877be-4894-4ef5-9e60-de8a8fb2bdc0.png?1722161627"
+      },
+      "CardFaces": []
+    },
+    {
+      "id": "21b31d2b-ef66-4e16-a75e-4e27eb5ebfe9",
+      "Name": "Lord Skitter's Butcher",
+      "PrintedName": "Lord Skitter's Butcher",
+      "ManaCost": "{2}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "2",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\2.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    When Lord Skitter's Butcher enters, choose one —\n• Create a 1/1 black Rat creature token with \"This creature can't block.\"\n• You may sacrifice another creature. If you do, scry 2, then draw a card.\n• Creatures you control gain menace until end of turn.\r\n",
+      "Power": "2",
+      "Toughness": "3",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "woe",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Leesha Hannigan",
+      "Flavor_Text": null,
+      "Units": 4,
+      "TotalPriceCardMarket": 0.48,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A467f756f-75db-4748-99d3-62651776adfe&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/116514?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Wilds-of-Eldraine/Lord-Skitters-Butcher?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F512511%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.12,
+        "eurFoil": 0.18,
+        "usd": 0.15,
+        "usdFoil": 0.19
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Creature",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Rat Peasant",
+          "CardType1": "Rat",
+          "CardType2": "Peasant",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/2/1/21b31d2b-ef66-4e16-a75e-4e27eb5ebfe9.jpg?1692937745",
+        "Normal": "https://cards.scryfall.io/normal/front/2/1/21b31d2b-ef66-4e16-a75e-4e27eb5ebfe9.jpg?1692937745",
+        "Large": "https://cards.scryfall.io/large/front/2/1/21b31d2b-ef66-4e16-a75e-4e27eb5ebfe9.jpg?1692937745",
+        "PNG": "https://cards.scryfall.io/png/front/2/1/21b31d2b-ef66-4e16-a75e-4e27eb5ebfe9.png?1692937745"
+      },
+      "CardFaces": []
+    },
+    {
+      "id": "e969e168-e74c-4608-9fa0-a5660bf7fa02",
+      "Name": "Swamp",
+      "PrintedName": "Swamp",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    ({T}: Add {B}.)\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "dft",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "common",
+      "Artist": "Jonas De Ro",
+      "Flavor_Text": null,
+      "Units": 7,
+      "TotalPriceCardMarket": 0.0,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A56719f6a-1a6c-4c0a-8d21-18f7d7350b68&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Swamp&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Swamp&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F614152%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.0,
+        "eurFoil": 0.0,
+        "usd": 0.0,
+        "usdFoil": 4.00
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Basic Land",
+          "SuperType1": "Basic",
+          "SuperType2": "Land",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Swamp",
+          "CardType1": "Swamp",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/e/9/e969e168-e74c-4608-9fa0-a5660bf7fa02.jpg?1737504900",
+        "Normal": "https://cards.scryfall.io/normal/front/e/9/e969e168-e74c-4608-9fa0-a5660bf7fa02.jpg?1737504900",
+        "Large": "https://cards.scryfall.io/large/front/e/9/e969e168-e74c-4608-9fa0-a5660bf7fa02.jpg?1737504900",
+        "PNG": "https://cards.scryfall.io/png/front/e/9/e969e168-e74c-4608-9fa0-a5660bf7fa02.png?1737504900"
+      },
+      "CardFaces": []
+    }
+  ],
+  "SideBoard": [
+    {
+      "id": "940e8bb7-0251-4fac-945c-d83618c10447",
+      "Name": "Song of Totentanz",
+      "PrintedName": "Song of Totentanz",
+      "ManaCost": "{X}{R}",
+      "ManaCostView": [
+        {
+          "Symbol": "X",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\X.png"
+        },
+        {
+          "Symbol": "R",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\R.png"
+        }
+      ],
+      "CMC": 1.0,
+      "OracleText": "\r\n    Create X 1/1 black Rat creature tokens with \"This creature can't block.\" Creatures you control gain haste until end of turn.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "woe",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Randy Gallegos",
+      "Flavor_Text": "Townsfolk tapped their feet and hummed along, unwittingly amplifying the tune that would summon their doom.",
+      "Units": 2,
+      "TotalPriceCardMarket": 6.38,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A5f4d0c87-7d59-41d5-9910-86765a0c144b&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/116628?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Wilds-of-Eldraine/Song-of-Totentanz?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F513574%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 3.19,
+        "eurFoil": 2.93,
+        "usd": 2.11,
+        "usdFoil": 2.40
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/4/940e8bb7-0251-4fac-945c-d83618c10447.jpg?1692938518",
+        "Normal": "https://cards.scryfall.io/normal/front/9/4/940e8bb7-0251-4fac-945c-d83618c10447.jpg?1692938518",
+        "Large": "https://cards.scryfall.io/large/front/9/4/940e8bb7-0251-4fac-945c-d83618c10447.jpg?1692938518",
+        "PNG": "https://cards.scryfall.io/png/front/9/4/940e8bb7-0251-4fac-945c-d83618c10447.png?1692938518"
+      },
+      "CardFaces": []
+    },
+    {
+      "id": "80226520-6b0a-48ea-a868-a29eb3fbd403",
+      "Name": "Ob Nixilis, the Adversary",
+      "PrintedName": "Ob Nixilis, the Adversary",
+      "ManaCost": "{1}{B}{R}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        },
+        {
+          "Symbol": "R",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\R.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Casualty X. The copy isn't legendary and has starting loyalty X. (As you cast this spell, you may sacrifice a creature with power X. When you do, copy this spell. The copy becomes a token.)\n+1: Each opponent loses 2 life unless they discard a card. If you control a Demon or Devil, you gain 2 life.\n−2: Create a 1/1 red Devil creature token with \"When this creature dies, it deals 1 damage to any target.\"\n−7: Target player draws seven cards and loses 7 life.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "snc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "mythic",
+      "Artist": "Yongjae Choi",
+      "Flavor_Text": null,
+      "Units": 1,
+      "TotalPriceCardMarket": 7.17,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aa6abb6af-7ea2-43f3-8718-2a077ad0c947&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/98631?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Streets-of-New-Capenna/Ob-Nixilis-the-Adversary?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F268359%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 7.17,
+        "eurFoil": 8.78,
+        "usd": 4.42,
+        "usdFoil": 9.38
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Legendary Planeswalker",
+          "SuperType1": "Legendary",
+          "SuperType2": "Planeswalker",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Nixilis",
+          "CardType1": "Nixilis",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/8/0/80226520-6b0a-48ea-a868-a29eb3fbd403.jpg?1664413416",
+        "Normal": "https://cards.scryfall.io/normal/front/8/0/80226520-6b0a-48ea-a868-a29eb3fbd403.jpg?1664413416",
+        "Large": "https://cards.scryfall.io/large/front/8/0/80226520-6b0a-48ea-a868-a29eb3fbd403.jpg?1664413416",
+        "PNG": "https://cards.scryfall.io/png/front/8/0/80226520-6b0a-48ea-a868-a29eb3fbd403.png?1664413416"
+      },
+      "CardFaces": []
+    }
+  ],
+  "SideboardCount": 3,
+  "TotalMainCards": 60,
+  "CreatureCount": 15,
+  "SorceryAndInstantsCount": 12,
+  "EnchantmentCount": 0,
+  "PlaneswalkerCount": 3,
+  "LandCount": 26,
+  "TotalNonCreatureAndInstantSpells": 12,
+  "TotalMainDeckPrice": 89.42,
+  "TotalSideboardPrice": 13.55,
+  "TotalDeckPrice": 102.97,
+  "CreateDate": null,
+  "DeleteDate": "2025-05-29T12:57:38.5551981+02:00"
+}

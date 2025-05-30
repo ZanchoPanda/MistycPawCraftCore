@@ -1,0 +1,2114 @@
+{
+  "IDDeck": 0,
+  "DeckName": "[Standard] Esper Legends (Falta 4x Goleta subterránea)",
+  "Legal": {
+    "Standard": false,
+    "Historic": true,
+    "Pioneer": true,
+    "Modern": true,
+    "Legacy": true,
+    "Pauper": false,
+    "Commander": true
+  },
+  "Deck": [
+    {
+      "id": "b2b05464-6471-49eb-88df-e14393f0ae0d",
+      "Name": "Teysa, oligarca opulenta",
+      "PrintedName": "Teysa, oligarca opulenta",
+      "ManaCost": "{1}{W}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Deathtouch\nAt the beginning of your end step, investigate for each opponent who lost life this turn.\nWhenever a Clue you control is put into a graveyard from the battlefield, create a 1/1 white and black Spirit creature token with flying. This ability triggers only once each turn.\r\n",
+      "Power": "2",
+      "Toughness": "3",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "mkm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Chris Rallis",
+      "Flavor_Text": null,
+      "Units": 3,
+      "TotalPriceCardMarket": 0.63,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Teysa%2C+Opulent+Oligarch&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Teysa%2C+Opulent+Oligarch&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DTeysa%252C%2BOpulent%2BOligarch%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 0.21,
+        "eurFoil": 0.44,
+        "usd": 0.36,
+        "usdFoil": 0.48
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Criatura Legendaria",
+          "SuperType1": "Criatura",
+          "SuperType2": "Legendaria",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Consejero Humano",
+          "CardType1": "Consejero",
+          "CardType2": "Humano",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/b/2/b2b05464-6471-49eb-88df-e14393f0ae0d.jpg?1707437789",
+        "Normal": "https://cards.scryfall.io/normal/front/b/2/b2b05464-6471-49eb-88df-e14393f0ae0d.jpg?1707437789",
+        "Large": "https://cards.scryfall.io/large/front/b/2/b2b05464-6471-49eb-88df-e14393f0ae0d.jpg?1707437789",
+        "PNG": "https://cards.scryfall.io/png/front/b/2/b2b05464-6471-49eb-88df-e14393f0ae0d.png?1707437789"
+      }
+    },
+    {
+      "id": "7715304b-076a-4dae-9484-fd426c3c89e9",
+      "Name": "Murciélago de las cavernas profundas",
+      "PrintedName": "Murciélago de las cavernas profundas",
+      "ManaCost": "{1}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 2.0,
+      "OracleText": "\r\n    Flying, lifelink\nWhen Deep-Cavern Bat enters the battlefield, look at target opponent's hand. You may exile a nonland card from it until Deep-Cavern Bat leaves the battlefield.\r\n",
+      "Power": "1",
+      "Toughness": "1",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "lci",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Campbell White",
+      "Flavor_Text": "Con el primer alarido localiza la presa y con el segundo la inmoviliza.",
+      "Units": 3,
+      "TotalPriceCardMarket": 1.05,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Deep-Cavern+Bat&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Deep-Cavern+Bat&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DDeep-Cavern%2BBat%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 0.35,
+        "eurFoil": 0.59,
+        "usd": 0.45,
+        "usdFoil": 2.28
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Criatura",
+          "SuperType1": "Criatura",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Murciélago",
+          "CardType1": "Murciélago",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/7/7/7715304b-076a-4dae-9484-fd426c3c89e9.jpg?1703733971",
+        "Normal": "https://cards.scryfall.io/normal/front/7/7/7715304b-076a-4dae-9484-fd426c3c89e9.jpg?1703733971",
+        "Large": "https://cards.scryfall.io/large/front/7/7/7715304b-076a-4dae-9484-fd426c3c89e9.jpg?1703733971",
+        "PNG": "https://cards.scryfall.io/png/front/7/7/7715304b-076a-4dae-9484-fd426c3c89e9.png?1703733971"
+      }
+    },
+    {
+      "id": "15f0f08d-62d0-4e34-b89d-a98d678b734b",
+      "Name": "Sirena con catalejo",
+      "PrintedName": "Sirena con catalejo",
+      "ManaCost": "{U}",
+      "ManaCostView": [
+        {
+          "Symbol": "U",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\U.png"
+        }
+      ],
+      "CMC": 1.0,
+      "OracleText": "\r\n    Flying\nWhen Spyglass Siren enters the battlefield, create a Map token. (It's an artifact with \"{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\")\r\n",
+      "Power": "1",
+      "Toughness": "1",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "lci",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "David Astruga",
+      "Flavor_Text": null,
+      "Units": 4,
+      "TotalPriceCardMarket": 0.72,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Spyglass+Siren&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Spyglass+Siren&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DSpyglass%2BSiren%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 0.18,
+        "eurFoil": 0.37,
+        "usd": 0.30,
+        "usdFoil": 1.08
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Criatura",
+          "SuperType1": "Criatura",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Pirata Sirena",
+          "CardType1": "Pirata",
+          "CardType2": "Sirena",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/1/5/15f0f08d-62d0-4e34-b89d-a98d678b734b.jpg?1703733623",
+        "Normal": "https://cards.scryfall.io/normal/front/1/5/15f0f08d-62d0-4e34-b89d-a98d678b734b.jpg?1703733623",
+        "Large": "https://cards.scryfall.io/large/front/1/5/15f0f08d-62d0-4e34-b89d-a98d678b734b.jpg?1703733623",
+        "PNG": "https://cards.scryfall.io/png/front/1/5/15f0f08d-62d0-4e34-b89d-a98d678b734b.png?1703733623"
+      }
+    },
+    {
+      "id": "4edd46a5-32aa-4fe5-8ac1-0ae12bda0d89",
+      "Name": "Hada usurpasueños",
+      "PrintedName": "Hada usurpasueños",
+      "ManaCost": "{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 1.0,
+      "OracleText": "\r\n    Flying\nWhen Faerie Dreamthief enters the battlefield, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\n{2}{B}, Exile Faerie Dreamthief from your graveyard: You draw a card and you lose 1 life.\r\n",
+      "Power": "1",
+      "Toughness": "1",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "woe",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Randy Vargas",
+      "Flavor_Text": null,
+      "Units": 1,
+      "TotalPriceCardMarket": 0.14,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Faerie+Dreamthief&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Faerie+Dreamthief&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DFaerie%2BDreamthief%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 0.14,
+        "eurFoil": 0.24,
+        "usd": 0.17,
+        "usdFoil": 0.18
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Criatura",
+          "SuperType1": "Criatura",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Brujo Hada",
+          "CardType1": "Brujo",
+          "CardType2": "Hada",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/4/e/4edd46a5-32aa-4fe5-8ac1-0ae12bda0d89.jpg?1703738352",
+        "Normal": "https://cards.scryfall.io/normal/front/4/e/4edd46a5-32aa-4fe5-8ac1-0ae12bda0d89.jpg?1703738352",
+        "Large": "https://cards.scryfall.io/large/front/4/e/4edd46a5-32aa-4fe5-8ac1-0ae12bda0d89.jpg?1703738352",
+        "PNG": "https://cards.scryfall.io/png/front/4/e/4edd46a5-32aa-4fe5-8ac1-0ae12bda0d89.png?1703738352"
+      }
+    },
+    {
+      "id": "6672f688-4547-4046-b670-2d1b0f922a7f",
+      "Name": "Gix, magistrado de Yawgmoth",
+      "PrintedName": "Gix, magistrado de Yawgmoth",
+      "ManaCost": "{1}{B}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Whenever a creature deals combat damage to one of your opponents, its controller may pay 1 life. If they do, they draw a card.\n{4}{B}{B}{B}, Discard X cards: Exile the top X cards of target opponent's library. You may play lands and cast spells from among cards exiled this way without paying their mana costs.\r\n",
+      "Power": "3",
+      "Toughness": "3",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "bro",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "mythic",
+      "Artist": "Anna Podedworna",
+      "Flavor_Text": null,
+      "Units": 3,
+      "TotalPriceCardMarket": 47.61,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Gix%2C+Yawgmoth+Praetor&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Gix%2C+Yawgmoth+Praetor&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DGix%252C%2BYawgmoth%2BPraetor%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 15.87,
+        "eurFoil": 18.78,
+        "usd": 21.75,
+        "usdFoil": 22.78
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Criatura Legendaria",
+          "SuperType1": "Criatura",
+          "SuperType2": "Legendaria",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Magistrado Pirexiano",
+          "CardType1": "Magistrado",
+          "CardType2": "Pirexiano",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/6/6/6672f688-4547-4046-b670-2d1b0f922a7f.jpg?1668921179",
+        "Normal": "https://cards.scryfall.io/normal/front/6/6/6672f688-4547-4046-b670-2d1b0f922a7f.jpg?1668921179",
+        "Large": "https://cards.scryfall.io/large/front/6/6/6672f688-4547-4046-b670-2d1b0f922a7f.jpg?1668921179",
+        "PNG": "https://cards.scryfall.io/png/front/6/6/6672f688-4547-4046-b670-2d1b0f922a7f.png?1668921179"
+      }
+    },
+    {
+      "id": "6530998b-a2da-426f-bea2-aa63b5525b13",
+      "Name": "Destrizar",
+      "PrintedName": "Destrizar",
+      "ManaCost": "{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 1.0,
+      "OracleText": "\r\n    Destroy target creature with total power and toughness 5 or less.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "dmu",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Dominik Mayer",
+      "Flavor_Text": "\"No hay cabida para la piedad ni las medias tintas. Ante los pirexianos, o matas rápido o mueres\".\n—Jodah",
+      "Units": 2,
+      "TotalPriceCardMarket": 1.78,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Cut+Down&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Cut+Down&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DCut%2BDown%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 0.89,
+        "eurFoil": 1.38,
+        "usd": 1.77,
+        "usdFoil": 2.66
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Instantáneo",
+          "SuperType1": "Instantáneo",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/6/5/6530998b-a2da-426f-bea2-aa63b5525b13.jpg?1663216923",
+        "Normal": "https://cards.scryfall.io/normal/front/6/5/6530998b-a2da-426f-bea2-aa63b5525b13.jpg?1663216923",
+        "Large": "https://cards.scryfall.io/large/front/6/5/6530998b-a2da-426f-bea2-aa63b5525b13.jpg?1663216923",
+        "PNG": "https://cards.scryfall.io/png/front/6/5/6530998b-a2da-426f-bea2-aa63b5525b13.png?1663216923"
+      }
+    },
+    {
+      "id": "eebb60a4-ab5f-44c9-a3da-e9061ddb69f0",
+      "Name": "Raffine, vidente taimada",
+      "PrintedName": "Raffine, vidente taimada",
+      "ManaCost": "{W}{U}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        },
+        {
+          "Symbol": "U",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\U.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Flying, ward {1}\nWhenever you attack, target attacking creature connives X, where X is the number of attacking creatures. (Draw X cards, then discard X cards. Put a +1/+1 counter on that creature for each nonland card discarded this way.)\r\n",
+      "Power": "1",
+      "Toughness": "4",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "snc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "mythic",
+      "Artist": "Johannes Voss",
+      "Flavor_Text": null,
+      "Units": 3,
+      "TotalPriceCardMarket": 12.48,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Raffine%2C+Scheming+Seer&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Raffine%2C+Scheming+Seer&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DRaffine%252C%2BScheming%2BSeer%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 4.16,
+        "eurFoil": 4.75,
+        "usd": 5.24,
+        "usdFoil": 5.99
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Criatura Legendaria",
+          "SuperType1": "Criatura",
+          "SuperType2": "Legendaria",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Demonio Esfinge",
+          "CardType1": "Demonio",
+          "CardType2": "Esfinge",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/e/e/eebb60a4-ab5f-44c9-a3da-e9061ddb69f0.jpg?1651602829",
+        "Normal": "https://cards.scryfall.io/normal/front/e/e/eebb60a4-ab5f-44c9-a3da-e9061ddb69f0.jpg?1651602829",
+        "Large": "https://cards.scryfall.io/large/front/e/e/eebb60a4-ab5f-44c9-a3da-e9061ddb69f0.jpg?1651602829",
+        "PNG": "https://cards.scryfall.io/png/front/e/e/eebb60a4-ab5f-44c9-a3da-e9061ddb69f0.png?1651602829"
+      }
+    },
+    {
+      "id": "cb55f01d-5d53-4c56-9dfc-f9ff19bd3ffe",
+      "Name": "Sheoldred, el Apocalipsis",
+      "PrintedName": "Sheoldred, el Apocalipsis",
+      "ManaCost": "{2}{B}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "2",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\2.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 4.0,
+      "OracleText": "\r\n    Deathtouch\nWhenever you draw a card, you gain 2 life.\nWhenever an opponent draws a card, they lose 2 life.\r\n",
+      "Power": "4",
+      "Toughness": "5",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "dmu",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "mythic",
+      "Artist": "Chris Rahn",
+      "Flavor_Text": "\"Gix fracasó, pero yo no lo haré\".",
+      "Units": 2,
+      "TotalPriceCardMarket": 162.06,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Sheoldred%2C+the+Apocalypse&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Sheoldred%2C+the+Apocalypse&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DSheoldred%252C%2Bthe%2BApocalypse%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 81.03,
+        "eurFoil": 90.99,
+        "usd": 80.44,
+        "usdFoil": 91.79
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Criatura Legendaria",
+          "SuperType1": "Criatura",
+          "SuperType2": "Legendaria",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Magistrado Pirexiano",
+          "CardType1": "Magistrado",
+          "CardType2": "Pirexiano",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/c/b/cb55f01d-5d53-4c56-9dfc-f9ff19bd3ffe.jpg?1663217320",
+        "Normal": "https://cards.scryfall.io/normal/front/c/b/cb55f01d-5d53-4c56-9dfc-f9ff19bd3ffe.jpg?1663217320",
+        "Large": "https://cards.scryfall.io/large/front/c/b/cb55f01d-5d53-4c56-9dfc-f9ff19bd3ffe.jpg?1663217320",
+        "PNG": "https://cards.scryfall.io/png/front/c/b/cb55f01d-5d53-4c56-9dfc-f9ff19bd3ffe.png?1663217320"
+      }
+    },
+    {
+      "id": "0976fe98-4b5d-4c60-bcae-a68451c3a1b5",
+      "Name": "Golpe a la garganta",
+      "PrintedName": "Golpe a la garganta",
+      "ManaCost": "{1}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 2.0,
+      "OracleText": "\r\n    Destroy target nonartifact creature.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "ltc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Caroline Gariba",
+      "Flavor_Text": "\"¡Tesoro, tesoro, tesoro!\".",
+      "Units": 2,
+      "TotalPriceCardMarket": 1.40,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A2f092562-9e17-43cd-aeb8-d0567f99363e&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Go+for+the+Throat&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Go+for+the+Throat&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DGo%2Bfor%2Bthe%2BThroat%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 0.70,
+        "eurFoil": 0.0,
+        "usd": 0.81,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Instantáneo",
+          "SuperType1": "Instantáneo",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/0/9/0976fe98-4b5d-4c60-bcae-a68451c3a1b5.jpg?1698799063",
+        "Normal": "https://cards.scryfall.io/normal/front/0/9/0976fe98-4b5d-4c60-bcae-a68451c3a1b5.jpg?1698799063",
+        "Large": "https://cards.scryfall.io/large/front/0/9/0976fe98-4b5d-4c60-bcae-a68451c3a1b5.jpg?1698799063",
+        "PNG": "https://cards.scryfall.io/png/front/0/9/0976fe98-4b5d-4c60-bcae-a68451c3a1b5.png?1698799063"
+      }
+    },
+    {
+      "id": "1c44a324-10d0-4a02-9e1d-8414cbb79115",
+      "Name": "Plaza de los héroes",
+      "PrintedName": "Plaza de los héroes",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    {T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a legendary spell.\n{T}: Add one mana of any color among legendary permanents you control.\n{3}, {T}, Exile Plaza of Heroes: Target legendary creature gains hexproof and indestructible until end of turn.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "dmu",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Gabor Szikszai",
+      "Flavor_Text": null,
+      "Units": 3,
+      "TotalPriceCardMarket": 20.34,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Plaza+of+Heroes&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Plaza+of+Heroes&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DPlaza%2Bof%2BHeroes%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 6.78,
+        "eurFoil": 7.96,
+        "usd": 8.90,
+        "usdFoil": 9.58
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Tierra",
+          "SuperType1": "Tierra",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/1/c/1c44a324-10d0-4a02-9e1d-8414cbb79115.jpg?1663220436",
+        "Normal": "https://cards.scryfall.io/normal/front/1/c/1c44a324-10d0-4a02-9e1d-8414cbb79115.jpg?1663220436",
+        "Large": "https://cards.scryfall.io/large/front/1/c/1c44a324-10d0-4a02-9e1d-8414cbb79115.jpg?1663220436",
+        "PNG": "https://cards.scryfall.io/png/front/1/c/1c44a324-10d0-4a02-9e1d-8414cbb79115.png?1663220436"
+      }
+    },
+    {
+      "id": "1560cfd5-79ac-4c7b-a659-2ec11fba4b4a",
+      "Name": "Playas de Fangoscuro",
+      "PrintedName": "Playas de Fangoscuro",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    Darkslick Shores enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {U} or {B}.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "one",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Aaron Miller",
+      "Flavor_Text": "Cuando se unen la curiosidad y la crueldad, se engendran innovaciones espantosas.",
+      "Units": 4,
+      "TotalPriceCardMarket": 15.44,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aa2b48695-f7d7-42ce-a8a0-2a723428542a&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Darkslick+Shores&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Darkslick+Shores&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DDarkslick%2BShores%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 3.86,
+        "eurFoil": 4.81,
+        "usd": 4.75,
+        "usdFoil": 4.65
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Tierra",
+          "SuperType1": "Tierra",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/1/5/1560cfd5-79ac-4c7b-a659-2ec11fba4b4a.jpg?1677110269",
+        "Normal": "https://cards.scryfall.io/normal/front/1/5/1560cfd5-79ac-4c7b-a659-2ec11fba4b4a.jpg?1677110269",
+        "Large": "https://cards.scryfall.io/large/front/1/5/1560cfd5-79ac-4c7b-a659-2ec11fba4b4a.jpg?1677110269",
+        "PNG": "https://cards.scryfall.io/png/front/1/5/1560cfd5-79ac-4c7b-a659-2ec11fba4b4a.png?1677110269"
+      }
+    },
+    {
+      "id": "bdcf4e1e-3ace-446b-b130-80186c237e51",
+      "Name": "Costa de Cromo Marítimo",
+      "PrintedName": "Costa de Cromo Marítimo",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    Seachrome Coast enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {W} or {U}.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "one",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Mauricio Calle",
+      "Flavor_Text": "Cuando se unen el adoctrinamiento y la duda, las corrientes se agitan sin parar bajo la superficie.",
+      "Units": 4,
+      "TotalPriceCardMarket": 13.32,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A9e7a240d-dc33-47ac-9f17-77fab4c1c340&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Seachrome+Coast&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Seachrome+Coast&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DSeachrome%2BCoast%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 3.33,
+        "eurFoil": 4.03,
+        "usd": 4.18,
+        "usdFoil": 5.43
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Tierra",
+          "SuperType1": "Tierra",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/b/d/bdcf4e1e-3ace-446b-b130-80186c237e51.jpg?1677110357",
+        "Normal": "https://cards.scryfall.io/normal/front/b/d/bdcf4e1e-3ace-446b-b130-80186c237e51.jpg?1677110357",
+        "Large": "https://cards.scryfall.io/large/front/b/d/bdcf4e1e-3ace-446b-b130-80186c237e51.jpg?1677110357",
+        "PNG": "https://cards.scryfall.io/png/front/b/d/bdcf4e1e-3ace-446b-b130-80186c237e51.png?1677110357"
+      }
+    },
+    {
+      "id": "8e2d7a67-3528-4d03-92c3-163cdeccc039",
+      "Name": "Eiganjo, trono del imperio",
+      "PrintedName": "Eiganjo, trono del imperio",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    {T}: Add {W}.\nChannel — {2}{W}, Discard Eiganjo, Seat of the Empire: It deals 4 damage to target attacking or blocking creature. This ability costs {1} less to activate for each legendary creature you control.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "neo",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Julian Kok Joon Wen",
+      "Flavor_Text": null,
+      "Units": 1,
+      "TotalPriceCardMarket": 8.99,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Eiganjo%2C+Seat+of+the+Empire&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Eiganjo%2C+Seat+of+the+Empire&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DEiganjo%252C%2BSeat%2Bof%2Bthe%2BEmpire%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 8.99,
+        "eurFoil": 9.35,
+        "usd": 7.64,
+        "usdFoil": 8.24
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Tierra Legendaria",
+          "SuperType1": "Tierra",
+          "SuperType2": "Legendaria",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/8/e/8e2d7a67-3528-4d03-92c3-163cdeccc039.jpg?1645490987",
+        "Normal": "https://cards.scryfall.io/normal/front/8/e/8e2d7a67-3528-4d03-92c3-163cdeccc039.jpg?1645490987",
+        "Large": "https://cards.scryfall.io/large/front/8/e/8e2d7a67-3528-4d03-92c3-163cdeccc039.jpg?1645490987",
+        "PNG": "https://cards.scryfall.io/png/front/8/e/8e2d7a67-3528-4d03-92c3-163cdeccc039.png?1645490987"
+      }
+    },
+    {
+      "id": "1bf9c3a7-5d72-412d-b905-858a025a9188",
+      "Name": "Otawara, ciudad flotante",
+      "PrintedName": "Otawara, ciudad flotante",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    {T}: Add {U}.\nChannel — {3}{U}, Discard Otawara, Soaring City: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "neo",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Alayna Danner",
+      "Flavor_Text": null,
+      "Units": 2,
+      "TotalPriceCardMarket": 39.54,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Otawara%2C+Soaring+City&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Otawara%2C+Soaring+City&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DOtawara%252C%2BSoaring%2BCity%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 19.77,
+        "eurFoil": 22.74,
+        "usd": 21.36,
+        "usdFoil": 23.48
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Tierra Legendaria",
+          "SuperType1": "Tierra",
+          "SuperType2": "Legendaria",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/1/b/1bf9c3a7-5d72-412d-b905-858a025a9188.jpg?1645491218",
+        "Normal": "https://cards.scryfall.io/normal/front/1/b/1bf9c3a7-5d72-412d-b905-858a025a9188.jpg?1645491218",
+        "Large": "https://cards.scryfall.io/large/front/1/b/1bf9c3a7-5d72-412d-b905-858a025a9188.jpg?1645491218",
+        "PNG": "https://cards.scryfall.io/png/front/1/b/1bf9c3a7-5d72-412d-b905-858a025a9188.png?1645491218"
+      }
+    },
+    {
+      "id": "493f3894-3aa8-4c9f-8cb4-315545c1c328",
+      "Name": "Takenuma, pantanos abandonados",
+      "PrintedName": "Takenuma, pantanos abandonados",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    {T}: Add {B}.\nChannel — {3}{B}, Discard Takenuma, Abandoned Mire: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "neo",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Sam Burley",
+      "Flavor_Text": null,
+      "Units": 1,
+      "TotalPriceCardMarket": 9.24,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Takenuma%2C+Abandoned+Mire&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Takenuma%2C+Abandoned+Mire&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DTakenuma%252C%2BAbandoned%2BMire%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 9.24,
+        "eurFoil": 10.46,
+        "usd": 9.52,
+        "usdFoil": 10.53
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Tierra Legendaria",
+          "SuperType1": "Tierra",
+          "SuperType2": "Legendaria",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/4/9/493f3894-3aa8-4c9f-8cb4-315545c1c328.jpg?1645491596",
+        "Normal": "https://cards.scryfall.io/normal/front/4/9/493f3894-3aa8-4c9f-8cb4-315545c1c328.jpg?1645491596",
+        "Large": "https://cards.scryfall.io/large/front/4/9/493f3894-3aa8-4c9f-8cb4-315545c1c328.jpg?1645491596",
+        "PNG": "https://cards.scryfall.io/png/front/4/9/493f3894-3aa8-4c9f-8cb4-315545c1c328.png?1645491596"
+      }
+    },
+    {
+      "id": "e3a62361-482e-4bc2-9605-26fa5d1a2943",
+      "Name": "Último esfuerzo de Ajani",
+      "PrintedName": "Último esfuerzo de Ajani",
+      "ManaCost": "{2}{W}{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "2",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\2.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 4.0,
+      "OracleText": "\r\n    Whenever a creature or planeswalker you control dies, you may sacrifice Ajani's Last Stand. If you do, create a 4/4 white Avatar creature token with flying.\nWhen a spell or ability an opponent controls causes you to discard this card, if you control a Plains, create a 4/4 white Avatar creature token with flying.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "m19",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Slawomir Maniak",
+      "Flavor_Text": null,
+      "Units": 1,
+      "TotalPriceCardMarket": 0.13,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Ajani%27s+Last+Stand&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Ajani%27s+Last+Stand&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DAjani%2527s%2BLast%2BStand%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 0.13,
+        "eurFoil": 0.39,
+        "usd": 0.08,
+        "usdFoil": 0.48
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Encantamiento",
+          "SuperType1": "Encantamiento",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/e/3/e3a62361-482e-4bc2-9605-26fa5d1a2943.jpg?1645665298",
+        "Normal": "https://cards.scryfall.io/normal/front/e/3/e3a62361-482e-4bc2-9605-26fa5d1a2943.jpg?1645665298",
+        "Large": "https://cards.scryfall.io/large/front/e/3/e3a62361-482e-4bc2-9605-26fa5d1a2943.jpg?1645665298",
+        "PNG": "https://cards.scryfall.io/png/front/e/3/e3a62361-482e-4bc2-9605-26fa5d1a2943.png?1645665298"
+      }
+    },
+    {
+      "id": "46fd0eef-a5b8-4c75-84d8-a18e7fb59e98",
+      "Name": "Bruja poción pantanosa",
+      "PrintedName": "Bruja poción pantanosa",
+      "ManaCost": "{3}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "3",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\3.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 4.0,
+      "OracleText": "\r\n    {2}, {T}: Search your library for a card named Festering Newt or Bubbling Cauldron, put it onto the battlefield tapped, then shuffle.\r\n",
+      "Power": "1",
+      "Toughness": "3",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "m14",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Eric Deschamps",
+      "Flavor_Text": "\"Lo más difícil es encontrar los ingredientes adecuados.\"",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.07,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Bogbrew+Witch&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Bogbrew+Witch&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DBogbrew%2BWitch%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 0.07,
+        "eurFoil": 0.0,
+        "usd": 0.08,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Criatura",
+          "SuperType1": "Criatura",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Hechicero Humano",
+          "CardType1": "Hechicero",
+          "CardType2": "Humano",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/4/6/46fd0eef-a5b8-4c75-84d8-a18e7fb59e98.jpg?1562828653",
+        "Normal": "https://cards.scryfall.io/normal/front/4/6/46fd0eef-a5b8-4c75-84d8-a18e7fb59e98.jpg?1562828653",
+        "Large": "https://cards.scryfall.io/large/front/4/6/46fd0eef-a5b8-4c75-84d8-a18e7fb59e98.jpg?1562828653",
+        "PNG": "https://cards.scryfall.io/png/front/4/6/46fd0eef-a5b8-4c75-84d8-a18e7fb59e98.png?1562828653"
+      }
+    },
+    {
+      "id": "35e400e3-0fff-44fa-9417-23383d2c95c6",
+      "Name": "Río subterráneo",
+      "PrintedName": "Río subterráneo",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    {T}: Add {C}.\n{T}: Add {U} or {B}. Underground River deals 1 damage to you.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "ltc",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Logan Feliciano",
+      "Flavor_Text": "\"Pero el arroyo y el estanque son húmedos y frescos: ¡son buenos para los pies! Solo queremos atrapar un pez, jugoso y suculento\".\n—Gollum",
+      "Units": 2,
+      "TotalPriceCardMarket": 7.98,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A857febd9-cdd7-4f8e-a852-d88084b0cfbc&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Underground+River&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Underground+River&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DUnderground%2BRiver%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 3.99,
+        "eurFoil": 4.38,
+        "usd": 5.70,
+        "usdFoil": 5.13
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Tierra",
+          "SuperType1": "Tierra",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/3/5/35e400e3-0fff-44fa-9417-23383d2c95c6.jpg?1698802783",
+        "Normal": "https://cards.scryfall.io/normal/front/3/5/35e400e3-0fff-44fa-9417-23383d2c95c6.jpg?1698802783",
+        "Large": "https://cards.scryfall.io/large/front/3/5/35e400e3-0fff-44fa-9417-23383d2c95c6.jpg?1698802783",
+        "PNG": "https://cards.scryfall.io/png/front/3/5/35e400e3-0fff-44fa-9417-23383d2c95c6.png?1698802783"
+      }
+    },
+    {
+      "id": "0806ceb0-f471-46c3-895d-89aff489f91b",
+      "Name": "Santuario destruido",
+      "PrintedName": "Santuario destruido",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    Shattered Sanctum enters the battlefield tapped unless you control two or more other lands.\n{T}: Add {W} or {B}.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "vow",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Muhammad Firdaus",
+      "Flavor_Text": "El Culto de quietud realiza sus ceremonias siniestras en lugares oscuros donde los muertos sin enterrar cubren el suelo.",
+      "Units": 2,
+      "TotalPriceCardMarket": 26.76,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Shattered+Sanctum&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Shattered+Sanctum&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DShattered%2BSanctum%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 13.38,
+        "eurFoil": 15.14,
+        "usd": 17.08,
+        "usdFoil": 22.18
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Tierra",
+          "SuperType1": "Tierra",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/0/8/0806ceb0-f471-46c3-895d-89aff489f91b.jpg?1645991214",
+        "Normal": "https://cards.scryfall.io/normal/front/0/8/0806ceb0-f471-46c3-895d-89aff489f91b.jpg?1645991214",
+        "Large": "https://cards.scryfall.io/large/front/0/8/0806ceb0-f471-46c3-895d-89aff489f91b.jpg?1645991214",
+        "PNG": "https://cards.scryfall.io/png/front/0/8/0806ceb0-f471-46c3-895d-89aff489f91b.png?1645991214"
+      }
+    },
+    {
+      "id": "ed3656c0-da91-44b4-8056-52edd565090c",
+      "Name": "Cuevas de Koilos",
+      "PrintedName": "Cuevas de Koilos",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    {T}: Add {C}.\n{T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "dmu",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Julian Kok Joon Wen",
+      "Flavor_Text": "Tras años de silencio, en las cuevas vuelve a resonar el espeluznante eco de los pirexianos que se preparan para la guerra.",
+      "Units": 2,
+      "TotalPriceCardMarket": 1.38,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A33de01e9-ce5a-42d4-afcb-343cd54a6d80&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Caves+of+Koilos&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Caves+of+Koilos&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DCaves%2Bof%2BKoilos%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 0.69,
+        "eurFoil": 1.28,
+        "usd": 0.84,
+        "usdFoil": 1.13
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Tierra",
+          "SuperType1": "Tierra",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/e/d/ed3656c0-da91-44b4-8056-52edd565090c.jpg?1663220280",
+        "Normal": "https://cards.scryfall.io/normal/front/e/d/ed3656c0-da91-44b4-8056-52edd565090c.jpg?1663220280",
+        "Large": "https://cards.scryfall.io/large/front/e/d/ed3656c0-da91-44b4-8056-52edd565090c.jpg?1663220280",
+        "PNG": "https://cards.scryfall.io/png/front/e/d/ed3656c0-da91-44b4-8056-52edd565090c.png?1663220280"
+      }
+    },
+    {
+      "id": "4dbbaad6-09e0-4101-94c1-237832af2e81",
+      "Name": "Cenagal de naufragios",
+      "PrintedName": "Cenagal de naufragios",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    Shipwreck Marsh enters the battlefield tapped unless you control two or more other lands.\n{T}: Add {U} or {B}.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "mid",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Jonas De Ro",
+      "Flavor_Text": "Los despojos de las embarcaciones condenadas sobresalen del fango, mientras que los de los marineros se pudren más abajo.",
+      "Units": 2,
+      "TotalPriceCardMarket": 6.82,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Shipwreck+Marsh&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Shipwreck+Marsh&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DShipwreck%2BMarsh%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 3.41,
+        "eurFoil": 4.82,
+        "usd": 4.95,
+        "usdFoil": 9.61
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Tierra",
+          "SuperType1": "Tierra",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/4/d/4dbbaad6-09e0-4101-94c1-237832af2e81.jpg?1646204833",
+        "Normal": "https://cards.scryfall.io/normal/front/4/d/4dbbaad6-09e0-4101-94c1-237832af2e81.jpg?1646204833",
+        "Large": "https://cards.scryfall.io/large/front/4/d/4dbbaad6-09e0-4101-94c1-237832af2e81.jpg?1646204833",
+        "PNG": "https://cards.scryfall.io/png/front/4/d/4dbbaad6-09e0-4101-94c1-237832af2e81.png?1646204833"
+      }
+    },
+    {
+      "id": "09799e04-80b2-469a-9859-841b8ed17142",
+      "Name": "Mandato de Gix",
+      "PrintedName": "Mandato de Gix",
+      "ManaCost": "{3}{B}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "3",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\3.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 5.0,
+      "OracleText": "\r\n    Choose two —\n• Put two +1/+1 counters on up to one creature. It gains lifelink until end of turn.\n• Destroy each creature with power 2 or less.\n• Return up to two creature cards from your graveyard to your hand.\n• Each opponent sacrifices a creature with the highest power among creatures they control.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "bro",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Dominik Mayer",
+      "Flavor_Text": null,
+      "Units": 2,
+      "TotalPriceCardMarket": 1.14,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Gix%27s+Command&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Gix%27s+Command&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DGix%2527s%2BCommand%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 0.57,
+        "eurFoil": 0.98,
+        "usd": 1.65,
+        "usdFoil": 1.56
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Conjuro",
+          "SuperType1": "Conjuro",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/0/9/09799e04-80b2-469a-9859-841b8ed17142.jpg?1668921356",
+        "Normal": "https://cards.scryfall.io/normal/front/0/9/09799e04-80b2-469a-9859-841b8ed17142.jpg?1668921356",
+        "Large": "https://cards.scryfall.io/large/front/0/9/09799e04-80b2-469a-9859-841b8ed17142.jpg?1668921356",
+        "PNG": "https://cards.scryfall.io/png/front/0/9/09799e04-80b2-469a-9859-841b8ed17142.png?1668921356"
+      }
+    },
+    {
+      "id": "1c63e153-b91d-4fa2-9030-56751a2b2b30",
+      "Name": "Lazav, portador de rostros",
+      "PrintedName": "Lazav, portador de rostros",
+      "ManaCost": "{U}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "U",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\U.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 2.0,
+      "OracleText": "\r\n    Whenever Lazav, Wearer of Faces attacks, exile target card from a graveyard, then investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you sacrifice a Clue, you may have Lazav become a copy of a creature card exiled with it until end of turn.\r\n",
+      "Power": "2",
+      "Toughness": "3",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "mkm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Wisnu Tan",
+      "Flavor_Text": null,
+      "Units": 3,
+      "TotalPriceCardMarket": 0.33,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Lazav%2C+Wearer+of+Faces&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Lazav%2C+Wearer+of+Faces&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DLazav%252C%2BWearer%2Bof%2BFaces%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 0.11,
+        "eurFoil": 0.19,
+        "usd": 0.26,
+        "usdFoil": 0.40
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Criatura Legendaria",
+          "SuperType1": "Criatura",
+          "SuperType2": "Legendaria",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Detective Metamorfo",
+          "CardType1": "Detective",
+          "CardType2": "Metamorfo",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/1/c/1c63e153-b91d-4fa2-9030-56751a2b2b30.jpg?1707437475",
+        "Normal": "https://cards.scryfall.io/normal/front/1/c/1c63e153-b91d-4fa2-9030-56751a2b2b30.jpg?1707437475",
+        "Large": "https://cards.scryfall.io/large/front/1/c/1c63e153-b91d-4fa2-9030-56751a2b2b30.jpg?1707437475",
+        "PNG": "https://cards.scryfall.io/png/front/1/c/1c63e153-b91d-4fa2-9030-56751a2b2b30.png?1707437475"
+      }
+    },
+    {
+      "id": "64455645-af7c-4785-a8f8-01f39bcbb09c",
+      "Name": "Camino peligroso",
+      "PrintedName": "Camino peligroso",
+      "ManaCost": "{1}{B}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Cleave {4}{W}{B} (You may cast this spell for its cleave cost. If you do, remove the words in square brackets.)\nDestroy all creatures [with mana value 2 or less].\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "vow",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Kasia 'Kafis' Zielińska",
+      "Flavor_Text": "Para los invitados de Olivia, una bienvenida. Para el resto, una advertencia.",
+      "Units": 3,
+      "TotalPriceCardMarket": 9.03,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Path+of+Peril&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Path+of+Peril&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DPath%2Bof%2BPeril%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 3.01,
+        "eurFoil": 2.75,
+        "usd": 4.47,
+        "usdFoil": 3.99
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Conjuro",
+          "SuperType1": "Conjuro",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/6/4/64455645-af7c-4785-a8f8-01f39bcbb09c.jpg?1645990003",
+        "Normal": "https://cards.scryfall.io/normal/front/6/4/64455645-af7c-4785-a8f8-01f39bcbb09c.jpg?1645990003",
+        "Large": "https://cards.scryfall.io/large/front/6/4/64455645-af7c-4785-a8f8-01f39bcbb09c.jpg?1645990003",
+        "PNG": "https://cards.scryfall.io/png/front/6/4/64455645-af7c-4785-a8f8-01f39bcbb09c.png?1645990003"
+      }
+    },
+    {
+      "id": "62d6b61a-244b-4ece-b369-b6c2e040c85d",
+      "Name": "Goleta subterránea",
+      "PrintedName": "Goleta subterránea",
+      "ManaCost": "{1}{U}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "U",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\U.png"
+        }
+      ],
+      "CMC": 2.0,
+      "OracleText": "\r\n    Whenever Subterranean Schooner attacks, target creature that crewed it this turn explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)\nCrew 1\r\n",
+      "Power": "3",
+      "Toughness": "4",
+      "Set": {
+        "objectset": null,
+        "id": "70169a6e-89d1-4a3a-aef7-3152958d55ac",
+        "CodeSet": "lci",
+        "NameSet": "The Lost Caverns of Ixalan",
+        "UriSet": "https://api.scryfall.com/sets/70169a6e-89d1-4a3a-aef7-3152958d55ac",
+        "ScryfallUri": "https://scryfall.com/sets/lci",
+        "SearchUri": null,
+        "ReleasedDate": "2023-11-17T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 416,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/lci.svg?1710129600",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\lci\\lci.png"
+      },
+      "Rarity": "rare",
+      "Artist": "Svetlin Velinov",
+      "Flavor_Text": null,
+      "Units": 4,
+      "TotalPriceCardMarket": 4.52,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Subterranean+Schooner&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Subterranean+Schooner&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DSubterranean%2BSchooner%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 1.13,
+        "eurFoil": 1.39,
+        "usd": 0.79,
+        "usdFoil": 1.07
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Artifact",
+          "SuperType1": "Artifact",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Vehicle",
+          "CardType1": "Vehicle",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/6/2/62d6b61a-244b-4ece-b369-b6c2e040c85d.jpg?1709435559",
+        "Normal": "https://cards.scryfall.io/normal/front/6/2/62d6b61a-244b-4ece-b369-b6c2e040c85d.jpg?1709435559",
+        "Large": "https://cards.scryfall.io/large/front/6/2/62d6b61a-244b-4ece-b369-b6c2e040c85d.jpg?1709435559",
+        "PNG": "https://cards.scryfall.io/png/front/6/2/62d6b61a-244b-4ece-b369-b6c2e040c85d.png?1709435559"
+      }
+    }
+  ],
+  "SideBoard": [],
+  "SideboardCount": 0,
+  "TotalMainCards": 60,
+  "CreatureCount": 0,
+  "SorceryAndInstantsCount": 4,
+  "EnchantmentCount": 0,
+  "PlaneswalkerCount": 0,
+  "LandCount": 0,
+  "TotalNonCreatureAndInstantSpells": 4,
+  "TotalMainDeckPrice": 392.90,
+  "TotalSideboardPrice": 0.0,
+  "TotalDeckPrice": 392.90,
+  "CreateDate": null,
+  "DeleteDate": null
+}

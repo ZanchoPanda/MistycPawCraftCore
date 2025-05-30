@@ -1,0 +1,314 @@
+{
+  "IDDeck": 0,
+  "DeckName": "Alicia ratas",
+  "Legal": {
+    "Standard": false,
+    "Historic": false,
+    "Pioneer": false,
+    "Modern": true,
+    "Legacy": true,
+    "Pauper": false,
+    "Commander": true
+  },
+  "Deck": [
+    {
+      "id": "806d4e61-004f-4e52-b2e8-ba11b922cc7d",
+      "Name": "Jace Beleren",
+      "ManaCost": "{1}{U}{U}",
+      "CMC": 0,
+      "OracleText": "\r\n    +2: Each player draws a card.\n−1: Target player draws a card.\n−10: Target player mills twenty cards.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "cmm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "mythic",
+      "Artist": "Aleksi Briclot",
+      "Units": 1,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Acc2b6e58-2d6f-495e-95f3-9496105c4cba&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Jace+Beleren&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F505769%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.67,
+        "eurFoil": 0.0,
+        "usd": 0.91,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "legendary planeswalker ",
+          "SuperType1": "Legendary",
+          "SuperType2": "Planeswalker",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " jace",
+          "CardType1": "Jace",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": false,
+        "Pioneer": false,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/8/0/806d4e61-004f-4e52-b2e8-ba11b922cc7d.jpg?1690004367",
+        "Normal": "https://cards.scryfall.io/normal/front/8/0/806d4e61-004f-4e52-b2e8-ba11b922cc7d.jpg?1690004367",
+        "Large": "https://cards.scryfall.io/large/front/8/0/806d4e61-004f-4e52-b2e8-ba11b922cc7d.jpg?1690004367",
+        "PNG": "https://cards.scryfall.io/png/front/8/0/806d4e61-004f-4e52-b2e8-ba11b922cc7d.png?1690004367"
+      }
+    },
+    {
+      "id": "23e3ed2c-342b-44aa-8e3e-0c53602397c3",
+      "Name": "Island",
+      "ManaCost": "",
+      "CMC": 0,
+      "OracleText": "\r\n    ({T}: Add {U}.)\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "lci",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "common",
+      "Artist": "Nestor Ossandon Leal",
+      "Units": 10,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ab2c6aa39-2d2a-459c-a555-fb48ba993373&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Island&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F524197%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.0,
+        "eurFoil": 0.0,
+        "usd": 0.0,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "basic land ",
+          "SuperType1": "Basic",
+          "SuperType2": "Land",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " island",
+          "CardType1": "Island",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/2/3/23e3ed2c-342b-44aa-8e3e-0c53602397c3.jpg?1698183459",
+        "Normal": "https://cards.scryfall.io/normal/front/2/3/23e3ed2c-342b-44aa-8e3e-0c53602397c3.jpg?1698183459",
+        "Large": "https://cards.scryfall.io/large/front/2/3/23e3ed2c-342b-44aa-8e3e-0c53602397c3.jpg?1698183459",
+        "PNG": "https://cards.scryfall.io/png/front/2/3/23e3ed2c-342b-44aa-8e3e-0c53602397c3.png?1698183459"
+      }
+    },
+    {
+      "id": "4f893107-84b0-4e3f-b1f5-b04632f192c5",
+      "Name": "Swamp",
+      "ManaCost": "",
+      "CMC": 0,
+      "OracleText": "\r\n    ({T}: Add {B}.)\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "lci",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "common",
+      "Artist": "Logan Feliciano",
+      "Units": 9,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A56719f6a-1a6c-4c0a-8d21-18f7d7350b68&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Swamp&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F524171%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.0,
+        "eurFoil": 0.0,
+        "usd": 0.0,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "basic land ",
+          "SuperType1": "Basic",
+          "SuperType2": "Land",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " swamp",
+          "CardType1": "Swamp",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/4/f/4f893107-84b0-4e3f-b1f5-b04632f192c5.jpg?1698183471",
+        "Normal": "https://cards.scryfall.io/normal/front/4/f/4f893107-84b0-4e3f-b1f5-b04632f192c5.jpg?1698183471",
+        "Large": "https://cards.scryfall.io/large/front/4/f/4f893107-84b0-4e3f-b1f5-b04632f192c5.jpg?1698183471",
+        "PNG": "https://cards.scryfall.io/png/front/4/f/4f893107-84b0-4e3f-b1f5-b04632f192c5.png?1698183471"
+      }
+    },
+    {
+      "id": "7d4595f2-9297-40dc-b2dd-7144bbb401f7",
+      "Name": "Watery Grave",
+      "ManaCost": "",
+      "CMC": 0,
+      "OracleText": "\r\n    ({T}: Add {U} or {B}.)\nAs Watery Grave enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "grn",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Cliff Childs",
+      "Units": 4,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Afc9ec820-4245-4a96-b009-5308a818ca58&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": null,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Watery+Grave&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F175205%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 12.98,
+        "eurFoil": 22.00,
+        "usd": 11.45,
+        "usdFoil": 18.83
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "land ",
+          "SuperType1": "Land",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": " island swamp",
+          "CardType1": "Island",
+          "CardType2": "Swamp",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": false,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/7/d/7d4595f2-9297-40dc-b2dd-7144bbb401f7.jpg?1572894217",
+        "Normal": "https://cards.scryfall.io/normal/front/7/d/7d4595f2-9297-40dc-b2dd-7144bbb401f7.jpg?1572894217",
+        "Large": "https://cards.scryfall.io/large/front/7/d/7d4595f2-9297-40dc-b2dd-7144bbb401f7.jpg?1572894217",
+        "PNG": "https://cards.scryfall.io/png/front/7/d/7d4595f2-9297-40dc-b2dd-7144bbb401f7.png?1572894217"
+      }
+    }
+  ],
+  "SideBoard": [],
+  "SideboardCount": 0,
+  "TotalMainCards": 24,
+  "CreatureCount": 0,
+  "SorceryAndInstantsCount": 0,
+  "EnchantmentCount": 0,
+  "PlaneswalkerCount": 1,
+  "LandCount": 23,
+  "TotalNonCreatureAndInstantSpells": 0,
+  "CreateDate": "2023-10-29T16:38:03.1445279+01:00",
+  "DeleteDate": "2023-11-07T14:49:20.2066116+01:00"
+}

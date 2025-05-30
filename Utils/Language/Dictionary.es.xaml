@@ -1,0 +1,138 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="ScryfallWeb">Scryfall Web</system:String>
+    <system:String x:Key="Home">Principal</system:String>
+    <system:String x:Key="Principal">Principal</system:String>
+    <system:String x:Key="Browser">Buscador</system:String>
+    <system:String x:Key="Deck">Mazo</system:String>
+    <system:String x:Key="Estadistic">Estadísticas</system:String>
+    <system:String x:Key="Name">Nombre</system:String>
+    <system:String x:Key="ConfigOther">Configuración</system:String>
+    <system:String x:Key="TituloPantallaReprint">Re Impresiones</system:String>
+    <system:String x:Key="HintBrowseCard">Búsqueda de cartas...</system:String>
+    <system:String x:Key="AdvancedOption">Opciones avanzadas...</system:String>
+    <system:String x:Key="LoadingResources">Cargando recursos...</system:String>
+    <system:String x:Key="LoadingReprints">Cargando versiones...</system:String>
+    <system:String x:Key="Color">Color</system:String>
+    <system:String x:Key="OrderBy">Ordernar por</system:String>
+    <system:String x:Key="ManaCost">Coste de maná</system:String>
+    <system:String x:Key="Power">Fuerza</system:String>
+    <system:String x:Key="Thoughness">Resistencia</system:String>
+    <system:String x:Key="Type">Tipo</system:String>
+    <system:String x:Key="SubType">Sub Tipo</system:String>
+    <system:String x:Key="Search">Buscar</system:String>
+    <system:String x:Key="SearchCard">Buscar carta</system:String>
+    <system:String x:Key="SearchCardTo">Carta a buscar</system:String>
+    <system:String x:Key="SType">Tipo</system:String>
+    <system:String x:Key="CType">Tipo entero</system:String>
+    <system:String x:Key="ShowMorePrints">Mostrar versiones</system:String>
+    <system:String x:Key="ShowOtherFace">Mostrar otra cara</system:String>
+    <system:String x:Key="NewDeck">Mazo nuevo</system:String>
+    <system:String x:Key="RemoveDeck">Eliminar mazo</system:String>
+    <system:String x:Key="RecoverDeck">Recuperar mazo</system:String>
+    <system:String x:Key="Import">Importar</system:String>
+    <system:String x:Key="Export">Exportar</system:String>
+    <system:String x:Key="Card">Carta</system:String>
+    <system:String x:Key="Quantity">Cantidad</system:String>
+    <system:String x:Key="Price">Precio</system:String>
+    <system:String x:Key="Total">Total</system:String>
+    <system:String x:Key="AddCard">Añadir carta</system:String>
+    <system:String x:Key="DeleteCard">Eliminar carta</system:String>
+    <system:String x:Key="Legal">Legal</system:String>
+    <system:String x:Key="NotLegal">No Legal</system:String>
+    <system:String x:Key="Standard">Standard:</system:String>
+    <system:String x:Key="Modern">Modern:</system:String>
+    <system:String x:Key="Commander">Commander:</system:String>
+    <system:String x:Key="Pioneer">Pioneer:</system:String>
+    <system:String x:Key="Legacy">Legacy:</system:String>
+    <system:String x:Key="Pauper">Pauper:</system:String>
+    <system:String x:Key="MainDeckCount">Cartas del mazo:</system:String>
+    <system:String x:Key="SideboardCount">Cartas del banquillo:</system:String>
+    <system:String x:Key="MainDeckPrice">Precio del mazo:</system:String>
+    <system:String x:Key="SideboardPrice">Precio del banquillo:</system:String>
+    <system:String x:Key="TotalPrice">Precio total:</system:String>
+    <system:String x:Key="SideboardMax15">Banquillo (máx. 15)</system:String>
+    <system:String x:Key="AddCardSideboard">Añadir carta al banquillo</system:String>
+    <system:String x:Key="DeleteCardSideboard">Eliminar carta al banquillo</system:String>
+    <system:String x:Key="ImportWindow">Importar</system:String>
+    <system:String x:Key="File">Archivo</system:String>
+    <system:String x:Key="SelectFile">Seleccionar archivo</system:String>
+    <system:String x:Key="ClearFile">Eliminar archivo</system:String>
+    <system:String x:Key="Yes">Si</system:String>
+    <system:String x:Key="No">No</system:String>
+    <system:String x:Key="Accept">Aceptar</system:String>
+    <system:String x:Key="Cancel">Cancelar</system:String>
+    <system:String x:Key="Theme">Tema</system:String>
+    <system:String x:Key="Language">Idioma</system:String>
+    <system:String x:Key="SaveTheme">Grabar tema</system:String>
+    <system:String x:Key="ReloadIcons">Recargar Iconos</system:String>
+    <system:String x:Key="Donate">☕ Donar ☕</system:String>
+    <system:String x:Key="DeckName">Nombre del mazo</system:String>
+    <system:String x:Key="Create">Crear</system:String>
+    <system:String x:Key="RecoverDecks">Recuperar mazos</system:String>
+    <system:String x:Key="Recover">Recuperar</system:String>
+    <system:String x:Key="SelectCard">Selecciona una carta</system:String>
+    <system:String x:Key="ReloadDecks">Recargar mazos</system:String>
+    <system:String x:Key="UseDoubleClickImage">Doble click para visualizar carta</system:String>
+    <system:String x:Key="Creatures">🛡️Criaturas</system:String>
+    <system:String x:Key="Artifacts">🛡️Artefactos</system:String>
+    <system:String x:Key="Planeswalkers">🛡️Planeswalkers</system:String>
+    <system:String x:Key="Spells">🛡️Hechizos</system:String>
+    <system:String x:Key="Enchantment">🛡️Encantamientos</system:String>
+    <system:String x:Key="Lands">🛡️Tierras</system:String>
+
+    <system:String x:Key="Message">Mensaje</system:String>
+    <system:String x:Key="Error">Error</system:String>
+    <system:String x:Key="Warning">Aviso</system:String>
+    <system:String x:Key="ProcessEnded">Proceso finalizado</system:String>
+    <system:String x:Key="Info">Información</system:String>
+
+    <!--#region Mensajes y varios-->
+    <system:String x:Key="ProcessOK">Proceso finalizado correctamente</system:String>
+    <system:String x:Key="DeckImportedOK">Mazo importado correctamente</system:String>
+    <system:String x:Key="CardsNotNoundedWrongTiped">Cartas no encontradas o mal escritas:</system:String>
+    <system:String x:Key="NothingAcceptedToImport">Ningun archivo seleccionado para importar</system:String>
+    <system:String x:Key="ErrorLoadCard">
+        No se pudieron cargar la/s carta/s.
+        Por favor, compruebe que la/s carta/s estén bien escritas.
+    </system:String>
+    <system:String x:Key="FileWithErrors">
+        Archivo con errores.
+        Verifique la estructura del archivo.
+    </system:String>
+    <system:String x:Key="DeleteDeckConfirmationLine1">¿Quieres borrar el mazo seleccionado?</system:String>
+    <system:String x:Key="DeleteDeckConfirmationLine2">
+        ¿Quiere eliminar todos los datos del mazo?
+        Esta accion no puede ser revertida.
+    </system:String>
+    <!--#endregion-->
+
+    <!--#region Enums-->
+    <system:String x:Key="MtgCardType_Artifact">Artefacto</system:String>
+    <system:String x:Key="MtgCardType_Creature">Criatura</system:String>
+    <system:String x:Key="MtgCardType_Enchantment">Encantamiento</system:String>
+    <system:String x:Key="MtgCardType_Land">Tierra</system:String>
+    <system:String x:Key="MtgCardType_Instant">Instantáneo</system:String>
+    <system:String x:Key="MtgCardType_Sorcery">Conjuro</system:String>
+    <system:String x:Key="MtgCardType_Planeswalker">Planeswalker</system:String>
+    <system:String x:Key="MtgCardType_Other">Otro</system:String>
+
+    <system:String x:Key="OrderTypesEnum_Name">Nombre</system:String>
+    <system:String x:Key="OrderTypesEnum_Release_date">Fecha de lanzamiento</system:String>
+    <system:String x:Key="OrderTypesEnum_Set_Number">Número de colección</system:String>
+    <system:String x:Key="OrderTypesEnum_Rarity">Rareza</system:String>
+    <system:String x:Key="OrderTypesEnum_Color">Color</system:String>
+    <system:String x:Key="OrderTypesEnum_Price_EUR">Precio (€)</system:String>
+    <system:String x:Key="OrderTypesEnum_Price_USD">Precio ($)</system:String>
+    <system:String x:Key="OrderTypesEnum_Mana_Cost">Coste de maná</system:String>
+    <system:String x:Key="OrderTypesEnum_Power">Fuerza</system:String>
+    <system:String x:Key="OrderTypesEnum_Thoughness">Resistencia</system:String>
+    <system:String x:Key="OrderTypesEnum_Artist">Artista</system:String>
+    <system:String x:Key="OrderTypesEnum_Set_Review">Revisión del set</system:String>
+
+    <!--#endregion-->
+
+</ResourceDictionary>

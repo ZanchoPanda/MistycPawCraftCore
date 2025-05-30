@@ -1,0 +1,117 @@
+﻿<Window
+    x:Class="MistycPawCraftCore.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Views="clr-namespace:MistycPawCraftCore.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MistycPawCraftCore"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewmodel="clr-namespace:MistycPawCraftCore.ViewModel"
+    xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+    Title="Mystic Paw Craft"
+    Width="1280"
+    Height="720"
+    Background="{DynamicResource MaterialDesignPaper}"
+    FontFamily="{DynamicResource MaterialDesignFont}"
+    MouseDown="Window_MouseDown"
+    TextElement.FontSize="13"
+    TextElement.FontWeight="Regular"
+    TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+    TextOptions.TextFormattingMode="Ideal"
+    TextOptions.TextRenderingMode="Auto"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <Window.DataContext>
+        <viewmodel:MainViewModel />
+    </Window.DataContext>
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+        <DataTemplate x:Name="NewsView" DataType="{x:Type viewmodel:NoticiasViewModel}">
+            <Views:NoticiasView />
+        </DataTemplate>
+        <DataTemplate x:Name="principalView" DataType="{x:Type viewmodel:PrincipalViewModel}">
+            <Views:PrincipalView />
+        </DataTemplate>
+        <DataTemplate x:Name="DeckView" DataType="{x:Type viewmodel:DeckViewModel}">
+            <Views:DeckView />
+        </DataTemplate>
+        <DataTemplate x:Name="StadisticView" DataType="{x:Type viewmodel:StadisticViewModel}">
+            <Views:StadisticsView />
+        </DataTemplate>
+        <DataTemplate x:Name="TorneosEventos" DataType="{x:Type viewmodel:TorneosEventosViewModel}">
+            <Views:TorneosEventos />
+        </DataTemplate>
+        <DataTemplate x:Name="ConfigOthersView" DataType="{x:Type viewmodel:ConfigurationOthersViewModel}">
+            <Views:ConfigurationOthersView />
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid>
+        <TabControl
+            Grid.Row="1"
+            Width="Auto"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            HorizontalContentAlignment="Stretch"
+            IsTabStop="False"
+            Style="{StaticResource MaterialDesignFilledTabControl}">
+            <TabItem
+                x:Name="Principal"
+                HorizontalAlignment="Stretch"
+                Cursor="Hand"
+                DataContext="{Binding Pestana[0]}"
+                Header="{DynamicResource Principal}"
+                IsTabStop="False">
+                <ContentControl Content="{Binding}" Cursor="Arrow" />
+            </TabItem>
+            <TabItem
+                x:Name="Buscador"
+                HorizontalAlignment="Stretch"
+                Cursor="Hand"
+                DataContext="{Binding Pestana[1]}"
+                Header="{DynamicResource Browser}"
+                IsTabStop="False">
+                <ContentControl Content="{Binding}" Cursor="Arrow" />
+            </TabItem>
+            <TabItem
+                x:Name="Deck"
+                HorizontalAlignment="Stretch"
+                Cursor="Hand"
+                DataContext="{Binding Pestana[2]}"
+                Header="{DynamicResource Deck}"
+                IsTabStop="False">
+                <ContentControl Content="{Binding}" Cursor="Arrow" />
+            </TabItem>
+            <TabItem
+                x:Name="Estadistic"
+                HorizontalAlignment="Stretch"
+                Cursor="Hand"
+                DataContext="{Binding Pestana[3]}"
+                Header="{DynamicResource Estadistic}"
+                IsTabStop="False">
+                <ContentControl Content="{Binding}" Cursor="Arrow" />
+            </TabItem>
+
+            <TabItem
+                x:Name="Eventos"
+                HorizontalAlignment="Stretch"
+                Cursor="Hand"
+                DataContext="{Binding Pestana[4]}"
+                Header="Eventos"
+                IsTabStop="False"
+                Visibility="{Binding Source={StaticResource IsDebug}, Converter={StaticResource BoolToVis}}">
+                <ContentControl Content="{Binding}" Cursor="Arrow" />
+            </TabItem>
+            <TabItem
+                x:Name="ConfigOthers"
+                HorizontalAlignment="Stretch"
+                Cursor="Hand"
+                DataContext="{Binding Pestana[5]}"
+                Header="{DynamicResource ConfigOther}"
+                IsTabStop="False">
+                <ContentControl Content="{Binding}" Cursor="Arrow" />
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

@@ -1,0 +1,72 @@
+﻿Main
+1 Acorn Catapult
+1 Alliance of Arms
+1 Approach of the Second Sun
+1 Arcane Signet
+1 Azorius Signet
+1 Benevolent Offering
+1 Clone Legion
+1 Curse of the Swine
+1 Detention Sphere
+1 Dictate of Kruphix
+1 Dovescape
+1 Folio of Fancies
+1 Fractured Identity
+1 Fumigate
+1 Game Plan
+1 Gate to the Aether
+1 Genesis Chamber
+1 Ghostly Prison
+1 Helm of Awakening
+1 Holy Day
+1 Infinite Hourglass
+1 Knowledge Pool
+1 Minds Aglow
+1 Nevinyrral's Disk
+1 Oblivion Ring
+1 Play of the Game
+1 Pongify
+1 Pyxis of Pandemonium
+1 Regna's Sanction
+1 Reins of Power
+1 Return to Dust
+1 Spectral Searchlight
+1 Sphere of Safety
+1 Sudden Substitution
+1 Swan Song
+1 Tempt with Reflections
+1 Truce
+1 Victory Chimes
+1 Well of Ideas
+1 Winds of Abandon
+1 Wrath of God
+1 Wrong Turn
+1 Zndrsplt's Judgment
+1 Haunted Angel
+1 Confiscate
+1 Ghostly Possession
+1 Kasmina's Transmutation
+1 Pacifism
+1 Swans of Bryn Argoll
+1 Perplexing Chimera
+1 Tidal Barracuda
+1 Arbiter of Knollridge
+1 Akroan Horse
+1 Orzhov Advokist
+1 Pulsemage Advocate
+1 Sailmonger
+1 Spurnmage Advocate
+1 Baird, Steward of Argive
+1 Braids, Conjurer Adept
+1 Laboratory Maniac
+20 Island
+1 Jace, Wielder of Mysteries
+1 Dakra Mystic
+15 Plains
+1 Kwain, Itinerant Meddler
+1 Clever Impersonator
+1 Clone
+1 Oneirophage
+1 Wishmonger
+1 Fog Bank
+Sideboard

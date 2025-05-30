@@ -1,0 +1,653 @@
+﻿<UserControl
+    x:Class="MistycPawCraftCore.View.StadisticsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewmodel="clr-namespace:MistycPawCraftCore.ViewModel"
+    xmlns:vlc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    Background="{DynamicResource MaterialDesignPaper}"
+    FontFamily="{DynamicResource MaterialDesignFont}"
+    TextElement.FontSize="13"
+    TextElement.FontWeight="Regular"
+    TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+    TextOptions.TextFormattingMode="Ideal"
+    TextOptions.TextRenderingMode="Auto"
+    mc:Ignorable="d">
+    <UserControl.DataContext>
+        <viewmodel:StadisticViewModel />
+    </UserControl.DataContext>
+
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel HorizontalAlignment="Stretch" Orientation="Horizontal">
+
+            <Label
+                Grid.Row="0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Right"
+                VerticalContentAlignment="Bottom"
+                Content="{DynamicResource Deck}"
+                Style="{StaticResource MaterialDesignLabel}" />
+
+            <ComboBox
+                Grid.Row="0"
+                MinWidth="125"
+                Margin="5,0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Bottom"
+                DisplayMemberPath="DeckName"
+                ItemsSource="{Binding DeckList}"
+                SelectedItem="{Binding SelectedDeck, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                SelectedValuePath="{Binding DeckName}" />
+
+            <Button
+                Margin="5,0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Command="{Binding RefreshDecksCommand}"
+                Style="{StaticResource MaterialDesignFloatingActionMiniButton}"
+                ToolTip="{DynamicResource ReloadDecks}">
+                <materialDesign:PackIcon Kind="Reload" />
+            </Button>
+
+        </StackPanel>
+
+        <!--#region Listas-->
+
+        <Grid
+            Grid.Row="1"
+            Margin="0,5"
+            Visibility="{Binding IsSelectedDeck, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+
+            <ScrollViewer
+                Grid.RowSpan="2"
+                Grid.Column="0"
+                Style="{StaticResource MaterialDesignScrollViewer}">
+                <StackPanel
+                    Grid.RowSpan="2"
+                    Grid.Column="0"
+                    Orientation="Vertical">
+
+                    <!--#region Creatures list-->
+                    <Expander Visibility="{Binding CreatureVisibility, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                        <Expander.Header>
+                            <TextBlock>
+                                <TextBlock Text="{DynamicResource Creatures}" />
+                                <TextBlock Text="(" />
+                                <TextBlock Text="{Binding SelectedDeck.CreatureCount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                <TextBlock Text=")" />
+                            </TextBlock>
+                        </Expander.Header>
+                        <Grid
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            MinHeight="200">
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+
+                            <!--<StackPanel
+                                Grid.Row="0"
+                                HorizontalAlignment="Stretch"
+                                Orientation="Horizontal">
+                                <Label Content="🛡️Creatures" />
+                                <Label Content="(" />
+                                <Label Content="{Binding SelectedDeck.CreatureCount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                <Label Content=")" />
+
+                            </StackPanel>-->
+
+                            <DataGrid
+                                Grid.Row="1"
+                                Margin="2"
+                                AutoGenerateColumns="False"
+                                CanUserAddRows="False"
+                                CanUserDeleteRows="False"
+                                IsReadOnly="True"
+                                ItemsSource="{Binding CreatureList}"
+                                MouseDoubleClick="ShowCardImage"
+                                SelectedItem="{Binding SelectedCreature, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                SelectionMode="Extended"
+                                SelectionUnit="FullRow"
+                                ToolTip="{DynamicResource UseDoubleClickImage}">
+
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn
+                                        Width="*"
+                                        Binding="{Binding Units}"
+                                        Header="{DynamicResource Quantity}"
+                                        IsReadOnly="True" />
+                                    <DataGridTextColumn
+                                        Width="3*"
+                                        Binding="{Binding Name}"
+                                        Header="{DynamicResource Name}"
+                                        IsReadOnly="True" />
+                                    <!--<DataGridTextColumn
+                                        Width="2*"
+                                        Binding="{Binding ManaCost}"
+                                        Header="Mana"
+                                        IsReadOnly="True" />-->
+                                    <DataGridTemplateColumn
+                                        Width="2*"
+                                        Header="{DynamicResource ManaCost}"
+                                        IsReadOnly="True">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <ItemsControl ItemsSource="{Binding ManaCostView}">
+                                                    <ItemsControl.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <Image
+                                                                Width="20"
+                                                                Height="20"
+                                                                HorizontalAlignment="Center"
+                                                                VerticalAlignment="Center"
+                                                                Source="{Binding SymbolPath}"
+                                                                ToolTip="{Binding Symbol}" />
+                                                        </DataTemplate>
+                                                    </ItemsControl.ItemTemplate>
+                                                    <ItemsControl.ItemsPanel>
+                                                        <ItemsPanelTemplate>
+                                                            <StackPanel Orientation="Horizontal" />
+                                                        </ItemsPanelTemplate>
+                                                    </ItemsControl.ItemsPanel>
+                                                </ItemsControl>
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Grid>
+                    </Expander>
+                    <!--#endregion-->
+
+                    <!--#region Artifacts List-->
+                    <Expander Visibility="{Binding ArtifactsVisibility, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                        <Expander.Header>
+                            <TextBlock>
+                                <TextBlock Text="{DynamicResource Artifacts}" />
+                                <TextBlock Text="(" />
+                                <TextBlock Text="{Binding ArtifactsCount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                <TextBlock Text=")" />
+                            </TextBlock>
+                        </Expander.Header>
+                        <Grid
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            MinHeight="200">
+                            <!--  Visibility="{Binding ArtifactsVisibility, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"  -->
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+
+                            <!--<StackPanel
+                                Grid.Row="0"
+                                HorizontalAlignment="Stretch"
+                                Orientation="Horizontal">
+                                <Label Content="🛡️Artifacts" />
+                                <Label Content="(" />
+                                <Label Content="{Binding ArtifactsCount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                <Label Content=")" />
+
+                            </StackPanel>-->
+
+                            <DataGrid
+                                Grid.Row="1"
+                                Margin="2"
+                                AutoGenerateColumns="False"
+                                CanUserAddRows="False"
+                                CanUserDeleteRows="False"
+                                IsReadOnly="True"
+                                ItemsSource="{Binding ArtifactList}"
+                                MouseDoubleClick="ShowCardImage"
+                                SelectionMode="Extended"
+                                SelectionUnit="FullRow"
+                                ToolTip="{DynamicResource UseDoubleClickImage}">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn
+                                        Width="*"
+                                        Binding="{Binding Units}"
+                                        Header="{DynamicResource Quantity}"
+                                        IsReadOnly="True" />
+                                    <DataGridTextColumn
+                                        Width="3*"
+                                        Binding="{Binding Name}"
+                                        Header="{DynamicResource Name}"
+                                        IsReadOnly="True" />
+                                    <DataGridTemplateColumn
+                                        Width="2*"
+                                        Header="{DynamicResource ManaCost}"
+                                        IsReadOnly="True">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <ItemsControl ItemsSource="{Binding ManaCostView}">
+                                                    <ItemsControl.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <Image
+                                                                Width="20"
+                                                                Height="20"
+                                                                HorizontalAlignment="Center"
+                                                                VerticalAlignment="Center"
+                                                                Source="{Binding SymbolPath}"
+                                                                ToolTip="{Binding Symbol}" />
+                                                        </DataTemplate>
+                                                    </ItemsControl.ItemTemplate>
+                                                    <ItemsControl.ItemsPanel>
+                                                        <ItemsPanelTemplate>
+                                                            <StackPanel Orientation="Horizontal" />
+                                                        </ItemsPanelTemplate>
+                                                    </ItemsControl.ItemsPanel>
+                                                </ItemsControl>
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+
+
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Grid>
+                    </Expander>
+                    <!--#endregion-->
+
+                    <!--#region Planeswalkers list-->
+                    <Expander Visibility="{Binding PlanesWalkerVisibility, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                        <Expander.Header>
+                            <TextBlock>
+                                <TextBlock Text="{DynamicResource Planeswalkers}" />
+                                <TextBlock Text="(" />
+                                <TextBlock Text="{Binding SelectedDeck.PlaneswalkerCount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                <TextBlock Text=")" />
+                            </TextBlock>
+                        </Expander.Header>
+                        <Grid
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            MinHeight="200">
+                            <!--  Visibility="{Binding PlanesWalkerVisibility, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"  -->
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+
+                            <!--<StackPanel
+                                Grid.Row="0"
+                                HorizontalAlignment="Stretch"
+                                Orientation="Horizontal">
+                                <Label Content="🛡️Planeswalkers" />
+                                <Label Content="(" />
+                                <Label Content="{Binding SelectedDeck.PlaneswalkerCount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                <Label Content=")" />
+
+                            </StackPanel>-->
+
+                            <DataGrid
+                                Grid.Row="1"
+                                Margin="2"
+                                AutoGenerateColumns="False"
+                                CanUserAddRows="False"
+                                CanUserDeleteRows="False"
+                                IsReadOnly="True"
+                                ItemsSource="{Binding PlaneswalkerList}"
+                                MouseDoubleClick="ShowCardImage"
+                                SelectedItem="{Binding SelectedPlaneswalker, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                SelectionMode="Extended"
+                                SelectionUnit="FullRow"
+                                ToolTip="{DynamicResource UseDoubleClickImage}">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn
+                                        Width="*"
+                                        Binding="{Binding Units}"
+                                        Header="{DynamicResource Quantity}"
+                                        IsReadOnly="True" />
+                                    <DataGridTextColumn
+                                        Width="3*"
+                                        Binding="{Binding Name}"
+                                        Header="{DynamicResource Name}"
+                                        IsReadOnly="True" />
+                                    <DataGridTemplateColumn
+                                        Width="2*"
+                                        Header="{DynamicResource ManaCost}"
+                                        IsReadOnly="True">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <ItemsControl ItemsSource="{Binding ManaCostView}">
+                                                    <ItemsControl.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <Image
+                                                                Width="20"
+                                                                Height="20"
+                                                                HorizontalAlignment="Center"
+                                                                VerticalAlignment="Center"
+                                                                Source="{Binding SymbolPath}"
+                                                                ToolTip="{Binding Symbol}" />
+                                                        </DataTemplate>
+                                                    </ItemsControl.ItemTemplate>
+                                                    <ItemsControl.ItemsPanel>
+                                                        <ItemsPanelTemplate>
+                                                            <StackPanel Orientation="Horizontal" />
+                                                        </ItemsPanelTemplate>
+                                                    </ItemsControl.ItemsPanel>
+                                                </ItemsControl>
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+
+
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Grid>
+                    </Expander>
+                    <!--#endregion-->
+
+                </StackPanel>
+            </ScrollViewer>
+
+            <ScrollViewer
+                Grid.RowSpan="2"
+                Grid.Column="1"
+                Style="{StaticResource MaterialDesignScrollViewer}">
+                <StackPanel
+                    Grid.RowSpan="2"
+                    Grid.Column="1"
+                    CanVerticallyScroll="True"
+                    Orientation="Vertical">
+
+                    <!--#region Spells list-->
+                    <Expander Visibility="{Binding SpellsVisibility, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                        <Expander.Header>
+                            <TextBlock>
+                                <TextBlock Text="{DynamicResource Spells}" />
+                                <TextBlock Text="(" />
+                                <TextBlock Text="{Binding SelectedDeck.TotalNonCreatureAndInstantSpells, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                <TextBlock Text=")" />
+                            </TextBlock>
+                        </Expander.Header>
+                        <Grid
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            MinHeight="200">
+                            <!--  Visibility="{Binding SpellsVisibility, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"  -->
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+
+                            <!--<StackPanel
+                                Grid.Row="0"
+                                HorizontalAlignment="Stretch"
+                                Orientation="Horizontal">
+                                <Label Content="🛡️Non Creature Spells" />
+                                <Label Content="(" />
+                                <Label Content="{Binding SelectedDeck.TotalNonCreatureAndInstantSpells, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                <Label Content=")" />
+
+                            </StackPanel>-->
+
+                            <DataGrid
+                                Grid.Row="1"
+                                Margin="2"
+                                AutoGenerateColumns="False"
+                                CanUserAddRows="False"
+                                CanUserDeleteRows="False"
+                                IsReadOnly="True"
+                                ItemsSource="{Binding SpellList}"
+                                MouseDoubleClick="ShowCardImage"
+                                SelectedItem="{Binding SelectedSpell, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                SelectionMode="Extended"
+                                SelectionUnit="FullRow"
+                                ToolTip="{DynamicResource UseDoubleClickImage}">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn
+                                        Width="*"
+                                        Binding="{Binding Units}"
+                                        Header="{DynamicResource Quantity}"
+                                        IsReadOnly="True" />
+                                    <DataGridTextColumn
+                                        Width="3*"
+                                        Binding="{Binding Name}"
+                                        Header="{DynamicResource Name}"
+                                        IsReadOnly="True" />
+                                    <DataGridTemplateColumn
+                                        Width="2*"
+                                        Header="{DynamicResource ManaCost}"
+                                        IsReadOnly="True">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <ItemsControl ItemsSource="{Binding ManaCostView}">
+                                                    <ItemsControl.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <Image
+                                                                Width="20"
+                                                                Height="20"
+                                                                HorizontalAlignment="Center"
+                                                                VerticalAlignment="Center"
+                                                                Source="{Binding SymbolPath}"
+                                                                ToolTip="{Binding Symbol}" />
+                                                        </DataTemplate>
+                                                    </ItemsControl.ItemTemplate>
+                                                    <ItemsControl.ItemsPanel>
+                                                        <ItemsPanelTemplate>
+                                                            <StackPanel Orientation="Horizontal" />
+                                                        </ItemsPanelTemplate>
+                                                    </ItemsControl.ItemsPanel>
+                                                </ItemsControl>
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+
+
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Grid>
+                    </Expander>
+                    <!--#endregion-->
+
+                    <!--#region Enchantment-->
+                    <Expander Visibility="{Binding EnchantmentVisibility, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                        <Expander.Header>
+                            <TextBlock>
+                                <TextBlock Text="{DynamicResource Enchantment}" />
+                                <TextBlock Text="(" />
+                                <TextBlock Text="{Binding EnchantmentCount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                <TextBlock Text=")" />
+                            </TextBlock>
+                        </Expander.Header>
+                        <Grid
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            MinHeight="200"
+                            Visibility="{Binding EnchantmentVisibility, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="25" />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+
+                            <!--<StackPanel
+                            Grid.Row="0"
+                            HorizontalAlignment="Stretch"
+                            Orientation="Horizontal">
+                            <Label Content="🛡️Enchantment" />
+                            <Label Content="(" />
+                            <Label Content="{Binding EnchantmentCount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                            <Label Content=")" />
+                        </StackPanel>-->
+
+                            <DataGrid
+                                Grid.Row="1"
+                                Margin="2"
+                                AutoGenerateColumns="False"
+                                CanUserAddRows="False"
+                                CanUserDeleteRows="False"
+                                IsReadOnly="True"
+                                ItemsSource="{Binding EnchantmentList}"
+                                MouseDoubleClick="ShowCardImage"
+                                SelectionMode="Extended"
+                                SelectionUnit="FullRow"
+                                ToolTip="{DynamicResource UseDoubleClickImage}">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn
+                                        Width="*"
+                                        Binding="{Binding Units}"
+                                        Header="{DynamicResource Quantity}"
+                                        IsReadOnly="True" />
+                                    <DataGridTextColumn
+                                        Width="3*"
+                                        Binding="{Binding Name}"
+                                        Header="{DynamicResource Name}"
+                                        IsReadOnly="True" />
+                                    <DataGridTemplateColumn
+                                        Width="2*"
+                                        Header="{DynamicResource ManaCost}"
+                                        IsReadOnly="True">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <ItemsControl ItemsSource="{Binding ManaCostView}">
+                                                    <ItemsControl.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <Image
+                                                                Width="20"
+                                                                Height="20"
+                                                                HorizontalAlignment="Center"
+                                                                VerticalAlignment="Center"
+                                                                Source="{Binding SymbolPath}"
+                                                                ToolTip="{Binding Symbol}" />
+                                                        </DataTemplate>
+                                                    </ItemsControl.ItemTemplate>
+                                                    <ItemsControl.ItemsPanel>
+                                                        <ItemsPanelTemplate>
+                                                            <StackPanel Orientation="Horizontal" />
+                                                        </ItemsPanelTemplate>
+                                                    </ItemsControl.ItemsPanel>
+                                                </ItemsControl>
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+
+
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Grid>
+
+                    </Expander>
+                    <!--#endregion-->
+
+                    <!--#region Land list-->
+                    <Expander Visibility="{Binding LandsVisibility, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                        <Expander.Header>
+                            <TextBlock>
+                                <TextBlock Text="{DynamicResource Lands}" />
+                                <TextBlock Text="(" />
+                                <TextBlock Text="{Binding SelectedDeck.LandCount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                <TextBlock Text=")" />
+                            </TextBlock>
+                        </Expander.Header>
+                        <Grid
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            MinHeight="200"
+                            Visibility="{Binding LandsVisibility, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+
+                            <!--<StackPanel
+                            Grid.Row="0"
+                            HorizontalAlignment="Stretch"
+                            Orientation="Horizontal">
+                            <Label Content="🛡️Lands" />
+                            <Label Content="(" />
+                            <Label Content="{Binding SelectedDeck.LandCount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                            <Label Content=")" />
+
+                        </StackPanel>-->
+
+                            <DataGrid
+                                Grid.Row="1"
+                                Margin="2"
+                                AutoGenerateColumns="False"
+                                CanUserAddRows="False"
+                                CanUserDeleteRows="False"
+                                IsReadOnly="True"
+                                ItemsSource="{Binding LandList}"
+                                MouseDoubleClick="ShowCardImage"
+                                SelectedItem="{Binding SelectedLand, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                SelectionMode="Extended"
+                                SelectionUnit="FullRow"
+                                ToolTip="{DynamicResource UseDoubleClickImage}">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn
+                                        Width="*"
+                                        Binding="{Binding Units}"
+                                        Header="{DynamicResource Quantity}"
+                                        IsReadOnly="True" />
+                                    <DataGridTextColumn
+                                        Width="3*"
+                                        Binding="{Binding Name}"
+                                        Header="{DynamicResource Name}"
+                                        IsReadOnly="True" />
+
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Grid>
+                    </Expander>
+                    <!--#endregion-->
+
+                </StackPanel>
+            </ScrollViewer>
+
+            <vlc:PieChart
+                Name="PieChartControl"
+                Grid.Row="0"
+                Grid.Column="2"
+                DataClick="PieChart_DataClick"
+                DataTooltip="{x:Null}"
+                Foreground="{DynamicResource MaterialDesignBody}"
+                Hoverable="True"
+                LegendLocation="Right"
+                Series="{Binding LineSeriesCollection, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+
+            <vlc:CartesianChart
+                Name="AdvancedChartControl"
+                Grid.Row="1"
+                Grid.Column="2"
+                DataTooltip="{x:Null}"
+                Foreground="{DynamicResource MaterialDesignBody}"
+                Hoverable="True"
+                LegendLocation="Bottom"
+                Series="{Binding AdvancedSeries, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                <vlc:CartesianChart.AxisX>
+                    <vlc:Axis Title="{DynamicResource ManaCost}" ShowLabels="True" />
+                </vlc:CartesianChart.AxisX>
+                <vlc:CartesianChart.AxisY>
+                    <vlc:Axis Title="{DynamicResource Quantity}" ShowLabels="True" />
+                </vlc:CartesianChart.AxisY>
+
+            </vlc:CartesianChart>
+
+        </Grid>
+
+    </Grid>
+</UserControl>

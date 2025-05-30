@@ -1,0 +1,298 @@
+﻿<Window
+    x:Class="MistycPawCraftCore.View.ReprintsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MistycPawCraftCore.View"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewmodel="clr-namespace:MistycPawCraftCore.ViewModel"
+    xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+    Title="{DynamicResource TituloPantallaReprint}"
+    Width="800"
+    Height="450"
+    Background="{DynamicResource MaterialDesignPaper}"
+    FontFamily="{DynamicResource MaterialDesignFont}"
+    TextElement.FontSize="13"
+    TextElement.FontWeight="Regular"
+    TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+    TextOptions.TextFormattingMode="Ideal"
+    TextOptions.TextRenderingMode="Auto"
+    mc:Ignorable="d">
+    <Window.DataContext>
+        <viewmodel:ReprintsViewModel />
+    </Window.DataContext>
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <ListBox
+                x:Name="ReprintsListBox"
+                Grid.Column="0"
+                Width="auto"
+                Margin="5,0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                HorizontalContentAlignment="Center"
+                ItemsSource="{Binding ReprintsList}"
+                ScrollViewer.ScrollChanged="ListaBox_ScrollChanged"
+                ScrollViewer.VerticalScrollBarVisibility="Auto"
+                SelectedItem="{Binding ReprintSelected, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Stretch"
+                            Orientation="Horizontal" />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid MinWidth="150" MinHeight="100">
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition Height="3*" />
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.Background>
+                                <ImageBrush ImageSource="{Binding Set.ImageLocalPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Opacity="0.15" />
+                            </Grid.Background>
+
+                            <!--#region Icon + SET-->
+                            <Grid Grid.Row="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition Width="3*" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+
+                                <Image
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    Width="25"
+                                    Height="25"
+                                    Margin="2"
+                                    HorizontalAlignment="Center"
+                                    Source="{Binding Set.ImageLocalPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+
+                                <TextBlock
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    Margin="2"
+                                    HorizontalAlignment="Stretch"
+                                    VerticalAlignment="Center"
+                                    FontWeight="Bold"
+                                    Text="{Binding Set.NameSet}"
+                                    TextWrapping="Wrap" />
+
+                            </Grid>
+                            <!--#endregion-->
+
+                            <!--#region Imagen-->
+                            <Image
+                                Grid.Row="1"
+                                Width="Auto"
+                                MaxWidth="300"
+                                HorizontalAlignment="Stretch"
+                                Source="{Binding LocalImagePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                            <!--#endregion-->
+
+                            <!--#region Datos Extra-->
+                            <Grid Grid.Row="2" HorizontalAlignment="Center">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+
+                                <Label
+                                    Grid.Row="0"
+                                    Margin="2"
+                                    HorizontalAlignment="Stretch"
+                                    VerticalAlignment="Stretch"
+                                    HorizontalContentAlignment="Left"
+                                    VerticalContentAlignment="Center"
+                                    Content="{Binding Artist}"
+                                    FontWeight="Bold" />
+
+                                <Label
+                                    Grid.Row="1"
+                                    Margin="2"
+                                    HorizontalAlignment="Stretch"
+                                    VerticalAlignment="Stretch"
+                                    HorizontalContentAlignment="Left"
+                                    VerticalContentAlignment="Center"
+                                    Content="{Binding ReleaseAt}"
+                                    ContentStringFormat="{}{0:dd/MM/yyyy}"
+                                    FontWeight="Bold" />
+
+                            </Grid>
+                            <!--#endregion-->
+
+                            <!--#region Buttons-->
+                            <Grid Grid.Row="3">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+
+                                <Button
+                                    Grid.Column="0"
+                                    Margin="2"
+                                    Click="cardmarket_Click"
+                                    Tag="{Binding PurchaseUris.cardmarket}">
+                                    <Image Source="/Utils/Images/Icons/CMLogo.png" />
+                                </Button>
+                                <Button
+                                    Grid.Column="1"
+                                    Margin="2"
+                                    Click="TCG_Click"
+                                    Content="Trading Card Player"
+                                    Tag="{Binding PurchaseUris.tcgplayer}" />
+
+                            </Grid>
+                            <!--#endregion-->
+
+                        </Grid>
+                        <!--</materialDesign:Card>-->
+
+                        <!--#region Flipper-->
+                        <!--<materialDesign:Flipper Margin="5" materialDesign:ElevationAssist.Elevation="Dp0">
+                            <materialDesign:Flipper.FrontContent>
+                                <Grid Width="175" Height="250">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="160" />
+                                        <RowDefinition Height="40" />
+                                    </Grid.RowDefinitions>
+
+                        <Grid
+                            Grid.Row="1"
+                            Width="150"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Top">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="21" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="21" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="21" />
+                                <RowDefinition Height="2*" />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Label
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Stretch"
+                                HorizontalContentAlignment="Center"
+                                VerticalContentAlignment="Stretch"
+                                Content="Artist"
+                                FontWeight="Bold" />
+                            <Label
+                                Grid.Row="1"
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Stretch"
+                                HorizontalContentAlignment="Center"
+                                VerticalContentAlignment="Stretch"
+                                materialDesign:HintAssist.Hint="Set"
+                                materialDesign:HintAssist.IsFloating="True"
+                                Content="{Binding Artist}" />
+                            <Label
+                                Grid.Row="2"
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Stretch"
+                                HorizontalContentAlignment="Center"
+                                VerticalContentAlignment="Stretch"
+                                Content="Set"
+                                FontWeight="Bold" />
+                            <TextBlock
+                                Grid.Row="3"
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Stretch"
+                                materialDesign:HintAssist.Hint="Set"
+                                materialDesign:HintAssist.IsFloating="True"
+                                Text="{Binding Set.NameSet}"
+                                TextAlignment="Center"
+                                TextWrapping="Wrap" />
+                            <Label
+                                Grid.Row="4"
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Stretch"
+                                HorizontalContentAlignment="Center"
+                                VerticalContentAlignment="Stretch"
+                                Content="Release"
+                                FontWeight="Bold" />
+                            <Label
+                                Grid.Row="5"
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Stretch"
+                                HorizontalContentAlignment="Center"
+                                VerticalContentAlignment="Stretch"
+                                materialDesign:HintAssist.Hint="Set"
+                                materialDesign:HintAssist.IsFloating="True"
+                                Content="{Binding ReleaseAt, StringFormat=d}" />
+                            <StackPanel
+                                Grid.Row="6"
+                                Grid.RowSpan="2"
+                                HorizontalAlignment="Center"
+                                Orientation="Horizontal">
+                                <Button
+                                    Width="50"
+                                    Margin="5,0"
+                                    Background="{StaticResource MaterialDesignPaper}"
+                                    Click="cardmarket_Click"
+                                    Tag="{Binding PurchaseUris.cardmarket}">
+                                    <Image Source="/Utils/Images/Icons/CMLogo.png" />
+                                </Button>
+                                <Button
+                                    Width="50"
+                                    Margin="5,0"
+                                    Click="TCG_Click"
+                                    Content="Trading Card Player"
+                                    Tag="{Binding PurchaseUris.tcgplayer}" />
+
+                                        </StackPanel>
+                                    </Grid>
+                                </Grid>
+                            </materialDesign:Flipper.BackContent>
+                        </materialDesign:Flipper>-->
+                        <!--#endregion-->
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ListBox>
+
+            <!--  Overlay de carga  -->
+            <Grid
+                Panel.ZIndex="100"
+                Background="#80000000"
+                Visibility="{Binding IsLoading, Converter={StaticResource BoolToVis}}">
+                <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <StackPanel
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Orientation="Vertical">
+                        <!--  ProgressBar Circular  -->
+                        <ProgressBar
+                            Width="60"
+                            Height="60"
+                            Foreground="{DynamicResource PrimaryHueMidBrush}"
+                            IsIndeterminate="True"
+                            Style="{StaticResource MaterialDesignCircularProgressBar}" />
+
+                        <!--  Texto opcional  -->
+                        <TextBlock
+                            HorizontalAlignment="Center"
+                            FontSize="14"
+                            Foreground="White"
+                            Text="{DynamicResource LoadingReprints}"
+                            TextAlignment="Center" />
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Grid>
+
+
+    </Grid>
+</Window>

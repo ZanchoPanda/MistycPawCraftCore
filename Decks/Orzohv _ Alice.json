@@ -1,0 +1,2186 @@
+{
+  "IDDeck": 0,
+  "DeckName": "Orzohv _ Alice",
+  "Legal": {
+    "Standard": true,
+    "Historic": true,
+    "Pioneer": true,
+    "Modern": true,
+    "Legacy": true,
+    "Pauper": false,
+    "Commander": true
+  },
+  "Deck": [
+    {
+      "id": "be219928-3d0e-4d00-b124-152ce8a8c13b",
+      "Name": "Delney, Streetwise Lookout",
+      "PrintedName": "Delney, Streetwise Lookout",
+      "ManaCost": "{2}{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "2",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\2.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Creatures you control with power 2 or less can't be blocked by creatures with power 3 or greater.\nIf an ability of a creature you control with power 2 or less triggers, that ability triggers an additional time.\r\n",
+      "Power": "2",
+      "Toughness": "2",
+      "Set": {
+        "objectset": null,
+        "id": "2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "CodeSet": "mkm",
+        "NameSet": "Murders at Karlov Manor",
+        "UriSet": "https://api.scryfall.com/sets/2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "ScryfallUri": "https://scryfall.com/sets/mkm",
+        "SearchUri": null,
+        "ReleasedDate": "2024-02-09T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 444,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/mkm.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\mkm\\mkm.png"
+      },
+      "Rarity": "mythic",
+      "Artist": "Darren Tan",
+      "Flavor_Text": "\"It's not a matter of what I know. It's a matter of making it worth my while to tell you.\"",
+      "Units": 2,
+      "TotalPriceCardMarket": 36.32,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/121512?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Delney%2C+Streetwise+Lookout&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F533402%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 18.16,
+        "eurFoil": 26.38,
+        "usd": 19.15,
+        "usdFoil": 24.82
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Legendary Creature",
+          "SuperType1": "Legendary",
+          "SuperType2": "Creature",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Human Scout",
+          "CardType1": "Human",
+          "CardType2": "Scout",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/b/e/be219928-3d0e-4d00-b124-152ce8a8c13b.jpg?1706241477",
+        "Normal": "https://cards.scryfall.io/normal/front/b/e/be219928-3d0e-4d00-b124-152ce8a8c13b.jpg?1706241477",
+        "Large": "https://cards.scryfall.io/large/front/b/e/be219928-3d0e-4d00-b124-152ce8a8c13b.jpg?1706241477",
+        "PNG": "https://cards.scryfall.io/png/front/b/e/be219928-3d0e-4d00-b124-152ce8a8c13b.png?1706241477"
+      }
+    },
+    {
+      "id": "d6bedf13-c2bc-4e5d-aba3-3c0d5495a9bb",
+      "Name": "Ruin-Lurker Bat",
+      "PrintedName": "Ruin-Lurker Bat",
+      "ManaCost": "{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 1.0,
+      "OracleText": "\r\n    Flying, lifelink\nAt the beginning of your end step, if you descended this turn, scry 1. (You descended if a permanent card was put into your graveyard from anywhere.)\r\n",
+      "Power": "1",
+      "Toughness": "1",
+      "Set": {
+        "objectset": null,
+        "id": "70169a6e-89d1-4a3a-aef7-3152958d55ac",
+        "CodeSet": "lci",
+        "NameSet": "The Lost Caverns of Ixalan",
+        "UriSet": "https://api.scryfall.com/sets/70169a6e-89d1-4a3a-aef7-3152958d55ac",
+        "ScryfallUri": "https://scryfall.com/sets/lci",
+        "SearchUri": null,
+        "ReleasedDate": "2023-11-17T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 415,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/lci.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\lci\\lci.png"
+      },
+      "Rarity": "uncommon",
+      "Artist": "Camille Alquier",
+      "Flavor_Text": "\"Look! Aclazotz sends his children to watch over our pilgrimage.\"\n—Clavileño, First of the Blessed",
+      "Units": 4,
+      "TotalPriceCardMarket": 0.40,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/117848?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Ruin-Lurker+Bat&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F525240%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.10,
+        "eurFoil": 0.17,
+        "usd": 0.08,
+        "usdFoil": 0.14
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Creature",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Bat",
+          "CardType1": "Bat",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/d/6/d6bedf13-c2bc-4e5d-aba3-3c0d5495a9bb.jpg?1699043372",
+        "Normal": "https://cards.scryfall.io/normal/front/d/6/d6bedf13-c2bc-4e5d-aba3-3c0d5495a9bb.jpg?1699043372",
+        "Large": "https://cards.scryfall.io/large/front/d/6/d6bedf13-c2bc-4e5d-aba3-3c0d5495a9bb.jpg?1699043372",
+        "PNG": "https://cards.scryfall.io/png/front/d/6/d6bedf13-c2bc-4e5d-aba3-3c0d5495a9bb.png?1699043372"
+      }
+    },
+    {
+      "id": "19775c18-4cc0-49d3-86e4-0841768cbf4d",
+      "Name": "Bringer of the Last Gift",
+      "PrintedName": "Bringer of the Last Gift",
+      "ManaCost": "{6}{B}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "6",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\6.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 8.0,
+      "OracleText": "\r\n    Flying\nWhen Bringer of the Last Gift enters the battlefield, if you cast it, each player sacrifices all other creatures they control. Then each player returns all creature cards from their graveyard that weren't put there this way to the battlefield.\r\n",
+      "Power": "6",
+      "Toughness": "6",
+      "Set": {
+        "objectset": null,
+        "id": "70169a6e-89d1-4a3a-aef7-3152958d55ac",
+        "CodeSet": "lci",
+        "NameSet": "The Lost Caverns of Ixalan",
+        "UriSet": "https://api.scryfall.com/sets/70169a6e-89d1-4a3a-aef7-3152958d55ac",
+        "ScryfallUri": "https://scryfall.com/sets/lci",
+        "SearchUri": null,
+        "ReleasedDate": "2023-11-17T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 415,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/lci.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\lci\\lci.png"
+      },
+      "Rarity": "rare",
+      "Artist": "Wero Gallo",
+      "Flavor_Text": null,
+      "Units": 2,
+      "TotalPriceCardMarket": 0.32,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/117992?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Bringer+of+the+Last+Gift&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F524318%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.16,
+        "eurFoil": 0.24,
+        "usd": 0.22,
+        "usdFoil": 0.26
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Creature",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Vampire Demon",
+          "CardType1": "Vampire",
+          "CardType2": "Demon",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/1/9/19775c18-4cc0-49d3-86e4-0841768cbf4d.jpg?1699044096",
+        "Normal": "https://cards.scryfall.io/normal/front/1/9/19775c18-4cc0-49d3-86e4-0841768cbf4d.jpg?1699044096",
+        "Large": "https://cards.scryfall.io/large/front/1/9/19775c18-4cc0-49d3-86e4-0841768cbf4d.jpg?1699044096",
+        "PNG": "https://cards.scryfall.io/png/front/1/9/19775c18-4cc0-49d3-86e4-0841768cbf4d.png?1699044096"
+      }
+    },
+    {
+      "id": "2a7a3ec4-afaa-45e1-8cde-f15bf4bd7379",
+      "Name": "Illicit Masquerade",
+      "PrintedName": "Illicit Masquerade",
+      "ManaCost": "{3}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "3",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\3.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 4.0,
+      "OracleText": "\r\n    Flash\nWhen Illicit Masquerade enters the battlefield, put an impostor counter on each creature you control.\nWhenever a creature you control with an impostor counter on it dies, exile it. Return up to one other target creature card from your graveyard to the battlefield.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "CodeSet": "mkm",
+        "NameSet": "Murders at Karlov Manor",
+        "UriSet": "https://api.scryfall.com/sets/2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "ScryfallUri": "https://scryfall.com/sets/mkm",
+        "SearchUri": null,
+        "ReleasedDate": "2024-02-09T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 444,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/mkm.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\mkm\\mkm.png"
+      },
+      "Rarity": "rare",
+      "Artist": "Valera Lutfullina",
+      "Flavor_Text": null,
+      "Units": 2,
+      "TotalPriceCardMarket": 0.20,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/121654?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Illicit+Masquerade&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F535975%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.10,
+        "eurFoil": 0.56,
+        "usd": 0.31,
+        "usdFoil": 0.33
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Enchantment",
+          "SuperType1": "Enchantment",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/2/a/2a7a3ec4-afaa-45e1-8cde-f15bf4bd7379.jpg?1706241704",
+        "Normal": "https://cards.scryfall.io/normal/front/2/a/2a7a3ec4-afaa-45e1-8cde-f15bf4bd7379.jpg?1706241704",
+        "Large": "https://cards.scryfall.io/large/front/2/a/2a7a3ec4-afaa-45e1-8cde-f15bf4bd7379.jpg?1706241704",
+        "PNG": "https://cards.scryfall.io/png/front/2/a/2a7a3ec4-afaa-45e1-8cde-f15bf4bd7379.png?1706241704"
+      }
+    },
+    {
+      "id": "1ea6438b-0e6c-4d65-8bcd-34a988717c81",
+      "Name": "Murder",
+      "PrintedName": "Murder",
+      "ManaCost": "{1}{B}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Destroy target creature.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "CodeSet": "mkm",
+        "NameSet": "Murders at Karlov Manor",
+        "UriSet": "https://api.scryfall.com/sets/2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "ScryfallUri": "https://scryfall.com/sets/mkm",
+        "SearchUri": null,
+        "ReleasedDate": "2024-02-09T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 444,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/mkm.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\mkm\\mkm.png"
+      },
+      "Rarity": "common",
+      "Artist": "Isis",
+      "Flavor_Text": "Laughter and conversation trailed off as the revelers gathered around Zegana's body. Three things quickly became clear: it was a murder, the killer was likely among them, and Teysa's party was definitely over.",
+      "Units": 2,
+      "TotalPriceCardMarket": 0.12,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A938b4e2c-88d9-4637-bc00-e228920c9a78&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/121668?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Murder&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F535543%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.06,
+        "eurFoil": 0.10,
+        "usd": 0.06,
+        "usdFoil": 0.04
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/1/e/1ea6438b-0e6c-4d65-8bcd-34a988717c81.jpg?1706241725",
+        "Normal": "https://cards.scryfall.io/normal/front/1/e/1ea6438b-0e6c-4d65-8bcd-34a988717c81.jpg?1706241725",
+        "Large": "https://cards.scryfall.io/large/front/1/e/1ea6438b-0e6c-4d65-8bcd-34a988717c81.jpg?1706241725",
+        "PNG": "https://cards.scryfall.io/png/front/1/e/1ea6438b-0e6c-4d65-8bcd-34a988717c81.png?1706241725"
+      }
+    },
+    {
+      "id": "317800b3-6b2d-4de6-8e44-7e54dd623055",
+      "Name": "Slice from the Shadows",
+      "PrintedName": "Slice from the Shadows",
+      "ManaCost": "{X}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "X",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\X.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 1.0,
+      "OracleText": "\r\n    This spell can't be countered. (This includes by the ward ability.)\nTarget creature gets -X/-X until end of turn.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "CodeSet": "mkm",
+        "NameSet": "Murders at Karlov Manor",
+        "UriSet": "https://api.scryfall.com/sets/2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "ScryfallUri": "https://scryfall.com/sets/mkm",
+        "SearchUri": null,
+        "ReleasedDate": "2024-02-09T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 444,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/mkm.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\mkm\\mkm.png"
+      },
+      "Rarity": "common",
+      "Artist": "Lie Setiawan",
+      "Flavor_Text": "\"Proft has been poking his nose where it doesn't belong. I want him out of the way.\"\n—Judith, to Massacre Girl",
+      "Units": 2,
+      "TotalPriceCardMarket": 0.14,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/121684?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Slice+from+the+Shadows&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F535298%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.07,
+        "eurFoil": 0.07,
+        "usd": 0.05,
+        "usdFoil": 0.13
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/3/1/317800b3-6b2d-4de6-8e44-7e54dd623055.jpg?1706241753",
+        "Normal": "https://cards.scryfall.io/normal/front/3/1/317800b3-6b2d-4de6-8e44-7e54dd623055.jpg?1706241753",
+        "Large": "https://cards.scryfall.io/large/front/3/1/317800b3-6b2d-4de6-8e44-7e54dd623055.jpg?1706241753",
+        "PNG": "https://cards.scryfall.io/png/front/3/1/317800b3-6b2d-4de6-8e44-7e54dd623055.png?1706241753"
+      }
+    },
+    {
+      "id": "93ab3e11-8584-406f-b9ae-9e1df4396cbc",
+      "Name": "Snarling Gorehound",
+      "PrintedName": "Snarling Gorehound",
+      "ManaCost": "{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 1.0,
+      "OracleText": "\r\n    Menace\nWhenever another creature with power 2 or less enters the battlefield under your control, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\r\n",
+      "Power": "1",
+      "Toughness": "1",
+      "Set": {
+        "objectset": null,
+        "id": "2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "CodeSet": "mkm",
+        "NameSet": "Murders at Karlov Manor",
+        "UriSet": "https://api.scryfall.com/sets/2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "ScryfallUri": "https://scryfall.com/sets/mkm",
+        "SearchUri": null,
+        "ReleasedDate": "2024-02-09T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 444,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/mkm.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\mkm\\mkm.png"
+      },
+      "Rarity": "common",
+      "Artist": "John Tedrick",
+      "Flavor_Text": "\"I'd offer your dog a treat, but I'm afraid I don't have any appendages to spare.\"\n—Alquist Proft, to Judith",
+      "Units": 4,
+      "TotalPriceCardMarket": 0.44,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/121688?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Snarling+Gorehound&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F534679%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.11,
+        "eurFoil": 0.18,
+        "usd": 0.09,
+        "usdFoil": 0.23
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Creature",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Dog",
+          "CardType1": "Dog",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/3/93ab3e11-8584-406f-b9ae-9e1df4396cbc.jpg?1706241754",
+        "Normal": "https://cards.scryfall.io/normal/front/9/3/93ab3e11-8584-406f-b9ae-9e1df4396cbc.jpg?1706241754",
+        "Large": "https://cards.scryfall.io/large/front/9/3/93ab3e11-8584-406f-b9ae-9e1df4396cbc.jpg?1706241754",
+        "PNG": "https://cards.scryfall.io/png/front/9/3/93ab3e11-8584-406f-b9ae-9e1df4396cbc.png?1706241754"
+      }
+    },
+    {
+      "id": "2c5a7550-fe1a-4797-9583-70ab56cfac0d",
+      "Name": "Tomik, Wielder of Law",
+      "PrintedName": "Tomik, Wielder of Law",
+      "ManaCost": "{1}{W}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Affinity for planeswalkers (This spell costs {1} less to cast for each planeswalker you control.)\nFlying, vigilance\nWhenever an opponent attacks with creatures, if two or more of those creatures are attacking you and/or planeswalkers you control, that opponent loses 3 life and you draw a card.\r\n",
+      "Power": "2",
+      "Toughness": "4",
+      "Set": {
+        "objectset": null,
+        "id": "2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "CodeSet": "mkm",
+        "NameSet": "Murders at Karlov Manor",
+        "UriSet": "https://api.scryfall.com/sets/2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "ScryfallUri": "https://scryfall.com/sets/mkm",
+        "SearchUri": null,
+        "ReleasedDate": "2024-02-09T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 444,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/mkm.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\mkm\\mkm.png"
+      },
+      "Rarity": "mythic",
+      "Artist": "Valera Lutfullina",
+      "Flavor_Text": null,
+      "Units": 2,
+      "TotalPriceCardMarket": 0.0,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/121228?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Tomik%2C+Wielder+of+Law&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F532914%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.0,
+        "eurFoil": 0.0,
+        "usd": 0.0,
+        "usdFoil": 1.36
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Legendary Creature",
+          "SuperType1": "Legendary",
+          "SuperType2": "Creature",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Human Advisor",
+          "CardType1": "Human",
+          "CardType2": "Advisor",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/2/c/2c5a7550-fe1a-4797-9583-70ab56cfac0d.jpg?1707739807",
+        "Normal": "https://cards.scryfall.io/normal/front/2/c/2c5a7550-fe1a-4797-9583-70ab56cfac0d.jpg?1707739807",
+        "Large": "https://cards.scryfall.io/large/front/2/c/2c5a7550-fe1a-4797-9583-70ab56cfac0d.jpg?1707739807",
+        "PNG": "https://cards.scryfall.io/png/front/2/c/2c5a7550-fe1a-4797-9583-70ab56cfac0d.png?1707739807"
+      }
+    },
+    {
+      "id": "078933b3-6d82-45f2-94e8-addf54cf1704",
+      "Name": "Vein Ripper",
+      "PrintedName": "Vein Ripper",
+      "ManaCost": "{3}{B}{B}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "3",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\3.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 6.0,
+      "OracleText": "\r\n    Flying\nWard—Sacrifice a creature.\nWhenever a creature dies, target opponent loses 2 life and you gain 2 life.\r\n",
+      "Power": "6",
+      "Toughness": "5",
+      "Set": {
+        "objectset": null,
+        "id": "2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "CodeSet": "mkm",
+        "NameSet": "Murders at Karlov Manor",
+        "UriSet": "https://api.scryfall.com/sets/2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "ScryfallUri": "https://scryfall.com/sets/mkm",
+        "SearchUri": null,
+        "ReleasedDate": "2024-02-09T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 444,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/mkm.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\mkm\\mkm.png"
+      },
+      "Rarity": "mythic",
+      "Artist": "Bastien L. Deharme",
+      "Flavor_Text": "\"I'm afraid your investigation has reached a dead end.\"",
+      "Units": 2,
+      "TotalPriceCardMarket": 13.08,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/121698?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Vein+Ripper&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F533392%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 6.54,
+        "eurFoil": 8.45,
+        "usd": 7.16,
+        "usdFoil": 10.15
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Creature",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Vampire Assassin",
+          "CardType1": "Vampire",
+          "CardType2": "Assassin",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/0/7/078933b3-6d82-45f2-94e8-addf54cf1704.jpg?1706241798",
+        "Normal": "https://cards.scryfall.io/normal/front/0/7/078933b3-6d82-45f2-94e8-addf54cf1704.jpg?1706241798",
+        "Large": "https://cards.scryfall.io/large/front/0/7/078933b3-6d82-45f2-94e8-addf54cf1704.jpg?1706241798",
+        "PNG": "https://cards.scryfall.io/png/front/0/7/078933b3-6d82-45f2-94e8-addf54cf1704.png?1706241798"
+      }
+    },
+    {
+      "id": "1094eef0-6c57-4bfa-a584-f708b87354fb",
+      "Name": "Expel the Interlopers",
+      "PrintedName": "Expel the Interlopers",
+      "ManaCost": "{3}{W}{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "3",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\3.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 5.0,
+      "OracleText": "\r\n    Choose a number between 0 and 10. Destroy all creatures with power greater than or equal to the chosen number.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "79139661-13ee-43c4-8bad-a8c069f1a1df",
+        "CodeSet": "woe",
+        "NameSet": "Wilds of Eldraine",
+        "UriSet": "https://api.scryfall.com/sets/79139661-13ee-43c4-8bad-a8c069f1a1df",
+        "ScryfallUri": "https://scryfall.com/sets/woe",
+        "SearchUri": null,
+        "ReleasedDate": "2023-09-08T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 381,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/woe.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\woe\\woe.png"
+      },
+      "Rarity": "rare",
+      "Artist": "Andreas Zafiratos",
+      "Flavor_Text": "When a redcap raid threatened the Grand Ball at Delverhaugh, Goddric had no choice but to reveal his true identity and douse the invaders in dragonfire.",
+      "Units": 2,
+      "TotalPriceCardMarket": 0.44,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/116318?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Expel+the+Interlopers&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F512298%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.22,
+        "eurFoil": 0.42,
+        "usd": 0.22,
+        "usdFoil": 0.29
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/1/0/1094eef0-6c57-4bfa-a584-f708b87354fb.jpg?1692936458",
+        "Normal": "https://cards.scryfall.io/normal/front/1/0/1094eef0-6c57-4bfa-a584-f708b87354fb.jpg?1692936458",
+        "Large": "https://cards.scryfall.io/large/front/1/0/1094eef0-6c57-4bfa-a584-f708b87354fb.jpg?1692936458",
+        "PNG": "https://cards.scryfall.io/png/front/1/0/1094eef0-6c57-4bfa-a584-f708b87354fb.png?1692936458"
+      }
+    },
+    {
+      "id": "69c68c95-b788-43b1-9f22-1b22c5a00b25",
+      "Name": "Deep-Cavern Bat",
+      "PrintedName": "Deep-Cavern Bat",
+      "ManaCost": "{1}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 2.0,
+      "OracleText": "\r\n    Flying, lifelink\nWhen Deep-Cavern Bat enters the battlefield, look at target opponent's hand. You may exile a nonland card from it until Deep-Cavern Bat leaves the battlefield.\r\n",
+      "Power": "1",
+      "Toughness": "1",
+      "Set": {
+        "objectset": null,
+        "id": "70169a6e-89d1-4a3a-aef7-3152958d55ac",
+        "CodeSet": "lci",
+        "NameSet": "The Lost Caverns of Ixalan",
+        "UriSet": "https://api.scryfall.com/sets/70169a6e-89d1-4a3a-aef7-3152958d55ac",
+        "ScryfallUri": "https://scryfall.com/sets/lci",
+        "SearchUri": null,
+        "ReleasedDate": "2023-11-17T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 415,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/lci.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\lci\\lci.png"
+      },
+      "Rarity": "uncommon",
+      "Artist": "Campbell White",
+      "Flavor_Text": "The first shriek locates the prey. The second immobilizes it.",
+      "Units": 4,
+      "TotalPriceCardMarket": 1.28,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/118008?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Deep-Cavern+Bat&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F524168%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.32,
+        "eurFoil": 0.70,
+        "usd": 0.68,
+        "usdFoil": 3.14
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Creature",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Bat",
+          "CardType1": "Bat",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/6/9/69c68c95-b788-43b1-9f22-1b22c5a00b25.jpg?1699044121",
+        "Normal": "https://cards.scryfall.io/normal/front/6/9/69c68c95-b788-43b1-9f22-1b22c5a00b25.jpg?1699044121",
+        "Large": "https://cards.scryfall.io/large/front/6/9/69c68c95-b788-43b1-9f22-1b22c5a00b25.jpg?1699044121",
+        "PNG": "https://cards.scryfall.io/png/front/6/9/69c68c95-b788-43b1-9f22-1b22c5a00b25.png?1699044121"
+      }
+    },
+    {
+      "id": "89345f55-2b32-4356-945a-d56dded39909",
+      "Name": "Preacher of the Schism",
+      "PrintedName": "Preacher of the Schism",
+      "ManaCost": "{2}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "2",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\2.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Deathtouch\nWhenever Preacher of the Schism attacks the player with the most life or tied for most life, create a 1/1 white Vampire creature token with lifelink.\nWhenever Preacher of the Schism attacks while you have the most life or are tied for most life, you draw a card and you lose 1 life.\r\n",
+      "Power": "2",
+      "Toughness": "4",
+      "Set": {
+        "objectset": null,
+        "id": "70169a6e-89d1-4a3a-aef7-3152958d55ac",
+        "CodeSet": "lci",
+        "NameSet": "The Lost Caverns of Ixalan",
+        "UriSet": "https://api.scryfall.com/sets/70169a6e-89d1-4a3a-aef7-3152958d55ac",
+        "ScryfallUri": "https://scryfall.com/sets/lci",
+        "SearchUri": null,
+        "ReleasedDate": "2023-11-17T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 415,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/lci.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\lci\\lci.png"
+      },
+      "Rarity": "rare",
+      "Artist": "Donato Giancola",
+      "Flavor_Text": null,
+      "Units": 4,
+      "TotalPriceCardMarket": 12.40,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/118032?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Preacher+of+the+Schism&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F524354%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 3.10,
+        "eurFoil": 3.12,
+        "usd": 3.68,
+        "usdFoil": 3.89
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Creature",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Vampire Cleric",
+          "CardType1": "Vampire",
+          "CardType2": "Cleric",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/8/9/89345f55-2b32-4356-945a-d56dded39909.jpg?1699044158",
+        "Normal": "https://cards.scryfall.io/normal/front/8/9/89345f55-2b32-4356-945a-d56dded39909.jpg?1699044158",
+        "Large": "https://cards.scryfall.io/large/front/8/9/89345f55-2b32-4356-945a-d56dded39909.jpg?1699044158",
+        "PNG": "https://cards.scryfall.io/png/front/8/9/89345f55-2b32-4356-945a-d56dded39909.png?1699044158"
+      }
+    },
+    {
+      "id": "0eda1aff-c1f4-4171-a800-605396cc8168",
+      "Name": "Toxin Analysis",
+      "PrintedName": "Toxin Analysis",
+      "ManaCost": "{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 1.0,
+      "OracleText": "\r\n    Target creature gains deathtouch and lifelink until end of turn. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "CodeSet": "mkm",
+        "NameSet": "Murders at Karlov Manor",
+        "UriSet": "https://api.scryfall.com/sets/2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "ScryfallUri": "https://scryfall.com/sets/mkm",
+        "SearchUri": null,
+        "ReleasedDate": "2024-02-09T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 444,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/mkm.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\mkm\\mkm.png"
+      },
+      "Rarity": "common",
+      "Artist": "Irina Nordsol",
+      "Flavor_Text": "\"Poison this deadly is only used by the Ochran. Either the Golgari are behind this, or someone wants us to think they are.\"",
+      "Units": 4,
+      "TotalPriceCardMarket": 0.28,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/121692?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Toxin+Analysis&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F535516%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.07,
+        "eurFoil": 0.13,
+        "usd": 0.05,
+        "usdFoil": 0.10
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/0/e/0eda1aff-c1f4-4171-a800-605396cc8168.jpg?1706241766",
+        "Normal": "https://cards.scryfall.io/normal/front/0/e/0eda1aff-c1f4-4171-a800-605396cc8168.jpg?1706241766",
+        "Large": "https://cards.scryfall.io/large/front/0/e/0eda1aff-c1f4-4171-a800-605396cc8168.jpg?1706241766",
+        "PNG": "https://cards.scryfall.io/png/front/0/e/0eda1aff-c1f4-4171-a800-605396cc8168.png?1706241766"
+      }
+    },
+    {
+      "id": "07c15c48-8425-48f5-80f7-c8f74ad773e1",
+      "Name": "Plains",
+      "PrintedName": "Plains",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    ({T}: Add {W}.)\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "d84d7a49-2ef4-4808-83b4-8c65b4aa0e2d",
+        "CodeSet": "pip",
+        "NameSet": "Fallout",
+        "UriSet": "https://api.scryfall.com/sets/d84d7a49-2ef4-4808-83b4-8c65b4aa0e2d",
+        "ScryfallUri": "https://scryfall.com/sets/pip",
+        "SearchUri": null,
+        "ReleasedDate": "2024-03-08T00:00:00",
+        "SetType": "commander",
+        "TotalCards": 94,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/pip.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\pip\\pip.png"
+      },
+      "Rarity": "common",
+      "Artist": "Samuele Bandini",
+      "Flavor_Text": null,
+      "Units": 9,
+      "TotalPriceCardMarket": 0.0,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Abc71ebf6-2056-41f7-be35-b2e5c34afa99&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Plains&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Plains&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F539261%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.0,
+        "eurFoil": 0.0,
+        "usd": 0.0,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Basic Land",
+          "SuperType1": "Basic",
+          "SuperType2": "Land",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Plains",
+          "CardType1": "Plains",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/0/7/07c15c48-8425-48f5-80f7-c8f74ad773e1.jpg?1708368438",
+        "Normal": "https://cards.scryfall.io/normal/front/0/7/07c15c48-8425-48f5-80f7-c8f74ad773e1.jpg?1708368438",
+        "Large": "https://cards.scryfall.io/large/front/0/7/07c15c48-8425-48f5-80f7-c8f74ad773e1.jpg?1708368438",
+        "PNG": "https://cards.scryfall.io/png/front/0/7/07c15c48-8425-48f5-80f7-c8f74ad773e1.png?1708368438"
+      }
+    },
+    {
+      "id": "f5e672fc-673b-4476-b9cc-a395dc60b471",
+      "Name": "Swamp",
+      "PrintedName": "Swamp",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 0.0,
+      "OracleText": "\r\n    ({T}: Add {B}.)\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "3ed80bb6-77e8-4aa7-8262-95377a38aba1",
+        "CodeSet": "mh3",
+        "NameSet": "Modern Horizons 3",
+        "UriSet": "https://api.scryfall.com/sets/3ed80bb6-77e8-4aa7-8262-95377a38aba1",
+        "ScryfallUri": "https://scryfall.com/sets/mh3",
+        "SearchUri": null,
+        "ReleasedDate": "2024-06-07T00:00:00",
+        "SetType": "draft_innovation",
+        "TotalCards": 211,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/mh3.svg?1716177600",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\mh3\\mh3.png"
+      },
+      "Rarity": "common",
+      "Artist": "David Álvarez",
+      "Flavor_Text": null,
+      "Units": 12,
+      "TotalPriceCardMarket": 0.0,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A56719f6a-1a6c-4c0a-8d21-18f7d7350b68&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Swamp&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Swamp&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DSwamp%26view%3Dgrid"
+      },
+      "CardMarketPrice": {
+        "eur": 0.0,
+        "eurFoil": 0.0,
+        "usd": 0.0,
+        "usdFoil": 0.0
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Basic Land",
+          "SuperType1": "Basic",
+          "SuperType2": "Land",
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Swamp",
+          "CardType1": "Swamp",
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/f/5/f5e672fc-673b-4476-b9cc-a395dc60b471.jpg?1716329736",
+        "Normal": "https://cards.scryfall.io/normal/front/f/5/f5e672fc-673b-4476-b9cc-a395dc60b471.jpg?1716329736",
+        "Large": "https://cards.scryfall.io/large/front/f/5/f5e672fc-673b-4476-b9cc-a395dc60b471.jpg?1716329736",
+        "PNG": "https://cards.scryfall.io/png/front/f/5/f5e672fc-673b-4476-b9cc-a395dc60b471.png?1716329736"
+      }
+    },
+    {
+      "id": "d5397366-151f-46b0-b9b2-fa4d5bd892d8",
+      "Name": "Avenger of the Fallen",
+      "PrintedName": "Avenger of the Fallen",
+      "ManaCost": "{2}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "2",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\2.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Deathtouch\nMobilize X, where X is the number of creature cards in your graveyard. (Whenever this creature attacks, create X tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)\r\n",
+      "Power": "2",
+      "Toughness": "4",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "tdm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Winona Nelson",
+      "Flavor_Text": null,
+      "Units": 3,
+      "TotalPriceCardMarket": 0.06,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A158d0272-a850-4399-8afa-d0caa143c3cb&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/139095?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Tarkir-Dragonstorm/Avenger-of-the-Fallen?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F624559%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.02,
+        "eurFoil": 0.39,
+        "usd": 0.43,
+        "usdFoil": 1.03
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Creature",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Human Warrior",
+          "CardType1": "Human",
+          "CardType2": "Warrior",
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/d/5/d5397366-151f-46b0-b9b2-fa4d5bd892d8.jpg?1743204251",
+        "Normal": "https://cards.scryfall.io/normal/front/d/5/d5397366-151f-46b0-b9b2-fa4d5bd892d8.jpg?1743204251",
+        "Large": "https://cards.scryfall.io/large/front/d/5/d5397366-151f-46b0-b9b2-fa4d5bd892d8.jpg?1743204251",
+        "PNG": "https://cards.scryfall.io/png/front/d/5/d5397366-151f-46b0-b9b2-fa4d5bd892d8.png?1743204251"
+      }
+    },
+    {
+      "id": "95617742-548d-464a-bb89-a858ffa9018f",
+      "Name": "Strategic Betrayal",
+      "PrintedName": "Strategic Betrayal",
+      "ManaCost": "{1}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 2.0,
+      "OracleText": "\r\n    Target opponent exiles a creature they control and their graveyard.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "tdm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Flavio Greco Paglia",
+      "Flavor_Text": "As Sultai blades threatened Qatros city walls, Mehtma of House Fenzala turned her weapons on her political rivals.",
+      "Units": 2,
+      "TotalPriceCardMarket": 0.04,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A0127c13f-7b0f-44c3-8b35-97f306c5f239&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/139141?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Tarkir-Dragonstorm/Strategic-Betrayal?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F625197%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.02,
+        "eurFoil": 0.61,
+        "usd": 0.15,
+        "usdFoil": 0.32
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/5/95617742-548d-464a-bb89-a858ffa9018f.jpg?1743204340",
+        "Normal": "https://cards.scryfall.io/normal/front/9/5/95617742-548d-464a-bb89-a858ffa9018f.jpg?1743204340",
+        "Large": "https://cards.scryfall.io/large/front/9/5/95617742-548d-464a-bb89-a858ffa9018f.jpg?1743204340",
+        "PNG": "https://cards.scryfall.io/png/front/9/5/95617742-548d-464a-bb89-a858ffa9018f.png?1743204340"
+      }
+    }
+  ],
+  "SideBoard": [
+    {
+      "id": "c3896705-bbd2-4ffb-a590-ee78e0eabdc5",
+      "Name": "Long Goodbye",
+      "PrintedName": "Long Goodbye",
+      "ManaCost": "{1}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 2.0,
+      "OracleText": "\r\n    This spell can't be countered. (This includes by the ward ability.)\nDestroy target creature or planeswalker with mana value 3 or less.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "CodeSet": "mkm",
+        "NameSet": "Murders at Karlov Manor",
+        "UriSet": "https://api.scryfall.com/sets/2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "ScryfallUri": "https://scryfall.com/sets/mkm",
+        "SearchUri": null,
+        "ReleasedDate": "2024-02-09T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 444,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/mkm.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\mkm\\mkm.png"
+      },
+      "Rarity": "uncommon",
+      "Artist": "Jarel Threat",
+      "Flavor_Text": "As the days grew longer, so did the list of missing persons.",
+      "Units": 2,
+      "TotalPriceCardMarket": 1.70,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/121662?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Long+Goodbye&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F532896%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.85,
+        "eurFoil": 1.52,
+        "usd": 0.40,
+        "usdFoil": 0.88
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/c/3/c3896705-bbd2-4ffb-a590-ee78e0eabdc5.jpg?1706241715",
+        "Normal": "https://cards.scryfall.io/normal/front/c/3/c3896705-bbd2-4ffb-a590-ee78e0eabdc5.jpg?1706241715",
+        "Large": "https://cards.scryfall.io/large/front/c/3/c3896705-bbd2-4ffb-a590-ee78e0eabdc5.jpg?1706241715",
+        "PNG": "https://cards.scryfall.io/png/front/c/3/c3896705-bbd2-4ffb-a590-ee78e0eabdc5.png?1706241715"
+      }
+    },
+    {
+      "id": "317800b3-6b2d-4de6-8e44-7e54dd623055",
+      "Name": "Slice from the Shadows",
+      "PrintedName": "Slice from the Shadows",
+      "ManaCost": "{X}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "X",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\X.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 1.0,
+      "OracleText": "\r\n    This spell can't be countered. (This includes by the ward ability.)\nTarget creature gets -X/-X until end of turn.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "CodeSet": "mkm",
+        "NameSet": "Murders at Karlov Manor",
+        "UriSet": "https://api.scryfall.com/sets/2b17794b-15c3-4796-ad6f-0887a0eceeca",
+        "ScryfallUri": "https://scryfall.com/sets/mkm",
+        "SearchUri": null,
+        "ReleasedDate": "2024-02-09T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 444,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/mkm.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\mkm\\mkm.png"
+      },
+      "Rarity": "common",
+      "Artist": "Lie Setiawan",
+      "Flavor_Text": "\"Proft has been poking his nose where it doesn't belong. I want him out of the way.\"\n—Judith, to Massacre Girl",
+      "Units": 2,
+      "TotalPriceCardMarket": 0.14,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/121684?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Slice+from+the+Shadows&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F535298%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.07,
+        "eurFoil": 0.07,
+        "usd": 0.05,
+        "usdFoil": 0.13
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": true,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/3/1/317800b3-6b2d-4de6-8e44-7e54dd623055.jpg?1706241753",
+        "Normal": "https://cards.scryfall.io/normal/front/3/1/317800b3-6b2d-4de6-8e44-7e54dd623055.jpg?1706241753",
+        "Large": "https://cards.scryfall.io/large/front/3/1/317800b3-6b2d-4de6-8e44-7e54dd623055.jpg?1706241753",
+        "PNG": "https://cards.scryfall.io/png/front/3/1/317800b3-6b2d-4de6-8e44-7e54dd623055.png?1706241753"
+      }
+    },
+    {
+      "id": "4494dfa1-1343-417e-b0c5-2b096442dd0e",
+      "Name": "Werefox Bodyguard",
+      "PrintedName": "Werefox Bodyguard",
+      "ManaCost": "{1}{W}{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Flash\nWhen Werefox Bodyguard enters the battlefield, exile up to one other target non-Fox creature until Werefox Bodyguard leaves the battlefield.\n{1}{W}, Sacrifice Werefox Bodyguard: You gain 2 life.\r\n",
+      "Power": "2",
+      "Toughness": "2",
+      "Set": {
+        "objectset": null,
+        "id": "79139661-13ee-43c4-8bad-a8c069f1a1df",
+        "CodeSet": "woe",
+        "NameSet": "Wilds of Eldraine",
+        "UriSet": "https://api.scryfall.com/sets/79139661-13ee-43c4-8bad-a8c069f1a1df",
+        "ScryfallUri": "https://scryfall.com/sets/woe",
+        "SearchUri": null,
+        "ReleasedDate": "2023-09-08T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 381,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/woe.svg?1708318800",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\woe\\woe.png"
+      },
+      "Rarity": "rare",
+      "Artist": "Nestor Ossandon Leal",
+      "Flavor_Text": null,
+      "Units": 4,
+      "TotalPriceCardMarket": 3.60,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/116372?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Werefox+Bodyguard&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F512676%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.90,
+        "eurFoil": 1.47,
+        "usd": 0.55,
+        "usdFoil": 0.73
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Creature",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Elf Fox Knight",
+          "CardType1": "Elf",
+          "CardType2": "Fox",
+          "CardType3": "Knight"
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/4/4/4494dfa1-1343-417e-b0c5-2b096442dd0e.jpg?1692936851",
+        "Normal": "https://cards.scryfall.io/normal/front/4/4/4494dfa1-1343-417e-b0c5-2b096442dd0e.jpg?1692936851",
+        "Large": "https://cards.scryfall.io/large/front/4/4/4494dfa1-1343-417e-b0c5-2b096442dd0e.jpg?1692936851",
+        "PNG": "https://cards.scryfall.io/png/front/4/4/4494dfa1-1343-417e-b0c5-2b096442dd0e.png?1692936851"
+      }
+    },
+    {
+      "id": "20e94e17-2e4c-41cd-8cc5-39ab41037287",
+      "Name": "Chaplain of Alms // Chapel Shieldgeist",
+      "PrintedName": "Chaplain of Alms // Chapel Shieldgeist",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 1.0,
+      "OracleText": "\r\n    \r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "44b8eb8f-fa23-401a-98b5-1fbb9871128e",
+        "CodeSet": "mid",
+        "NameSet": "Innistrad: Midnight Hunt",
+        "UriSet": "https://api.scryfall.com/sets/44b8eb8f-fa23-401a-98b5-1fbb9871128e",
+        "ScryfallUri": "https://scryfall.com/sets/mid",
+        "SearchUri": null,
+        "ReleasedDate": "2021-09-24T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 400,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/mid.svg?1716177600",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\mid\\mid.png"
+      },
+      "Rarity": "uncommon",
+      "Artist": "Anastasia Ovchinnikova",
+      "Flavor_Text": null,
+      "Units": 2,
+      "TotalPriceCardMarket": 0.20,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/92948?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Innistrad-Midnight-Hunt/Chaplain-of-Alms-Chapel-Shieldgeist?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F248004%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.10,
+        "eurFoil": 0.19,
+        "usd": 0.09,
+        "usdFoil": 0.26
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Creature",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Human Cleric Creature",
+          "CardType1": "Human",
+          "CardType2": "Cleric",
+          "CardType3": "Creature"
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": null,
+        "Normal": null,
+        "Large": null,
+        "PNG": null
+      }
+    },
+    {
+      "id": "db791fb6-b0ff-4ded-bd3d-9447cf398312",
+      "Name": "Faithbound Judge // Sinner's Judgment",
+      "PrintedName": "Faithbound Judge // Sinner's Judgment",
+      "ManaCost": "",
+      "ManaCostView": [],
+      "CMC": 3.0,
+      "OracleText": "\r\n    \r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "8144b676-569f-4716-8005-bc8f0778f3fa",
+        "CodeSet": "vow",
+        "NameSet": "Innistrad: Crimson Vow",
+        "UriSet": "https://api.scryfall.com/sets/8144b676-569f-4716-8005-bc8f0778f3fa",
+        "ScryfallUri": "https://scryfall.com/sets/vow",
+        "SearchUri": null,
+        "ReleasedDate": "2021-11-19T00:00:00",
+        "SetType": "expansion",
+        "TotalCards": 423,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": "https://svgs.scryfall.io/sets/vow.svg?1716177600",
+        "ImageLocalPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Sets\\vow\\vow.png"
+      },
+      "Rarity": "mythic",
+      "Artist": "Svetlin Velinov",
+      "Flavor_Text": null,
+      "Units": 2,
+      "TotalPriceCardMarket": 2.82,
+      "HasReprints": false,
+      "RePrintsUri": null,
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/94310?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Innistrad-Crimson-Vow/Faithbound-Judge-Sinners-Judgment?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://tcgplayer.pxf.io/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F253513%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 1.41,
+        "eurFoil": 1.89,
+        "usd": 0.69,
+        "usdFoil": 1.45
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Creature",
+          "SuperType1": "Creature",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": "Spirit Soldier Enchantment",
+          "CardType1": "Spirit",
+          "CardType2": "Soldier",
+          "CardType3": "Enchantment"
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": null,
+        "Normal": null,
+        "Large": null,
+        "PNG": null
+      }
+    },
+    {
+      "id": "95617742-548d-464a-bb89-a858ffa9018f",
+      "Name": "Strategic Betrayal",
+      "PrintedName": "Strategic Betrayal",
+      "ManaCost": "{1}{B}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "B",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\B.png"
+        }
+      ],
+      "CMC": 2.0,
+      "OracleText": "\r\n    Target opponent exiles a creature they control and their graveyard.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "tdm",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Flavio Greco Paglia",
+      "Flavor_Text": "As Sultai blades threatened Qatros city walls, Mehtma of House Fenzala turned her weapons on her political rivals.",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.02,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A0127c13f-7b0f-44c3-8b35-97f306c5f239&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/139141?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Tarkir-Dragonstorm/Strategic-Betrayal?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F625197%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.02,
+        "eurFoil": 0.61,
+        "usd": 0.15,
+        "usdFoil": 0.32
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/5/95617742-548d-464a-bb89-a858ffa9018f.jpg?1743204340",
+        "Normal": "https://cards.scryfall.io/normal/front/9/5/95617742-548d-464a-bb89-a858ffa9018f.jpg?1743204340",
+        "Large": "https://cards.scryfall.io/large/front/9/5/95617742-548d-464a-bb89-a858ffa9018f.jpg?1743204340",
+        "PNG": "https://cards.scryfall.io/png/front/9/5/95617742-548d-464a-bb89-a858ffa9018f.png?1743204340"
+      }
+    },
+    {
+      "id": "9bdb58b7-e1ef-496b-b8dd-d1fabf3d2e7a",
+      "Name": "Gallant Strike",
+      "PrintedName": "Gallant Strike",
+      "ManaCost": "{1}{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 2.0,
+      "OracleText": "\r\n    Destroy target creature with toughness 4 or greater.\nCycling {2} ({2}, Discard this card: Draw a card.)\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "dft",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "uncommon",
+      "Artist": "Brent Hollowell",
+      "Flavor_Text": "The ghost shrieked as Terrin's blade sank deep. Perhaps a second death would teach it not to mess with his dog.",
+      "Units": 1,
+      "TotalPriceCardMarket": 0.11,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A04dcda3b-3401-4523-8b97-b700a14feb36&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/136149?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Aetherdrift/Gallant-Strike?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F616052%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 0.11,
+        "eurFoil": 0.19,
+        "usd": 0.05,
+        "usdFoil": 0.05
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Instant",
+          "SuperType1": "Instant",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/9/b/9bdb58b7-e1ef-496b-b8dd-d1fabf3d2e7a.jpg?1738356133",
+        "Normal": "https://cards.scryfall.io/normal/front/9/b/9bdb58b7-e1ef-496b-b8dd-d1fabf3d2e7a.jpg?1738356133",
+        "Large": "https://cards.scryfall.io/large/front/9/b/9bdb58b7-e1ef-496b-b8dd-d1fabf3d2e7a.jpg?1738356133",
+        "PNG": "https://cards.scryfall.io/png/front/9/b/9bdb58b7-e1ef-496b-b8dd-d1fabf3d2e7a.png?1738356133"
+      }
+    },
+    {
+      "id": "1bb9a5b1-48d2-453e-8991-c788bc63e482",
+      "Name": "Split Up",
+      "PrintedName": "Split Up",
+      "ManaCost": "{1}{W}{W}",
+      "ManaCostView": [
+        {
+          "Symbol": "1",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\1.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        },
+        {
+          "Symbol": "W",
+          "SymbolDefinition": null,
+          "SymbolPath": "C:\\Users\\jmluengo\\source\\repos\\ZanchoPanda\\MTG-Pandafalling\\Images\\Symbol\\W.png"
+        }
+      ],
+      "CMC": 3.0,
+      "OracleText": "\r\n    Choose one —\n• Destroy all tapped creatures.\n• Destroy all untapped creatures.\r\n",
+      "Power": "",
+      "Toughness": "",
+      "Set": {
+        "objectset": null,
+        "id": "00000000-0000-0000-0000-000000000000",
+        "CodeSet": "dsk",
+        "NameSet": null,
+        "UriSet": null,
+        "ScryfallUri": null,
+        "SearchUri": null,
+        "ReleasedDate": "0001-01-01T00:00:00",
+        "SetType": null,
+        "TotalCards": 0,
+        "Digital": false,
+        "nonfoil_only": false,
+        "foil_only": false,
+        "svg_Uri": null,
+        "ImageLocalPath": null
+      },
+      "Rarity": "rare",
+      "Artist": "Dominik Mayer",
+      "Flavor_Text": "\"Don't be a wimp. We'll cover more ground this way.\"\n—Rian, former survivor",
+      "Units": 1,
+      "TotalPriceCardMarket": 1.79,
+      "HasReprints": true,
+      "RePrintsUri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A2e82520a-9da3-49ae-b5c8-37e7ac8853fe&unique=prints",
+      "PurchasesUri": {
+        "cardhoader": "https://www.cardhoarder.com/cards/130195?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Duskmourn-House-of-Horror/Split-Up?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F575054%3Fpage%3D1"
+      },
+      "CardMarketPrice": {
+        "eur": 1.79,
+        "eurFoil": 2.60,
+        "usd": 2.13,
+        "usdFoil": 3.31
+      },
+      "TypeAndClass": {
+        "IsLegendary": false,
+        "SuperType": {
+          "FullSuperType": "Sorcery",
+          "SuperType1": "Sorcery",
+          "SuperType2": null,
+          "SuperType3": null
+        },
+        "CardType": {
+          "FullCardType": null,
+          "CardType1": null,
+          "CardType2": null,
+          "CardType3": null
+        }
+      },
+      "Legalities": {
+        "Standard": true,
+        "Historic": true,
+        "Pioneer": true,
+        "Modern": true,
+        "Legacy": true,
+        "Pauper": false,
+        "Commander": true
+      },
+      "ImageUris": {
+        "Small": "https://cards.scryfall.io/small/front/1/b/1bb9a5b1-48d2-453e-8991-c788bc63e482.jpg?1726285979",
+        "Normal": "https://cards.scryfall.io/normal/front/1/b/1bb9a5b1-48d2-453e-8991-c788bc63e482.jpg?1726285979",
+        "Large": "https://cards.scryfall.io/large/front/1/b/1bb9a5b1-48d2-453e-8991-c788bc63e482.jpg?1726285979",
+        "PNG": "https://cards.scryfall.io/png/front/1/b/1bb9a5b1-48d2-453e-8991-c788bc63e482.png?1726285979"
+      }
+    }
+  ],
+  "SideboardCount": 15,
+  "TotalMainCards": 62,
+  "CreatureCount": 27,
+  "SorceryAndInstantsCount": 12,
+  "EnchantmentCount": 2,
+  "PlaneswalkerCount": 0,
+  "LandCount": 21,
+  "TotalNonCreatureAndInstantSpells": 14,
+  "TotalMainDeckPrice": 65.52,
+  "TotalSideboardPrice": 10.38,
+  "TotalDeckPrice": 75.90,
+  "CreateDate": "2024-02-20T13:44:32.8228374+01:00",
+  "DeleteDate": null
+}
