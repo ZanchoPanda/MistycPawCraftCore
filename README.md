@@ -38,4 +38,10 @@ If you'd like to support the project, you can:
 
    ```bash
    git clone https://github.com/ZanchoPanda/MistycPawCraftCore.git
-   
+
+## License
+
+[![License: MIT (Modified)](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+This project is licensed under a modified MIT License. See the [LICENSE](LICENSE) file for details.
+
