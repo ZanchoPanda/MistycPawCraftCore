@@ -116,7 +116,7 @@
                     <DataGridTextColumn
                         Width="*"
                         Binding="{Binding TypeAndClass.SuperType.FullSuperType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                        Header="{DynamicResource ManaCost}" />
+                        Header="{DynamicResource SType}" />
                 </DataGrid.Columns>
 
             </DataGrid>

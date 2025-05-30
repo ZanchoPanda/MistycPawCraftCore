@@ -1,11 +1,11 @@
 ﻿using Microsoft.Win32;
-using Newtonsoft.Json;
 using MistycPawCraftCore.DTO;
 using MistycPawCraftCore.Utils;
 using MistycPawCraftCore.Utils.Enums;
 using MistycPawCraftCore.Utils.Language;
 using MistycPawCraftCore.Utils.Message;
 using MistycPawCraftCore.View;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -58,7 +58,8 @@ namespace MistycPawCraftCore.ViewModel
             {
                 InitiateAPI(false);
 
-                BasePath = Directory.GetParent(System.Environment.CurrentDirectory).Parent.FullName;
+                BasePath = System.Environment.CurrentDirectory;
+                //BasePath = Directory.GetParent(System.Environment.CurrentDirectory).Parent.FullName;
                 FullDecksPath = $"{BasePath}\\Decks";
                 Directory.CreateDirectory(FullDecksPath);
 
@@ -614,7 +615,11 @@ namespace MistycPawCraftCore.ViewModel
 
                         if (MessageBox.Show($"Deck copied to clipboard.{Environment.NewLine}Do you wanna open created file?", string.Empty, MessageBoxButton.YesNo) == MessageBoxResult.Yes)
                         {
-                            Process.Start(SaveFile.FileName);
+                            Process.Start(new ProcessStartInfo
+                            {
+                                FileName = SaveFile.FileName,
+                                UseShellExecute = true
+                            });
                         }
                     }
                     catch (Exception exc)

@@ -518,7 +518,12 @@ namespace MistycPawCraftCore.ViewModel
                     return;
                 }
 
-                Process.Start(CartaSeleccionada.PurchasesUri.cardmarket.ToString());
+                //Process.Start(CartaSeleccionada.PurchasesUri.cardmarket.ToString());
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = CartaSeleccionada.PurchasesUri.cardmarket.ToString(),
+                    UseShellExecute = true
+                });
 
             }
             catch (Exception ex)
@@ -546,7 +551,12 @@ namespace MistycPawCraftCore.ViewModel
                     return;
                 }
 
-                Process.Start(CartaSeleccionada.PurchasesUri.tcgplayer.ToString());
+                //Process.Start(CartaSeleccionada.PurchasesUri.tcgplayer.ToString());
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = CartaSeleccionada.PurchasesUri.tcgplayer.ToString(),
+                    UseShellExecute = true
+                });
 
             }
             catch (Exception ex)
@@ -574,7 +584,12 @@ namespace MistycPawCraftCore.ViewModel
                     return;
                 }
 
-                Process.Start(CartaSeleccionada.PurchasesUri.cardhoader.ToString());
+                //Process.Start(CartaSeleccionada.PurchasesUri.cardhoader.ToString());
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = CartaSeleccionada.PurchasesUri.cardhoader.ToString(),
+                    UseShellExecute = true
+                });
 
             }
             catch (Exception ex)

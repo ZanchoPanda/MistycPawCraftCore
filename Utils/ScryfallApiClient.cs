@@ -32,7 +32,8 @@ namespace MistycPawCraftCore.Utils
 
         public ScryfallApiClient()
         {
-            BasePath = Directory.GetParent(System.Environment.CurrentDirectory).Parent.FullName;
+            BasePath = System.Environment.CurrentDirectory;
+            //BasePath = Directory.GetParent(System.Environment.CurrentDirectory).Parent.FullName;
             BasePathImage = $"{BasePath}\\Images\\";
 
             HttpClientHandler hch = new HttpClientHandler();
@@ -1220,7 +1221,9 @@ namespace MistycPawCraftCore.Utils
 
                     Directory.CreateDirectory(setImagePath);
 
-                    if (!File.Exists($"{setImagePath}\\{set.CodeSet}.png"))
+                    string pathSet = $"{setImagePath}\\{set.CodeSet}.png";
+
+                    if (!File.Exists(pathSet))
                     {
                         webClient.DownloadFile(set.svg_Uri.AbsoluteUri, $"{setImagePath}\\{set.CodeSet}.svg");
 

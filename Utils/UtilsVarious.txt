@@ -1,0 +1,5 @@
+Generate self-contained:
+dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:IncludeAllContentForSelfExtract=true /p:PublishTrimmed=false
+
+Path of exe:
+...\MistycPawCraftCore\bin\Release\net8.0-windows\win-x64\publish

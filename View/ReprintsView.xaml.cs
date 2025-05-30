@@ -32,7 +32,12 @@ namespace MistycPawCraftCore.View
                 }
                 else
                 {
-                    Process.Start(UriButton);
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = UriButton,
+                        UseShellExecute = true
+                    });
+                    //Process.Start(UriButton);
                 }
             }
             catch (Exception ex)
@@ -52,7 +57,12 @@ namespace MistycPawCraftCore.View
                 }
                 else
                 {
-                    Process.Start(UriButton);
+                    //Process.Start(UriButton);
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = UriButton,
+                        UseShellExecute = true
+                    });
                 }
             }
             catch (Exception ex)

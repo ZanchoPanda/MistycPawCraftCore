@@ -1,11 +1,11 @@
 ﻿using Microsoft.Win32;
-using Newtonsoft.Json;
 using MistycPawCraftCore.DTO;
 using MistycPawCraftCore.Utils;
 using MistycPawCraftCore.Utils.Enums;
 using MistycPawCraftCore.Utils.Language;
 using MistycPawCraftCore.Utils.Message;
 using MistycPawCraftCore.View;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -147,7 +147,8 @@ namespace MistycPawCraftCore.ViewModel
         {
 
             InitiateAPI(false);
-            BasePath = Directory.GetParent(System.Environment.CurrentDirectory).Parent.FullName;
+            BasePath = System.Environment.CurrentDirectory;
+            //BasePath = Directory.GetParent(System.Environment.CurrentDirectory).Parent.FullName;
             FullDecksPath = $"{BasePath}\\Decks";
             Directory.CreateDirectory(FullDecksPath);
             HelperText = $"2 Opt{Environment.NewLine}15 Mountain{Environment.NewLine}2 Jace Beleren{Environment.NewLine}{Environment.NewLine}Sideboard{Environment.NewLine}2 Opt{Environment.NewLine}2 Counterspell";

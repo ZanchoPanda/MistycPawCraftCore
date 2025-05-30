@@ -84,7 +84,13 @@ namespace MistycPawCraftCore.Utils
                         privateModeParam = " -private";
                     }
 
-                    Process.Start(browserName, $"{privateModeParam} {urlFromDb}");
+                    //Process.Start(browserName, $"{privateModeParam} {urlFromDb}");
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = "browserName",
+                        Arguments = $"{privateModeParam} {urlFromDb}",
+                        UseShellExecute = true
+                    });
                 }
             }
             catch (Exception ex)

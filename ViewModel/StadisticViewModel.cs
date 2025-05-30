@@ -1,10 +1,10 @@
 ﻿using LiveCharts;
 using LiveCharts.Wpf;
-using Newtonsoft.Json;
 using MistycPawCraftCore.DTO;
 using MistycPawCraftCore.Utils;
 using MistycPawCraftCore.Utils.Enums;
 using MistycPawCraftCore.View;
+using Newtonsoft.Json;
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -32,7 +32,8 @@ namespace MistycPawCraftCore.ViewModel
         #region Constructor
         public StadisticViewModel()
         {
-            BasePath = Directory.GetParent(System.Environment.CurrentDirectory).Parent.FullName;
+            BasePath = System.Environment.CurrentDirectory;
+            //BasePath = Directory.GetParent(System.Environment.CurrentDirectory).Parent.FullName;
             FullDecksPath = $"{BasePath}\\Decks";
             DeckList = new ObservableCollection<DeckDTO>();
             IsSelectedDeck = Visibility.Collapsed;
