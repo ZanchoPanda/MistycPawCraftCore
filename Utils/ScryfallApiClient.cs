@@ -1049,13 +1049,19 @@ namespace MistycPawCraftCore.Utils
             try
             {
                 PurchasesUrisDTO Purchases = new PurchasesUrisDTO();
+
                 if (purchase_uris != null)
                 {
-                    Purchases.cardhoader = new Uri(purchase_uris.cardhoarder);
-                    Purchases.cardmarket = new Uri(purchase_uris.cardmarket);
-                    Purchases.tcgplayer = new Uri(purchase_uris.tcgplayer);
+                    if (!string.IsNullOrWhiteSpace(purchase_uris.cardhoarder))
+                        Purchases.cardhoader = new Uri(purchase_uris.cardhoarder);
 
+                    if (!string.IsNullOrWhiteSpace(purchase_uris.cardmarket))
+                        Purchases.cardmarket = new Uri(purchase_uris.cardmarket);
+
+                    if (!string.IsNullOrWhiteSpace(purchase_uris.tcgplayer))
+                        Purchases.tcgplayer = new Uri(purchase_uris.tcgplayer);
                 }
+
                 return Purchases;
             }
             catch (Exception ex)
