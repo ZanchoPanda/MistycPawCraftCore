@@ -32,6 +32,14 @@ If you'd like to support the project, you can:
 
 ---
 
+## 🚧 Ongoing
+
+- Now, I just trying to resolver all problems or error I see
+- Trying to make it full compatible for all type of OS (linux,macOS, android, ...)
+- Thinking posibilities to expand application like Calendar for events and exports to google calendar (for example)
+
+---
+
 ## 🚀 Getting Started
 
 1. **Clone the repository:**
