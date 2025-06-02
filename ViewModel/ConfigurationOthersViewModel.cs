@@ -68,23 +68,23 @@ namespace MistycPawCraftCore.ViewModel
 
         #region Colors
 
-        //private bool _CustomColor;
-        //public bool CustomColor
-        //{
-        //    get
-        //    {
-        //        return _CustomColor;
-        //    }
-        //    set
-        //    {
-        //        if (value != _CustomColor)
-        //        {
-        //            _CustomColor = value;
-        //            UpdateTheme();
-        //            OnPropertyChanged("CustomColor");
-        //        }
-        //    }
-        //}
+        private bool _CustomColor;
+        public bool CustomColor
+        {
+            get
+            {
+                return _CustomColor;
+            }
+            set
+            {
+                if (value != _CustomColor)
+                {
+                    _CustomColor = value;
+                    UpdateTheme();
+                    OnPropertyChanged("CustomColor");
+                }
+            }
+        }
 
         //private Color _SelectedColor;
         //public Color SelectedColor
@@ -175,31 +175,6 @@ namespace MistycPawCraftCore.ViewModel
         #endregion
 
         #region Commands
-
-
-        private ICommand _DonateCommand;
-        public ICommand DonateCommand
-        {
-            get
-            {
-                _DonateCommand = new CommandHandler(() => DonateAction(), true);
-                return _DonateCommand;
-            }
-        }
-
-        private void DonateAction()
-        {
-            try
-            {
-                //BrowserHelper.LaunchUrl(BrowserHelper.GetDefaultBrowserPath(), PaypalDonate);
-                BrowserHelper.LaunchUrl(BrowserHelper.GetDefaultBrowserPath(), Ppm.PaypalDonateUrl);
-            }
-            catch (System.Exception ex)
-            {
-                throw ex;
-            }
-        }
-
 
         private ICommand _SaveThemeCommand;
         public ICommand SaveThemeCommand

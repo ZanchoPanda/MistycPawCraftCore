@@ -51,8 +51,7 @@
                 VerticalContentAlignment="Bottom"
                 DisplayMemberPath="DeckName"
                 ItemsSource="{Binding DeckList}"
-                SelectedItem="{Binding SelectedDeck, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                SelectedValuePath="{Binding DeckName}" />
+                SelectedItem="{Binding SelectedDeck, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
 
             <Button
                 Margin="5,0"

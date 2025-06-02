@@ -90,16 +90,6 @@
             Command="{Binding RecargarSetsCommand}"
             Content="{DynamicResource ReloadIcons}" />
 
-        <Button
-            Grid.Row="2"
-            Grid.Column="1"
-            Margin="20"
-            HorizontalAlignment="Right"
-            VerticalAlignment="Bottom"
-            Command="{Binding DonateCommand}"
-            Content="{DynamicResource Donate}"
-            Style="{StaticResource MaterialDesignPaperSecondaryButton}" />
-
         <!--<DockPanel
             Grid.Row="1"
             Margin="16"

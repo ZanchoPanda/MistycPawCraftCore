@@ -70,8 +70,7 @@
                 VerticalContentAlignment="Bottom"
                 DisplayMemberPath="DeckName"
                 ItemsSource="{Binding ListaDecks}"
-                SelectedItem="{Binding DeckSeleccionado, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                SelectedValuePath="{Binding DeckName}" />
+                SelectedItem="{Binding DeckSeleccionado, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
 
             <Button
                 Grid.Row="0"
