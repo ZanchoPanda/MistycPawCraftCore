@@ -8,16 +8,20 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
     strategy:
       matrix:
-        runtime:
-          - win-x64
-          - linux-x64
-          - osx-x64
+        include:
+          - os: windows-latest
+            rid: win-x64
+          - os: ubuntu-latest
+            rid: linux-x64
+          - os: macos-latest
+            rid: osx-x64
+
+    runs-on: ${{ matrix.os }}
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup .NET
@@ -25,25 +29,25 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
-      - name: Publish for ${{ matrix.runtime }}
+      - name: Publish for ${{ matrix.rid }}
         run: >
           dotnet publish MistycPawCraftCore.csproj
           -c Release
-          -r ${{ matrix.runtime }}
+          -r ${{ matrix.rid }}
           --self-contained true
           -p:PublishSingleFile=true
           -p:IncludeNativeLibrariesForSelfExtract=true
-          -o publish/${{ matrix.runtime }}
+          -o publish/${{ matrix.rid }}
 
-      - name: Create zip package
+      - name: Compress build
         run: |
-          cd publish/${{ matrix.runtime }}
-          zip -r ../../MistycPawCraftCore-${{ matrix.runtime }}.zip .
-          cd ../..
+          cd publish/${{ matrix.rid }}
+          zip -r ../../MistycPawCraftCore-${{ matrix.rid }}.zip .
+        shell: bash
 
       - name: Upload to GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: MistycPawCraftCore-${{ matrix.runtime }}.zip
+          files: MistycPawCraftCore-${{ matrix.rid }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
