@@ -1,25 +1,14 @@
-name: Cross-platform Build and Release
+name: Build and Release MistycPawCraftCore
 
 on:
   push:
     tags:
       - 'v*'
-  workflow_dispatch:  # Permite ejecución manual desde la UI
+  workflow_dispatch:
 
 jobs:
   build:
-    runs-on: ${{ matrix.os }}    # Aquí va en nivel raíz de job
-    strategy:
-      fail-fast: false            # Que fallen unos jobs no cancela todos
-      matrix:
-        include:
-          - os: windows-latest
-            rid: win-x64
-          - os: ubuntu-latest
-            rid: linux-x64
-          - os: macos-latest
-            rid: osx-x64
-
+    runs-on: windows-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -29,30 +18,18 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
-      - name: Publish for ${{ matrix.rid }}
+      - name: Publish for win-x64
         run: |
-          dotnet publish MistycPawCraftCore.csproj \
-            -c Release \
-            -r ${{ matrix.rid }} \
-            --self-contained true \
-            -p:PublishSingleFile=true \
-            -p:IncludeNativeLibrariesForSelfExtract=true \
-            -o publish/${{ matrix.rid }}
+          dotnet publish MistycPawCraftCore.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -o publish/win-x64
 
       - name: Compress build
         run: |
-          cd publish/${{ matrix.rid }}
-          # En Windows usa powershell para zip, en Linux/macOS zip normal
-          if ($Env:OS -eq "Windows_NT") {
-            powershell Compress-Archive -Path * -DestinationPath ../../MistycPawCraftCore-${{ matrix.rid }}.zip
-          } else {
-            zip -r ../../MistycPawCraftCore-${{ matrix.rid }}.zip .
-          }
-        shell: bash
+          cd publish/win-x64
+          powershell Compress-Archive -Path * -DestinationPath ../../MistycPawCraftCore-win-x64.zip
 
       - name: Upload to GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: MistycPawCraftCore-${{ matrix.rid }}.zip
+          files: MistycPawCraftCore-win-x64.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
