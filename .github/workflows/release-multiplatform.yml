@@ -4,11 +4,13 @@ on:
   push:
     tags:
       - 'v*'
-  workflow_dispatch:  # 👉 Habilita ejecución manual desde la UI
+  workflow_dispatch:  # Permite ejecución manual desde la UI
 
 jobs:
   build:
+    runs-on: ${{ matrix.os }}    # Aquí va en nivel raíz de job
     strategy:
+      fail-fast: false            # Que fallen unos jobs no cancela todos
       matrix:
         include:
           - os: windows-latest
@@ -17,8 +19,6 @@ jobs:
             rid: linux-x64
           - os: macos-latest
             rid: osx-x64
-
-    runs-on: ${{ matrix.os }}
 
     steps:
       - name: Checkout repository
@@ -30,19 +30,24 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Publish for ${{ matrix.rid }}
-        run: >
-          dotnet publish MistycPawCraftCore.csproj
-          -c Release
-          -r ${{ matrix.rid }}
-          --self-contained true
-          -p:PublishSingleFile=true
-          -p:IncludeNativeLibrariesForSelfExtract=true
-          -o publish/${{ matrix.rid }}
+        run: |
+          dotnet publish MistycPawCraftCore.csproj \
+            -c Release \
+            -r ${{ matrix.rid }} \
+            --self-contained true \
+            -p:PublishSingleFile=true \
+            -p:IncludeNativeLibrariesForSelfExtract=true \
+            -o publish/${{ matrix.rid }}
 
       - name: Compress build
         run: |
           cd publish/${{ matrix.rid }}
-          zip -r ../../MistycPawCraftCore-${{ matrix.rid }}.zip .
+          # En Windows usa powershell para zip, en Linux/macOS zip normal
+          if ($Env:OS -eq "Windows_NT") {
+            powershell Compress-Archive -Path * -DestinationPath ../../MistycPawCraftCore-${{ matrix.rid }}.zip
+          } else {
+            zip -r ../../MistycPawCraftCore-${{ matrix.rid }}.zip .
+          }
         shell: bash
 
       - name: Upload to GitHub Release
