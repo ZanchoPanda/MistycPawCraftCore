@@ -108,9 +108,14 @@
                                     <RowDefinition />
                                     <RowDefinition />
                                 </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
 
                                 <Label
                                     Grid.Row="0"
+                                    Grid.Column="0"
                                     Margin="2"
                                     HorizontalAlignment="Stretch"
                                     VerticalAlignment="Stretch"
@@ -121,6 +126,7 @@
 
                                 <Label
                                     Grid.Row="1"
+                                    Grid.Column="0"
                                     Margin="2"
                                     HorizontalAlignment="Stretch"
                                     VerticalAlignment="Stretch"
@@ -130,6 +136,15 @@
                                     ContentStringFormat="{}{0:dd/MM/yyyy}"
                                     FontWeight="Bold" />
 
+                                <Button
+                                    Grid.Row="0"
+                                    Grid.RowSpan="2"
+                                    Grid.Column="1"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Click="Descargar_Click"
+                                    Content="{DynamicResource DownloadImage}"
+                                    Tag="{Binding ImageUris.PNG}" />
                             </Grid>
                             <!--#endregion-->
 

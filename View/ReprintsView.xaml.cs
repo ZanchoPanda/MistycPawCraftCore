@@ -85,5 +85,29 @@ namespace MistycPawCraftCore.View
         }
 
         #endregion
+
+        private void Descargar_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                string UriButton = ((Button)sender).Tag?.ToString();
+                if (string.IsNullOrWhiteSpace(UriButton))
+                {
+                    return;
+                }
+                else
+                {
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = UriButton,
+                        UseShellExecute = true
+                    });
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

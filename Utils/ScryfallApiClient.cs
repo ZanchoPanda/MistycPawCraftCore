@@ -1454,9 +1454,12 @@ namespace MistycPawCraftCore.Utils
                 reprint.Set.ImageLocalPath = SearchIconSet(reprint.Set.CodeSet);
 
                 // Aquí espera a la descarga async sin bloquear
-                reprint.LocalImagePath = !string.IsNullOrWhiteSpace(reprint.ImageUris?.PNG.ToString())
-                    ? await DownloadImageToLocalAsync(reprint.ImageUris.PNG.ToString(), $"MTG_{reprint.Set.CodeSet}", $"{jsonData.name}", TipoImagenEnum.Set)
-                    : string.Empty;
+                if (jsonData.image_uris != null)
+                {
+                    reprint.LocalImagePath = !string.IsNullOrWhiteSpace(reprint.ImageUris?.PNG.ToString())
+                        ? await DownloadImageToLocalAsync(reprint.ImageUris.PNG.ToString(), $"MTG_{reprint.Set.CodeSet}", $"{jsonData.name}", TipoImagenEnum.Set)
+                        : string.Empty;
+                }
             }
 
             //reprint.Artist = jsonData.artist;

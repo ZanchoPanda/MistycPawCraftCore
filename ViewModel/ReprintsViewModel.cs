@@ -161,7 +161,6 @@ namespace MistycPawCraftCore.ViewModel
         //    }
         //}
 
-
         private async Task InicializarAsync()
         {
             IsLoading = true;
