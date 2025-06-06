@@ -1,4 +1,5 @@
 ﻿using MistycPawCraftCore.Utils.Enums;
+using MistycPawCraftCore.Utils.Language;
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -437,6 +438,7 @@ namespace MistycPawCraftCore.DTO
                     CalculatePriceDeck();
                     CheckLegalitiesDeck();
                     CheckMaximunUnits();
+
                     #region MyRegion
                     //Legal.Commander = (Deck.Any(k => k.Legalities.Commander == false) | SideBoard.Any(k => k.Legalities.Commander == false)) ? false : true;
                     //Legal.Historic = (Deck.Any(k => k.Legalities.Historic == false) | SideBoard.Any(k => k.Legalities.Historic == false)) ? false : true;
@@ -483,7 +485,13 @@ namespace MistycPawCraftCore.DTO
 
                 if (Deck != null && SideBoard != null)
                 {
-                    if (Deck.Any(k => !k.Legalities.Commander) || SideBoard.Any(k => !k.Legalities.Commander))
+                    string landkeyword = LocalizationManager.GetString("MtgCardType_Land").ToLower();
+
+                    if (Deck.Any(k => !k.Legalities.Commander || Deck.Any(k => !string.IsNullOrWhiteSpace(k.TypeAndClass.CardType.FullCardType) &&
+                                        !k.TypeAndClass.SuperType.FullSuperType.ToLower().Contains(landkeyword) && k.Units > 1))
+
+                        || SideBoard.Any(k => !k.Legalities.Commander || SideBoard.Any(k => !string.IsNullOrWhiteSpace(k.TypeAndClass.CardType.FullCardType) &&
+                                          !k.TypeAndClass.SuperType.FullSuperType.ToLower().Contains(landkeyword) && k.Units > 1)))
                     {
                         Legal.Commander = false;
                     }
@@ -559,10 +567,11 @@ namespace MistycPawCraftCore.DTO
         {
             try
             {
+                string landkeyword = LocalizationManager.GetString("MtgCardType_Land").ToLower();
 
                 foreach (CardDto MainCard in Deck)
                 {
-                    if (MainCard.TypeAndClass.SuperType.FullSuperType.ToLower().Contains(MtgCardType.Land.ToString().ToLower()))
+                    if (MainCard.TypeAndClass.SuperType.FullSuperType.ToLower().Contains(landkeyword))
                     {
                         continue;
                     }
@@ -603,7 +612,7 @@ namespace MistycPawCraftCore.DTO
 
                 foreach (CardDto SideBoardCard in SideBoard)
                 {
-                    if (SideBoardCard.TypeAndClass.SuperType.FullSuperType.Contains(MtgCardType.Land.ToString().ToLower()))
+                    if (SideBoardCard.TypeAndClass.SuperType.FullSuperType.Contains(landkeyword))
                     {
                         continue;
                     }

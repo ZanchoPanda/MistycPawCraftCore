@@ -1,5 +1,5 @@
 ﻿using MistycPawCraftCore.DTO.ResultApi;
-using MistycPawCraftCore.Utils.Enums;
+using MistycPawCraftCore.Utils.Language;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -62,9 +62,11 @@ namespace MistycPawCraftCore.DTO
 
                     if (TypeAndClass != null)
                     {
-                        if (TypeAndClass.SuperType.FullSuperType.ToLower().Contains(MtgCardType.Land.ToString().ToLower()))
+                        string landkeyword = LocalizationManager.GetString("MtgCardType_Land").ToLower();
+                        string basickeyword = LocalizationManager.GetString("Basic").ToLower();
+                        if (TypeAndClass.SuperType.FullSuperType.ToLower().Contains(landkeyword))
                         {
-                            if (!TypeAndClass.SuperType.FullSuperType.ToLower().Contains(MTGSuperTypes.Basic.ToString().ToLower()))
+                            if (!TypeAndClass.SuperType.FullSuperType.ToLower().Contains(basickeyword))
                             {
                                 if (value > 4)
                                 {

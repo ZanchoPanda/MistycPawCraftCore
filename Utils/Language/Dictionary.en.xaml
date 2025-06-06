@@ -87,6 +87,8 @@
     <system:String x:Key="Warning">Warning</system:String>
     <system:String x:Key="ProcessEnded">Process ended</system:String>
     <system:String x:Key="Info">Information</system:String>
+    <system:String x:Key="DownloadImage">Download Image</system:String>
+    <system:String x:Key="Basic">Basic</system:String>
 
     <!--#region Mensajes y varios-->
     <system:String x:Key="ProcessOK">Process finished correctly</system:String>

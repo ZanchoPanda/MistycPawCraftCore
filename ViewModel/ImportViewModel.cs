@@ -325,16 +325,24 @@ namespace MistycPawCraftCore.ViewModel
                         string[] DeckListArray = DeckList.Split(new char[] { '\r', '\n' });
 
                         DeckDTO ImportedDeck = new DeckDTO();
-                        DeckNameView Vista = new DeckNameView();
-                        Vista.WindowStartupLocation = WindowStartupLocation.CenterOwner;
-                        Vista.ShowDialog();
-                        if (Vista.NombreAceptado)
+
+                        if (string.IsNullOrWhiteSpace(FilePath))
                         {
-                            ImportedDeck.DeckName = Vista.DeckName;
+                            DeckNameView Vista = new DeckNameView();
+                            Vista.WindowStartupLocation = WindowStartupLocation.CenterOwner;
+                            Vista.ShowDialog();
+                            if (Vista.NombreAceptado)
+                            {
+                                ImportedDeck.DeckName = Vista.DeckName;
+                            }
+                            else
+                            {
+                                return;
+                            }
                         }
                         else
                         {
-                            return;
+                            ImportedDeck.DeckName = Path.GetFileNameWithoutExtension(FilePath);
                         }
 
                         Mouse.OverrideCursor = Cursors.Wait;

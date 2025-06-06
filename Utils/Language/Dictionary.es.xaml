@@ -90,6 +90,7 @@
     <system:String x:Key="ProcessEnded">Proceso finalizado</system:String>
     <system:String x:Key="Info">Información</system:String>
     <system:String x:Key="DownloadImage">Descargar imagen</system:String>
+    <system:String x:Key="Basic">Básica</system:String>
 
     <!--#region Mensajes y varios-->
     <system:String x:Key="ProcessOK">Proceso finalizado correctamente</system:String>

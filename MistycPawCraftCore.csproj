@@ -33,6 +33,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<Folder Include="DTO\ResultMeleeApi\" />
 		<Folder Include="Utils\Images\JPGs\" />
 		<Folder Include="Utils\Images\Mana\" />
 	</ItemGroup>

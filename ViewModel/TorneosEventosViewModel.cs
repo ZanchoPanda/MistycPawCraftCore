@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Input;
 
 namespace MistycPawCraftCore.ViewModel
@@ -170,7 +171,7 @@ namespace MistycPawCraftCore.ViewModel
 
         #region Funciones y más
 
-        private void CargarEventos()
+        private async Task CargarEventos()
         {
             try
             {
@@ -202,6 +203,7 @@ namespace MistycPawCraftCore.ViewModel
                     }
 
                 }
+
                 //ListaEventos.ToList().AddRange(EventoRepository.GetEventos());
                 FiltrarEventosPorFecha();
             }
