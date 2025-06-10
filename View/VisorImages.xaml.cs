@@ -9,12 +9,17 @@ namespace MistycPawCraftCore.View
     /// </summary>
     public partial class VisorImages : Window
     {
+        public VisorImages()
+        {
+            InitializeComponent();
+        }
+
         public VisorImages(string url)
         {
             InitializeComponent();
             try
             {
-                webBrowser.Source = new Uri(url);
+                //webBrowser.Source = new Uri(url);
             }
             catch (Exception ex)
             {

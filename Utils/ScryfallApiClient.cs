@@ -2,6 +2,7 @@
 using MistycPawCraftCore.DTO;
 using MistycPawCraftCore.DTO.Filtros;
 using MistycPawCraftCore.DTO.ResultApi;
+using MistycPawCraftCore.Properties;
 using MistycPawCraftCore.Utils.Enums;
 using Newtonsoft.Json;
 using Svg;
@@ -34,7 +35,7 @@ namespace MistycPawCraftCore.Utils
         {
             BasePath = System.Environment.CurrentDirectory;
             //BasePath = Directory.GetParent(System.Environment.CurrentDirectory).Parent.FullName;
-            BasePathImage = $"{BasePath}\\Images\\";
+            BasePathImage = Settings.Default.ImageBasePath;
 
             HttpClientHandler hch = new HttpClientHandler();
             hch.Proxy = null;
@@ -708,6 +709,21 @@ namespace MistycPawCraftCore.Utils
 
                         }
                         break;
+
+                    case TipoImagenEnum.Card:
+                        if (!string.IsNullOrWhiteSpace(Settings.Default.ImageCardPath))
+                        {
+                            if (Directory.Exists(Settings.Default.ImageCardPath))
+                            {
+                                byte[] imageBytes = new HttpClient().GetByteArrayAsync(UriString).Result;
+
+                                File.WriteAllBytes($"{Settings.Default.ImageCardPath}{FolderName}_{NameImage}.png", imageBytes);
+
+                            }
+
+                        }
+                        break;
+
                     default:
                         break;
                 }
@@ -745,6 +761,9 @@ namespace MistycPawCraftCore.Utils
                     case TipoImagenEnum.Symbol:
                         basePath = Path.Combine(basePath, "Symbols");
                         break;
+                    case TipoImagenEnum.Card:
+                        basePath = Settings.Default.ImageCardPath;
+                        break;
                     default:
                         return string.Empty;
                 }
@@ -753,7 +772,7 @@ namespace MistycPawCraftCore.Utils
                 if (!Directory.Exists(basePath))
                     Directory.CreateDirectory(basePath);
 
-                string filePath = Path.Combine(basePath, $"{nameImage}.png");
+                string filePath = Path.Combine(basePath, $"{basePath}{folderName}_{nameImage}.png");
 
                 if (File.Exists(filePath))
                     return filePath;
@@ -949,10 +968,11 @@ namespace MistycPawCraftCore.Utils
                     Carta.ManaCost = Json.mana_cost ?? string.Empty;
                     Carta.ManaCostView = ConvertManaCostToView(Json.mana_cost);
                     Carta.CMC = Json.cmc;
-                    Carta.OracleText = $"{Environment.NewLine}    {Json.oracle_text ?? string.Empty}{Environment.NewLine}";
+                    Carta.OracleText = $"{Environment.NewLine}    {Json.printed_text ?? string.Empty}{Environment.NewLine}";
                     Carta.Power = Json.power ?? string.Empty;
                     Carta.Toughness = Json.toughness ?? string.Empty;
-                    Carta.Set = (DictionarySet != null && DictionarySet.Count > 0 && DictionarySet.ContainsKey(Json.set.ToString())) ? DictionarySet[Json.set.ToString()] : new SetDTO() { CodeSet = Json.set };
+                    Carta.Set = (DictionarySet != null && DictionarySet.Count > 0 && DictionarySet.ContainsKey(Json.set.ToString())) ? DictionarySet[Json.set.ToString()] :
+                                new SetDTO() { CodeSet = Json.set, NameSet = Json.setname, ImageLocalPath = $"{Settings.Default.ImageSetPath}{Json.set}\\{Json.set}.png" };
                     Carta.Rarity = Json.rarity;
                     Carta.Artist = Json.artist;
                     Carta.Flavor_Text = Json.flavor_text;
@@ -1221,7 +1241,7 @@ namespace MistycPawCraftCore.Utils
                     set.foil_only = Json.foil_only;
                     set.svg_Uri = Json.icon_svg_uri;
 
-                    string setImagePath = $"{BasePathImage}Sets\\{set.CodeSet}";
+                    string setImagePath = $"{Settings.Default.ImageSetPath}{set.CodeSet}";
 
                     Directory.CreateDirectory(BasePathImage);
 
@@ -1303,7 +1323,7 @@ namespace MistycPawCraftCore.Utils
             {
                 if (Json != null)
                 {
-                    string setImagePath = $"{BasePathImage}Symbol\\";
+                    string setImagePath = $"{Settings.Default.ImageSymbolPath}";
 
                     Directory.CreateDirectory(BasePathImage);
 
@@ -1428,7 +1448,7 @@ namespace MistycPawCraftCore.Utils
                     Reprint.Set = (DictionarySet != null && DictionarySet.Count > 0 && DictionarySet.ContainsKey(jsonData.set.ToString())) ? DictionarySet[jsonData.set.ToString()] :
                         CreateSet(jsonData.set);
                     Reprint.Set.ImageLocalPath = SearchIconSet(Reprint.Set.CodeSet);
-                    Reprint.LocalImagePath = string.IsNullOrWhiteSpace(Reprint.ImageUris.PNG?.ToString()) ? string.Empty : DownloadImageToLocal(Reprint.ImageUris?.PNG?.ToString(), $"MTG_{Reprint.Set.CodeSet}", $"{jsonData.name}", TipoImagenEnum.Set);
+                    Reprint.LocalImagePath = string.IsNullOrWhiteSpace(Reprint.ImageUris.PNG?.ToString()) ? string.Empty : DownloadImageToLocal(Reprint.ImageUris?.PNG?.ToString(), $"MTG_{Reprint.Set.CodeSet}", $"{jsonData.name}", TipoImagenEnum.Card);
                 }
                 return Reprint;
             }
@@ -1457,7 +1477,7 @@ namespace MistycPawCraftCore.Utils
                 if (jsonData.image_uris != null)
                 {
                     reprint.LocalImagePath = !string.IsNullOrWhiteSpace(reprint.ImageUris?.PNG.ToString())
-                        ? await DownloadImageToLocalAsync(reprint.ImageUris.PNG.ToString(), $"MTG_{reprint.Set.CodeSet}", $"{jsonData.name}", TipoImagenEnum.Set)
+                        ? await DownloadImageToLocalAsync(reprint.ImageUris.PNG.ToString(), $"MTG_{reprint.Set.CodeSet}", $"{jsonData.name}", TipoImagenEnum.Card)
                         : string.Empty;
                 }
             }

@@ -822,6 +822,9 @@ namespace MistycPawCraftCore.Utils.Enums
 
         [Description("Simbolo Carta")]
         Symbol,
+
+        [Description("Carta")]
+        Card,
     }
 
     public enum EnumTitleMessage

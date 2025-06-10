@@ -1,5 +1,6 @@
 ﻿using MistycPawCraftCore.DTO;
 using MistycPawCraftCore.DTO.Filtros;
+using MistycPawCraftCore.Properties;
 using MistycPawCraftCore.Utils;
 using MistycPawCraftCore.Utils.Enums;
 using MistycPawCraftCore.Utils.Helpers;
@@ -10,7 +11,6 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
-using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
@@ -134,7 +134,8 @@ namespace MistycPawCraftCore.ViewModel
         {
             try
             {
-                ManaBasePath = $"{Directory.GetParent(System.Environment.CurrentDirectory).Parent.FullName}\\Images\\Symbol\\";
+
+                ManaBasePath = Settings.Default.ImageSymbolPath;
                 ManaW = $"{ManaBasePath}W.png";
                 ManaU = $"{ManaBasePath}U.png";
                 ManaB = $"{ManaBasePath}B.png";

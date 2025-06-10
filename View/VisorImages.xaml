@@ -2,16 +2,20 @@
     x:Class="MistycPawCraftCore.View.VisorImages"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Converters="clr-namespace:MistycPawCraftCore.Utils.Converters"
+    xmlns:VM="clr-namespace:MistycPawCraftCore.ViewModel"
+    xmlns:WebHelper="clr-namespace:MistycPawCraftCore.Utils.Helpers"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:MistycPawCraftCore.View"
     xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Width="550"
-    Height="750"
+    MaxWidth="1000"
+    MaxHeight="1000"
     Background="{DynamicResource MaterialDesignCardBackground}"
     FontFamily="{DynamicResource MaterialDesignFont}"
     MouseDown="Window_MouseDown"
     ResizeMode="NoResize"
+    SizeToContent="WidthAndHeight"
     TextElement.FontSize="13"
     TextElement.FontWeight="Regular"
     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
@@ -19,7 +23,251 @@
     TextOptions.TextRenderingMode="Auto"
     WindowStartupLocation="CenterOwner"
     mc:Ignorable="d">
+    <Window.DataContext>
+        <VM:VisorImagesViewModel />
+    </Window.DataContext>
+    <Window.Resources>
+        <Converters:ValueToVisibilityConverter x:Key="CmcToVis" />
+        <Converters:StringToVisibilityConverter x:Key="StringToVis" />
+    </Window.Resources>
+
     <Grid>
-        <WebBrowser x:Name="webBrowser" />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition MinWidth="150" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <WebBrowser x:Name="webBrowser" WebHelper:WebBrowserHelper.BindableSource="{Binding Card.ImageUris.Normal}" />
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Margin="5,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Grid.Column="0"
+                    Content="{DynamicResource Name}"
+                    FontWeight="DemiBold" />
+
+                <Label
+                    Grid.Column="1"
+                    HorizontalAlignment="Center"
+                    Content="{Binding Card.Name}" />
+
+            </Grid>
+
+            <Grid
+                Grid.Row="1"
+                Margin="5,10"
+                Visibility="{Binding Card.CMC, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource CmcToVis}}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Label
+                    Grid.Column="0"
+                    Content="{DynamicResource ManaCost}"
+                    FontWeight="DemiBold"
+                    Visibility="{Binding Card.CMC, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource CmcToVis}}" />
+
+
+                <ItemsControl
+                    Grid.Column="1"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    ItemsSource="{Binding ManaIcons}"
+                    Visibility="{Binding Card.CMC, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource CmcToVis}}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal" />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Image
+                                Width="20"
+                                Height="20"
+                                Source="{Binding}" />
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+            </Grid>
+
+            <Grid Grid.Row="2" Margin="5,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Label
+                    Grid.RowSpan="2"
+                    Grid.Column="0"
+                    VerticalAlignment="Center"
+                    Content="{DynamicResource Set}"
+                    FontWeight="DemiBold" />
+
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    VerticalAlignment="Center"
+                    Content="{Binding Card.Set.NameSet}" />
+
+                <Image
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Width="50"
+                    Height="50"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Source="{Binding Card.Set.ImageLocalPath}"
+                    ToolTip="{Binding Card.Set.CodeSet}" />
+
+            </Grid>
+
+            <Grid Grid.Row="3" Margin="5,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Grid.Column="0"
+                    Content="{DynamicResource Type}"
+                    FontWeight="DemiBold" />
+
+                <Label
+                    Grid.Column="1"
+                    HorizontalAlignment="Center"
+                    Content="{Binding Card.TypeAndClass.SuperType.FullSuperType}" />
+
+            </Grid>
+
+            <Grid Grid.Row="4" Margin="5,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Grid.Column="0"
+                    Content="{DynamicResource SubType}"
+                    FontWeight="DemiBold" />
+
+                <Label
+                    Grid.Column="1"
+                    HorizontalAlignment="Center"
+                    Content="{Binding Card.TypeAndClass.CardType.FullCardType}" />
+
+            </Grid>
+
+            <Grid Grid.Row="5" Margin="5,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Content="{DynamicResource CardText}"
+                    FontWeight="DemiBold" />
+
+                <TextBlock
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch"
+                    Text="{Binding Card.OracleText}"
+                    TextWrapping="WrapWithOverflow" />
+
+            </Grid>
+
+            <Grid Grid.Row="6" Margin="5,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Content="{DynamicResource CardTextOracle}"
+                    FontWeight="DemiBold" />
+
+                <TextBlock
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch"
+                    Text="{Binding Card.Flavor_Text}"
+                    TextWrapping="WrapWithOverflow" />
+
+            </Grid>
+
+            <Grid
+                Grid.Row="7"
+                Margin="5,10"
+                Visibility="{Binding Card.Toughness, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource StringToVis}}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Content="{DynamicResource Power}"
+                    FontWeight="DemiBold" />
+
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    HorizontalAlignment="Center"
+                    Content="{Binding Card.Power}" />
+
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    Content="{DynamicResource Thoughness}"
+                    FontWeight="DemiBold" />
+
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="3"
+                    HorizontalAlignment="Center"
+                    Content="{Binding Card.Toughness}" />
+
+            </Grid>
+
+        </Grid>
+
     </Grid>
 </Window>

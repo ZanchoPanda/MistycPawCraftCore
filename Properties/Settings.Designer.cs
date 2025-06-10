@@ -70,5 +70,53 @@ namespace MistycPawCraftCore.Properties {
                 this["CustomColor"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ImageBasePath {
+            get {
+                return ((string)(this["ImageBasePath"]));
+            }
+            set {
+                this["ImageBasePath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ImageSetPath {
+            get {
+                return ((string)(this["ImageSetPath"]));
+            }
+            set {
+                this["ImageSetPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ImageSymbolPath {
+            get {
+                return ((string)(this["ImageSymbolPath"]));
+            }
+            set {
+                this["ImageSymbolPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ImageCardPath {
+            get {
+                return ((string)(this["ImageCardPath"]));
+            }
+            set {
+                this["ImageCardPath"] = value;
+            }
+        }
     }
 }

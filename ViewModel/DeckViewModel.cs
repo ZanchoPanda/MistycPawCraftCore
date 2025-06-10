@@ -1037,7 +1037,9 @@ namespace MistycPawCraftCore.ViewModel
                     return;
                 }
 
-                VisorImages Visor = new VisorImages(item.ImageUris.Normal.ToString());
+                VisorImagesViewModel vm = new VisorImagesViewModel(item);
+                VisorImages Visor = new VisorImages();
+                Visor.DataContext = vm;
                 Visor.Title = item.Name;
                 Visor.Show();
 

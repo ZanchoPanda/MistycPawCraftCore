@@ -17,6 +17,7 @@
     <system:String x:Key="LoadingResources">Cargando recursos...</system:String>
     <system:String x:Key="LoadingReprints">Cargando versiones...</system:String>
     <system:String x:Key="Color">Color</system:String>
+    <system:String x:Key="Set">Set</system:String>
     <system:String x:Key="OrderBy">Ordernar por</system:String>
     <system:String x:Key="ManaCost">Coste de maná</system:String>
     <system:String x:Key="Power">Fuerza</system:String>
@@ -91,6 +92,9 @@
     <system:String x:Key="Info">Información</system:String>
     <system:String x:Key="DownloadImage">Descargar imagen</system:String>
     <system:String x:Key="Basic">Básica</system:String>
+
+    <system:String x:Key="CardText">Texto de carta</system:String>
+    <system:String x:Key="CardTextOracle">Cita de carta</system:String>
 
     <!--#region Mensajes y varios-->
     <system:String x:Key="ProcessOK">Proceso finalizado correctamente</system:String>
