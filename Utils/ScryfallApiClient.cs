@@ -960,58 +960,157 @@ namespace MistycPawCraftCore.Utils
             try
             {
                 CardDto Carta = new CardDto();
-                if (Json != null)
+
+                if (Json == null)
                 {
-                    Carta.id = Json.id;
-                    Carta.Name = Json.printed_name ?? Json.name;
-                    Carta.PrintedName = Json.printed_name ?? Json.name;
+                    return Carta;
+                }
+
+                #region Codigo Antiguo Funcional (Comentado)
+                //if (Json != null)
+                //{
+                //    //TODO: Modificar el cambio de datos si la carta en cuestion tiene varias caras
+                //    if (Json.layout == "transform")
+                //    {
+
+                //    }
+
+                //    Carta.id = Json.id;
+                //    Carta.Name = Json.printed_name ?? Json.name;
+                //    Carta.PrintedName = Json.printed_name ?? Json.name;
+                //    Carta.ManaCost = Json.mana_cost ?? string.Empty;
+                //    Carta.ManaCostView = ConvertManaCostToView(Json.mana_cost);
+                //    Carta.CMC = Json.cmc;
+
+                //    Carta.OracleText = $"{Environment.NewLine}{Json.printed_text?.Replace("• ", Environment.NewLine)}{Environment.NewLine}";
+                //    Carta.Power = Json.power ?? string.Empty;
+                //    Carta.Toughness = Json.toughness ?? string.Empty;
+                //    Carta.Set = (DictionarySet != null && DictionarySet.Count > 0 && DictionarySet.ContainsKey(Json.set.ToString())) ? DictionarySet[Json.set.ToString()] :
+                //                new SetDTO() { CodeSet = Json.set, NameSet = Json.setname, ImageLocalPath = $"{Settings.Default.ImageSetPath}{Json.set}\\{Json.set}.png" };
+                //    Carta.Rarity = Json.rarity;
+                //    Carta.Artist = Json.artist;
+                //    Carta.Flavor_Text = Json.flavor_text;
+
+                //    Carta.HasReprints = !string.IsNullOrWhiteSpace(Json.prints_search_uri);
+                //    if (Carta.HasReprints)
+                //    {
+                //        Carta.RePrintsUri = !string.IsNullOrWhiteSpace(Json.prints_search_uri) ? new Uri(Json.prints_search_uri) : new Uri(string.Empty);
+                //    }
+
+                //    ConvertJsonToPricesDTO(Json.name, Carta);
+                //    //Carta.CardMarketPrice = Json.id != null ? ConvertJsonToPricesDTO(Json.id, Carta) : new PricesDTO();
+                //    Carta.PurchasesUri = Json.purchase_uris != null ? ConvertJsonToPurchasesURIsDTO(Json.purchase_uris) : new PurchasesUrisDTO();
+
+                //    Carta.TypeAndClass = Json.printed_type_line != null ? ConvertToSpecific(Json.printed_type_line.ToString()) : Json.type_line != null ? ConvertToSpecific(Json.type_line.ToString()) : new TypeAndSubTypeDto();
+                //    Carta.Legalities = Json.legalities != null ? GetCardLegalities(Json.legalities) : new LegalitiesDto();
+
+                //    string imageUrl = null;
+
+                //    if (Json.image_uris != null)
+                //    {
+                //        imageUrl = Json.image_uris.normal;
+                //    }
+                //    else if (Json.card_faces != null && Json.card_faces.Count > 0)
+                //    {
+                //        foreach (CardFace Reverse in Json.card_faces)
+                //        {
+                //            if (Carta.CardFaces == null)
+                //            {
+                //                Carta.CardFaces = new List<CardFace>();
+                //            }
+                //            Carta.CardFaces.Add(Reverse);
+                //        }
+                //        imageUrl = Json.card_faces[0].image_uris?.normal;
+                //    }
+
+                //    string TextCard = string.Empty;
+                //    if (Json.card_faces?.Count > 0)
+                //    {
+                //        Carta.OracleText = Json.card_faces[0].oracle_text.Replace("• ", Environment.NewLine);
+                //        Carta.ManaCost = Json.card_faces[0].mana_cost;
+                //        Carta.ManaCostView = ConvertManaCostToView(Carta.ManaCost);
+
+                //        Carta.Power = Json.card_faces[0].power;
+                //        Carta.Toughness = Json.card_faces[0].toughness;
+
+                //        Carta.TypeAndClass = ConvertToSpecific(Json.card_faces[0].type_line.ToString());
+
+                //    }
+
+                //    Carta.ImageUris = Json.image_uris != null ? FillUris(Json.image_uris) : new ImageUriDto();
+
+                //}
+                #endregion
+
+                #region Codigo Nuevo
+
+                Carta = new CardDto
+                {
+                    id = Json.id,
+                    Name = Json.printed_name ?? Json.name,
+                    PrintedName = Json.printed_name ?? Json.name,
+                    CMC = Json.cmc,
+                    Rarity = Json.rarity,
+                    Artist = Json.artist,
+                    Flavor_Text = Json.flavor_text,
+                    HasReprints = !string.IsNullOrWhiteSpace(Json.prints_search_uri),
+                    PurchasesUri = Json.purchase_uris != null ? ConvertJsonToPurchasesURIsDTO(Json.purchase_uris) : new PurchasesUrisDTO(),
+                    Legalities = Json.legalities != null ? GetCardLegalities(Json.legalities) : new LegalitiesDto(),
+                    Set = (DictionarySet != null && DictionarySet.TryGetValue(Json.set, out var setDto))
+                ? setDto
+                : new SetDTO
+                {
+                    CodeSet = Json.set,
+                    NameSet = Json.setname,
+                    ImageLocalPath = $"{Settings.Default.ImageSetPath}{Json.set}\\{Json.set}.png"
+                }
+                };
+
+                if (Carta.HasReprints)
+                {
+                    Carta.RePrintsUri = new Uri(Json.prints_search_uri);
+                }
+
+                // Si la carta tiene múltiples caras
+                if (Json.card_faces != null && Json.card_faces.Count > 0)
+                {
+                    Carta.CardFaces = new List<CardFace>(Json.card_faces);
+
+                    var caraPrincipal = Json.card_faces[0];
+
+                    Carta.ManaCost = caraPrincipal.mana_cost ?? string.Empty;
+                    Carta.ManaCostView = ConvertManaCostToView(Carta.ManaCost);
+                    Carta.OracleText = (string.IsNullOrWhiteSpace(Json.printed_text)) ? Json.oracle_text : $"{Json.printed_text?.Replace("• ", Environment.NewLine)}";
+                    Carta.Power = caraPrincipal.power ?? string.Empty;
+                    Carta.Toughness = caraPrincipal.toughness ?? string.Empty;
+                    Carta.TypeAndClass = ConvertToSpecific(caraPrincipal.type_line ?? string.Empty);
+
+                    // Si no hay image_uris global, usamos la de la cara principal
+                    Carta.ImageUris = caraPrincipal.image_uris != null
+                        ? FillUris(caraPrincipal.image_uris)
+                        : new ImageUriDto();
+                }
+                else
+                {
+                    // Carta normal (una sola cara)
                     Carta.ManaCost = Json.mana_cost ?? string.Empty;
                     Carta.ManaCostView = ConvertManaCostToView(Json.mana_cost);
-                    Carta.CMC = Json.cmc;
-                    Carta.OracleText = $"{Environment.NewLine}    {Json.printed_text ?? string.Empty}{Environment.NewLine}";
+                    Carta.OracleText = (string.IsNullOrWhiteSpace(Json.printed_text)) ? Json.oracle_text : $"{Json.printed_text?.Replace("• ", Environment.NewLine)}";
                     Carta.Power = Json.power ?? string.Empty;
                     Carta.Toughness = Json.toughness ?? string.Empty;
-                    Carta.Set = (DictionarySet != null && DictionarySet.Count > 0 && DictionarySet.ContainsKey(Json.set.ToString())) ? DictionarySet[Json.set.ToString()] :
-                                new SetDTO() { CodeSet = Json.set, NameSet = Json.setname, ImageLocalPath = $"{Settings.Default.ImageSetPath}{Json.set}\\{Json.set}.png" };
-                    Carta.Rarity = Json.rarity;
-                    Carta.Artist = Json.artist;
-                    Carta.Flavor_Text = Json.flavor_text;
+                    Carta.TypeAndClass = Json.printed_type_line != null
+                        ? ConvertToSpecific(Json.printed_type_line)
+                        : ConvertToSpecific(Json.type_line ?? string.Empty);
 
-                    Carta.HasReprints = !string.IsNullOrWhiteSpace(Json.prints_search_uri);
-                    if (Carta.HasReprints)
-                    {
-                        Carta.RePrintsUri = !string.IsNullOrWhiteSpace(Json.prints_search_uri) ? new Uri(Json.prints_search_uri) : new Uri(string.Empty);
-                    }
-
-                    ConvertJsonToPricesDTO(Json.name, Carta);
-                    //Carta.CardMarketPrice = Json.id != null ? ConvertJsonToPricesDTO(Json.id, Carta) : new PricesDTO();
-                    Carta.PurchasesUri = Json.purchase_uris != null ? ConvertJsonToPurchasesURIsDTO(Json.purchase_uris) : new PurchasesUrisDTO();
-
-                    Carta.TypeAndClass = Json.printed_type_line != null ? ConvertToSpecific(Json.printed_type_line.ToString()) : Json.type_line != null ? ConvertToSpecific(Json.type_line.ToString()) : new TypeAndSubTypeDto();
-                    Carta.Legalities = Json.legalities != null ? GetCardLegalities(Json.legalities) : new LegalitiesDto();
-
-                    string imageUrl = null;
-
-                    if (Json.image_uris != null)
-                    {
-                        imageUrl = Json.image_uris.normal;
-                    }
-                    else if (Json.card_faces != null && Json.card_faces.Count > 0)
-                    {
-                        foreach (CardFace Reverse in Json.card_faces)
-                        {
-                            if (Carta.CardFaces == null)
-                            {
-                                Carta.CardFaces = new List<CardFace>();
-                            }
-                            Carta.CardFaces.Add(Reverse);
-                        }
-                        imageUrl = Json.card_faces[0].image_uris?.normal;
-                    }
-                    Carta.ImageUris = Json.image_uris != null ? FillUris(Json.image_uris) : new ImageUriDto();
-
-
+                    Carta.ImageUris = Json.image_uris != null
+                        ? FillUris(Json.image_uris)
+                        : new ImageUriDto();
                 }
+
+                ConvertJsonToPricesDTO(Json.name, Carta);
+
+                #endregion
+
                 return Carta;
             }
             catch (Exception ex)

@@ -650,7 +650,7 @@ namespace MistycPawCraftCore.ViewModel
                 }
                 else
                 {
-                    MessageBox.Show("No cards finded with filters given. Try with anothers.");
+                    MessageBox.Show(LocalizationManager.GetString("NoCardsFinded"));
                     CartaSeleccionada = null;
                     ListaCartas?.Clear();
                     IsExpandedProp = true;
@@ -719,7 +719,7 @@ namespace MistycPawCraftCore.ViewModel
                 else
                 {
                     Mouse.OverrideCursor = null;
-                    MessageBox.Show("Selected card hasn't got any reprint.");
+                    MessageBox.Show(LocalizationManager.GetString("CardNoReprints"));
                 }
             }
             catch (Exception ex)

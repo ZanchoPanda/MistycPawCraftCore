@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MistycPawCraftCore.ViewModel;
+using System;
 using System.Windows;
 using System.Windows.Input;
 
@@ -31,6 +32,21 @@ namespace MistycPawCraftCore.View
         {
             if (e.LeftButton == MouseButtonState.Pressed)
                 DragMove();
+        }
+
+        private void Card_Clicked(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                if (DataContext is VisorImagesViewModel vm)
+                {
+                    vm.ToggleFace();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
     }
 }

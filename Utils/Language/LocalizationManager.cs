@@ -54,7 +54,7 @@ namespace MistycPawCraftCore.Utils.Language
 
                 if (dict.Contains(KeyString))
                 {
-                    return dict[KeyString].ToString();
+                    return dict[KeyString].ToString().Replace("\\n", Environment.NewLine);
                 }
 
                 return "___";
@@ -67,8 +67,8 @@ namespace MistycPawCraftCore.Utils.Language
 
         public static string GetString(string key)
         {
-            var resource = Application.Current.TryFindResource(key);
-            return resource?.ToString() ?? $"[[{key}]]";
+            var resource = Application.Current.TryFindResource(key).ToString();
+            return resource?.Replace("\\n", Environment.NewLine) ?? $"[[{key}]]";
         }
 
     }

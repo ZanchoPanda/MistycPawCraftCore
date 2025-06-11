@@ -183,11 +183,27 @@ namespace MistycPawCraftCore.ViewModel
                     CheckDeckVisibility();
                     if (DeckSeleccionado != null)
                     {
+                        DeckSeleccionado.PropertyChanged += DeckChange;
                         DeckSeleccionado.Deck.ToList().ForEach(k => k.PropertyChanged += DeckChanged);
                         DeckSeleccionado.SideBoard.ToList().ForEach(k => k.PropertyChanged += DeckChanged);
                         DeckSeleccionado.CalculatePriceDeck();
                     }
                 }
+            }
+        }
+
+        private void DeckChange(object sender, PropertyChangedEventArgs e)
+        {
+            try
+            {
+                if (e.PropertyName == nameof(DeckSeleccionado.Deck) || e.PropertyName == nameof(DeckSeleccionado.SideBoard))
+                {
+                    DeckSeleccionado.CheckDeckStats();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
             }
         }
 
@@ -814,6 +830,10 @@ namespace MistycPawCraftCore.ViewModel
             {
                 throw ex;
             }
+            finally
+            {
+                DeckSeleccionado?.CheckDeckStats();
+            }
         }
 
         private void DeleteMainCardAction()
@@ -838,6 +858,10 @@ namespace MistycPawCraftCore.ViewModel
             {
                 throw ex;
             }
+            finally
+            {
+                DeckSeleccionado?.CheckDeckStats();
+            }
         }
 
         #endregion
@@ -848,6 +872,11 @@ namespace MistycPawCraftCore.ViewModel
         {
             try
             {
+                if (DeckSeleccionado == null)
+                {
+                    return;
+                }
+
                 int MaxSideboard = 15;
                 int MaxCardInside = DeckSeleccionado?.SideBoard?.Sum(k => k.Units) ?? 0;
 
@@ -869,7 +898,7 @@ namespace MistycPawCraftCore.ViewModel
                 {
                     if (DeckSeleccionado.SideBoard.Any(c => c.Name == SearchWindow.CartaSeleccionada.Name))
                     {
-                        CardDto Carta = DeckSeleccionado.SideBoard.FirstOrDefault(k => k.Name == SearchWindow.CartaSeleccionada.Name);
+                        CardDto Carta = DeckSeleccionado?.SideBoard.FirstOrDefault(k => k.Name == SearchWindow.CartaSeleccionada.Name);
                         if (Carta != null)
                         {
                             Carta.Units += 1;
@@ -881,13 +910,19 @@ namespace MistycPawCraftCore.ViewModel
                     }
                 }
 
-                DeckSeleccionado.CheckDeckStats();
-                SaveChangesDeck(DeckSeleccionado);
+                if (DeckSeleccionado != null)
+                {
+                    SaveChangesDeck(DeckSeleccionado);
+                }
 
             }
             catch (Exception ex)
             {
                 throw ex;
+            }
+            finally
+            {
+                DeckSeleccionado?.CheckDeckStats();
             }
         }
 
@@ -912,6 +947,10 @@ namespace MistycPawCraftCore.ViewModel
             catch (Exception ex)
             {
                 throw ex;
+            }
+            finally
+            {
+                DeckSeleccionado?.CheckDeckStats();
             }
         }
 
@@ -1032,14 +1071,15 @@ namespace MistycPawCraftCore.ViewModel
             try
             {
 
-                if (item == null || string.IsNullOrWhiteSpace(item.ImageUris.Normal?.ToString()))
+                if (item == null || (string.IsNullOrWhiteSpace(item.ImageUris.Normal?.ToString()) && item.CardFaces.Count == 0))
                 {
                     return;
                 }
 
-                VisorImagesViewModel vm = new VisorImagesViewModel(item);
+                VisorImagesViewModel vm = new VisorImagesViewModel(item, false);
                 VisorImages Visor = new VisorImages();
                 Visor.DataContext = vm;
+                Visor.WindowStartupLocation = WindowStartupLocation.CenterScreen;
                 Visor.Title = item.Name;
                 Visor.Show();
 

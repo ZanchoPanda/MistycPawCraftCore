@@ -384,7 +384,7 @@ namespace MistycPawCraftCore.DTO
             try
             {
 
-                if (Deck != null && Deck.Count > 0)
+                if (Deck != null)
                 {
                     TotalMainCards = 0;
                     CreatureCount = 0;

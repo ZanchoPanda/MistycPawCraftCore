@@ -1,8 +1,11 @@
 ﻿using MistycPawCraftCore.DTO;
 using MistycPawCraftCore.Properties;
+using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Text.RegularExpressions;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 
 namespace MistycPawCraftCore.ViewModel
 {
@@ -52,6 +55,58 @@ namespace MistycPawCraftCore.ViewModel
             }
         }
 
+        private bool _VerImagen;
+        public bool VerImagen
+        {
+            get
+            {
+                return _VerImagen;
+            }
+            set
+            {
+                if (value != _VerImagen)
+                {
+                    _VerImagen = value;
+                    OnPropertyChanged("VerImagen");
+                }
+            }
+        }
+
+        private int _currentFaceIndex;
+        public int CurrentFaceIndex
+        {
+            get => _currentFaceIndex;
+            set
+            {
+                if (_currentFaceIndex != value)
+                {
+                    _currentFaceIndex = value;
+                    OnPropertyChanged(nameof(CurrentImageUri));
+                }
+            }
+        }
+        public ImageSource CurrentImageUri
+        {
+            get
+            {
+                if (Card == null)
+                {
+                    return null;
+                }
+
+                if (Card?.CardFaces != null && Card.CardFaces.Count > 0)
+                {
+                    var path = Card.CardFaces[CurrentFaceIndex].image_uris?.normal;
+                    return string.IsNullOrWhiteSpace(path) ? null : new BitmapImage(new Uri(path));
+                }
+
+                return string.IsNullOrWhiteSpace(Card?.ImageUris.Normal.ToString())
+                    ? null
+                    : new BitmapImage(new Uri(Card.ImageUris.Normal.ToString()));
+            }
+        }
+
+
         private ObservableCollection<string> _ManaIcons;
         public ObservableCollection<string> ManaIcons
         {
@@ -78,7 +133,7 @@ namespace MistycPawCraftCore.ViewModel
 
         }
 
-        public VisorImagesViewModel(CardDto CardDTO)
+        public VisorImagesViewModel(CardDto CardDTO, bool VerImagen = true)
         {
             ManaIcons = new ObservableCollection<string>();
 
@@ -87,6 +142,17 @@ namespace MistycPawCraftCore.ViewModel
 
         #endregion
 
+        #region Eventos
+
+        public void ToggleFace()
+        {
+            if (Card?.CardFaces?.Count > 1)
+            {
+                CurrentFaceIndex = (CurrentFaceIndex + 1) % Card.CardFaces.Count;
+            }
+        }
+
+        #endregion
 
     }
 }

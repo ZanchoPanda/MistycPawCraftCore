@@ -89,6 +89,8 @@ namespace MistycPawCraftCore.DTO.ResultApi
     {
         public string name { get; set; }
         public string mana_cost { get; set; }
+        public string power { get; set; }
+        public string toughness { get; set; }
         public string type_line { get; set; }
         public string oracle_text { get; set; }
         public Image_Uris image_uris { get; set; }
