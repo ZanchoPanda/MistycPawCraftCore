@@ -1080,7 +1080,8 @@ namespace MistycPawCraftCore.Utils
 
                     Carta.ManaCost = caraPrincipal.mana_cost ?? string.Empty;
                     Carta.ManaCostView = ConvertManaCostToView(Carta.ManaCost);
-                    Carta.OracleText = (string.IsNullOrWhiteSpace(Json.printed_text)) ? Json.oracle_text : $"{Json.printed_text?.Replace("• ", Environment.NewLine)}";
+                    Carta.OracleText = (string.IsNullOrWhiteSpace(Json.printed_text)) ? (string.IsNullOrWhiteSpace(Json.oracle_text)) ? caraPrincipal.oracle_text : Json.oracle_text :
+                                        $"{Json.printed_text?.Replace("• ", Environment.NewLine)}";
                     Carta.Power = caraPrincipal.power ?? string.Empty;
                     Carta.Toughness = caraPrincipal.toughness ?? string.Empty;
                     Carta.TypeAndClass = ConvertToSpecific(caraPrincipal.type_line ?? string.Empty);

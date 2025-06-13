@@ -118,5 +118,17 @@ namespace MistycPawCraftCore.Properties {
                 this["ImageCardPath"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string DownloadFolder {
+            get {
+                return ((string)(this["DownloadFolder"]));
+            }
+            set {
+                this["DownloadFolder"] = value;
+            }
+        }
     }
 }

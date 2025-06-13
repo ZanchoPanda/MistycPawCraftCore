@@ -100,6 +100,7 @@
     <system:String x:Key="ProcessEnded">Proceso finalizado</system:String>
     <system:String x:Key="Info">Información</system:String>
     <system:String x:Key="DownloadImage">Descargar imagen</system:String>
+    <system:String x:Key="DownloadCard">Descargar carta</system:String>
     <system:String x:Key="Basic">Básica</system:String>
 
     <system:String x:Key="CardText">Texto de carta</system:String>
@@ -135,6 +136,10 @@
     <system:String x:Key="DeleteDeckConfirmationLine2">
         ¿Quiere eliminar todos los datos del mazo?\n
         Esta accion no puede ser revertida.
+    </system:String>
+    <system:String x:Key="DownloadPathAsDefault?">
+        ¿Quiere establecer la ruta como ruta por defecto?\n
+        Esta accion puede cambiarse desde Configuración.
     </system:String>
     <!--#endregion-->
 

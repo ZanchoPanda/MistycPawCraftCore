@@ -1,9 +1,17 @@
 ﻿using MistycPawCraftCore.DTO;
 using MistycPawCraftCore.Properties;
+using MistycPawCraftCore.Utils;
+using MistycPawCraftCore.Utils.Enums;
+using MistycPawCraftCore.Utils.Language;
+using MistycPawCraftCore.Utils.Message;
+using Newtonsoft.Json;
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.IO;
 using System.Text.RegularExpressions;
+using System.Windows.Forms;
+using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
@@ -149,6 +157,120 @@ namespace MistycPawCraftCore.ViewModel
             if (Card?.CardFaces?.Count > 1)
             {
                 CurrentFaceIndex = (CurrentFaceIndex + 1) % Card.CardFaces.Count;
+            }
+        }
+
+
+        private ICommand _DownloadCardCommand;
+        public ICommand DownloadCardCommand
+        {
+            get
+            {
+                _DownloadCardCommand = new CommandHandler(() => DownloadCardAction(), true);
+                return _DownloadCardCommand;
+            }
+        }
+
+        private void DownloadCardAction()
+        {
+            try
+            {
+                string CartaCreada = JsonConvert.SerializeObject(Card, Formatting.Indented);
+
+                if (string.IsNullOrWhiteSpace(Settings.Default.DownloadFolder))
+                {
+                    FolderBrowserDialog fbd = new FolderBrowserDialog();
+                    DialogResult Dr = fbd.ShowDialog();
+
+                    if (Dr == DialogResult.OK)
+                    {
+                        if (!Directory.Exists($"{fbd.SelectedPath}"))
+                        {
+                            Directory.CreateDirectory(fbd.SelectedPath);
+                        }
+
+                        File.WriteAllText($"{fbd.SelectedPath}\\{Card.Name}.json", CartaCreada);
+                        CustomDialog CD = new CustomDialog(EnumTitleMessage.Ask, LocalizationManager.GetString("Warning"), LocalizationManager.GetString("DownloadPathAsDefault?"), EnumButtonsMessage.YesNo);
+                        CD.ShowDialog();
+                        if (CD.MessageResult == EnumMessageResult.Yes)
+                        {
+                            Settings.Default.DownloadFolder = fbd.SelectedPath;
+                            Settings.Default.Save();
+                        }
+                    }
+                }
+                else
+                {
+                    if (!Directory.Exists($"{Settings.Default.DownloadFolder}"))
+                    {
+                        Directory.CreateDirectory(Settings.Default.DownloadFolder);
+                    }
+
+                    File.WriteAllText($"{Settings.Default.DownloadFolder}\\{Card.Name}.json", CartaCreada);
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+        private ICommand _DownloadCardImageCommand;
+        public ICommand DownloadCardImageCommand
+        {
+            get
+            {
+                _DownloadCardImageCommand = new CommandHandler(() => DownloadCardImageAction(), true);
+                return _DownloadCardImageCommand;
+            }
+        }
+
+        private async void DownloadCardImageAction()
+        {
+            try
+            {
+
+                if (string.IsNullOrWhiteSpace(Settings.Default.DownloadFolder))
+                {
+                    FolderBrowserDialog fbd = new FolderBrowserDialog();
+                    DialogResult Dr = fbd.ShowDialog();
+
+                    if (Dr == DialogResult.OK)
+                    {
+                        if (!Directory.Exists($"{fbd.SelectedPath}"))
+                        {
+                            Directory.CreateDirectory(fbd.SelectedPath);
+                        }
+
+                        await Downloader.DownloadAsync(Card.ImageUris.PNG.ToString(), fbd.SelectedPath, Card.PrintedName);
+
+                        CustomDialog CD = new CustomDialog(EnumTitleMessage.Ask, LocalizationManager.GetString("Warning"), LocalizationManager.GetString("DownloadPathAsDefault?"), EnumButtonsMessage.YesNo);
+                        CD.ShowDialog();
+                        if (CD.MessageResult == EnumMessageResult.Yes)
+                        {
+                            Settings.Default.DownloadFolder = fbd.SelectedPath;
+                            Settings.Default.Save();
+                        }
+                    }
+                }
+                else
+                {
+                    if (!Directory.Exists($"{Settings.Default.DownloadFolder}"))
+                    {
+                        Directory.CreateDirectory(Settings.Default.DownloadFolder);
+                    }
+
+                    await Downloader.DownloadAsync(Card.ImageUris.PNG.ToString(), Settings.Default.DownloadFolder, Card.PrintedName);
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw;
             }
         }
 
