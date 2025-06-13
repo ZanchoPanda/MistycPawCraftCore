@@ -267,7 +267,7 @@
                     SelectionUnit="FullRow">
 
                     <DataGrid.Columns>
-                        <DataGridTemplateColumn Width="0.75*" Header="Set">
+                        <DataGridTemplateColumn Width="0.75*" Header="{DynamicResource Set}">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
                                     <Image

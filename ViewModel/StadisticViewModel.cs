@@ -1,8 +1,10 @@
 ﻿using LiveCharts;
 using LiveCharts.Wpf;
 using MistycPawCraftCore.DTO;
+using MistycPawCraftCore.Properties;
 using MistycPawCraftCore.Utils;
 using MistycPawCraftCore.Utils.Enums;
+using MistycPawCraftCore.Utils.Language;
 using MistycPawCraftCore.View;
 using Newtonsoft.Json;
 using System;
@@ -523,6 +525,29 @@ namespace MistycPawCraftCore.ViewModel
                     }
                     else
                     {
+                        foreach (CardDto Carta in DeckLeido.Deck)
+                        {
+                            string SetName = Path.GetFileName(Carta.Set.ImageLocalPath);
+                            Carta.Set.ImageLocalPath = (string.IsNullOrWhiteSpace(SetName)) ? Path.Combine(Settings.Default.ImageSetPath, Carta.Set.CodeSet, $"{Carta.Set.CodeSet}.png") : Path.Combine(Settings.Default.ImageSetPath, Carta.Set.CodeSet, SetName);
+
+                            foreach (var ManaCostView in Carta.ManaCostView)
+                            {
+                                string CostName = Path.GetFileName(ManaCostView.SymbolPath);
+                                ManaCostView.SymbolPath = Path.Combine(Settings.Default.ImageSymbolPath, CostName);
+                            }
+                        }
+
+                        foreach (CardDto Carta in DeckLeido.SideBoard)
+                        {
+                            string SetName = Path.GetFileName(Carta.Set.ImageLocalPath);
+                            Carta.Set.ImageLocalPath = (string.IsNullOrWhiteSpace(SetName)) ? Path.Combine(Settings.Default.ImageSetPath, Carta.Set.CodeSet, $"{Carta.Set.CodeSet}.png") : Path.Combine(Settings.Default.ImageSetPath, Carta.Set.CodeSet, SetName);
+
+                            foreach (var ManaCostView in Carta.ManaCostView)
+                            {
+                                string CostName = Path.GetFileName(ManaCostView.SymbolPath);
+                                ManaCostView.SymbolPath = Path.Combine(Settings.Default.ImageSymbolPath, CostName);
+                            }
+                        }
                         DeckList.Add(DeckLeido);
                     }
                 }
@@ -626,35 +651,31 @@ namespace MistycPawCraftCore.ViewModel
                         continue;
                     }
 
-                    if (card.TypeAndClass.SuperType.FullSuperType.Contains(MtgCardType.Creature.ToString()))
+                    if (HasCardType(card, MtgCardType.Creature))
                     {
                         CreatureList.Add(card);
                     }
-                    else if (card.TypeAndClass.SuperType.FullSuperType.Contains(MtgCardType.Sorcery.ToString()))
-                    {
-                        SpellList.Add(card);
-                    }
-                    else if (card.TypeAndClass.SuperType.FullSuperType.Contains(MtgCardType.Instant.ToString()))
+                    else if (HasCardType(card, MtgCardType.Sorcery) || HasCardType(card, MtgCardType.Instant))
                     {
                         SpellList.Add(card);
                     }
 
-                    else if (card.TypeAndClass.SuperType.FullSuperType.Contains(MtgCardType.Enchantment.ToString()))
+                    else if (HasCardType(card, MtgCardType.Enchantment))
                     {
                         EnchantmentList.Add(card);
                         EnchantmentCount = EnchantmentCount + 1;
                     }
-                    else if (card.TypeAndClass.SuperType.FullSuperType.Contains(MtgCardType.Artifact.ToString()))
+                    else if (HasCardType(card, MtgCardType.Artifact))
                     {
                         ArtifactList.Add(card);
                         ArtifactList.ToList().ForEach(k => ArtifactsCount = ArtifactsCount + k.Units);
                     }
 
-                    else if (card.TypeAndClass.SuperType.FullSuperType.Contains(MtgCardType.Planeswalker.ToString()))
+                    else if (HasCardType(card, MtgCardType.Planeswalker))
                     {
                         PlaneswalkerList.Add(card);
                     }
-                    else if (card.TypeAndClass.SuperType.FullSuperType.Contains(MtgCardType.Land.ToString()))
+                    else if (HasCardType(card, MtgCardType.Land))
                     {
                         LandList.Add(card);
                     }
@@ -666,6 +687,27 @@ namespace MistycPawCraftCore.ViewModel
             catch (Exception ex)
             {
                 throw ex;
+            }
+        }
+
+        public bool HasCardType(CardDto card, MtgCardType type)
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(card.TypeAndClass?.SuperType?.FullSuperType))
+                    return false;
+
+                string fullType = card.TypeAndClass.SuperType.FullSuperType;
+                string english = type.ToString(); // por ejemplo, "Creature"
+                string translated = LocalizationManager.GetString(english); // por ejemplo, "Criatura"
+
+                return fullType.Contains(english, StringComparison.OrdinalIgnoreCase) ||
+                       fullType.Contains(translated, StringComparison.OrdinalIgnoreCase);
+            }
+            catch (Exception ex)
+            {
+                var aux = ex;
+                throw;
             }
         }
 
@@ -994,16 +1036,17 @@ namespace MistycPawCraftCore.ViewModel
         {
             try
             {
-
-                if (item == null || string.IsNullOrWhiteSpace(item.ImageUris.Normal?.ToString()))
+                if (item == null || (string.IsNullOrWhiteSpace(item.ImageUris.Normal?.ToString()) && item.CardFaces.Count == 0))
                 {
                     return;
                 }
 
-                VisorImages Visor = new VisorImages(item.ImageUris.Normal.ToString());
+                VisorImagesViewModel vm = new VisorImagesViewModel(item, false);
+                VisorImages Visor = new VisorImages();
+                Visor.DataContext = vm;
+                Visor.WindowStartupLocation = WindowStartupLocation.CenterScreen;
                 Visor.Title = item.Name;
                 Visor.Show();
-
             }
             catch (Exception ex)
             {

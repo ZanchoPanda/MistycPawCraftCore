@@ -35,6 +35,9 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition MinHeight="100" />
+            <RowDefinition MinHeight="75" />
+            <RowDefinition MinHeight="75" />
+            <RowDefinition MinHeight="75" />
             <RowDefinition Height="3*" />
             <RowDefinition Height="3*" />
         </Grid.RowDefinitions>
@@ -72,6 +75,120 @@
 
         </Grid>
 
+        <Grid
+            Grid.Row="1"
+            Grid.Column="0"
+            Margin="8">
+            <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+
+                <!--  Etiqueta Material  -->
+                <TextBlock
+                    Width="75"
+                    VerticalAlignment="Center"
+                    Style="{StaticResource MaterialDesignBody1TextBlock}"
+                    Text="{DynamicResource SetP}" />
+
+                <!--  Caja de texto con la ruta actual  -->
+                <TextBox
+                    Width="300"
+                    Margin="8,0"
+                    VerticalAlignment="Center"
+                    materialDesign:HintAssist.Hint="{DynamicResource PathFile}"
+                    IsReadOnly="True"
+                    Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                    Text="{Binding SetPath, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                <!--  Botón para abrir el diálogo de archivo  -->
+                <Button
+                    VerticalAlignment="Center"
+                    Command="{Binding CambiarRutaSetsCommand}"
+                    Style="{StaticResource MaterialDesignIconButton}"
+                    ToolTip="{DynamicResource SelectDeckPath}">
+                    <materialDesign:PackIcon
+                        Width="24"
+                        Height="24"
+                        Kind="FolderOpen" />
+                </Button>
+
+            </StackPanel>
+        </Grid>
+
+        <Grid
+            Grid.Row="2"
+            Grid.Column="0"
+            Margin="8">
+            <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+
+                <!--  Etiqueta Material  -->
+                <TextBlock
+                    Width="75"
+                    VerticalAlignment="Center"
+                    Style="{StaticResource MaterialDesignBody1TextBlock}"
+                    Text="{DynamicResource SymbolP}" />
+
+                <!--  Caja de texto con la ruta actual  -->
+                <TextBox
+                    Width="300"
+                    Margin="8,0"
+                    VerticalAlignment="Center"
+                    materialDesign:HintAssist.Hint="{DynamicResource PathFile}"
+                    IsReadOnly="True"
+                    Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                    Text="{Binding SymbolPath, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                <!--  Botón para abrir el diálogo de archivo  -->
+                <Button
+                    VerticalAlignment="Center"
+                    Command="{Binding CambiarRutaSymbolsCommand}"
+                    Style="{StaticResource MaterialDesignIconButton}"
+                    ToolTip="{DynamicResource SelectDeckPath}">
+                    <materialDesign:PackIcon
+                        Width="24"
+                        Height="24"
+                        Kind="FolderOpen" />
+                </Button>
+
+            </StackPanel>
+        </Grid>
+
+        <Grid
+            Grid.Row="3"
+            Grid.Column="0"
+            Margin="8">
+            <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+
+                <!--  Etiqueta Material  -->
+                <TextBlock
+                    Width="75"
+                    VerticalAlignment="Center"
+                    Style="{StaticResource MaterialDesignBody1TextBlock}"
+                    Text="{DynamicResource CardP}" />
+
+                <!--  Caja de texto con la ruta actual  -->
+                <TextBox
+                    Width="300"
+                    Margin="8,0"
+                    VerticalAlignment="Center"
+                    materialDesign:HintAssist.Hint="{DynamicResource PathFile}"
+                    IsReadOnly="True"
+                    Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                    Text="{Binding CardPath, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                <!--  Botón para abrir el diálogo de archivo  -->
+                <Button
+                    VerticalAlignment="Center"
+                    Command="{Binding CambiarRutaCardsCommand}"
+                    Style="{StaticResource MaterialDesignIconButton}"
+                    ToolTip="{DynamicResource SelectDeckPath}">
+                    <materialDesign:PackIcon
+                        Width="24"
+                        Height="24"
+                        Kind="FolderOpen" />
+                </Button>
+
+            </StackPanel>
+        </Grid>
+
         <Button
             Grid.Row="0"
             Grid.Column="0"
@@ -89,142 +206,6 @@
             VerticalAlignment="Center"
             Command="{Binding RecargarSetsCommand}"
             Content="{DynamicResource ReloadIcons}" />
-
-        <!--<DockPanel
-            Grid.Row="1"
-            Margin="16"
-            IsEnabled="{Binding CustomColor}">
-
-            <Grid DockPanel.Dock="Left">
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="160" />
-                        <ColumnDefinition />
-                    </Grid.ColumnDefinitions>
-                    <DockPanel>
-                        <TextBox
-                            Margin="2,0,10,2"
-                            materialDesign:HintAssist.Hint="Color HEX value"
-                            DockPanel.Dock="Top"
-                            Style="{StaticResource MaterialDesignFilledTextBox}"
-                            Text="{Binding Color, ElementName=ColorPicker, UpdateSourceTrigger=PropertyChanged}" />
-                        <Rectangle Margin="2,0,10,2" Fill="{Binding Color, ElementName=ColorPicker, Converter={StaticResource ColorToBrushConverter}}" />
-                    </DockPanel>
-                    <materialDesign:ColorPicker
-                        x:Name="ColorPicker"
-                        Grid.Column="1"
-                        Color="{Binding SelectedColor, Delay=25}" />
-                </Grid>
-                <StackPanel Visibility="{Binding IsChecked, ElementName=MdPaletteButton, Converter={StaticResource BooleanToVisibilityConverter}}">
-                    <ItemsControl ItemsSource="{Binding Swatches}">
-                        <ItemsControl.ItemTemplate>
-                            <DataTemplate DataType="{x:Type materialDesignColors:ISwatch}">
-                                <StackPanel Orientation="Horizontal">
-                                    <TextBlock
-                                        Width="80"
-                                        VerticalAlignment="Center"
-                                        Text="{Binding Name, Mode=OneTime}" />
-                                    <ItemsControl ItemTemplate="{StaticResource SwatchColorTemplate}" ItemsSource="{Binding Hues, Mode=OneTime}">
-                                        <ItemsControl.ItemsPanel>
-                                            <ItemsPanelTemplate>
-                                                <VirtualizingStackPanel Orientation="Horizontal" />
-                                            </ItemsPanelTemplate>
-                                        </ItemsControl.ItemsPanel>
-                                    </ItemsControl>
-                                </StackPanel>
-                            </DataTemplate>
-                        </ItemsControl.ItemTemplate>
-                    </ItemsControl>
-                </StackPanel>
-            </Grid>
-
-        </DockPanel>-->
-
-        <!--<Grid
-            Grid.Row="1"
-            Grid.Column="0"
-            Margin="5">
-            <GroupBox
-                HorizontalAlignment="Left"
-                Background="{DynamicResource MaterialDesignPaper}"
-                Header="Custom Color">
-
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="3*" />
-                        <RowDefinition Height="25" />
-                    </Grid.RowDefinitions>
-
-                    <materialDesign:ColorPicker Grid.Row="0" Color="{Binding SelectedColor}" />
-
-                    <Button
-                        Grid.Row="1"
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Command="{Binding SaveLightThemeCommand}"
-                        Content="Save Light Theme" />
-
-                </Grid>
-            </GroupBox>
-        </Grid>-->
-
-        <!--<Grid
-            Grid.Row="1"
-            Grid.Column="1"
-            Margin="5">
-            <GroupBox
-                HorizontalAlignment="Center"
-                Background="{DynamicResource MaterialDesignPaper}"
-                Header="Dark Theme">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="3*" />
-                        <RowDefinition Height="25" />
-                    </Grid.RowDefinitions>
-
-                    <StackPanel
-                        Grid.Row="0"
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Background="{DynamicResource MaterialDesignPaper}"
-                        Orientation="Horizontal">
-
-                        <StackPanel Orientation="Vertical">
-                            <Label
-                                HorizontalAlignment="Center"
-                                Content="Primary color"
-                                FontWeight="Bold" />
-                            <materialDesign:ColorPicker
-                                MinWidth="250"
-                                MinHeight="145"
-                                Margin="10"
-                                Color="{Binding PrimaryDarkSelected, Mode=TwoWay}" />
-                        </StackPanel>
-
-                        <StackPanel Orientation="Vertical">
-                            <Label
-                                HorizontalAlignment="Center"
-                                Content="Secondary color"
-                                FontWeight="Bold" />
-                            <materialDesign:ColorPicker
-                                MinWidth="250"
-                                MinHeight="145"
-                                Margin="10"
-                                Color="{Binding SecondaryDarkSelected, Mode=TwoWay}" />
-                        </StackPanel>
-
-
-                    </StackPanel>
-
-                    <Button
-                        Grid.Row="1"
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Content="Save Dark Theme" />
-
-                </Grid>
-            </GroupBox>
-        </Grid>-->
 
     </Grid>
 </UserControl>

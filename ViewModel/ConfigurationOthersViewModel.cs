@@ -1,4 +1,5 @@
 ﻿using MaterialDesignThemes.Wpf;
+using MistycPawCraftCore.Properties;
 using MistycPawCraftCore.Utils;
 using MistycPawCraftCore.Utils.Enums;
 using MistycPawCraftCore.Utils.Language;
@@ -9,7 +10,9 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using System.Windows.Input;
+using Cursors = System.Windows.Input.Cursors;
 
 namespace MistycPawCraftCore.ViewModel
 {
@@ -147,6 +150,57 @@ namespace MistycPawCraftCore.ViewModel
 
         #endregion
 
+        private string _SetPath;
+        public string SetPath
+        {
+            get
+            {
+                return _SetPath;
+            }
+            set
+            {
+                if (value != _SetPath)
+                {
+                    _SetPath = value;
+                    OnPropertyChanged("SetPath");
+                }
+            }
+        }
+
+        private string _SymbolPath;
+        public string SymbolPath
+        {
+            get
+            {
+                return _SymbolPath;
+            }
+            set
+            {
+                if (value != _SymbolPath)
+                {
+                    _SymbolPath = value;
+                    OnPropertyChanged("SymbolPath");
+                }
+            }
+        }
+
+        private string _CardPath;
+        public string CardPath
+        {
+            get
+            {
+                return _CardPath;
+            }
+            set
+            {
+                if (value != _CardPath)
+                {
+                    _CardPath = value;
+                    OnPropertyChanged("CardPath");
+                }
+            }
+        }
+
         #endregion
 
         #region Constructor
@@ -159,6 +213,10 @@ namespace MistycPawCraftCore.ViewModel
                 //PaypalDonate = Properties.Settings.Default.PaypalDonate;
                 SelectedLanguage = Properties.Settings.Default.Language ?? string.Empty;
                 DarkTheme = Properties.Settings.Default.DarkMode;
+
+                SetPath = Settings.Default.ImageSetPath;
+                SymbolPath = Settings.Default.ImageSymbolPath;
+                CardPath = Settings.Default.ImageCardPath;
 
                 //CustomColor = Properties.Settings.Default.IsCustomColor;
                 //SelectedColor = (CustomColor) ?
@@ -232,6 +290,92 @@ namespace MistycPawCraftCore.ViewModel
                 cstm.ShowDialog();
             }
         }
+
+
+        private ICommand _CambiarRutaCardsCommand;
+        public ICommand CambiarRutaCardsCommand
+        {
+            get
+            {
+                _CambiarRutaCardsCommand = new CommandHandler(() => CambiarRutaCardsAction(), true);
+                return _CambiarRutaCardsCommand;
+            }
+        }
+
+        private void CambiarRutaCardsAction()
+        {
+            using var dialog = new FolderBrowserDialog
+            {
+                Description = LocalizationManager.GetString("SelectFolder")
+            };
+
+            System.Windows.Forms.DialogResult result = dialog.ShowDialog();
+
+            if (result == System.Windows.Forms.DialogResult.OK && !string.IsNullOrWhiteSpace(dialog.SelectedPath))
+            {
+                CardPath = dialog.SelectedPath;
+                Settings.Default.ImageCardPath = CardPath;
+                Settings.Default.Save();
+            }
+        }
+
+
+        private ICommand _CambiarRutaSymbolsCommand;
+        public ICommand CambiarRutaSymbolsCommand
+        {
+            get
+            {
+                _CambiarRutaSymbolsCommand = new CommandHandler(() => CambiarRutaSymbolsAction(), true);
+                return _CambiarRutaSymbolsCommand;
+            }
+        }
+
+        private void CambiarRutaSymbolsAction()
+        {
+            using var dialog = new FolderBrowserDialog
+            {
+                Description = LocalizationManager.GetString("SelectFolder")
+            };
+
+            System.Windows.Forms.DialogResult result = dialog.ShowDialog();
+
+            if (result == System.Windows.Forms.DialogResult.OK && !string.IsNullOrWhiteSpace(dialog.SelectedPath))
+            {
+                SymbolPath = dialog.SelectedPath;
+                Settings.Default.ImageSymbolPath = SymbolPath;
+                Settings.Default.Save();
+            }
+        }
+
+
+        private ICommand _CambiarRutaSetsCommand;
+        public ICommand CambiarRutaSetsCommand
+        {
+            get
+            {
+                _CambiarRutaSetsCommand = new CommandHandler(() => CambiarRutaSetsAction(), true);
+                return _CambiarRutaSetsCommand;
+            }
+        }
+
+        private void CambiarRutaSetsAction()
+        {
+            using var dialog = new FolderBrowserDialog
+            {
+                Description = LocalizationManager.GetString("SelectFolder")
+            };
+
+            System.Windows.Forms.DialogResult result = dialog.ShowDialog();
+
+            if (result == System.Windows.Forms.DialogResult.OK && !string.IsNullOrWhiteSpace(dialog.SelectedPath))
+            {
+                SetPath = dialog.SelectedPath;
+                Settings.Default.ImageSetPath = SetPath;
+                Settings.Default.Save();
+            }
+        }
+
+
 
         #endregion
 

@@ -67,7 +67,7 @@ namespace MistycPawCraftCore.Utils.Language
 
         public static string GetString(string key)
         {
-            var resource = Application.Current.TryFindResource(key).ToString();
+            var resource = Application.Current.TryFindResource(key)?.ToString();
             return resource?.Replace("\\n", Environment.NewLine) ?? $"[[{key}]]";
         }
 

@@ -468,7 +468,7 @@
                     <Expander Visibility="{Binding EnchantmentVisibility, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
                         <Expander.Header>
                             <TextBlock>
-                                <TextBlock Text="{DynamicResource Enchantment}" />
+                                <TextBlock Text="{DynamicResource Enchantments}" />
                                 <TextBlock Text="(" />
                                 <TextBlock Text="{Binding EnchantmentCount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
                                 <TextBlock Text=")" />

@@ -78,12 +78,21 @@
     <system:String x:Key="SelectCard">Selecciona una carta</system:String>
     <system:String x:Key="ReloadDecks">Recargar mazos</system:String>
     <system:String x:Key="UseDoubleClickImage">Doble click para visualizar carta</system:String>
+
     <system:String x:Key="Creatures">🛡️Criaturas</system:String>
     <system:String x:Key="Artifacts">🛡️Artefactos</system:String>
     <system:String x:Key="Planeswalkers">🛡️Planeswalkers</system:String>
     <system:String x:Key="Spells">🛡️Hechizos</system:String>
-    <system:String x:Key="Enchantment">🛡️Encantamientos</system:String>
+    <system:String x:Key="Enchantments">🛡️Encantamientos</system:String>
     <system:String x:Key="Lands">🛡️Tierras</system:String>
+
+    <system:String x:Key="Creature">Criatura</system:String>
+    <system:String x:Key="Artifact">Artefacto</system:String>
+    <system:String x:Key="Planeswalker">Planeswalker</system:String>
+    <system:String x:Key="Instant">Instantáneo</system:String>
+    <system:String x:Key="Sorcery">Conjuro</system:String>
+    <system:String x:Key="Enchantment">Encantamiento</system:String>
+    <system:String x:Key="Land">Tierra</system:String>
 
     <system:String x:Key="Message">Mensaje</system:String>
     <system:String x:Key="Error">Error</system:String>
@@ -95,6 +104,14 @@
 
     <system:String x:Key="CardText">Texto de carta</system:String>
     <system:String x:Key="CardTextOracle">Cita de carta</system:String>
+
+    <system:String x:Key="SelectDeckPath">Seleccione ruta de mazos</system:String>
+    <system:String x:Key="PathFile">Ruta del fichero</system:String>
+    <system:String x:Key="AllFiles">Todos los archivos (*.*)|*.*</system:String>
+    <system:String x:Key="SelectFolder">Selecciona una carpeta</system:String>
+    <system:String x:Key="CardP">Cartas</system:String>
+    <system:String x:Key="SymbolP">Símbolos</system:String>
+    <system:String x:Key="SetP">Sets</system:String>
 
     <!--#region Mensajes y varios-->
     <system:String x:Key="ProcessOK">Proceso finalizado correctamente</system:String>

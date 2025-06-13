@@ -1,5 +1,6 @@
 ﻿using Microsoft.Win32;
 using MistycPawCraftCore.DTO;
+using MistycPawCraftCore.Properties;
 using MistycPawCraftCore.Utils;
 using MistycPawCraftCore.Utils.Enums;
 using MistycPawCraftCore.Utils.Language;
@@ -58,7 +59,7 @@ namespace MistycPawCraftCore.ViewModel
             {
                 InitiateAPI(false);
 
-                BasePath = System.Environment.CurrentDirectory;
+                BasePath = Settings.Default.ImageBasePath;
                 //BasePath = Directory.GetParent(System.Environment.CurrentDirectory).Parent.FullName;
                 FullDecksPath = $"{BasePath}\\Decks";
                 Directory.CreateDirectory(FullDecksPath);
@@ -785,6 +786,72 @@ namespace MistycPawCraftCore.ViewModel
                 //}
                 #endregion
 
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        private ICommand _RefreshDecksCommand;
+        public ICommand RefreshDecksCommand
+        {
+            get
+            {
+                _RefreshDecksCommand = new CommandHandler(() => ReloadIconsDecksAction(), true);
+                return _RefreshDecksCommand;
+            }
+        }
+
+        private void ReloadIconsDecksAction()
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(FullDecksPath))
+                {
+                    return;
+                }
+
+                ListaDecks.Clear();
+                //SelectedDeck = null;
+
+                foreach (string FileString in Directory.GetFiles(FullDecksPath, "*.json"))
+                {
+                    DeckDTO DeckLeido = JsonConvert.DeserializeObject<DeckDTO>(File.ReadAllText(FileString));
+                    if (DeckLeido.DeleteDate.HasValue)
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        foreach (CardDto Carta in DeckLeido.Deck)
+                        {
+                            string SetName = Path.GetFileName(Carta.Set.ImageLocalPath);
+                            Carta.Set.ImageLocalPath = (string.IsNullOrWhiteSpace(SetName)) ? Path.Combine(Settings.Default.ImageSetPath, Carta.Set.CodeSet, $"{Carta.Set.CodeSet}.png") : Path.Combine(Settings.Default.ImageSetPath, Carta.Set.CodeSet, SetName);
+
+                            foreach (var ManaCostView in Carta.ManaCostView)
+                            {
+                                string CostName = Path.GetFileName(ManaCostView.SymbolPath);
+                                ManaCostView.SymbolPath = Path.Combine(Settings.Default.ImageSymbolPath, CostName);
+                            }
+                        }
+
+                        foreach (CardDto Carta in DeckLeido.SideBoard)
+                        {
+                            string SetName = Path.GetFileName(Carta.Set.ImageLocalPath);
+                            Carta.Set.ImageLocalPath = (string.IsNullOrWhiteSpace(SetName)) ? Path.Combine(Settings.Default.ImageSetPath, Carta.Set.CodeSet, $"{Carta.Set.CodeSet}.png") : Path.Combine(Settings.Default.ImageSetPath, Carta.Set.CodeSet, SetName);
+
+                            foreach (var ManaCostView in Carta.ManaCostView)
+                            {
+                                string CostName = Path.GetFileName(ManaCostView.SymbolPath);
+                                ManaCostView.SymbolPath = Path.Combine(Settings.Default.ImageSymbolPath, CostName);
+                            }
+                        }
+
+                        SaveChangesDeck(DeckLeido);
+                        ListaDecks.Add(DeckLeido);
+                    }
+                }
             }
             catch (Exception ex)
             {
