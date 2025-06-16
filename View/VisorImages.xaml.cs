@@ -48,5 +48,35 @@ namespace MistycPawCraftCore.View
                 throw;
             }
         }
+
+        private void Card_Clicked(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if (DataContext is VisorImagesViewModel vm)
+                {
+                    vm.ToggleFace();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
+        private void Label_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                if (DataContext is VisorImagesViewModel vm)
+                {
+                    vm.ToggleFace();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
     }
 }

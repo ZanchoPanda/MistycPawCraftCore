@@ -1076,19 +1076,21 @@ namespace MistycPawCraftCore.Utils
                 {
                     Carta.CardFaces = new List<CardFace>(Json.card_faces);
 
-                    var caraPrincipal = Json.card_faces[0];
+                    Carta.Name = $"{Carta.CardFaces?.FirstOrDefault()?.printed_name}/{Carta.CardFaces?.LastOrDefault()?.printed_name}";
+                    var caraPrincipal = Json.card_faces.FirstOrDefault();
 
-                    Carta.ManaCost = caraPrincipal.mana_cost ?? string.Empty;
+                    Carta.ManaCost = caraPrincipal?.mana_cost ?? string.Empty;
                     Carta.ManaCostView = ConvertManaCostToView(Carta.ManaCost);
-                    Carta.OracleText = (string.IsNullOrWhiteSpace(Json.printed_text)) ? (string.IsNullOrWhiteSpace(Json.oracle_text)) ? caraPrincipal.oracle_text : Json.oracle_text :
-                                        $"{Json.printed_text?.Replace("• ", Environment.NewLine)}";
-                    Carta.Power = caraPrincipal.power ?? string.Empty;
-                    Carta.Toughness = caraPrincipal.toughness ?? string.Empty;
-                    Carta.TypeAndClass = ConvertToSpecific(caraPrincipal.type_line ?? string.Empty);
+                    Carta.OracleText = !string.IsNullOrWhiteSpace(caraPrincipal?.printed_text)
+                                            ? caraPrincipal.printed_text.Replace("• ", Environment.NewLine)
+                                            : caraPrincipal?.oracle_text?.Replace("• ", Environment.NewLine) ?? string.Empty;
 
+                    Carta.Power = caraPrincipal?.power ?? string.Empty;
+                    Carta.Toughness = caraPrincipal?.toughness ?? string.Empty;
+                    Carta.TypeAndClass = ConvertToSpecific(caraPrincipal?.type_line ?? string.Empty);
                     // Si no hay image_uris global, usamos la de la cara principal
-                    Carta.ImageUris = caraPrincipal.image_uris != null
-                        ? FillUris(caraPrincipal.image_uris)
+                    Carta.ImageUris = caraPrincipal?.image_uris != null
+                        ? FillUris(caraPrincipal?.image_uris ?? new Image_Uris())
                         : new ImageUriDto();
                 }
                 else

@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace MistycPawCraftCore.DTO.ResultApi
 {
@@ -85,14 +86,191 @@ namespace MistycPawCraftCore.DTO.ResultApi
         public string border_crop { get; set; }
     }
 
-    public class CardFace
+    public class CardFace : INotifyPropertyChanged
     {
-        public string name { get; set; }
-        public string mana_cost { get; set; }
-        public string power { get; set; }
-        public string toughness { get; set; }
-        public string type_line { get; set; }
-        public string oracle_text { get; set; }
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected virtual void OnPropertyChanged(string PropertyName)
+        {
+            try
+            {
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(PropertyName));
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        private string _name;
+        public string name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                if (value != _name)
+                {
+                    _name = value;
+                    OnPropertyChanged("name");
+                }
+            }
+        }
+
+        private string _printed_name;
+        public string printed_name
+        {
+            get
+            {
+                return _printed_name;
+            }
+            set
+            {
+                if (value != _printed_name)
+                {
+                    _printed_name = value;
+                    OnPropertyChanged("printed_name");
+                }
+            }
+        }
+
+        private string _mana_cost;
+        public string mana_cost
+        {
+            get
+            {
+                return _mana_cost;
+            }
+            set
+            {
+                if (value != _mana_cost)
+                {
+                    _mana_cost = value;
+                    OnPropertyChanged("mana_cost");
+                }
+            }
+        }
+
+        private string _power;
+        public string power
+        {
+            get
+            {
+                return _power;
+            }
+            set
+            {
+                if (value != _power)
+                {
+                    _power = value;
+                    OnPropertyChanged("power");
+                }
+            }
+        }
+
+        private string _toughness;
+        public string toughness
+        {
+            get
+            {
+                return _toughness;
+            }
+            set
+            {
+                if (value != _toughness)
+                {
+                    _toughness = value;
+                    OnPropertyChanged("toughness");
+                }
+            }
+        }
+
+        private string _defense;
+        public string defense
+        {
+            get
+            {
+                return _defense;
+            }
+            set
+            {
+                if (value != _defense)
+                {
+                    _defense = value;
+                    OnPropertyChanged("defense");
+                }
+            }
+        }
+
+        private string _loyalty;
+        public string loyalty
+        {
+            get
+            {
+                return _loyalty;
+            }
+            set
+            {
+                if (value != _loyalty)
+                {
+                    _loyalty = value;
+                    OnPropertyChanged("loyalty");
+                }
+            }
+        }
+
+        private string _type_line;
+        public string type_line
+        {
+            get
+            {
+                return _type_line;
+            }
+            set
+            {
+                if (value != _type_line)
+                {
+                    _type_line = value;
+                    OnPropertyChanged("type_line");
+                }
+            }
+        }
+
+        private string _oracle_text;
+        public string oracle_text
+        {
+            get
+            {
+                return _oracle_text;
+            }
+            set
+            {
+                if (value != _oracle_text)
+                {
+                    _oracle_text = value;
+                    OnPropertyChanged("oracle_text");
+                }
+            }
+        }
+
+        private string _printed_text;
+        public string printed_text
+        {
+            get
+            {
+                return _printed_text;
+            }
+            set
+            {
+                if (value != _printed_text)
+                {
+                    _printed_text = value;
+                    OnPropertyChanged("printed_text");
+                }
+            }
+        }
+
         public Image_Uris image_uris { get; set; }
     }
 

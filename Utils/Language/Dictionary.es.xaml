@@ -141,6 +141,9 @@
         ¿Quiere establecer la ruta como ruta por defecto?\n
         Esta accion puede cambiarse desde Configuración.
     </system:String>
+    <system:String x:Key="SwapFaces">
+        Clicke aquí para ver la otra cara de la carta (Si tiene)
+    </system:String>
     <!--#endregion-->
 
     <!--#region Enums-->

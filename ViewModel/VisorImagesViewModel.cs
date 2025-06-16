@@ -46,19 +46,25 @@ namespace MistycPawCraftCore.ViewModel
                     _Card = value;
                     OnPropertyChanged("Card");
 
-                    if (Card != null && Card.CMC > 0)
-                    {
-                        string SymbolPath = Settings.Default.ImageSymbolPath;
+                    RefreshManaIcons();
 
-                        MatchCollection matches = Regex.Matches(Card.ManaCost, @"\{(.*?)\}");
-                        foreach (Match match in matches)
-                        {
-                            string symbol = match.Groups[1].Value.ToUpper(); // Asegura mayúsculas
-                            string iconPath = $"{SymbolPath}{symbol}.png";
-                            ManaIcons.Add(iconPath);
-                        }
-                    }
+                }
+            }
+        }
 
+        private void RefreshManaIcons()
+        {
+            ManaIcons.Clear();
+            if (Card != null && Card.CMC > 0)
+            {
+                string SymbolPath = Settings.Default.ImageSymbolPath;
+
+                MatchCollection matches = Regex.Matches(Card.ManaCost, @"\{(.*?)\}");
+                foreach (Match match in matches)
+                {
+                    string symbol = match.Groups[1].Value.ToUpper(); // Asegura mayúsculas
+                    string iconPath = $"{SymbolPath}{symbol}.png";
+                    ManaIcons.Add(iconPath);
                 }
             }
         }
@@ -157,6 +163,16 @@ namespace MistycPawCraftCore.ViewModel
             if (Card?.CardFaces?.Count > 1)
             {
                 CurrentFaceIndex = (CurrentFaceIndex + 1) % Card.CardFaces.Count;
+                Card.OracleText = Card.CardFaces[CurrentFaceIndex].printed_text;
+                Card.Power = Card.CardFaces[CurrentFaceIndex].power;
+                Card.Toughness = (!string.IsNullOrWhiteSpace(Card.CardFaces[CurrentFaceIndex].defense)) ? Card.CardFaces[CurrentFaceIndex].defense :
+                                    (!string.IsNullOrWhiteSpace(Card.CardFaces[CurrentFaceIndex].loyalty)) ? Card.CardFaces[CurrentFaceIndex].loyalty :
+                                 Card.CardFaces[CurrentFaceIndex].defense;
+
+                Card.TypeAndClass.CardType.FullCardType = Card.CardFaces[CurrentFaceIndex].type_line;
+                Card.ManaCost = Card.CardFaces[CurrentFaceIndex].mana_cost;
+                Card.CMC = (string.IsNullOrWhiteSpace(Card.CardFaces[CurrentFaceIndex].mana_cost)) ? 0 : Card.CardFaces[CurrentFaceIndex].mana_cost.Split('}').Length - 1;
+                RefreshManaIcons();
             }
         }
 

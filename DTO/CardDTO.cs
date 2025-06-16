@@ -32,7 +32,24 @@ namespace MistycPawCraftCore.DTO
         public Guid id { get; set; }
         public string Name { get; set; }
         public string PrintedName { get; set; }
-        public string ManaCost { get; set; }
+        //public string ManaCost { get; set; }
+        private string _ManaCost;
+        public string ManaCost
+        {
+            get
+            {
+                return _ManaCost;
+            }
+            set
+            {
+                if (value != _ManaCost)
+                {
+                    _ManaCost = value;
+                    OnPropertyChanged("ManaCost");
+                }
+            }
+        }
+
         //public List<ManaViewDto> ManaCostView { get; set; }
         private List<ManaViewDto> _ManaCostView;
         public List<ManaViewDto> ManaCostView
@@ -70,9 +87,60 @@ namespace MistycPawCraftCore.DTO
             }
         }
 
-        public string OracleText { get; set; }
-        public string Power { get; set; }
-        public string Toughness { get; set; }
+        //public string OracleText { get; set; }
+        private string _OracleText;
+        public string OracleText
+        {
+            get
+            {
+                return _OracleText;
+            }
+            set
+            {
+                if (value != _OracleText)
+                {
+                    _OracleText = value;
+                    OnPropertyChanged("OracleText");
+                }
+            }
+        }
+
+        //public string Power { get; set; }
+        private string _Power;
+        public string Power
+        {
+            get
+            {
+                return _Power;
+            }
+            set
+            {
+                if (value != _Power)
+                {
+                    _Power = value;
+                    OnPropertyChanged("Power");
+                }
+            }
+        }
+
+        //public string Toughness { get; set; }
+        private string _Toughness;
+        public string Toughness
+        {
+            get
+            {
+                return _Toughness;
+            }
+            set
+            {
+                if (value != _Toughness)
+                {
+                    _Toughness = value;
+                    OnPropertyChanged("Toughness");
+                }
+            }
+        }
+
         //public SetDTO Set { get; set; }
         private SetDTO _Set;
         public SetDTO Set
@@ -93,7 +161,24 @@ namespace MistycPawCraftCore.DTO
 
         public string Rarity { get; set; }
         public string Artist { get; set; }
-        public string Flavor_Text { get; set; }
+        //public string Flavor_Text { get; set; }
+
+        private string _Flavor_Text;
+        public string Flavor_Text
+        {
+            get
+            {
+                return _Flavor_Text;
+            }
+            set
+            {
+                if (value != _Flavor_Text)
+                {
+                    _Flavor_Text = value;
+                    OnPropertyChanged("Flavor_Text");
+                }
+            }
+        }
 
         private int _Units;
         public int Units

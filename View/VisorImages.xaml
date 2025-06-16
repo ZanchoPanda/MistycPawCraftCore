@@ -29,6 +29,16 @@
     <Window.Resources>
         <Converters:ValueToVisibilityConverter x:Key="CmcToVis" />
         <Converters:StringToVisibilityConverter x:Key="StringToVis" />
+
+        <Style x:Key="ImageButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <ContentPresenter />
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Window.Resources>
 
     <Grid>
@@ -49,11 +59,20 @@
                 </TextBlock>
             </Expander.Header>
             <Grid>
-                <Image
+                <Button
+                    Click="Card_Clicked"
+                    Cursor="Hand"
+                    Style="{StaticResource ImageButtonStyle}">
+                    <Image
+                        Height="500"
+                        Source="{Binding CurrentImageUri}"
+                        Stretch="Uniform" />
+                </Button>
+                <!--<Image
                     Cursor="Hand"
                     MouseLeftButtonUp="Card_Clicked"
                     Source="{Binding CurrentImageUri}"
-                    Stretch="Uniform" />
+                    Stretch="Uniform" />-->
             </Grid>
         </Expander>
 
@@ -84,7 +103,12 @@
                 <Label
                     Grid.Column="1"
                     HorizontalAlignment="Center"
-                    Content="{Binding Card.Name}" />
+                    Content="{Binding Card.Name}"
+                    Cursor="Hand"
+                    Foreground="CornflowerBlue"
+                    MouseDoubleClick="Label_MouseDoubleClick"
+                    MouseLeftButtonDown="Card_Clicked"
+                    ToolTip="{DynamicResource SwapFaces}" />
 
             </Grid>
 
@@ -221,7 +245,7 @@
                     Grid.Column="0"
                     HorizontalAlignment="Stretch"
                     VerticalAlignment="Stretch"
-                    Text="{Binding Card.OracleText}"
+                    Text="{Binding Card.OracleText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                     TextWrapping="WrapWithOverflow" />
 
             </Grid>
