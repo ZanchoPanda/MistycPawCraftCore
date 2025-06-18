@@ -202,13 +202,13 @@ namespace MistycPawCraftCore.ViewModel
                         string[] lines = File.ReadAllLines(FilePath);
                         foreach (string Line in lines)
                         {
-                            if (Line == "Main" | Line == "Deck")
+                            if (Line == "Main" | Line == "//Main" | Line == "Deck" | Line == "//Deck")
                             {
                                 StringDeck.AppendLine("Main");
                                 continue;
                             }
 
-                            if (Line == "Sideboard")
+                            if (Line == "Sideboard" | Line == "//Sideboard")
                             {
                                 StringDeck.AppendLine("Sideboard");
                                 continue;
@@ -353,14 +353,14 @@ namespace MistycPawCraftCore.ViewModel
                             {
                                 continue;
                             }
-                            if (Line == "Main" | Line == "Deck")
+                            if (Line == "Main" | Line == "Deck" | Line == "//Main" | Line == "//Deck")
                             {
                                 isMainDeck = true;
                                 ImportedDeck.Deck = ImportedDeck.Deck == null ? new ObservableCollection<CardDto>() : ImportedDeck.Deck;
                                 continue;
                             }
 
-                            if (Line == "Sideboard")
+                            if (Line == "Sideboard" | Line == "//Sideboard")
                             {
                                 isMainDeck = false;
                                 ImportedDeck.SideBoard = ImportedDeck.SideBoard == null ? new ObservableCollection<CardDto>() : ImportedDeck.SideBoard;
