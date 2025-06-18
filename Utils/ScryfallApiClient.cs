@@ -1076,8 +1076,9 @@ namespace MistycPawCraftCore.Utils
                 {
                     Carta.CardFaces = new List<CardFace>(Json.card_faces);
 
-                    Carta.Name = $"{Carta.CardFaces?.FirstOrDefault()?.printed_name}/{Carta.CardFaces?.LastOrDefault()?.printed_name}";
                     var caraPrincipal = Json.card_faces.FirstOrDefault();
+                    var caraSecundary = Json.card_faces.LastOrDefault();
+                    Carta.Name = $"{caraPrincipal?.printed_name ?? caraPrincipal.name}/{caraSecundary?.printed_name ?? caraSecundary.name}";
 
                     Carta.ManaCost = caraPrincipal?.mana_cost ?? string.Empty;
                     Carta.ManaCostView = ConvertManaCostToView(Carta.ManaCost);

@@ -163,7 +163,7 @@ namespace MistycPawCraftCore.ViewModel
             if (Card?.CardFaces?.Count > 1)
             {
                 CurrentFaceIndex = (CurrentFaceIndex + 1) % Card.CardFaces.Count;
-                Card.OracleText = Card.CardFaces[CurrentFaceIndex].printed_text;
+                Card.OracleText = Card.CardFaces[CurrentFaceIndex].oracle_text;
                 Card.Power = Card.CardFaces[CurrentFaceIndex].power;
                 Card.Toughness = (!string.IsNullOrWhiteSpace(Card.CardFaces[CurrentFaceIndex].defense)) ? Card.CardFaces[CurrentFaceIndex].defense :
                                     (!string.IsNullOrWhiteSpace(Card.CardFaces[CurrentFaceIndex].loyalty)) ? Card.CardFaces[CurrentFaceIndex].loyalty :

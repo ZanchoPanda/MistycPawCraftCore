@@ -638,7 +638,10 @@
                 LegendLocation="Bottom"
                 Series="{Binding AdvancedSeries, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
                 <vlc:CartesianChart.AxisX>
-                    <vlc:Axis Title="{DynamicResource ManaCost}" ShowLabels="True" />
+                    <vlc:Axis
+                        Title="{DynamicResource ManaCost}"
+                        MaxValue="8"
+                        ShowLabels="True" />
                 </vlc:CartesianChart.AxisX>
                 <vlc:CartesianChart.AxisY>
                     <vlc:Axis Title="{DynamicResource Quantity}" ShowLabels="True" />
