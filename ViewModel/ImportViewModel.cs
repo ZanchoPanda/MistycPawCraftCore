@@ -151,7 +151,7 @@ namespace MistycPawCraftCore.ViewModel
             //BasePath = Directory.GetParent(System.Environment.CurrentDirectory).Parent.FullName;
             FullDecksPath = $"{BasePath}\\Decks";
             Directory.CreateDirectory(FullDecksPath);
-            HelperText = $"2 Opt{Environment.NewLine}15 Mountain{Environment.NewLine}2 Jace Beleren{Environment.NewLine}{Environment.NewLine}Sideboard{Environment.NewLine}2 Opt{Environment.NewLine}2 Counterspell";
+            HelperText = $"2 Opt (2x2){Environment.NewLine}15 Mountain (fin){Environment.NewLine}2 Jace Beleren (ixl){Environment.NewLine}{Environment.NewLine}Sideboard{Environment.NewLine}2 Opt{Environment.NewLine}2 Counterspell";
         }
 
         #endregion
@@ -386,9 +386,18 @@ namespace MistycPawCraftCore.ViewModel
                                 {
                                     string name = string.Join(" ", Parts.Skip(1));
 
+                                    string? setCode = null;
+                                    // Detectar si hay un set entre paréntesis al final (ej: Lightning Bolt (2XM))
+                                    Match setMatch = Regex.Match(name, @"\(([^)]+)\)$");
+                                    if (setMatch.Success)
+                                    {
+                                        setCode = setMatch.Groups[1].Value.Trim();
+                                        name = name.Substring(0, setMatch.Index).Trim();
+                                    }
+
                                     name = API.CleanNameCard(name).Trim();
 
-                                    List<CardDto> SearchedCard = await API.GetCardByName(name);
+                                    List<CardDto> SearchedCard = await API.GetCardByName(name, setCode);
 
                                     if (SearchedCard != null && SearchedCard.Count > 0)
                                     {
@@ -508,6 +517,11 @@ namespace MistycPawCraftCore.ViewModel
                     string JsonPath = JsonConvert.SerializeObject(SelectedDeck, Formatting.Indented);
                     if (Directory.Exists($"{FullDecksPath}\\"))
                     {
+                        if (File.Exists($"{FullDecksPath}\\{SelectedDeck.DeckName}.json"))
+                        {
+                            File.Delete($"{FullDecksPath}\\{SelectedDeck.DeckName}.json");
+                        }
+
                         File.WriteAllText($"{FullDecksPath}\\{SelectedDeck.DeckName}.json", JsonPath);
                     }
                 }

@@ -136,7 +136,7 @@ namespace MistycPawCraftCore.Utils
 
         public string CardNameResearch { get; set; }
         public bool AmpliarBusqueda { get; set; }
-        public async Task<List<CardDto>> GetCardByName(string cardName)
+        public async Task<List<CardDto>> GetCardByName(string cardName, string setCode = "")
         {
             #region Version 1 de busqueda (Funcional pero algo lenta)
 
@@ -218,14 +218,27 @@ namespace MistycPawCraftCore.Utils
                 CardNameResearch = cardName;
                 List<CardDto> cards = new List<CardDto>();
 
+                string ApiCall = $"cards/named?exact={Uri.EscapeDataString(cardName)}&lang={Properties.Settings.Default.Language}";
+
+                if (!string.IsNullOrWhiteSpace(setCode))
+                {
+                    ApiCall += $"&set={setCode.ToLower()}";
+                }
+
                 // Intentar búsqueda exacta primero
-                HttpResponseMessage response = await _httpClient.GetAsync($"cards/named?exact={Uri.EscapeDataString(cardName)}&lang={Properties.Settings.Default.Language}");
+                HttpResponseMessage response = await _httpClient.GetAsync(ApiCall);
 
                 // Si no la encuentra (404), intentar búsqueda fuzzy
                 if (response.StatusCode == HttpStatusCode.NotFound)
                 {
+                    string ApiCallGen = $"cards/search?q=lang:{Properties.Settings.Default.Language} name:{Uri.EscapeDataString(cardName)}&fuzzy=true&order=Name";
+                    if (!string.IsNullOrWhiteSpace(setCode))
+                    {
+                        ApiCallGen += $"&set={setCode.ToLower()}";
+                    }
+
                     //response = await _httpClient.GetAsync($"cards/search?q=lang:{Properties.Settings.Default.Language} name:{Uri.EscapeDataString(cardName)}&fuzzy=true&order=Name");
-                    response = await _httpClient.GetAsync($"cards/search?q=lang:{Properties.Settings.Default.Language} name:{Uri.EscapeDataString(cardName)}&fuzzy=true&order=Name");
+                    response = await _httpClient.GetAsync(ApiCallGen);
                     //response = await _httpClient.GetAsync($"cards/named?fuzzy={Uri.EscapeDataString(cardName)}&lang={Properties.Settings.Default.Language}");
                 }
 

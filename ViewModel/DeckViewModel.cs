@@ -602,13 +602,13 @@ namespace MistycPawCraftCore.ViewModel
                             writer.WriteLine("Main");
 
                             // Write each main deck card to the file
-                            foreach (CardDto MainCard in DeckSeleccionado.Deck.OrderBy(k => k.TypeAndClass.CardType.FullCardType))
+                            foreach (CardDto MainCard in DeckSeleccionado.Deck.OrderByDescending(k => k.Set.ReleasedDate).ThenBy(k => k.TypeAndClass.CardType.FullCardType))
                             {
                                 if (MainCard.Units == 0)
                                 {
                                     continue;
                                 }
-                                writer.WriteLine($"{MainCard.Units} {MainCard.Name}");
+                                writer.WriteLine($"{MainCard.Units} {MainCard.Name} ({MainCard.Set.CodeSet})");
                             }
 
                             if (DeckSeleccionado.SideBoard != null)
@@ -617,13 +617,13 @@ namespace MistycPawCraftCore.ViewModel
                                 writer.WriteLine("Sideboard");
 
                                 // Write each sideboard card to the file
-                                foreach (CardDto SideboardCard in DeckSeleccionado.SideBoard.OrderBy(k => k.TypeAndClass.CardType.FullCardType))
+                                foreach (CardDto SideboardCard in DeckSeleccionado.SideBoard.OrderByDescending(k => k.Set.ReleasedDate).ThenBy(k => k.TypeAndClass.CardType.FullCardType))
                                 {
                                     if (SideboardCard.Units == 0)
                                     {
                                         continue;
                                     }
-                                    writer.WriteLine($"{SideboardCard.Units} {SideboardCard.Name}");
+                                    writer.WriteLine($"{SideboardCard.Units} {SideboardCard.Name} ({SideboardCard.Set.CodeSet})");
                                 }
                             }
                         }

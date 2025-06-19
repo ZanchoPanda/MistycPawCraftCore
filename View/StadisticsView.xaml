@@ -78,9 +78,9 @@
                 <RowDefinition />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition />
-                <ColumnDefinition />
                 <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="3*" />
             </Grid.ColumnDefinitions>
 
             <ScrollViewer
@@ -157,7 +157,7 @@
                                         IsReadOnly="True">
                                         <DataGridTemplateColumn.CellTemplate>
                                             <DataTemplate>
-                                                <ItemsControl ItemsSource="{Binding ManaCostView}">
+                                                <ItemsControl HorizontalAlignment="Center" ItemsSource="{Binding ManaCostView}">
                                                     <ItemsControl.ItemTemplate>
                                                         <DataTemplate>
                                                             <Image
