@@ -886,6 +886,7 @@ namespace MistycPawCraftCore.ViewModel
                     else
                     {
                         DeckSeleccionado.Deck.Add(SearchWindow.CartaSeleccionada);
+                        SelectedCard = DeckSeleccionado.Deck.FirstOrDefault(k => k == SearchWindow.CartaSeleccionada);
                     }
                 }
 

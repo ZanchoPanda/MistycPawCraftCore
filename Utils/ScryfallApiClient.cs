@@ -1357,6 +1357,10 @@ namespace MistycPawCraftCore.Utils
                     set.foil_only = Json.foil_only;
                     set.svg_Uri = Json.icon_svg_uri;
 
+                    if (!Settings.Default.ImageSetPath.EndsWith("\\"))
+                    {
+                        Settings.Default.ImageSetPath = $"{Settings.Default.ImageSetPath}\\";
+                    }
                     string setImagePath = $"{Settings.Default.ImageSetPath}{set.CodeSet}";
 
                     Directory.CreateDirectory(BasePathImage);

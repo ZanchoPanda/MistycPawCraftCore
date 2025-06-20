@@ -180,7 +180,7 @@ namespace MistycPawCraftCore.ViewModel
 
                 OpenFileDialog OFileDialog = new OpenFileDialog();
                 OFileDialog.InitialDirectory = "c:\\";
-                OFileDialog.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+                OFileDialog.Filter = "txt files (*.txt)|*.txt";
                 OFileDialog.FilterIndex = 2;
                 OFileDialog.RestoreDirectory = true;
 

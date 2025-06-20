@@ -40,13 +40,27 @@ namespace MistycPawCraftCore
             Settings.Default.ImageBasePath = AsegurarSlashFinal(basePath);
 
             // Definir rutas
-            Settings.Default.ImageSetPath = ValidarRuta(Settings.Default.ImageSetPath, Path.Combine(basePath, "Sets"));
-            Settings.Default.ImageCardPath = ValidarRuta(Settings.Default.ImageCardPath, Path.Combine(basePath, "Cards"));
-            Settings.Default.ImageSymbolPath = ValidarRuta(Settings.Default.ImageSymbolPath, Path.Combine(basePath, "Symbol"));
+            Settings.Default.ImageSetPath = ValidarRuta(Settings.Default.ImageSetPath, Path.Combine(basePath, "Sets\\"));
+            Settings.Default.ImageCardPath = ValidarRuta(Settings.Default.ImageCardPath, Path.Combine(basePath, "Cards\\"));
+            Settings.Default.ImageSymbolPath = ValidarRuta(Settings.Default.ImageSymbolPath, Path.Combine(basePath, "Symbol\\"));
 
             // Crear directorios
+            if (!Settings.Default.ImageSetPath.EndsWith("\\"))
+            {
+                Settings.Default.ImageSetPath = $"{Settings.Default.ImageSetPath}\\";
+            }
             CrearDirectorioSiNoExiste(Settings.Default.ImageSetPath);
+
+            if (!Settings.Default.ImageCardPath.EndsWith("\\"))
+            {
+                Settings.Default.ImageCardPath = $"{Settings.Default.ImageCardPath}\\";
+            }
             CrearDirectorioSiNoExiste(Settings.Default.ImageCardPath);
+
+            if (!Settings.Default.ImageSymbolPath.EndsWith("\\"))
+            {
+                Settings.Default.ImageSymbolPath = $"{Settings.Default.ImageSymbolPath}\\";
+            }
             CrearDirectorioSiNoExiste(Settings.Default.ImageSymbolPath);
 
             Settings.Default.Save();
