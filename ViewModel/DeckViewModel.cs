@@ -378,6 +378,29 @@ namespace MistycPawCraftCore.ViewModel
             }
         }
 
+
+        private ICommand _SimulateHandCommand;
+        public ICommand SimulateHandCommand
+        {
+            get
+            {
+                _SimulateHandCommand = new CommandHandler(() => SimulateHandAction(), true);
+                return _SimulateHandCommand;
+            }
+        }
+
+        private void SimulateHandAction()
+        {
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         #region MainDeck
 
         private ICommand _AddCardMainDeckCommmand;

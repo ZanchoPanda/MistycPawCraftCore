@@ -540,12 +540,21 @@
                     </TextBlock.Style>
                 </TextBlock>
 
+                <Button
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="4"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Bottom"
+                    Command="{Binding SimulateHandCommand}"
+                    Content="{DynamicResource SimulateInitialHand}" />
+
                 <StackPanel
                     Grid.Row="3"
                     Grid.Column="0"
                     Grid.ColumnSpan="2"
                     HorizontalAlignment="Stretch"
-                    VerticalAlignment="Bottom"
+                    VerticalAlignment="Center"
                     Orientation="Vertical">
 
                     <StackPanel Orientation="Horizontal">
@@ -585,7 +594,7 @@
                     Grid.Column="2"
                     Grid.ColumnSpan="2"
                     HorizontalAlignment="Stretch"
-                    VerticalAlignment="Bottom"
+                    VerticalAlignment="Center"
                     Orientation="Vertical">
 
                     <StackPanel Orientation="Horizontal">

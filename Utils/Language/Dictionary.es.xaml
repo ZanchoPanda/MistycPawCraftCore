@@ -115,6 +115,7 @@
     <system:String x:Key="SetP">Sets</system:String>
 
     <!--#region Mensajes y varios-->
+    <system:String x:Key="SimulateInitialHand">Simular mano inicial</system:String>
     <system:String x:Key="ProcessOK">Proceso finalizado correctamente</system:String>
     <system:String x:Key="DeckImportedOK">Mazo importado correctamente</system:String>
     <system:String x:Key="CardsNotNoundedWrongTiped">Cartas no encontradas o mal escritas:</system:String>
